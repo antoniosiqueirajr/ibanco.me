@@ -1007,20 +1007,8 @@
               </a>
             </div>
 
-            <div class="nav-item">
-              <a class="nav-link " href="./apps-calendar.html" data-placement="left">
-                <i class="bi-calendar-week nav-icon"></i>
-                <span class="nav-link-title">Calendar</span>
-              </a>
-            </div>
-
-            <div class="nav-item">
-              <a class="nav-link " href="./apps-invoice-generator.html" data-placement="left">
-                <i class="bi-receipt nav-icon"></i>
-                <span class="nav-link-title">Invoice Generator</span>
-              </a>
-            </div>
-
+       
+         
         </div>
         <!-- End Content -->
 
@@ -3285,9 +3273,7 @@
 
                   <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="appsMegaMenu" style="min-width: 14rem;">
                     <a class="dropdown-item " href="./apps-kanban.html">Kanban</a>
-                    <a class="dropdown-item " href="./apps-calendar.html">Calendar</a>
-                    <a class="dropdown-item " href="./apps-invoice-generator.html">Invoice Generator</a>
-                    <a class="dropdown-item " href="./apps-file-manager.html">File Manager</a>
+               
                   </div>
                 </li>
                 <!-- End Apps -->
@@ -4363,10 +4349,7 @@
 
                   <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="appsMegaMenu" style="min-width: 14rem;">
                     <a class="dropdown-item " href="./apps-kanban.html">Kanban</a>
-                    <a class="dropdown-item " href="./apps-calendar.html">Calendar</a>
-                    <a class="dropdown-item " href="./apps-invoice-generator.html">Invoice Generator</a>
-                    <a class="dropdown-item " href="./apps-file-manager.html">File Manager</a>
-                  </div>
+        </div>
                 </li>
                 <!-- End Apps -->
 
