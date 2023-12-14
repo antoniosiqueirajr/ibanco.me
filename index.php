@@ -79,7 +79,7 @@
                 <div class="d-md-flex justify-content-between">
                     <div class="greetings text-center"><span class="opacity-50"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Olá!! </font></font></span> <span class="fw-500"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bem-vindo ao Babun.</font></font></span></div>
                     <ul class="style-none d-none d-md-flex contact-info">
-                        <li class="d-flex align-items-center"><img src="images/lazy.svg" data-src="images/icon/icon_14.svg" alt="" class="lazy-img icon me-2"> <a href="mailto:babuninc@company.com" class="fw-500"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">babuninc@company.com</font></font></a></li>
+                        <li class="d-flex align-items-center"><img src="images/lazy.svg" data-src="images/icon/icon_14.svg" alt="" class="lazy-img icon me-2"> <a href="mailto:sac@ibanco.me" class="fw-500"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">sac@ibanco.me</font></font></a></li>
                         <li class="d-flex align-items-center"><img src="images/lazy.svg" data-src="images/icon/icon_15.svg" alt="" class="lazy-img icon me-2"> <a href="tel:+757 699-4478" class="fw-500"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+757 699-4478</font></font></a></li>
                     </ul>
                 </div>
@@ -133,7 +133,7 @@
 											<div class="icon rounded-circle d-flex align-items-center justify-content-center"><i class="bi bi-arrow-right"></i></div>
 										</a>
 										<ul class="style-none contact-info m0 pt-30">
-											<li class="d-flex align-items-center p0 mt-15"><img src="images/lazy.svg" data-src="images/icon/icon_14.svg" alt="" class="lazy-img icon me-2"> <a href="mailto:babuninc@company.com" class="fw-500"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">babuninc@company.com</font></font></a></li>
+											<li class="d-flex align-items-center p0 mt-15"><img src="images/lazy.svg" data-src="images/icon/icon_14.svg" alt="" class="lazy-img icon me-2"> <a href="mailto:sac@ibanco.me" class="fw-500"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">sac@ibanco.me</font></font></a></li>
                         					<li class="d-flex align-items-center p0 mt-15"><img src="images/lazy.svg" data-src="images/icon/icon_15.svg" alt="" class="lazy-img icon me-2"> <a href="tel:+757 699-4478" class="fw-500"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+757 699-4478</font></font></a></li>
 										</ul>
 									</li>
