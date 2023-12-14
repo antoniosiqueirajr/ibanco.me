@@ -114,71 +114,7 @@
 							<div class="collapse navbar-collapse" id="navbarNav">
 								<ul class="navbar-nav align-items-lg-center">
 									<li class="d-block d-lg-none"><div class="logo"><a href="index.html" class="d-block active"><img src="images/logo/logo_02.svg" alt=""></a></div></li>
-									<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lar
-										</font></font></a>
-										<ul class="dropdown-menu">
-											<li><a href="index.html" class="dropdown-item active"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Finança</font></font></span></a></li>
-											<li><a href="index-2.html" class="dropdown-item"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Consultoria Empresarial</font></font></span></a></li>
-											<li><a href="index-3.html" class="dropdown-item"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bancário</font></font></span></a></li>
-											<li><a href="index-4.html" class="dropdown-item"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Solução de pagamento</font></font></span></a></li>
-											<li><a href="index-5.html" class="dropdown-item"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Agência Digital</font></font></span></a></li>
-											<li><a href="index-6.html" class="dropdown-item"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Marketing</font></font></span></a></li>
-										</ul>
-									</li>
-									<li class="nav-item dropdown mega-dropdown-sm">
-							        	<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Páginas
-										</font></font></a>
-						                <ul class="dropdown-menu">
-							                <li class="row gx-1">
-												<div class="col-lg-4">
-													<div class="menu-column">
-														<ul class="style-none mega-dropdown-list">
-															<li><a href="service-v1.html" class="dropdown-item"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Serviço v-1</font></font></span></a></li>
-															<li><a href="service-v2.html" class="dropdown-item"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Serviço v-2</font></font></span></a></li>
-															<li><a href="service-details.html" class="dropdown-item"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Detalhes do serviço</font></font></span></a></li>
-															<li><a href="team-v1.html" class="dropdown-item"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Equipe V-1</font></font></span></a></li>
-															<li><a href="team-v2.html" class="dropdown-item"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Equipe V-2</font></font></span></a></li>
-															<li><a href="team-details.html" class="dropdown-item"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Detalhes da equipe</font></font></span></a></li>
-														</ul>
-													</div> <!--/.menu-column -->
-												</div>
-												<div class="col-lg-4">
-													<div class="menu-column">
-														<ul class="style-none mega-dropdown-list">
-															<li><a href="about-us-v1.html" class="dropdown-item"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sobre nós V-1</font></font></span></a></li>
-															<li><a href="about-us-v2.html" class="dropdown-item"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sobre nós V-2</font></font></span></a></li>
-															<li><a href="testimonial.html" class="dropdown-item"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Depoimento</font></font></span></a></li>
-															<li><a href="pricing.html" class="dropdown-item"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Preços</font></font></span></a></li>
-															<li><a href="faq.html" class="dropdown-item"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Perguntas frequentes</font></font></span></a></li>
-															<li><a href="404.html" class="dropdown-item"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Erro 404</font></font></span></a></li>
-														</ul>
-													</div> <!--/.menu-column -->
-												</div>
-												<div class="col-lg-4">
-													<div class="menu-column">
-														<ul class="style-none mega-dropdown-list">
-															<li><a href="project-v1.html" class="dropdown-item"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Projeto V-1</font></font></span></a></li>
-															<li><a href="project-v2.html" class="dropdown-item"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Projeto V-2</font></font></span></a></li>
-															<li><a href="project-v3.html" class="dropdown-item"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Projeto V-3</font></font></span></a></li>
-															<li><a href="project-details-v1.html" class="dropdown-item"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Detalhes do Projeto V-1</font></font></span></a></li>
-															<li><a href="project-details-v2.html" class="dropdown-item"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Detalhes do Projeto V-2</font></font></span></a></li>
-														</ul>
-													</div> <!--/.menu-column -->
-												</div>
-											</li>
-						                </ul>
-						            </li>
-									<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Comprar
-										</font></font></a>
-										<ul class="dropdown-menu">
-											<li><a href="shop-grid.html" class="dropdown-item"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Comprar</font></font></span></a></li>
-											<li><a href="shop-details.html" class="dropdown-item"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Detalhes da loja</font></font></span></a></li>
-											<li><a href="cart.html" class="dropdown-item"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Carrinho</font></font></span></a></li>
-											<li><a href="checkout.html" class="dropdown-item"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Confira</font></font></span></a></li>
-										</ul>
-									</li>
+					
 									<li class="nav-item dropdown">
 										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Blogue
 										</font></font></a>
