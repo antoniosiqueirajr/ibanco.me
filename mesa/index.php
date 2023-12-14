@@ -131,7 +131,8 @@
             </script>
 </head>
 
-<body class="has-navbar-vertical-aside navbar-vertical-aside-show-xl   footer-offset">
+
+<body class="has-navbar-vertical-aside navbar-vertical-aside-show-xl footer-offset navbar-vertical-aside-closed-mode" style="opacity: 1;">
 
   <script src="./assets/js/hs.theme-appearance.js"></script>
 
@@ -142,19 +143,19 @@
   <header id="header" class="navbar navbar-expand-lg navbar-fixed navbar-height navbar-container navbar-bordered bg-white">
     <div class="navbar-nav-wrap">
       <!-- Logo -->
-      <a class="navbar-brand" href="./index.html" aria-label="Front">
-        <img class="navbar-brand-logo" src="./assets/svg/logos/logo.svg" alt="Logo" data-hs-theme-appearance="default">
-        <img class="navbar-brand-logo" src="./assets/svg/logos-light/logo.svg" alt="Logo" data-hs-theme-appearance="dark">
-        <img class="navbar-brand-logo-mini" src="./assets/svg/logos/logo-short.svg" alt="Logo" data-hs-theme-appearance="default">
-        <img class="navbar-brand-logo-mini" src="./assets/svg/logos-light/logo-short.svg" alt="Logo" data-hs-theme-appearance="dark">
+      <a class="navbar-brand" href="./index.html" aria-label="Frente">
+        <img class="navbar-brand-logo" src="./assets/svg/logos/logo.svg" alt="Logotipo" data-hs-theme-appearance="default">
+        <img class="navbar-brand-logo" src="./assets/svg/logos-light/logo.svg" alt="Logotipo" data-hs-theme-appearance="dark">
+        <img class="navbar-brand-logo-mini" src="./assets/svg/logos/logo-short.svg" alt="Logotipo" data-hs-theme-appearance="default">
+        <img class="navbar-brand-logo-mini" src="./assets/svg/logos-light/logo-short.svg" alt="Logotipo" data-hs-theme-appearance="dark">
       </a>
       <!-- End Logo -->
 
       <div class="navbar-nav-wrap-content-start">
         <!-- Navbar Vertical Toggle -->
-        <button type="button" class="js-navbar-vertical-aside-toggle-invoker navbar-aside-toggler">
-          <i class="bi-arrow-bar-left navbar-toggler-short-align" data-bs-template='<div class="tooltip d-none d-md-block" role="tooltip"><div class="arrow"></div><div class="tooltip-inner"></div></div>' data-bs-toggle="tooltip" data-bs-placement="right" title="Collapse"></i>
-          <i class="bi-arrow-bar-right navbar-toggler-full-align" data-bs-template='<div class="tooltip d-none d-md-block" role="tooltip"><div class="arrow"></div><div class="tooltip-inner"></div></div>' data-bs-toggle="tooltip" data-bs-placement="right" title="Expand"></i>
+        <button type="button" class="js-navbar-vertical-aside-toggle-invoker navbar-aside-toggler" style="opacity: 1;">
+          <i class="bi-arrow-bar-left navbar-toggler-short-align" data-bs-template="<div class=&quot;tooltip d-none d-md-block&quot; role=&quot;tooltip&quot;><div class=&quot;arrow&quot;></div><div class=&quot;tooltip-inner&quot;></div></div>" data-bs-toggle="tooltip" data-bs-placement="right" aria-label="Colapso" data-bs-original-title="Collapse"></i>
+          <i class="bi-arrow-bar-right navbar-toggler-full-align" data-bs-template="<div class=&quot;tooltip d-none d-md-block&quot; role=&quot;tooltip&quot;><div class=&quot;arrow&quot;></div><div class=&quot;tooltip-inner&quot;></div></div>" data-bs-toggle="tooltip" data-bs-placement="right" aria-label="Expandir" data-bs-original-title="Expand"></i>
         </button>
 
         <!-- End Navbar Vertical Toggle -->
@@ -168,32 +169,32 @@
                 <i class="bi-search"></i>
               </div>
 
-              <input type="search" class="js-form-search form-control" placeholder="Search in front" aria-label="Search in front" data-hs-form-search-options='{
-                       "clearIcon": "#clearSearchResultsIcon",
-                       "dropMenuElement": "#searchDropdownMenu",
-                       "dropMenuOffset": 20,
-                       "toggleIconOnFocus": true,
-                       "activeClass": "focus"
-                     }'>
+              <input type="search" class="js-form-search form-control" placeholder="Pesquise na frente" aria-label="Pesquise na frente" data-hs-form-search-options="{
+                       &quot;clearIcon&quot;: &quot;#clearSearchResultsIcon&quot;,
+                       &quot;dropMenuElement&quot;: &quot;#searchDropdownMenu&quot;,
+                       &quot;dropMenuOffset&quot;: 20,
+                       &quot;toggleIconOnFocus&quot;: true,
+                       &quot;activeClass&quot;: &quot;focus&quot;
+                     }">
               <a class="input-group-append input-group-text" href="javascript:;">
                 <i id="clearSearchResultsIcon" class="bi-x-lg" style="display: none;"></i>
               </a>
             </div>
           </div>
 
-          <button class="js-form-search js-form-search-mobile-toggle btn btn-ghost-secondary btn-icon rounded-circle d-lg-none" type="button" data-hs-form-search-options='{
-                       "clearIcon": "#clearSearchResultsIcon",
-                       "dropMenuElement": "#searchDropdownMenu",
-                       "dropMenuOffset": 20,
-                       "toggleIconOnFocus": true,
-                       "activeClass": "focus"
-                     }'>
+          <button class="js-form-search js-form-search-mobile-toggle btn btn-ghost-secondary btn-icon rounded-circle d-lg-none" type="button" data-hs-form-search-options="{
+                       &quot;clearIcon&quot;: &quot;#clearSearchResultsIcon&quot;,
+                       &quot;dropMenuElement&quot;: &quot;#searchDropdownMenu&quot;,
+                       &quot;dropMenuOffset&quot;: 20,
+                       &quot;toggleIconOnFocus&quot;: true,
+                       &quot;activeClass&quot;: &quot;focus&quot;
+                     }">
             <i class="bi-search"></i>
           </button>
           <!-- End Input Group -->
 
           <!-- Card Search Content -->
-          <div id="searchDropdownMenu" class="hs-form-search-menu-content dropdown-menu dropdown-menu-form-search navbar-dropdown-menu-borderless">
+          <div id="searchDropdownMenu" class="hs-form-search-menu-content dropdown-menu dropdown-menu-form-search navbar-dropdown-menu-borderless animated hs-form-search-menu-hidden hs-form-search-menu-initialized fadeOut">
             <div class="card">
               <!-- Body -->
               <div class="card-body-height">
@@ -203,27 +204,27 @@
                       <i class="bi-search"></i>
                     </div>
 
-                    <input type="search" class="form-control" placeholder="Search in front" aria-label="Search in front">
+                    <input type="search" class="form-control" placeholder="Pesquise na frente" aria-label="Pesquise na frente">
                     <a class="input-group-append input-group-text" href="javascript:;">
                       <i class="bi-x-lg"></i>
                     </a>
                   </div>
                 </div>
 
-                <span class="dropdown-header">Recent searches</span>
+                <span class="dropdown-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pesquisas recentes</font></font></span>
 
                 <div class="dropdown-item bg-transparent text-wrap">
-                  <a class="btn btn-soft-dark btn-xs rounded-pill" href="./index.html">
-                    Gulp <i class="bi-search ms-1"></i>
+                  <a class="btn btn-soft-dark btn-xs rounded-pill" href="./index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    Gole</font></font><i class="bi-search ms-1"></i>
                   </a>
-                  <a class="btn btn-soft-dark btn-xs rounded-pill" href="./index.html">
-                    Notification panel <i class="bi-search ms-1"></i>
+                  <a class="btn btn-soft-dark btn-xs rounded-pill" href="./index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    Painel de notificação</font></font><i class="bi-search ms-1"></i>
                   </a>
                 </div>
 
                 <div class="dropdown-divider"></div>
 
-                <span class="dropdown-header">Tutorials</span>
+                <span class="dropdown-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tutoriais</font></font></span>
 
                 <a class="dropdown-item" href="./index.html">
                   <div class="d-flex align-items-center">
@@ -234,7 +235,7 @@
                     </div>
 
                     <div class="flex-grow-1 text-truncate ms-2">
-                      <span>How to set up Gulp?</span>
+                      <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Como configurar o Gulp?</font></font></span>
                     </div>
                   </div>
                 </a>
@@ -248,22 +249,22 @@
                     </div>
 
                     <div class="flex-grow-1 text-truncate ms-2">
-                      <span>How to change theme color?</span>
+                      <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Como mudar a cor do tema?</font></font></span>
                     </div>
                   </div>
                 </a>
 
                 <div class="dropdown-divider"></div>
 
-                <span class="dropdown-header">Members</span>
+                <span class="dropdown-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Membros</font></font></span>
 
                 <a class="dropdown-item" href="./index.html">
                   <div class="d-flex align-items-center">
                     <div class="flex-shrink-0">
-                      <img class="avatar avatar-xs avatar-circle" src="./assets/img/160x160/img10.jpg" alt="Image Description">
+                      <img class="avatar avatar-xs avatar-circle" src="./assets/img/160x160/img10.jpg" alt="Descrição da imagem">
                     </div>
                     <div class="flex-grow-1 text-truncate ms-2">
-                      <span>Amanda Harvey <i class="tio-verified text-primary" data-toggle="tooltip" data-placement="top" title="Top endorsed"></i></span>
+                      <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Amanda Harvey</font></font><i class="tio-verified text-primary" data-toggle="tooltip" data-placement="top" title="Mais endossado"></i></span>
                     </div>
                   </div>
                 </a>
@@ -271,10 +272,10 @@
                 <a class="dropdown-item" href="./index.html">
                   <div class="d-flex align-items-center">
                     <div class="flex-shrink-0">
-                      <img class="avatar avatar-xs avatar-circle" src="./assets/img/160x160/img3.jpg" alt="Image Description">
+                      <img class="avatar avatar-xs avatar-circle" src="./assets/img/160x160/img3.jpg" alt="Descrição da imagem">
                     </div>
                     <div class="flex-grow-1 text-truncate ms-2">
-                      <span>David Harrison</span>
+                      <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">David Harrison</font></font></span>
                     </div>
                   </div>
                 </a>
@@ -283,11 +284,11 @@
                   <div class="d-flex align-items-center">
                     <div class="flex-shrink-0">
                       <div class="avatar avatar-xs avatar-soft-info avatar-circle">
-                        <span class="avatar-initials">A</span>
+                        <span class="avatar-initials"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">A</font></font></span>
                       </div>
                     </div>
                     <div class="flex-grow-1 text-truncate ms-2">
-                      <span>Anne Richard</span>
+                      <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ana Ricardo</font></font></span>
                     </div>
                   </div>
                 </a>
@@ -295,8 +296,8 @@
               <!-- End Body -->
 
               <!-- Footer -->
-              <a class="card-footer text-center" href="./index.html">
-                See all results <i class="bi-chevron-right small"></i>
+              <a class="card-footer text-center" href="./index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                Ver todos os resultados</font></font><i class="bi-chevron-right small"></i>
               </a>
               <!-- End Footer -->
             </div>
@@ -314,7 +315,7 @@
           <li class="nav-item d-none d-sm-inline-block">
             <!-- Notification -->
             <div class="dropdown">
-              <button type="button" class="btn btn-ghost-secondary btn-icon rounded-circle" id="navbarNotificationsDropdown" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-dropdown-animation>
+              <button type="button" class="btn btn-ghost-secondary btn-icon rounded-circle" id="navbarNotificationsDropdown" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-dropdown-animation="">
                 <i class="bi-bell"></i>
                 <span class="btn-status btn-sm-status btn-status-danger"></span>
               </button>
@@ -323,7 +324,7 @@
                 <div class="card">
                   <!-- Header -->
                   <div class="card-header card-header-content-between">
-                    <h4 class="card-title mb-0">Notifications</h4>
+                    <h4 class="card-title mb-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Notificações</font></font></h4>
 
                     <!-- Unfold -->
                     <div class="dropdown">
@@ -332,24 +333,24 @@
                       </button>
 
                       <div class="dropdown-menu dropdown-menu-end navbar-dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="navbarNotificationsDropdownSettings">
-                        <span class="dropdown-header">Settings</span>
+                        <span class="dropdown-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Configurações</font></font></span>
                         <a class="dropdown-item" href="#">
-                          <i class="bi-archive dropdown-item-icon"></i> Archive all
-                        </a>
+                          <i class="bi-archive dropdown-item-icon"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Arquive tudo
+                        </font></font></a>
                         <a class="dropdown-item" href="#">
-                          <i class="bi-check2-all dropdown-item-icon"></i> Mark all as read
-                        </a>
+                          <i class="bi-check2-all dropdown-item-icon"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">marcar tudo como lido
+                        </font></font></a>
                         <a class="dropdown-item" href="#">
-                          <i class="bi-toggle-off dropdown-item-icon"></i> Disable notifications
-                        </a>
+                          <i class="bi-toggle-off dropdown-item-icon"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Desativar as notificações
+                        </font></font></a>
                         <a class="dropdown-item" href="#">
-                          <i class="bi-gift dropdown-item-icon"></i> What's new?
-                        </a>
+                          <i class="bi-gift dropdown-item-icon"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">O que há de novo?
+                        </font></font></a>
                         <div class="dropdown-divider"></div>
-                        <span class="dropdown-header">Feedback</span>
+                        <span class="dropdown-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Opinião</font></font></span>
                         <a class="dropdown-item" href="#">
-                          <i class="bi-chat-left-dots dropdown-item-icon"></i> Report
-                        </a>
+                          <i class="bi-chat-left-dots dropdown-item-icon"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Relatório
+                        </font></font></a>
                       </div>
                     </div>
                     <!-- End Unfold -->
@@ -358,11 +359,11 @@
 
                   <!-- Nav -->
                   <ul class="nav nav-tabs nav-justified" id="notificationTab" role="tablist">
-                    <li class="nav-item">
-                      <a class="nav-link active" href="#notificationNavOne" id="notificationNavOne-tab" data-bs-toggle="tab" data-bs-target="#notificationNavOne" role="tab" aria-controls="notificationNavOne" aria-selected="true">Messages (3)</a>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link active" href="#notificationNavOne" id="notificationNavOne-tab" data-bs-toggle="tab" data-bs-target="#notificationNavOne" role="tab" aria-controls="notificationNavOne" aria-selected="true"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mensagens (3)</font></font></a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#notificationNavTwo" id="notificationNavTwo-tab" data-bs-toggle="tab" data-bs-target="#notificationNavTwo" role="tab" aria-controls="notificationNavTwo" aria-selected="false">Archived</a>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" href="#notificationNavTwo" id="notificationNavTwo-tab" data-bs-toggle="tab" data-bs-target="#notificationNavTwo" role="tab" aria-controls="notificationNavTwo" aria-selected="false" tabindex="-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Arquivado</font></font></a>
                     </li>
                   </ul>
                   <!-- End Nav -->
@@ -380,22 +381,22 @@
                               <div class="col-auto">
                                 <div class="d-flex align-items-center">
                                   <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="notificationCheck1" checked>
+                                    <input class="form-check-input" type="checkbox" value="" id="notificationCheck1" checked="">
                                     <label class="form-check-label" for="notificationCheck1"></label>
                                     <span class="form-check-stretched-bg"></span>
                                   </div>
-                                  <img class="avatar avatar-sm avatar-circle" src="./assets/img/160x160/img3.jpg" alt="Image Description">
+                                  <img class="avatar avatar-sm avatar-circle" src="./assets/img/160x160/img3.jpg" alt="Descrição da imagem">
                                 </div>
                               </div>
                               <!-- End Col -->
 
                               <div class="col ms-n2">
-                                <h5 class="mb-1">Brian Warner</h5>
-                                <p class="text-body fs-5">changed an issue from "In Progress" to <span class="badge bg-success">Review</span></p>
+                                <h5 class="mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Brian Warner</font></font></h5>
+                                <p class="text-body fs-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">alterou um problema de "Em andamento" para</font></font><span class="badge bg-success"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Análise</font></font></span></p>
                               </div>
                               <!-- End Col -->
 
-                              <small class="col-auto text-muted text-cap">2hr</small>
+                              <small class="col-auto text-muted text-cap"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2h</font></font></small>
                               <!-- End Col -->
                             </div>
                             <!-- End Row -->
@@ -410,27 +411,27 @@
                               <div class="col-auto">
                                 <div class="d-flex align-items-center">
                                   <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="notificationCheck2" checked>
+                                    <input class="form-check-input" type="checkbox" value="" id="notificationCheck2" checked="">
                                     <label class="form-check-label" for="notificationCheck2"></label>
                                     <span class="form-check-stretched-bg"></span>
                                   </div>
                                   <div class="avatar avatar-sm avatar-soft-dark avatar-circle">
-                                    <span class="avatar-initials">K</span>
+                                    <span class="avatar-initials"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">K</font></font></span>
                                   </div>
                                 </div>
                               </div>
                               <!-- End Col -->
 
                               <div class="col ms-n2">
-                                <h5 class="mb-1">Klara Hampton</h5>
-                                <p class="text-body fs-5">mentioned you in a comment</p>
-                                <blockquote class="blockquote blockquote-sm">
-                                  Nice work, love! You really nailed it. Keep it up!
-                                </blockquote>
+                                <h5 class="mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Clara Hampton</font></font></h5>
+                                <p class="text-body fs-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">você mencionou em um comentário</font></font></p>
+                                <blockquote class="blockquote blockquote-sm"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                  Belo trabalho, amor! </font><font style="vertical-align: inherit;">Você realmente acertou em cheio. </font><font style="vertical-align: inherit;">Mantem!
+                                </font></font></blockquote>
                               </div>
                               <!-- End Col -->
 
-                              <small class="col-auto text-muted text-cap">10hr</small>
+                              <small class="col-auto text-muted text-cap"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">10h</font></font></small>
                               <!-- End Col -->
                             </div>
                             <!-- End Row -->
@@ -445,24 +446,24 @@
                               <div class="col-auto">
                                 <div class="d-flex align-items-center">
                                   <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="notificationCheck3" checked>
+                                    <input class="form-check-input" type="checkbox" value="" id="notificationCheck3" checked="">
                                     <label class="form-check-label" for="notificationCheck3"></label>
                                     <span class="form-check-stretched-bg"></span>
                                   </div>
                                   <div class="avatar avatar-sm avatar-circle">
-                                    <img class="avatar-img" src="./assets/img/160x160/img10.jpg" alt="Image Description">
+                                    <img class="avatar-img" src="./assets/img/160x160/img10.jpg" alt="Descrição da imagem">
                                   </div>
                                 </div>
                               </div>
                               <!-- End Col -->
 
                               <div class="col ms-n2">
-                                <h5 class="mb-1">Ruby Walter</h5>
-                                <p class="text-body fs-5">joined the Slack group HS Team</p>
+                                <h5 class="mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Rubi Walter</font></font></h5>
+                                <p class="text-body fs-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">juntou-se ao grupo Slack HS Team</font></font></p>
                               </div>
                               <!-- End Col -->
 
-                              <small class="col-auto text-muted text-cap">3dy</small>
+                              <small class="col-auto text-muted text-cap"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3D</font></font></small>
                               <!-- End Col -->
                             </div>
                             <!-- End Row -->
@@ -482,19 +483,19 @@
                                     <span class="form-check-stretched-bg"></span>
                                   </div>
                                   <div class="avatar avatar-sm avatar-circle">
-                                    <img class="avatar-img" src="./assets/svg/brands/google-icon.svg" alt="Image Description">
+                                    <img class="avatar-img" src="./assets/svg/brands/google-icon.svg" alt="Descrição da imagem">
                                   </div>
                                 </div>
                               </div>
                               <!-- End Col -->
 
                               <div class="col ms-n2">
-                                <h5 class="mb-1">from Google</h5>
-                                <p class="text-body fs-5">Start using forms to capture the information of prospects visiting your Google website</p>
+                                <h5 class="mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">do Google</font></font></h5>
+                                <p class="text-body fs-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Comece a usar formulários para capturar as informações de clientes potenciais que visitam seu site do Google</font></font></p>
                               </div>
                               <!-- End Col -->
 
-                              <small class="col-auto text-muted text-cap">17dy</small>
+                              <small class="col-auto text-muted text-cap"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">17 dias</font></font></small>
                               <!-- End Col -->
                             </div>
                             <!-- End Row -->
@@ -514,19 +515,19 @@
                                     <span class="form-check-stretched-bg"></span>
                                   </div>
                                   <div class="avatar avatar-sm avatar-circle">
-                                    <img class="avatar-img" src="./assets/img/160x160/img7.jpg" alt="Image Description">
+                                    <img class="avatar-img" src="./assets/img/160x160/img7.jpg" alt="Descrição da imagem">
                                   </div>
                                 </div>
                               </div>
                               <!-- End Col -->
 
                               <div class="col ms-n2">
-                                <h5 class="mb-1">Sara Villar</h5>
-                                <p class="text-body fs-5">completed <i class="bi-journal-bookmark-fill text-primary"></i> FD-7 task</p>
+                                <h5 class="mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sara Villar</font></font></h5>
+                                <p class="text-body fs-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">concluído</font></font><i class="bi-journal-bookmark-fill text-primary"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tarefa FD-7</font></font></p>
                               </div>
                               <!-- End Col -->
 
-                              <small class="col-auto text-muted text-cap">2mn</small>
+                              <small class="col-auto text-muted text-cap"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2 minutos</font></font></small>
                               <!-- End Col -->
                             </div>
                             <!-- End Row -->
@@ -552,19 +553,19 @@
                                     <span class="form-check-stretched-bg"></span>
                                   </div>
                                   <div class="avatar avatar-sm avatar-soft-dark avatar-circle">
-                                    <span class="avatar-initials">A</span>
+                                    <span class="avatar-initials"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">A</font></font></span>
                                   </div>
                                 </div>
                               </div>
                               <!-- End Col -->
 
                               <div class="col ms-n2">
-                                <h5 class="mb-1">Anne Richard</h5>
-                                <p class="text-body fs-5">accepted your invitation to join Notion</p>
+                                <h5 class="mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ana Ricardo</font></font></h5>
+                                <p class="text-body fs-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">aceitou seu convite para ingressar no Notion</font></font></p>
                               </div>
                               <!-- End Col -->
 
-                              <small class="col-auto text-muted text-cap">1dy</small>
+                              <small class="col-auto text-muted text-cap"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1 dia</font></font></small>
                               <!-- End Col -->
                             </div>
                             <!-- End Row -->
@@ -584,19 +585,19 @@
                                     <span class="form-check-stretched-bg"></span>
                                   </div>
                                   <div class="avatar avatar-sm avatar-circle">
-                                    <img class="avatar-img" src="./assets/img/160x160/img5.jpg" alt="Image Description">
+                                    <img class="avatar-img" src="./assets/img/160x160/img5.jpg" alt="Descrição da imagem">
                                   </div>
                                 </div>
                               </div>
                               <!-- End Col -->
 
                               <div class="col ms-n2">
-                                <h5 class="mb-1">Finch Hoot</h5>
-                                <p class="text-body fs-5">left Slack group HS projects</p>
+                                <h5 class="mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Passarinho</font></font></h5>
+                                <p class="text-body fs-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">saiu dos projetos HS do grupo Slack</font></font></p>
                               </div>
                               <!-- End Col -->
 
-                              <small class="col-auto text-muted text-cap">1dy</small>
+                              <small class="col-auto text-muted text-cap"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1 dia</font></font></small>
                               <!-- End Col -->
                             </div>
                             <!-- End Row -->
@@ -616,19 +617,19 @@
                                     <span class="form-check-stretched-bg"></span>
                                   </div>
                                   <div class="avatar avatar-sm avatar-dark avatar-circle">
-                                    <span class="avatar-initials">HS</span>
+                                    <span class="avatar-initials"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SH</font></font></span>
                                   </div>
                                 </div>
                               </div>
                               <!-- End Col -->
 
                               <div class="col ms-n2">
-                                <h5 class="mb-1">Htmlstream</h5>
-                                <p class="text-body fs-5">you earned a "Top endorsed" <i class="bi-patch-check-fill text-primary"></i> badge</p>
+                                <h5 class="mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTMLstream</font></font></h5>
+                                <p class="text-body fs-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">você ganhou um "Top endossado"</font></font><i class="bi-patch-check-fill text-primary"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">distintivo</font></font></p>
                               </div>
                               <!-- End Col -->
 
-                              <small class="col-auto text-muted text-cap">6dy</small>
+                              <small class="col-auto text-muted text-cap"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">6 dias</font></font></small>
                               <!-- End Col -->
                             </div>
                             <!-- End Row -->
@@ -648,19 +649,19 @@
                                     <span class="form-check-stretched-bg"></span>
                                   </div>
                                   <div class="avatar avatar-sm avatar-circle">
-                                    <img class="avatar-img" src="./assets/img/160x160/img8.jpg" alt="Image Description">
+                                    <img class="avatar-img" src="./assets/img/160x160/img8.jpg" alt="Descrição da imagem">
                                   </div>
                                 </div>
                               </div>
                               <!-- End Col -->
 
                               <div class="col ms-n2">
-                                <h5 class="mb-1">Linda Bates</h5>
-                                <p class="text-body fs-5">Accepted your connection</p>
+                                <h5 class="mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Linda Bates</font></font></h5>
+                                <p class="text-body fs-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Aceitei sua conexão</font></font></p>
                               </div>
                               <!-- End Col -->
 
-                              <small class="col-auto text-muted text-cap">17dy</small>
+                              <small class="col-auto text-muted text-cap"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">17 dias</font></font></small>
                               <!-- End Col -->
                             </div>
                             <!-- End Row -->
@@ -680,19 +681,19 @@
                                     <span class="form-check-stretched-bg"></span>
                                   </div>
                                   <div class="avatar avatar-sm avatar-soft-dark avatar-circle">
-                                    <span class="avatar-initials">L</span>
+                                    <span class="avatar-initials"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">eu</font></font></span>
                                   </div>
                                 </div>
                               </div>
                               <!-- End Col -->
 
                               <div class="col ms-n2">
-                                <h5 class="mb-1">Lewis Clarke</h5>
-                                <p class="text-body fs-5">completed <i class="bi-journal-bookmark-fill text-primary"></i> FD-134 task</p>
+                                <h5 class="mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lewis Clarke</font></font></h5>
+                                <p class="text-body fs-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">concluído</font></font><i class="bi-journal-bookmark-fill text-primary"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tarefa FD-134</font></font></p>
                               </div>
                               <!-- End Col -->
 
-                              <small class="col-auto text-muted text-cap">2mts</small>
+                              <small class="col-auto text-muted text-cap"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2mts</font></font></small>
                               <!-- End Col -->
                             </div>
                             <!-- End Row -->
@@ -709,8 +710,8 @@
                   <!-- End Body -->
 
                   <!-- Card Footer -->
-                  <a class="card-footer text-center" href="#">
-                    View all notifications <i class="bi-chevron-right"></i>
+                  <a class="card-footer text-center" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    Ver todas as notificações</font></font><i class="bi-chevron-right"></i>
                   </a>
                   <!-- End Card Footer -->
                 </div>
@@ -722,7 +723,7 @@
           <li class="nav-item d-none d-sm-inline-block">
             <!-- Apps -->
             <div class="dropdown">
-              <button type="button" class="btn btn-icon btn-ghost-secondary rounded-circle" id="navbarAppsDropdown" data-bs-toggle="dropdown" aria-expanded="false" data-bs-dropdown-animation>
+              <button type="button" class="btn btn-icon btn-ghost-secondary rounded-circle" id="navbarAppsDropdown" data-bs-toggle="dropdown" aria-expanded="false" data-bs-dropdown-animation="">
                 <i class="bi-app-indicator"></i>
               </button>
 
@@ -730,7 +731,7 @@
                 <div class="card">
                   <!-- Header -->
                   <div class="card-header">
-                    <h4 class="card-title">Web apps &amp; services</h4>
+                    <h4 class="card-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Aplicativos e serviços da web</font></font></h4>
                   </div>
                   <!-- End Header -->
 
@@ -739,11 +740,11 @@
                     <a class="dropdown-item" href="#">
                       <div class="d-flex align-items-center">
                         <div class="flex-shrink-0">
-                          <img class="avatar avatar-xs avatar-4x3" src="./assets/svg/brands/atlassian-icon.svg" alt="Image Description">
+                          <img class="avatar avatar-xs avatar-4x3" src="./assets/svg/brands/atlassian-icon.svg" alt="Descrição da imagem">
                         </div>
                         <div class="flex-grow-1 text-truncate ms-3">
-                          <h5 class="mb-0">Atlassian</h5>
-                          <p class="card-text text-body">Security and control across Cloud</p>
+                          <h5 class="mb-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Atlassiano</font></font></h5>
+                          <p class="card-text text-body"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Segurança e controle na nuvem</font></font></p>
                         </div>
                       </div>
                     </a>
@@ -751,11 +752,11 @@
                     <a class="dropdown-item" href="#">
                       <div class="d-flex align-items-center">
                         <div class="flex-shrink-0">
-                          <img class="avatar avatar-xs avatar-4x3" src="./assets/svg/brands/slack-icon.svg" alt="Image Description">
+                          <img class="avatar avatar-xs avatar-4x3" src="./assets/svg/brands/slack-icon.svg" alt="Descrição da imagem">
                         </div>
                         <div class="flex-grow-1 text-truncate ms-3">
-                          <h5 class="mb-0">Slack <span class="badge bg-primary rounded-pill text-uppercase ms-1">Try</span></h5>
-                          <p class="card-text text-body">Email collaboration software</p>
+                          <h5 class="mb-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Folga</font></font><span class="badge bg-primary rounded-pill text-uppercase ms-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tentar</font></font></span></h5>
+                          <p class="card-text text-body"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Software de colaboração por e-mail</font></font></p>
                         </div>
                       </div>
                     </a>
@@ -763,11 +764,11 @@
                     <a class="dropdown-item" href="#">
                       <div class="d-flex align-items-center">
                         <div class="flex-shrink-0">
-                          <img class="avatar avatar-xs avatar-4x3" src="./assets/svg/brands/google-webdev-icon.svg" alt="Image Description">
+                          <img class="avatar avatar-xs avatar-4x3" src="./assets/svg/brands/google-webdev-icon.svg" alt="Descrição da imagem">
                         </div>
                         <div class="flex-grow-1 text-truncate ms-3">
-                          <h5 class="mb-0">Google webdev</h5>
-                          <p class="card-text text-body">Work involved in developing a website</p>
+                          <h5 class="mb-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Desenvolvedor web do Google</font></font></h5>
+                          <p class="card-text text-body"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Trabalho envolvido no desenvolvimento de um site</font></font></p>
                         </div>
                       </div>
                     </a>
@@ -775,11 +776,11 @@
                     <a class="dropdown-item" href="#">
                       <div class="d-flex align-items-center">
                         <div class="flex-shrink-0">
-                          <img class="avatar avatar-xs avatar-4x3" src="./assets/svg/brands/frontapp-icon.svg" alt="Image Description">
+                          <img class="avatar avatar-xs avatar-4x3" src="./assets/svg/brands/frontapp-icon.svg" alt="Descrição da imagem">
                         </div>
                         <div class="flex-grow-1 text-truncate ms-3">
-                          <h5 class="mb-0">Frontapp</h5>
-                          <p class="card-text text-body">The inbox for teams</p>
+                          <h5 class="mb-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Frontapp</font></font></h5>
+                          <p class="card-text text-body"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">A caixa de entrada para equipes</font></font></p>
                         </div>
                       </div>
                     </a>
@@ -787,11 +788,11 @@
                     <a class="dropdown-item" href="#">
                       <div class="d-flex align-items-center">
                         <div class="flex-shrink-0">
-                          <img class="avatar avatar-xs avatar-4x3" src="./assets/svg/illustrations/review-rating-shield.svg" alt="Image Description">
+                          <img class="avatar avatar-xs avatar-4x3" src="./assets/svg/illustrations/review-rating-shield.svg" alt="Descrição da imagem">
                         </div>
                         <div class="flex-grow-1 text-truncate ms-3">
-                          <h5 class="mb-0">HS Support</h5>
-                          <p class="card-text text-body">Customer service and support</p>
+                          <h5 class="mb-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Suporte HS</font></font></h5>
+                          <p class="card-text text-body"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Atendimento e suporte ao cliente</font></font></p>
                         </div>
                       </div>
                     </a>
@@ -804,8 +805,8 @@
                           </div>
                         </div>
                         <div class="flex-grow-1 text-truncate ms-3">
-                          <h5 class="mb-0">More Front products</h5>
-                          <p class="card-text text-body">Check out more HS products</p>
+                          <h5 class="mb-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mais produtos frontais</font></font></h5>
+                          <p class="card-text text-body"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Confira mais produtos HS</font></font></p>
                         </div>
                       </div>
                     </a>
@@ -813,8 +814,8 @@
                   <!-- End Body -->
 
                   <!-- Footer -->
-                  <a class="card-footer text-center" href="#">
-                    View all apps <i class="bi-chevron-right"></i>
+                  <a class="card-footer text-center" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    Ver todos os aplicativos</font></font><i class="bi-chevron-right"></i>
                   </a>
                   <!-- End Footer -->
                 </div>
@@ -834,9 +835,9 @@
           <li class="nav-item">
             <!-- Account -->
             <div class="dropdown">
-              <a class="navbar-dropdown-account-wrapper" href="javascript:;" id="accountNavbarDropdown" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-dropdown-animation>
+              <a class="navbar-dropdown-account-wrapper" href="javascript:;" id="accountNavbarDropdown" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-dropdown-animation="">
                 <div class="avatar avatar-sm avatar-circle">
-                  <img class="avatar-img" src="./assets/img/160x160/img6.jpg" alt="Image Description">
+                  <img class="avatar-img" src="./assets/img/160x160/img6.jpg" alt="Descrição da imagem">
                   <span class="avatar-status avatar-sm-status avatar-status-success"></span>
                 </div>
               </a>
@@ -845,11 +846,11 @@
                 <div class="dropdown-item-text">
                   <div class="d-flex align-items-center">
                     <div class="avatar avatar-sm avatar-circle">
-                      <img class="avatar-img" src="./assets/img/160x160/img6.jpg" alt="Image Description">
+                      <img class="avatar-img" src="./assets/img/160x160/img6.jpg" alt="Descrição da imagem">
                     </div>
                     <div class="flex-grow-1 ms-3">
-                      <h5 class="mb-0">Mark Williams</h5>
-                      <p class="card-text text-body">mark@site.com</p>
+                      <h5 class="mb-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Marcos Williams</font></font></h5>
+                      <p class="card-text text-body"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">mark@site.com</font></font></p>
                     </div>
                   </div>
                 </div>
@@ -858,27 +859,27 @@
 
                 <!-- Dropdown -->
                 <div class="dropdown">
-                  <a class="navbar-dropdown-submenu-item dropdown-item dropdown-toggle" href="javascript:;" id="navSubmenuPagesAccountDropdown1" data-bs-toggle="dropdown" aria-expanded="false">Set status</a>
+                  <a class="navbar-dropdown-submenu-item dropdown-item dropdown-toggle" href="javascript:;" id="navSubmenuPagesAccountDropdown1" data-bs-toggle="dropdown" aria-expanded="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Definir status</font></font></a>
 
                   <div class="dropdown-menu dropdown-menu-end navbar-dropdown-menu navbar-dropdown-menu-borderless navbar-dropdown-sub-menu" aria-labelledby="navSubmenuPagesAccountDropdown1">
                     <a class="dropdown-item" href="#">
-                      <span class="legend-indicator bg-success me-1"></span> Available
-                    </a>
+                      <span class="legend-indicator bg-success me-1"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Disponível
+                    </font></font></a>
                     <a class="dropdown-item" href="#">
-                      <span class="legend-indicator bg-danger me-1"></span> Busy
-                    </a>
+                      <span class="legend-indicator bg-danger me-1"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ocupado
+                    </font></font></a>
                     <a class="dropdown-item" href="#">
-                      <span class="legend-indicator bg-warning me-1"></span> Away
-                    </a>
+                      <span class="legend-indicator bg-warning me-1"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ausente
+                    </font></font></a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#"> Reset status
-                    </a>
+                    <a class="dropdown-item" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Reinicie status
+                    </font></font></a>
                   </div>
                 </div>
                 <!-- End Dropdown -->
 
-                <a class="dropdown-item" href="#">Profile &amp; account</a>
-                <a class="dropdown-item" href="#">Settings</a>
+                <a class="dropdown-item" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Perfil e conta</font></font></a>
+                <a class="dropdown-item" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Configurações</font></font></a>
 
                 <div class="dropdown-divider"></div>
 
@@ -886,12 +887,12 @@
                   <div class="d-flex align-items-center">
                     <div class="flex-shrink-0">
                       <div class="avatar avatar-sm avatar-dark avatar-circle">
-                        <span class="avatar-initials">HS</span>
+                        <span class="avatar-initials"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SH</font></font></span>
                       </div>
                     </div>
                     <div class="flex-grow-1 ms-2">
-                      <h5 class="mb-0">Htmlstream <span class="badge bg-primary rounded-pill text-uppercase ms-1">PRO</span></h5>
-                      <span class="card-text">hs.example.com</span>
+                      <h5 class="mb-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTMLstream</font></font><span class="badge bg-primary rounded-pill text-uppercase ms-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PRÓ</font></font></span></h5>
+                      <span class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">hs.exemplo.com</font></font></span>
                     </div>
                   </div>
                 </a>
@@ -900,29 +901,29 @@
 
                 <!-- Dropdown -->
                 <div class="dropdown">
-                  <a class="navbar-dropdown-submenu-item dropdown-item dropdown-toggle" href="javascript:;" id="navSubmenuPagesAccountDropdown2" data-bs-toggle="dropdown" aria-expanded="false">Customization</a>
+                  <a class="navbar-dropdown-submenu-item dropdown-item dropdown-toggle" href="javascript:;" id="navSubmenuPagesAccountDropdown2" data-bs-toggle="dropdown" aria-expanded="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Costumização</font></font></a>
 
                   <div class="dropdown-menu dropdown-menu-end navbar-dropdown-menu navbar-dropdown-menu-borderless navbar-dropdown-sub-menu" aria-labelledby="navSubmenuPagesAccountDropdown2">
-                    <a class="dropdown-item" href="#">
-                      Invite people
+                    <a class="dropdown-item" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                      Convidar pessoas
+                    </font></font></a>
+                    <a class="dropdown-item" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                      Análise
+                      </font></font><i class="bi-box-arrow-in-up-right"></i>
                     </a>
-                    <a class="dropdown-item" href="#">
-                      Analytics
-                      <i class="bi-box-arrow-in-up-right"></i>
-                    </a>
-                    <a class="dropdown-item" href="#">
-                      Customize Front
-                      <i class="bi-box-arrow-in-up-right"></i>
+                    <a class="dropdown-item" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                      Personalizar Frente
+                      </font></font><i class="bi-box-arrow-in-up-right"></i>
                     </a>
                   </div>
                 </div>
                 <!-- End Dropdown -->
 
-                <a class="dropdown-item" href="#">Manage team</a>
+                <a class="dropdown-item" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gerenciar equipe</font></font></a>
 
                 <div class="dropdown-divider"></div>
 
-                <a class="dropdown-item" href="#">Sign out</a>
+                <a class="dropdown-item" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">sair</font></font></a>
               </div>
             </div>
             <!-- End Account -->
@@ -938,24 +939,24 @@
   <!-- ========== MAIN CONTENT ========== -->
   <!-- Navbar Vertical -->
 
-  <aside class="js-navbar-vertical-aside navbar navbar-vertical-aside navbar-vertical navbar-vertical-fixed navbar-expand-xl navbar-bordered bg-white  ">
+  <aside class="js-navbar-vertical-aside navbar navbar-vertical-aside navbar-vertical navbar-vertical-fixed navbar-expand-xl navbar-bordered bg-white navbar-vertical-aside-initialized">
     <div class="navbar-vertical-container">
       <div class="navbar-vertical-footer-offset">
         <!-- Logo -->
 
-        <a class="navbar-brand" href="./index.html" aria-label="Front">
-          <img class="navbar-brand-logo" src="./assets/svg/logos/logo.svg" alt="Logo" data-hs-theme-appearance="default">
-          <img class="navbar-brand-logo" src="./assets/svg/logos-light/logo.svg" alt="Logo" data-hs-theme-appearance="dark">
-          <img class="navbar-brand-logo-mini" src="./assets/svg/logos/logo-short.svg" alt="Logo" data-hs-theme-appearance="default">
-          <img class="navbar-brand-logo-mini" src="./assets/svg/logos-light/logo-short.svg" alt="Logo" data-hs-theme-appearance="dark">
+        <a class="navbar-brand" href="./index.html" aria-label="Frente">
+          <img class="navbar-brand-logo" src="./assets/svg/logos/logo.svg" alt="Logotipo" data-hs-theme-appearance="default">
+          <img class="navbar-brand-logo" src="./assets/svg/logos-light/logo.svg" alt="Logotipo" data-hs-theme-appearance="dark">
+          <img class="navbar-brand-logo-mini" src="./assets/svg/logos/logo-short.svg" alt="Logotipo" data-hs-theme-appearance="default">
+          <img class="navbar-brand-logo-mini" src="./assets/svg/logos-light/logo-short.svg" alt="Logotipo" data-hs-theme-appearance="dark">
         </a>
 
         <!-- End Logo -->
 
         <!-- Navbar Vertical Toggle -->
-        <button type="button" class="js-navbar-vertical-aside-toggle-invoker navbar-aside-toggler">
-          <i class="bi-arrow-bar-left navbar-toggler-short-align" data-bs-template='<div class="tooltip d-none d-md-block" role="tooltip"><div class="arrow"></div><div class="tooltip-inner"></div></div>' data-bs-toggle="tooltip" data-bs-placement="right" title="Collapse"></i>
-          <i class="bi-arrow-bar-right navbar-toggler-full-align" data-bs-template='<div class="tooltip d-none d-md-block" role="tooltip"><div class="arrow"></div><div class="tooltip-inner"></div></div>' data-bs-toggle="tooltip" data-bs-placement="right" title="Expand"></i>
+        <button type="button" class="js-navbar-vertical-aside-toggle-invoker navbar-aside-toggler" style="opacity: 1;">
+          <i class="bi-arrow-bar-left navbar-toggler-short-align" data-bs-template="<div class=&quot;tooltip d-none d-md-block&quot; role=&quot;tooltip&quot;><div class=&quot;arrow&quot;></div><div class=&quot;tooltip-inner&quot;></div></div>" data-bs-toggle="tooltip" data-bs-placement="right" aria-label="Colapso" data-bs-original-title="Collapse"></i>
+          <i class="bi-arrow-bar-right navbar-toggler-full-align" data-bs-template="<div class=&quot;tooltip d-none d-md-block&quot; role=&quot;tooltip&quot;><div class=&quot;arrow&quot;></div><div class=&quot;tooltip-inner&quot;></div></div>" data-bs-toggle="tooltip" data-bs-placement="right" aria-label="Expandir" data-bs-original-title="Expand"></i>
         </button>
 
         <!-- End Navbar Vertical Toggle -->
@@ -965,19 +966,19 @@
           <div id="navbarVerticalMenu" class="nav nav-pills nav-vertical card-navbar-nav">
             <!-- Collapse -->
             <div class="nav-item">
-              <a class="nav-link dropdown-toggle active" href="#navbarVerticalMenuDashboards" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuDashboards" aria-expanded="true" aria-controls="navbarVerticalMenuDashboards">
+              <a class="nav-link dropdown-toggle active collapsed" href="#navbarVerticalMenuDashboards" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuDashboards" aria-expanded="false" aria-controls="navbarVerticalMenuDashboards">
                 <i class="bi-house-door nav-icon"></i>
-                <span class="nav-link-title">Dashboards</span>
+                <span class="nav-link-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Painéis</font></font></span>
               </a>
 
-              <div id="navbarVerticalMenuDashboards" class="nav-collapse collapse show" data-bs-parent="#navbarVerticalMenu">
-                <a class="nav-link active" href="./index.html">Default</a>
-                <a class="nav-link " href="./dashboard-alternative.html">Alternative</a>
+              <div id="navbarVerticalMenuDashboards" class="nav-collapse collapse" data-bs-parent="#navbarVerticalMenu" hs-parent-area="#navbarVerticalMenu" style="">
+                <a class="nav-link active" href="./index.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Padrão</font></font></a>
+                <a class="nav-link " href="./dashboard-alternative.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Alternativa</font></font></a>
               </div>
             </div>
             <!-- End Collapse -->
 
-            <span class="dropdown-header mt-4">Pages</span>
+            <span class="dropdown-header mt-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Páginas</font></font></span>
             <small class="bi-three-dots nav-subtitle-replacer"></small>
 
             <!-- Collapse -->
@@ -987,138 +988,138 @@
             <div id="navbarVerticalMenuPagesMenu">
               <!-- Collapse -->
               <div class="nav-item">
-                <a class="nav-link dropdown-toggle " href="#navbarVerticalMenuPagesUsersMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuPagesUsersMenu" aria-expanded="false" aria-controls="navbarVerticalMenuPagesUsersMenu">
+                <a class="nav-link dropdown-toggle collapsed" href="#navbarVerticalMenuPagesUsersMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuPagesUsersMenu" aria-expanded="false" aria-controls="navbarVerticalMenuPagesUsersMenu">
                   <i class="bi-people nav-icon"></i>
-                  <span class="nav-link-title">Users</span>
+                  <span class="nav-link-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Usuários</font></font></span>
                 </a>
 
-                <div id="navbarVerticalMenuPagesUsersMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuPagesMenu">
-                  <a class="nav-link " href="./users.html">Overview</a>
-                  <a class="nav-link " href="./users-leaderboard.html">Leaderboard</a>
-                  <a class="nav-link " href="./users-add-user.html">Add User <span class="badge bg-info rounded-pill ms-1">Hot</span></a>
+                <div id="navbarVerticalMenuPagesUsersMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuPagesMenu" hs-parent-area="#navbarVerticalMenu">
+                  <a class="nav-link " href="./users.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Visão geral</font></font></a>
+                  <a class="nav-link " href="./users-leaderboard.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Entre os melhores</font></font></a>
+                  <a class="nav-link " href="./users-add-user.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Adicionar usuário</font></font><span class="badge bg-info rounded-pill ms-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Quente</font></font></span></a>
                 </div>
               </div>
               <!-- End Collapse -->
 
               <!-- Collapse -->
               <div class="nav-item">
-                <a class="nav-link dropdown-toggle " href="#navbarVerticalMenuPagesUserProfileMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuPagesUserProfileMenu" aria-expanded="false" aria-controls="navbarVerticalMenuPagesUserProfileMenu">
+                <a class="nav-link dropdown-toggle collapsed" href="#navbarVerticalMenuPagesUserProfileMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuPagesUserProfileMenu" aria-expanded="false" aria-controls="navbarVerticalMenuPagesUserProfileMenu">
                   <i class="bi-person nav-icon"></i>
-                  <span class="nav-link-title">User Profile <span class="badge bg-primary rounded-pill ms-1">5</span></span>
+                  <span class="nav-link-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Perfil de usuário</font></font><span class="badge bg-primary rounded-pill ms-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">5</font></font></span></span>
                 </a>
 
-                <div id="navbarVerticalMenuPagesUserProfileMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuPagesMenu">
-                  <a class="nav-link " href="./user-profile.html">Profile</a>
-                  <a class="nav-link " href="./user-profile-teams.html">Teams</a>
-                  <a class="nav-link " href="./user-profile-projects.html">Projects</a>
-                  <a class="nav-link " href="./user-profile-connections.html">Connections</a>
-                  <a class="nav-link " href="./user-profile-my-profile.html">My Profile</a>
+                <div id="navbarVerticalMenuPagesUserProfileMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuPagesMenu" hs-parent-area="#navbarVerticalMenu">
+                  <a class="nav-link " href="./user-profile.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Perfil</font></font></a>
+                  <a class="nav-link " href="./user-profile-teams.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Equipes</font></font></a>
+                  <a class="nav-link " href="./user-profile-projects.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Projetos</font></font></a>
+                  <a class="nav-link " href="./user-profile-connections.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Conexões</font></font></a>
+                  <a class="nav-link " href="./user-profile-my-profile.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Meu perfil</font></font></a>
                 </div>
               </div>
               <!-- End Collapse -->
 
               <!-- Collapse -->
               <div class="nav-item">
-                <a class="nav-link dropdown-toggle " href="#navbarVerticalMenuPagesAccountMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuPagesAccountMenu" aria-expanded="false" aria-controls="navbarVerticalMenuPagesAccountMenu">
+                <a class="nav-link dropdown-toggle collapsed" href="#navbarVerticalMenuPagesAccountMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuPagesAccountMenu" aria-expanded="false" aria-controls="navbarVerticalMenuPagesAccountMenu">
                   <i class="bi-person-badge nav-icon"></i>
-                  <span class="nav-link-title">Account</span>
+                  <span class="nav-link-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Conta</font></font></span>
                 </a>
 
-                <div id="navbarVerticalMenuPagesAccountMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuPagesMenu">
-                  <a class="nav-link " href="./account-settings.html">Settings</a>
-                  <a class="nav-link " href="./account-billing.html">Billing</a>
-                  <a class="nav-link " href="./account-invoice.html">Invoice</a>
+                <div id="navbarVerticalMenuPagesAccountMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuPagesMenu" hs-parent-area="#navbarVerticalMenu">
+                  <a class="nav-link " href="./account-settings.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Configurações</font></font></a>
+                  <a class="nav-link " href="./account-billing.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cobrança</font></font></a>
+                  <a class="nav-link " href="./account-invoice.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Fatura</font></font></a>
                 </div>
               </div>
               <!-- End Collapse -->
 
               <!-- Collapse -->
               <div class="nav-item">
-                <a class="nav-link dropdown-toggle " href="#navbarVerticalMenuPagesEcommerceMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuPagesEcommerceMenu" aria-expanded="false" aria-controls="navbarVerticalMenuPagesEcommerceMenu">
+                <a class="nav-link dropdown-toggle collapsed" href="#navbarVerticalMenuPagesEcommerceMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuPagesEcommerceMenu" aria-expanded="false" aria-controls="navbarVerticalMenuPagesEcommerceMenu">
                   <i class="bi-basket nav-icon"></i>
-                  <span class="nav-link-title">E-commerce</span>
+                  <span class="nav-link-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Comércio eletrônico</font></font></span>
                 </a>
 
-                <div id="navbarVerticalMenuPagesEcommerceMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuPagesMenu">
-                  <a class="nav-link " href="./ecommerce.html">Overview</a>
+                <div id="navbarVerticalMenuPagesEcommerceMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuPagesMenu" hs-parent-area="#navbarVerticalMenu">
+                  <a class="nav-link " href="./ecommerce.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Visão geral</font></font></a>
 
                   <div id="navbarVerticalMenuPagesMenuEcommerce">
                     <!-- Collapse -->
                     <div class="nav-item">
-                      <a class="nav-link dropdown-toggle" href="#navbarVerticalMenuPagesEcommerceProductsMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuPagesEcommerceProductsMenu" aria-expanded="false" aria-controls="navbarVerticalMenuPagesEcommerceProductsMenu">
-                        Products
-                      </a>
+                      <a class="nav-link dropdown-toggle collapsed" href="#navbarVerticalMenuPagesEcommerceProductsMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuPagesEcommerceProductsMenu" aria-expanded="false" aria-controls="navbarVerticalMenuPagesEcommerceProductsMenu"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                        Produtos
+                      </font></font></a>
 
-                      <div id="navbarVerticalMenuPagesEcommerceProductsMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuPagesMenuEcommerce">
-                        <a class="nav-link " href="./ecommerce-products.html">Products</a>
-                        <a class="nav-link " href="./ecommerce-product-details.html">Product Details</a>
-                        <a class="nav-link " href="./ecommerce-add-product.html">Add Product</a>
+                      <div id="navbarVerticalMenuPagesEcommerceProductsMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuPagesMenuEcommerce" hs-parent-area="#navbarVerticalMenuPagesEcommerceMenu">
+                        <a class="nav-link " href="./ecommerce-products.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Produtos</font></font></a>
+                        <a class="nav-link " href="./ecommerce-product-details.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Detalhes do produto</font></font></a>
+                        <a class="nav-link " href="./ecommerce-add-product.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Adicionar produto</font></font></a>
                       </div>
                     </div>
                     <!-- End Collapse -->
 
                     <!-- Collapse -->
                     <div class="nav-item">
-                      <a class="nav-link dropdown-toggle" href="#navbarVerticalMenuPagesEcommerceOrdersMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuPagesEcommerceOrdersMenu" aria-expanded="false" aria-controls="navbarVerticalMenuPagesEcommerceOrdersMenu">
-                        Orders
-                      </a>
+                      <a class="nav-link dropdown-toggle collapsed" href="#navbarVerticalMenuPagesEcommerceOrdersMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuPagesEcommerceOrdersMenu" aria-expanded="false" aria-controls="navbarVerticalMenuPagesEcommerceOrdersMenu"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                        Pedidos
+                      </font></font></a>
 
-                      <div id="navbarVerticalMenuPagesEcommerceOrdersMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuPagesMenuEcommerce">
-                        <a class="nav-link " href="./ecommerce-orders.html">Orders</a>
-                        <a class="nav-link " href="./ecommerce-order-details.html">Order Details</a>
+                      <div id="navbarVerticalMenuPagesEcommerceOrdersMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuPagesMenuEcommerce" hs-parent-area="#navbarVerticalMenuPagesEcommerceMenu">
+                        <a class="nav-link " href="./ecommerce-orders.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pedidos</font></font></a>
+                        <a class="nav-link " href="./ecommerce-order-details.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">detalhes do pedido</font></font></a>
                       </div>
                     </div>
                     <!-- End Collapse -->
 
                     <!-- Collapse -->
                     <div class="nav-item">
-                      <a class="nav-link dropdown-toggle" href="#navbarVerticalMenuPagesEcommerceCustomersMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuPagesEcommerceCustomersMenu" aria-expanded="false" aria-controls="navbarVerticalMenuPagesEcommerceCustomersMenu">
-                        Customers
-                      </a>
+                      <a class="nav-link dropdown-toggle collapsed" href="#navbarVerticalMenuPagesEcommerceCustomersMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuPagesEcommerceCustomersMenu" aria-expanded="false" aria-controls="navbarVerticalMenuPagesEcommerceCustomersMenu"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                        Clientes
+                      </font></font></a>
 
-                      <div id="navbarVerticalMenuPagesEcommerceCustomersMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuPagesMenuEcommerce">
-                        <a class="nav-link " href="./ecommerce-customers.html">Customers</a>
-                        <a class="nav-link " href="./ecommerce-customer-details.html">Customer Details</a>
-                        <a class="nav-link " href="./ecommerce-add-customers.html">Add Customers</a>
+                      <div id="navbarVerticalMenuPagesEcommerceCustomersMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuPagesMenuEcommerce" hs-parent-area="#navbarVerticalMenuPagesEcommerceMenu">
+                        <a class="nav-link " href="./ecommerce-customers.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Clientes</font></font></a>
+                        <a class="nav-link " href="./ecommerce-customer-details.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Detalhes do cliente</font></font></a>
+                        <a class="nav-link " href="./ecommerce-add-customers.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Adicionar clientes</font></font></a>
                       </div>
                     </div>
                     <!-- End Collapse -->
                   </div>
 
-                  <a class="nav-link " href="./ecommerce-referrals.html">Referrals</a>
-                  <a class="nav-link " href="./ecommerce-manage-reviews.html">Manage Reviews</a>
-                  <a class="nav-link " href="./ecommerce-checkout.html">Checkout</a>
+                  <a class="nav-link " href="./ecommerce-referrals.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Referências</font></font></a>
+                  <a class="nav-link " href="./ecommerce-manage-reviews.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gerenciar avaliações</font></font></a>
+                  <a class="nav-link " href="./ecommerce-checkout.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Confira</font></font></a>
                 </div>
               </div>
               <!-- End Collapse -->
 
               <!-- Collapse -->
               <div class="nav-item">
-                <a class="nav-link dropdown-toggle " href="#navbarVerticalMenuPagesProjectsMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuPagesProjectsMenu" aria-expanded="false" aria-controls="navbarVerticalMenuPagesProjectsMenu">
+                <a class="nav-link dropdown-toggle collapsed" href="#navbarVerticalMenuPagesProjectsMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuPagesProjectsMenu" aria-expanded="false" aria-controls="navbarVerticalMenuPagesProjectsMenu">
                   <i class="bi-stickies nav-icon"></i>
-                  <span class="nav-link-title">Projects</span>
+                  <span class="nav-link-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Projetos</font></font></span>
                 </a>
 
-                <div id="navbarVerticalMenuPagesProjectsMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuPagesMenu">
-                  <a class="nav-link " href="./projects.html">Overview</a>
-                  <a class="nav-link " href="./projects-timeline.html">Timeline</a>
+                <div id="navbarVerticalMenuPagesProjectsMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuPagesMenu" hs-parent-area="#navbarVerticalMenu">
+                  <a class="nav-link " href="./projects.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Visão geral</font></font></a>
+                  <a class="nav-link " href="./projects-timeline.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Linha do tempo</font></font></a>
                 </div>
               </div>
               <!-- End Collapse -->
 
               <!-- Collapse -->
               <div class="nav-item">
-                <a class="nav-link dropdown-toggle " href="#navbarVerticalMenuPagesProjectMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuPagesProjectMenu" aria-expanded="false" aria-controls="navbarVerticalMenuPagesProjectMenu">
+                <a class="nav-link dropdown-toggle collapsed" href="#navbarVerticalMenuPagesProjectMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuPagesProjectMenu" aria-expanded="false" aria-controls="navbarVerticalMenuPagesProjectMenu">
                   <i class="bi-briefcase nav-icon"></i>
-                  <span class="nav-link-title">Project</span>
+                  <span class="nav-link-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Projeto</font></font></span>
                 </a>
 
-                <div id="navbarVerticalMenuPagesProjectMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuPagesMenu">
-                  <a class="nav-link " href="./project.html">Overview</a>
-                  <a class="nav-link " href="./project-files.html">Files</a>
-                  <a class="nav-link " href="./project-activity.html">Activity</a>
-                  <a class="nav-link " href="./project-teams.html">Teams</a>
-                  <a class="nav-link " href="./project-settings.html">Settings</a>
+                <div id="navbarVerticalMenuPagesProjectMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuPagesMenu" hs-parent-area="#navbarVerticalMenu">
+                  <a class="nav-link " href="./project.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Visão geral</font></font></a>
+                  <a class="nav-link " href="./project-files.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">arquivos</font></font></a>
+                  <a class="nav-link " href="./project-activity.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Atividade</font></font></a>
+                  <a class="nav-link " href="./project-teams.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Equipes</font></font></a>
+                  <a class="nav-link " href="./project-settings.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Configurações</font></font></a>
                 </div>
               </div>
               <!-- End Collapse -->
@@ -1127,79 +1128,79 @@
               <div class="nav-item">
                 <a class="nav-link dropdown-toggle  collapsed" href="#" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuAuthentication" aria-expanded="false" aria-controls="navbarVerticalMenuAuthentication">
                   <i class="bi-shield-lock nav-icon"></i>
-                  <span class="nav-link-title">Authentication</span>
+                  <span class="nav-link-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Autenticação</font></font></span>
                 </a>
 
-                <div id="navbarVerticalMenuAuthentication" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenu">
+                <div id="navbarVerticalMenuAuthentication" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenu" hs-parent-area="#navbarVerticalMenu">
                   <div id="navbarVerticalMenuAuthenticationMenu">
                     <!-- Collapse -->
                     <div class="nav-item">
-                      <a class="nav-link dropdown-toggle " href="#navbarVerticalMenuAuthenticationLoginMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuAuthenticationLoginMenu" aria-expanded="false" aria-controls="navbarVerticalMenuAuthenticationLoginMenu">
-                        Log In
-                      </a>
+                      <a class="nav-link dropdown-toggle collapsed" href="#navbarVerticalMenuAuthenticationLoginMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuAuthenticationLoginMenu" aria-expanded="false" aria-controls="navbarVerticalMenuAuthenticationLoginMenu"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                        Conecte-se
+                      </font></font></a>
 
-                      <div id="navbarVerticalMenuAuthenticationLoginMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuAuthenticationMenu">
-                        <a class="nav-link " href="./authentication-login-basic.html">Basic</a>
-                        <a class="nav-link " href="./authentication-login-cover.html">Cover</a>
+                      <div id="navbarVerticalMenuAuthenticationLoginMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuAuthenticationMenu" hs-parent-area="#navbarVerticalMenuAuthentication">
+                        <a class="nav-link " href="./authentication-login-basic.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Básico</font></font></a>
+                        <a class="nav-link " href="./authentication-login-cover.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cobrir</font></font></a>
                       </div>
                     </div>
                     <!-- End Collapse -->
 
                     <!-- Collapse -->
                     <div class="nav-item">
-                      <a class="nav-link dropdown-toggle " href="#navbarVerticalMenuAuthenticationSignupMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuAuthenticationSignupMenu" aria-expanded="false" aria-controls="navbarVerticalMenuAuthenticationSignupMenu">
-                        Sign Up
-                      </a>
+                      <a class="nav-link dropdown-toggle collapsed" href="#navbarVerticalMenuAuthenticationSignupMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuAuthenticationSignupMenu" aria-expanded="false" aria-controls="navbarVerticalMenuAuthenticationSignupMenu"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                        Inscrever-se
+                      </font></font></a>
 
-                      <div id="navbarVerticalMenuAuthenticationSignupMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuAuthenticationMenu">
-                        <a class="nav-link " href="./authentication-signup-basic.html">Basic</a>
-                        <a class="nav-link " href="./authentication-signup-cover.html">Cover</a>
+                      <div id="navbarVerticalMenuAuthenticationSignupMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuAuthenticationMenu" hs-parent-area="#navbarVerticalMenuAuthentication">
+                        <a class="nav-link " href="./authentication-signup-basic.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Básico</font></font></a>
+                        <a class="nav-link " href="./authentication-signup-cover.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cobrir</font></font></a>
                       </div>
                     </div>
                     <!-- End Collapse -->
 
                     <!-- Collapse -->
                     <div class="nav-item">
-                      <a class="nav-link dropdown-toggle " href="#navbarVerticalMenuAuthenticationResetPasswordMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuAuthenticationResetPasswordMenu" aria-expanded="false" aria-controls="navbarVerticalMenuAuthenticationResetPasswordMenu">
-                        Reset Password
-                      </a>
+                      <a class="nav-link dropdown-toggle collapsed" href="#navbarVerticalMenuAuthenticationResetPasswordMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuAuthenticationResetPasswordMenu" aria-expanded="false" aria-controls="navbarVerticalMenuAuthenticationResetPasswordMenu"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                        Redefinir senha
+                      </font></font></a>
 
-                      <div id="navbarVerticalMenuAuthenticationResetPasswordMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuAuthenticationMenu">
-                        <a class="nav-link " href="./authentication-reset-password-basic.html">Basic</a>
-                        <a class="nav-link " href="./authentication-reset-password-cover.html">Cover</a>
+                      <div id="navbarVerticalMenuAuthenticationResetPasswordMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuAuthenticationMenu" hs-parent-area="#navbarVerticalMenuAuthentication">
+                        <a class="nav-link " href="./authentication-reset-password-basic.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Básico</font></font></a>
+                        <a class="nav-link " href="./authentication-reset-password-cover.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cobrir</font></font></a>
                       </div>
                     </div>
                     <!-- End Collapse -->
 
                     <!-- Collapse -->
                     <div class="nav-item">
-                      <a class="nav-link dropdown-toggle " href="#navbarVerticalMenuAuthenticationEmailVerificationMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuAuthenticationEmailVerificationMenu" aria-expanded="false" aria-controls="navbarVerticalMenuAuthenticationEmailVerificationMenu">
-                        Email Verification
-                      </a>
+                      <a class="nav-link dropdown-toggle collapsed" href="#navbarVerticalMenuAuthenticationEmailVerificationMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuAuthenticationEmailVerificationMenu" aria-expanded="false" aria-controls="navbarVerticalMenuAuthenticationEmailVerificationMenu"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                        verificação de e-mail
+                      </font></font></a>
 
-                      <div id="navbarVerticalMenuAuthenticationEmailVerificationMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuAuthenticationMenu">
-                        <a class="nav-link " href="./authentication-email-verification-basic.html">Basic</a>
-                        <a class="nav-link " href="./authentication-email-verification-cover.html">Cover</a>
+                      <div id="navbarVerticalMenuAuthenticationEmailVerificationMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuAuthenticationMenu" hs-parent-area="#navbarVerticalMenuAuthentication">
+                        <a class="nav-link " href="./authentication-email-verification-basic.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Básico</font></font></a>
+                        <a class="nav-link " href="./authentication-email-verification-cover.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cobrir</font></font></a>
                       </div>
                     </div>
                     <!-- End Collapse -->
 
                     <!-- Collapse -->
                     <div class="nav-item">
-                      <a class="nav-link dropdown-toggle " href="#navbarVerticalMenuAuthentication2StepVerificationMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuAuthentication2StepVerificationMenu" aria-expanded="false" aria-controls="navbarVerticalMenuAuthentication2StepVerificationMenu">
-                        2-step Verification
-                      </a>
+                      <a class="nav-link dropdown-toggle collapsed" href="#navbarVerticalMenuAuthentication2StepVerificationMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuAuthentication2StepVerificationMenu" aria-expanded="false" aria-controls="navbarVerticalMenuAuthentication2StepVerificationMenu"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                        Verificação em duas etapas
+                      </font></font></a>
 
-                      <div id="navbarVerticalMenuAuthentication2StepVerificationMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuAuthenticationMenu">
-                        <a class="nav-link " href="./authentication-2-step-verification-basic.html">Basic</a>
-                        <a class="nav-link " href="./authentication-2-step-verification-cover.html">Cover</a>
+                      <div id="navbarVerticalMenuAuthentication2StepVerificationMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuAuthenticationMenu" hs-parent-area="#navbarVerticalMenuAuthentication">
+                        <a class="nav-link " href="./authentication-2-step-verification-basic.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Básico</font></font></a>
+                        <a class="nav-link " href="./authentication-2-step-verification-cover.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cobrir</font></font></a>
                       </div>
                     </div>
                     <!-- End Collapse -->
 
-                    <a class="nav-link" href="javascript:;" data-bs-toggle="modal" data-bs-target="#welcomeMessageModal">Welcome Message</a>
-                    <a class="nav-link " href="./error-404.html">Error 404</a>
-                    <a class="nav-link " href="./error-500.html">Error 500</a>
+                    <a class="nav-link" href="javascript:;" data-bs-toggle="modal" data-bs-target="#welcomeMessageModal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mensagem de boas-vindas</font></font></a>
+                    <a class="nav-link " href="./error-404.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Erro 404</font></font></a>
+                    <a class="nav-link " href="./error-500.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Erro 500</font></font></a>
                   </div>
                 </div>
               </div>
@@ -1208,81 +1209,81 @@
               <div class="nav-item">
                 <a class="nav-link " href="./api-keys.html" data-placement="left">
                   <i class="bi-key nav-icon"></i>
-                  <span class="nav-link-title">API Keys</span>
+                  <span class="nav-link-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chaves de API</font></font></span>
                 </a>
               </div>
 
               <div class="nav-item">
                 <a class="nav-link " href="./welcome-page.html" data-placement="left">
                   <i class="bi-eye nav-icon"></i>
-                  <span class="nav-link-title">Welcome Page</span>
+                  <span class="nav-link-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Página de boas-vindas</font></font></span>
                 </a>
               </div>
 
               <div class="nav-item">
                 <a class="nav-link " href="./landing.html" data-placement="left">
                   <i class="bi-box-seam nav-icon"></i>
-                  <span class="nav-link-title">Landing Page <span class="badge bg-info rounded-pill ms-1">New</span></span>
+                  <span class="nav-link-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Página inicial</font></font><span class="badge bg-info rounded-pill ms-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Novo</font></font></span></span>
                 </a>
               </div>
             </div>
             <!-- End Collapse -->
 
-            <span class="dropdown-header mt-4">Apps</span>
+            <span class="dropdown-header mt-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Aplicativos</font></font></span>
             <small class="bi-three-dots nav-subtitle-replacer"></small>
 
             <div class="nav-item">
               <a class="nav-link " href="./apps-kanban.html" data-placement="left">
                 <i class="bi-kanban nav-icon"></i>
-                <span class="nav-link-title">Kanban</span>
+                <span class="nav-link-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Kanban</font></font></span>
               </a>
             </div>
 
             <div class="nav-item">
               <a class="nav-link " href="./apps-calendar.html" data-placement="left">
                 <i class="bi-calendar-week nav-icon"></i>
-                <span class="nav-link-title">Calendar</span>
+                <span class="nav-link-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Calendário</font></font></span>
               </a>
             </div>
 
             <div class="nav-item">
               <a class="nav-link " href="./apps-invoice-generator.html" data-placement="left">
                 <i class="bi-receipt nav-icon"></i>
-                <span class="nav-link-title">Invoice Generator</span>
+                <span class="nav-link-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gerador de faturas</font></font></span>
               </a>
             </div>
 
             <div class="nav-item">
               <a class="nav-link " href="./apps-file-manager.html" data-placement="left">
                 <i class="bi-folder2-open nav-icon"></i>
-                <span class="nav-link-title">File Manager</span>
+                <span class="nav-link-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gerenciador de arquivos</font></font></span>
               </a>
             </div>
 
-            <span class="dropdown-header mt-4">Layouts</span>
+            <span class="dropdown-header mt-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Layouts</font></font></span>
             <small class="bi-three-dots nav-subtitle-replacer"></small>
 
             <div class="nav-item">
               <a class="nav-link " href="./layouts/index.html" data-placement="left">
                 <i class="bi-grid-1x2 nav-icon"></i>
-                <span class="nav-link-title">Layouts</span>
+                <span class="nav-link-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Layouts</font></font></span>
               </a>
             </div>
 
-            <span class="dropdown-header mt-4">Documentation</span>
+            <span class="dropdown-header mt-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Documentação</font></font></span>
             <small class="bi-three-dots nav-subtitle-replacer"></small>
 
             <div class="nav-item">
               <a class="nav-link " href="./documentation/index.html" data-placement="left">
                 <i class="bi-book nav-icon"></i>
-                <span class="nav-link-title">Documentation <span class="badge bg-primary rounded-pill ms-1">v2.1.1</span></span>
+                <span class="nav-link-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Documentação</font></font><span class="badge bg-primary rounded-pill ms-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">v2.1.1</font></font></span></span>
               </a>
             </div>
 
             <div class="nav-item">
               <a class="nav-link " href="./documentation/typography.html" data-placement="left">
                 <i class="bi-layers nav-icon"></i>
-                <span class="nav-link-title">Components</span>
+                <span class="nav-link-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Componentes</font></font></span>
               </a>
             </div>
           </div>
@@ -1296,22 +1297,20 @@
             <li class="navbar-vertical-footer-list-item">
               <!-- Style Switcher -->
               <div class="dropdown dropup">
-                <button type="button" class="btn btn-ghost-secondary btn-icon rounded-circle" id="selectThemeDropdown" data-bs-toggle="dropdown" aria-expanded="false" data-bs-dropdown-animation>
-
-                </button>
+                <button type="button" class="btn btn-ghost-secondary btn-icon rounded-circle" id="selectThemeDropdown" data-bs-toggle="dropdown" aria-expanded="false" data-bs-dropdown-animation=""><i class="bi-brightness-high"></i></button>
 
                 <div class="dropdown-menu navbar-dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="selectThemeDropdown">
                   <a class="dropdown-item" href="#" data-icon="bi-moon-stars" data-value="auto">
                     <i class="bi-moon-stars me-2"></i>
-                    <span class="text-truncate" title="Auto (system default)">Auto (system default)</span>
+                    <span class="text-truncate" title="Automático (padrão do sistema)"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Automático (padrão do sistema)</font></font></span>
                   </a>
-                  <a class="dropdown-item" href="#" data-icon="bi-brightness-high" data-value="default">
+                  <a class="dropdown-item active" href="#" data-icon="bi-brightness-high" data-value="default">
                     <i class="bi-brightness-high me-2"></i>
-                    <span class="text-truncate" title="Default (light mode)">Default (light mode)</span>
+                    <span class="text-truncate" title="Padrão (modo claro)"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Padrão (modo claro)</font></font></span>
                   </a>
-                  <a class="dropdown-item active" href="#" data-icon="bi-moon" data-value="dark">
+                  <a class="dropdown-item" href="#" data-icon="bi-moon" data-value="dark">
                     <i class="bi-moon me-2"></i>
-                    <span class="text-truncate" title="Dark">Dark</span>
+                    <span class="text-truncate" title="Escuro"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Escuro</font></font></span>
                   </a>
                 </div>
               </div>
@@ -1322,23 +1321,23 @@
             <li class="navbar-vertical-footer-list-item">
               <!-- Other Links -->
               <div class="dropdown dropup">
-                <button type="button" class="btn btn-ghost-secondary btn-icon rounded-circle" id="otherLinksDropdown" data-bs-toggle="dropdown" aria-expanded="false" data-bs-dropdown-animation>
+                <button type="button" class="btn btn-ghost-secondary btn-icon rounded-circle" id="otherLinksDropdown" data-bs-toggle="dropdown" aria-expanded="false" data-bs-dropdown-animation="">
                   <i class="bi-info-circle"></i>
                 </button>
 
                 <div class="dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="otherLinksDropdown">
-                  <span class="dropdown-header">Help</span>
+                  <span class="dropdown-header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ajuda</font></font></span>
                   <a class="dropdown-item" href="#">
                     <i class="bi-journals dropdown-item-icon"></i>
-                    <span class="text-truncate" title="Resources &amp; tutorials">Resources &amp; tutorials</span>
+                    <span class="text-truncate" title="Resources &amp; tutorials"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Recursos e tutoriais</font></font></span>
                   </a>
                   <a class="dropdown-item" href="#">
                     <i class="bi-command dropdown-item-icon"></i>
-                    <span class="text-truncate" title="Keyboard shortcuts">Keyboard shortcuts</span>
+                    <span class="text-truncate" title="Keyboard shortcuts"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Atalhos do teclado</font></font></span>
                   </a>
                   <a class="dropdown-item" href="#">
                     <i class="bi-alt dropdown-item-icon"></i>
-                    <span class="text-truncate" title="Connect other apps">Connect other apps</span>
+                    <span class="text-truncate" title="Connect other apps"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Conecte outros aplicativos</font></font></span>
                   </a>
                   <a class="dropdown-item" href="#">
                     <i class="bi-gift dropdown-item-icon"></i>
@@ -1358,8 +1357,8 @@
             <li class="navbar-vertical-footer-list-item">
               <!-- Language -->
               <div class="dropdown dropup">
-                <button type="button" class="btn btn-ghost-secondary btn-icon rounded-circle" id="selectLanguageDropdown" data-bs-toggle="dropdown" aria-expanded="false" data-bs-dropdown-animation>
-                  <img class="avatar avatar-xss avatar-circle" src="./assets/vendor/flag-icon-css/flags/1x1/us.svg" alt="United States Flag">
+                <button type="button" class="btn btn-ghost-secondary btn-icon rounded-circle" id="selectLanguageDropdown" data-bs-toggle="dropdown" aria-expanded="false" data-bs-dropdown-animation="">
+                  <img class="avatar avatar-xss avatar-circle" src="./assets/vendor/flag-icon-css/flags/1x1/us.svg" alt="Bandeira dos Estados Unidos">
                 </button>
 
                 <div class="dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="selectLanguageDropdown">
@@ -1409,14 +1408,14 @@
       <div class="page-header">
         <div class="row align-items-center">
           <div class="col">
-            <h1 class="page-header-title">Dashboard</h1>
+            <h1 class="page-header-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Painel</font></font></h1>
           </div>
           <!-- End Col -->
 
           <div class="col-auto">
             <a class="btn btn-primary" href="javascript:;" data-bs-toggle="modal" data-bs-target="#inviteUserModal">
-              <i class="bi-person-plus-fill me-1"></i> Invite users
-            </a>
+              <i class="bi-person-plus-fill me-1"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Convidar usuários
+            </font></font></a>
           </div>
           <!-- End Col -->
         </div>
@@ -1430,52 +1429,52 @@
           <!-- Card -->
           <a class="card card-hover-shadow h-100" href="#">
             <div class="card-body">
-              <h6 class="card-subtitle">Total Users</h6>
+              <h6 class="card-subtitle"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Total de usuários</font></font></h6>
 
               <div class="row align-items-center gx-2 mb-1">
                 <div class="col-6">
-                  <h2 class="card-title text-inherit">72,540</h2>
+                  <h2 class="card-title text-inherit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">72.540</font></font></h2>
                 </div>
                 <!-- End Col -->
 
                 <div class="col-6">
                   <!-- Chart -->
                   <div class="chartjs-custom" style="height: 3rem;">
-                    <canvas class="js-chart" data-hs-chartjs-options='{
-                              "type": "line",
-                              "data": {
-                                 "labels": ["1 May","2 May","3 May","4 May","5 May","6 May","7 May","8 May","9 May","10 May","11 May","12 May","13 May","14 May","15 May","16 May","17 May","18 May","19 May","20 May","21 May","22 May","23 May","24 May","25 May","26 May","27 May","28 May","29 May","30 May","31 May"],
-                                 "datasets": [{
-                                  "data": [21,20,24,20,18,17,15,17,18,30,31,30,30,35,25,35,35,40,60,90,90,90,85,70,75,70,30,30,30,50,72],
-                                  "backgroundColor": ["rgba(55, 125, 255, 0)", "rgba(255, 255, 255, 0)"],
-                                  "borderColor": "#377dff",
-                                  "borderWidth": 2,
-                                  "pointRadius": 0,
-                                  "pointHoverRadius": 0
+                    <canvas class="js-chart" data-hs-chartjs-options="{
+                              &quot;type&quot;: &quot;line&quot;,
+                              &quot;data&quot;: {
+                                 &quot;labels&quot;: [&quot;1 May&quot;,&quot;2 May&quot;,&quot;3 May&quot;,&quot;4 May&quot;,&quot;5 May&quot;,&quot;6 May&quot;,&quot;7 May&quot;,&quot;8 May&quot;,&quot;9 May&quot;,&quot;10 May&quot;,&quot;11 May&quot;,&quot;12 May&quot;,&quot;13 May&quot;,&quot;14 May&quot;,&quot;15 May&quot;,&quot;16 May&quot;,&quot;17 May&quot;,&quot;18 May&quot;,&quot;19 May&quot;,&quot;20 May&quot;,&quot;21 May&quot;,&quot;22 May&quot;,&quot;23 May&quot;,&quot;24 May&quot;,&quot;25 May&quot;,&quot;26 May&quot;,&quot;27 May&quot;,&quot;28 May&quot;,&quot;29 May&quot;,&quot;30 May&quot;,&quot;31 May&quot;],
+                                 &quot;datasets&quot;: [{
+                                  &quot;data&quot;: [21,20,24,20,18,17,15,17,18,30,31,30,30,35,25,35,35,40,60,90,90,90,85,70,75,70,30,30,30,50,72],
+                                  &quot;backgroundColor&quot;: [&quot;rgba(55, 125, 255, 0)&quot;, &quot;rgba(255, 255, 255, 0)&quot;],
+                                  &quot;borderColor&quot;: &quot;#377dff&quot;,
+                                  &quot;borderWidth&quot;: 2,
+                                  &quot;pointRadius&quot;: 0,
+                                  &quot;pointHoverRadius&quot;: 0
                                 }]
                               },
-                              "options": {
-                                 "scales": {
-                                   "y": {
-                                     "display": false
+                              &quot;options&quot;: {
+                                 &quot;scales&quot;: {
+                                   &quot;y&quot;: {
+                                     &quot;display&quot;: false
                                    },
-                                   "x": {
-                                     "display": false
+                                   &quot;x&quot;: {
+                                     &quot;display&quot;: false
                                    }
                                  },
-                                "hover": {
-                                  "mode": "nearest",
-                                  "intersect": false
+                                &quot;hover&quot;: {
+                                  &quot;mode&quot;: &quot;nearest&quot;,
+                                  &quot;intersect&quot;: false
                                 },
-                                "plugins": {
-                                  "tooltip": {
-                                    "postfix": "k",
-                                    "hasIndicator": true,
-                                    "intersect": false
+                                &quot;plugins&quot;: {
+                                  &quot;tooltip&quot;: {
+                                    &quot;postfix&quot;: &quot;k&quot;,
+                                    &quot;hasIndicator&quot;: true,
+                                    &quot;intersect&quot;: false
                                   }
                                 }
                               }
-                            }'>
+                            }" width="194" height="96" style="display: block; box-sizing: border-box; height: 48px; width: 97px;">
                     </canvas>
                   </div>
                   <!-- End Chart -->
@@ -1485,9 +1484,9 @@
               <!-- End Row -->
 
               <span class="badge bg-soft-success text-success">
-                <i class="bi-graph-up"></i> 12.5%
-              </span>
-              <span class="text-body fs-6 ms-1">from 70,104</span>
+                <i class="bi-graph-up"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">12,5%
+              </font></font></span>
+              <span class="text-body fs-6 ms-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">de 70.104</font></font></span>
             </div>
           </a>
           <!-- End Card -->
@@ -1497,52 +1496,52 @@
           <!-- Card -->
           <a class="card card-hover-shadow h-100" href="#">
             <div class="card-body">
-              <h6 class="card-subtitle">Sessions</h6>
+              <h6 class="card-subtitle"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sessões</font></font></h6>
 
               <div class="row align-items-center gx-2 mb-1">
                 <div class="col-6">
-                  <h2 class="card-title text-inherit">29.4%</h2>
+                  <h2 class="card-title text-inherit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">29,4%</font></font></h2>
                 </div>
                 <!-- End Col -->
 
                 <div class="col-6">
                   <!-- Chart -->
                   <div class="chartjs-custom" style="height: 3rem;">
-                    <canvas class="js-chart" data-hs-chartjs-options='{
-                              "type": "line",
-                              "data": {
-                                 "labels": ["1 May","2 May","3 May","4 May","5 May","6 May","7 May","8 May","9 May","10 May","11 May","12 May","13 May","14 May","15 May","16 May","17 May","18 May","19 May","20 May","21 May","22 May","23 May","24 May","25 May","26 May","27 May","28 May","29 May","30 May","31 May"],
-                                 "datasets": [{
-                                  "data": [21,20,24,20,18,17,15,17,30,30,35,25,18,30,31,35,35,90,90,90,85,100,120,120,120,100,90,75,75,75,90],
-                                  "backgroundColor": ["rgba(55, 125, 255, 0)", "rgba(255, 255, 255, 0)"],
-                                  "borderColor": "#377dff",
-                                  "borderWidth": 2,
-                                  "pointRadius": 0,
-                                  "pointHoverRadius": 0
+                    <canvas class="js-chart" data-hs-chartjs-options="{
+                              &quot;type&quot;: &quot;line&quot;,
+                              &quot;data&quot;: {
+                                 &quot;labels&quot;: [&quot;1 May&quot;,&quot;2 May&quot;,&quot;3 May&quot;,&quot;4 May&quot;,&quot;5 May&quot;,&quot;6 May&quot;,&quot;7 May&quot;,&quot;8 May&quot;,&quot;9 May&quot;,&quot;10 May&quot;,&quot;11 May&quot;,&quot;12 May&quot;,&quot;13 May&quot;,&quot;14 May&quot;,&quot;15 May&quot;,&quot;16 May&quot;,&quot;17 May&quot;,&quot;18 May&quot;,&quot;19 May&quot;,&quot;20 May&quot;,&quot;21 May&quot;,&quot;22 May&quot;,&quot;23 May&quot;,&quot;24 May&quot;,&quot;25 May&quot;,&quot;26 May&quot;,&quot;27 May&quot;,&quot;28 May&quot;,&quot;29 May&quot;,&quot;30 May&quot;,&quot;31 May&quot;],
+                                 &quot;datasets&quot;: [{
+                                  &quot;data&quot;: [21,20,24,20,18,17,15,17,30,30,35,25,18,30,31,35,35,90,90,90,85,100,120,120,120,100,90,75,75,75,90],
+                                  &quot;backgroundColor&quot;: [&quot;rgba(55, 125, 255, 0)&quot;, &quot;rgba(255, 255, 255, 0)&quot;],
+                                  &quot;borderColor&quot;: &quot;#377dff&quot;,
+                                  &quot;borderWidth&quot;: 2,
+                                  &quot;pointRadius&quot;: 0,
+                                  &quot;pointHoverRadius&quot;: 0
                                 }]
                               },
-                              "options": {
-                                 "scales": {
-                                   "y": {
-                                     "display": false
+                              &quot;options&quot;: {
+                                 &quot;scales&quot;: {
+                                   &quot;y&quot;: {
+                                     &quot;display&quot;: false
                                    },
-                                   "x": {
-                                     "display": false
+                                   &quot;x&quot;: {
+                                     &quot;display&quot;: false
                                    }
                                  },
-                                "hover": {
-                                  "mode": "nearest",
-                                  "intersect": false
+                                &quot;hover&quot;: {
+                                  &quot;mode&quot;: &quot;nearest&quot;,
+                                  &quot;intersect&quot;: false
                                 },
-                                "plugins": {
-                                  "tooltip": {
-                                    "postfix": "k",
-                                    "hasIndicator": true,
-                                    "intersect": false
+                                &quot;plugins&quot;: {
+                                  &quot;tooltip&quot;: {
+                                    &quot;postfix&quot;: &quot;k&quot;,
+                                    &quot;hasIndicator&quot;: true,
+                                    &quot;intersect&quot;: false
                                   }
                                 }
                               }
-                            }'>
+                            }" width="194" height="96" style="display: block; box-sizing: border-box; height: 48px; width: 97px;">
                     </canvas>
                   </div>
                   <!-- End Chart -->
@@ -1552,9 +1551,9 @@
               <!-- End Row -->
 
               <span class="badge bg-soft-success text-success">
-                <i class="bi-graph-up"></i> 1.7%
-              </span>
-              <span class="text-body fs-6 ms-1">from 29.1%</span>
+                <i class="bi-graph-up"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1,7%
+              </font></font></span>
+              <span class="text-body fs-6 ms-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">de 29,1%</font></font></span>
             </div>
           </a>
           <!-- End Card -->
@@ -1564,52 +1563,52 @@
           <!-- Card -->
           <a class="card card-hover-shadow h-100" href="#">
             <div class="card-body">
-              <h6 class="card-subtitle">Avg. Click Rate</h6>
+              <h6 class="card-subtitle"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Média </font><font style="vertical-align: inherit;">Taxa de cliques</font></font></h6>
 
               <div class="row align-items-center gx-2 mb-1">
                 <div class="col-6">
-                  <h2 class="card-title text-inherit">56.8%</h2>
+                  <h2 class="card-title text-inherit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">56,8%</font></font></h2>
                 </div>
                 <!-- End Col -->
 
                 <div class="col-6">
                   <!-- Chart -->
                   <div class="chartjs-custom" style="height: 3rem;">
-                    <canvas class="js-chart" data-hs-chartjs-options='{
-                              "type": "line",
-                              "data": {
-                                 "labels": ["1 May","2 May","3 May","4 May","5 May","6 May","7 May","8 May","9 May","10 May","11 May","12 May","13 May","14 May","15 May","16 May","17 May","18 May","19 May","20 May","21 May","22 May","23 May","24 May","25 May","26 May","27 May","28 May","29 May","30 May","31 May"],
-                                 "datasets": [{
-                                  "data": [25,18,30,31,35,35,60,60,60,75,21,20,24,20,18,17,15,17,30,120,120,120,100,90,75,90,90,90,75,70,60],
-                                  "backgroundColor": ["rgba(55, 125, 255, 0)", "rgba(255, 255, 255, 0)"],
-                                  "borderColor": "#377dff",
-                                  "borderWidth": 2,
-                                  "pointRadius": 0,
-                                  "pointHoverRadius": 0
+                    <canvas class="js-chart" data-hs-chartjs-options="{
+                              &quot;type&quot;: &quot;line&quot;,
+                              &quot;data&quot;: {
+                                 &quot;labels&quot;: [&quot;1 May&quot;,&quot;2 May&quot;,&quot;3 May&quot;,&quot;4 May&quot;,&quot;5 May&quot;,&quot;6 May&quot;,&quot;7 May&quot;,&quot;8 May&quot;,&quot;9 May&quot;,&quot;10 May&quot;,&quot;11 May&quot;,&quot;12 May&quot;,&quot;13 May&quot;,&quot;14 May&quot;,&quot;15 May&quot;,&quot;16 May&quot;,&quot;17 May&quot;,&quot;18 May&quot;,&quot;19 May&quot;,&quot;20 May&quot;,&quot;21 May&quot;,&quot;22 May&quot;,&quot;23 May&quot;,&quot;24 May&quot;,&quot;25 May&quot;,&quot;26 May&quot;,&quot;27 May&quot;,&quot;28 May&quot;,&quot;29 May&quot;,&quot;30 May&quot;,&quot;31 May&quot;],
+                                 &quot;datasets&quot;: [{
+                                  &quot;data&quot;: [25,18,30,31,35,35,60,60,60,75,21,20,24,20,18,17,15,17,30,120,120,120,100,90,75,90,90,90,75,70,60],
+                                  &quot;backgroundColor&quot;: [&quot;rgba(55, 125, 255, 0)&quot;, &quot;rgba(255, 255, 255, 0)&quot;],
+                                  &quot;borderColor&quot;: &quot;#377dff&quot;,
+                                  &quot;borderWidth&quot;: 2,
+                                  &quot;pointRadius&quot;: 0,
+                                  &quot;pointHoverRadius&quot;: 0
                                 }]
                               },
-                              "options": {
-                                 "scales": {
-                                   "y": {
-                                     "display": false
+                              &quot;options&quot;: {
+                                 &quot;scales&quot;: {
+                                   &quot;y&quot;: {
+                                     &quot;display&quot;: false
                                    },
-                                   "x": {
-                                     "display": false
+                                   &quot;x&quot;: {
+                                     &quot;display&quot;: false
                                    }
                                  },
-                                "hover": {
-                                  "mode": "nearest",
-                                  "intersect": false
+                                &quot;hover&quot;: {
+                                  &quot;mode&quot;: &quot;nearest&quot;,
+                                  &quot;intersect&quot;: false
                                 },
-                                "plugins": {
-                                  "tooltip": {
-                                    "postfix": "k",
-                                    "hasIndicator": true,
-                                    "intersect": false
+                                &quot;plugins&quot;: {
+                                  &quot;tooltip&quot;: {
+                                    &quot;postfix&quot;: &quot;k&quot;,
+                                    &quot;hasIndicator&quot;: true,
+                                    &quot;intersect&quot;: false
                                   }
                                 }
                               }
-                            }'>
+                            }" width="194" height="96" style="display: block; box-sizing: border-box; height: 48px; width: 97px;">
                     </canvas>
                   </div>
                   <!-- End Chart -->
@@ -1619,9 +1618,9 @@
               <!-- End Row -->
 
               <span class="badge bg-soft-danger text-danger">
-                <i class="bi-graph-down"></i> 4.4%
-              </span>
-              <span class="text-body fs-6 ms-1">from 61.2%</span>
+                <i class="bi-graph-down"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">4,4%
+              </font></font></span>
+              <span class="text-body fs-6 ms-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">de 61,2%</font></font></span>
             </div>
           </a>
           <!-- End Card -->
@@ -1631,52 +1630,52 @@
           <!-- Card -->
           <a class="card card-hover-shadow h-100" href="#">
             <div class="card-body">
-              <h6 class="card-subtitle">Pageviews</h6>
+              <h6 class="card-subtitle"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Visualizações de página</font></font></h6>
 
               <div class="row align-items-center gx-2 mb-1">
                 <div class="col-6">
-                  <h2 class="card-title text-inherit">92,913</h2>
+                  <h2 class="card-title text-inherit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">92.913</font></font></h2>
                 </div>
                 <!-- End Col -->
 
                 <div class="col-6">
                   <!-- Chart -->
                   <div class="chartjs-custom" style="height: 3rem;">
-                    <canvas class="js-chart" data-hs-chartjs-options='{
-                              "type": "line",
-                              "data": {
-                                 "labels": ["1 May","2 May","3 May","4 May","5 May","6 May","7 May","8 May","9 May","10 May","11 May","12 May","13 May","14 May","15 May","16 May","17 May","18 May","19 May","20 May","21 May","22 May","23 May","24 May","25 May","26 May","27 May","28 May","29 May","30 May","31 May"],
-                                 "datasets": [{
-                                  "data": [21,20,24,15,17,30,30,35,35,35,40,60,12,90,90,85,70,75,43,75,90,22,120,120,90,85,100,92,92,92,92],
-                                  "backgroundColor": ["rgba(55, 125, 255, 0)", "rgba(255, 255, 255, 0)"],
-                                  "borderColor": "#377dff",
-                                  "borderWidth": 2,
-                                  "pointRadius": 0,
-                                  "pointHoverRadius": 0
+                    <canvas class="js-chart" data-hs-chartjs-options="{
+                              &quot;type&quot;: &quot;line&quot;,
+                              &quot;data&quot;: {
+                                 &quot;labels&quot;: [&quot;1 May&quot;,&quot;2 May&quot;,&quot;3 May&quot;,&quot;4 May&quot;,&quot;5 May&quot;,&quot;6 May&quot;,&quot;7 May&quot;,&quot;8 May&quot;,&quot;9 May&quot;,&quot;10 May&quot;,&quot;11 May&quot;,&quot;12 May&quot;,&quot;13 May&quot;,&quot;14 May&quot;,&quot;15 May&quot;,&quot;16 May&quot;,&quot;17 May&quot;,&quot;18 May&quot;,&quot;19 May&quot;,&quot;20 May&quot;,&quot;21 May&quot;,&quot;22 May&quot;,&quot;23 May&quot;,&quot;24 May&quot;,&quot;25 May&quot;,&quot;26 May&quot;,&quot;27 May&quot;,&quot;28 May&quot;,&quot;29 May&quot;,&quot;30 May&quot;,&quot;31 May&quot;],
+                                 &quot;datasets&quot;: [{
+                                  &quot;data&quot;: [21,20,24,15,17,30,30,35,35,35,40,60,12,90,90,85,70,75,43,75,90,22,120,120,90,85,100,92,92,92,92],
+                                  &quot;backgroundColor&quot;: [&quot;rgba(55, 125, 255, 0)&quot;, &quot;rgba(255, 255, 255, 0)&quot;],
+                                  &quot;borderColor&quot;: &quot;#377dff&quot;,
+                                  &quot;borderWidth&quot;: 2,
+                                  &quot;pointRadius&quot;: 0,
+                                  &quot;pointHoverRadius&quot;: 0
                                 }]
                               },
-                              "options": {
-                                 "scales": {
-                                   "y": {
-                                     "display": false
+                              &quot;options&quot;: {
+                                 &quot;scales&quot;: {
+                                   &quot;y&quot;: {
+                                     &quot;display&quot;: false
                                    },
-                                   "x": {
-                                     "display": false
+                                   &quot;x&quot;: {
+                                     &quot;display&quot;: false
                                    }
                                  },
-                                "hover": {
-                                  "mode": "nearest",
-                                  "intersect": false
+                                &quot;hover&quot;: {
+                                  &quot;mode&quot;: &quot;nearest&quot;,
+                                  &quot;intersect&quot;: false
                                 },
-                                "plugins": {
-                                  "tooltip": {
-                                    "postfix": "k",
-                                    "hasIndicator": true,
-                                    "intersect": false
+                                &quot;plugins&quot;: {
+                                  &quot;tooltip&quot;: {
+                                    &quot;postfix&quot;: &quot;k&quot;,
+                                    &quot;hasIndicator&quot;: true,
+                                    &quot;intersect&quot;: false
                                   }
                                 }
                               }
-                            }'>
+                            }" width="194" height="96" style="display: block; box-sizing: border-box; height: 48px; width: 97px;">
                     </canvas>
                   </div>
                   <!-- End Chart -->
@@ -1685,8 +1684,8 @@
               </div>
               <!-- End Row -->
 
-              <span class="badge bg-soft-secondary text-body">0.0%</span>
-              <span class="text-body fs-6 ms-1">from 2,913</span>
+              <span class="badge bg-soft-secondary text-body"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">0,0%</font></font></span>
+              <span class="text-body fs-6 ms-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">de 2.913</font></font></span>
             </div>
           </a>
           <!-- End Card -->
@@ -1700,7 +1699,7 @@
           <div class="card h-100">
             <!-- Header -->
             <div class="card-header card-header-content-between">
-              <h4 class="card-header-title">Import data into Front Dashboard</h4>
+              <h4 class="card-header-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Importar dados para o Front Dashboard</font></font></h4>
 
               <!-- Dropdown -->
               <div class="dropdown">
@@ -1736,30 +1735,30 @@
 
             <!-- Body -->
             <div class="card-body">
-              <p>See and talk to your users and leads immediately by importing your data into the Front Dashboard platform.</p>
+              <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Veja e converse com seus usuários e leads imediatamente, importando seus dados para a plataforma Front Dashboard.</font></font></p>
 
               <ul class="list-group list-group-flush list-group-no-gutters">
                 <li class="list-group-item">
-                  <h5 class="card-title">Import users from:</h5>
+                  <h5 class="card-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Importar usuários de:</font></font></h5>
                 </li>
 
                 <!-- List Group Item -->
                 <li class="list-group-item">
                   <div class="d-flex">
                     <div class="flex-shrink-0">
-                      <img class="avatar avatar-xs avatar-4x3" src="./assets/svg/brands/capsule-icon.svg" alt="Image Description">
+                      <img class="avatar avatar-xs avatar-4x3" src="./assets/svg/brands/capsule-icon.svg" alt="Descrição da imagem">
                     </div>
                     <div class="flex-grow-1 ms-3">
                       <div class="row align-items-center">
                         <div class="col">
-                          <h5 class="mb-0">Capsule</h5>
-                          <span class="d-block fs-6 text-body">Users</span>
+                          <h5 class="mb-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cápsula</font></font></h5>
+                          <span class="d-block fs-6 text-body"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Usuários</font></font></span>
                         </div>
                         <!-- End Col -->
 
                         <div class="col-auto">
-                          <a class="btn btn-primary btn-sm" href="#" title="Launch importer" target="_blank">
-                            Launch <span class="d-none d-sm-inline-block">importer</span>
+                          <a class="btn btn-primary btn-sm" href="#" title="Iniciar importador" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                            Lançar</font></font><span class="d-none d-sm-inline-block"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">importador</font></font></span>
                             <i class="bi-box-arrow-up-right ms-1"></i>
                           </a>
                         </div>
@@ -1775,19 +1774,19 @@
                 <li class="list-group-item">
                   <div class="d-flex">
                     <div class="flex-shrink-0">
-                      <img class="avatar avatar-xs avatar-4x3" src="./assets/svg/brands/mailchimp-icon.svg" alt="Image Description">
+                      <img class="avatar avatar-xs avatar-4x3" src="./assets/svg/brands/mailchimp-icon.svg" alt="Descrição da imagem">
                     </div>
                     <div class="flex-grow-1 ms-3">
                       <div class="row align-items-center">
                         <div class="col">
-                          <h5 class="mb-0">Mailchimp</h5>
-                          <span class="d-block fs-6 text-body">Users</span>
+                          <h5 class="mb-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MailChimp</font></font></h5>
+                          <span class="d-block fs-6 text-body"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Usuários</font></font></span>
                         </div>
                         <!-- End Col -->
 
                         <div class="col-auto">
-                          <a class="btn btn-primary btn-sm" href="#" title="Launch importer" target="_blank">
-                            Launch <span class="d-none d-sm-inline-block">importer</span>
+                          <a class="btn btn-primary btn-sm" href="#" title="Iniciar importador" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                            Lançar</font></font><span class="d-none d-sm-inline-block"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">importador</font></font></span>
                             <i class="bi-box-arrow-up-right ms-1"></i>
                           </a>
                         </div>
@@ -1803,19 +1802,19 @@
                 <li class="list-group-item">
                   <div class="d-flex">
                     <div class="flex-shrink-0">
-                      <img class="avatar avatar-xs avatar-4x3" src="./assets/svg/brands/google-webdev-icon.svg" alt="Image Description">
+                      <img class="avatar avatar-xs avatar-4x3" src="./assets/svg/brands/google-webdev-icon.svg" alt="Descrição da imagem">
                     </div>
                     <div class="flex-grow-1 ms-3">
                       <div class="row align-items-center">
                         <div class="col">
-                          <h5 class="mb-0">Webdev</h5>
-                          <span class="d-block fs-6 text-body">Users</span>
+                          <h5 class="mb-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Webdev</font></font></h5>
+                          <span class="d-block fs-6 text-body"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Usuários</font></font></span>
                         </div>
                         <!-- End Col -->
 
                         <div class="col-auto">
-                          <a class="btn btn-primary btn-sm" href="#" title="Launch importer" target="_blank">
-                            Launch <span class="d-none d-sm-inline-block">importer</span>
+                          <a class="btn btn-primary btn-sm" href="#" title="Iniciar importador" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                            Lançar</font></font><span class="d-none d-sm-inline-block"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">importador</font></font></span>
                             <i class="bi-box-arrow-up-right ms-1"></i>
                           </a>
                         </div>
@@ -1827,7 +1826,7 @@
                 </li>
                 <!-- End List Group Item -->
 
-                <li class="list-group-item"><span class="small text-muted">Or you can <a class="link" href="#">sync data to Front Dashboard</a> to ensure your data is always up-to-date.</span></li>
+                <li class="list-group-item"><span class="small text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ou você pode </font></font><a class="link" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">sincronizar dados com o Front Dashboard</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> para garantir que seus dados estejam sempre atualizados.</font></font></span></li>
               </ul>
             </div>
             <!-- End Body -->
@@ -1841,15 +1840,15 @@
           <div class="card h-100">
             <!-- Header -->
             <div class="card-header card-header-content-sm-between">
-              <h4 class="card-header-title mb-2 mb-sm-0">Monthly expenses</h4>
+              <h4 class="card-header-title mb-2 mb-sm-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Despesas mensais</font></font></h4>
 
               <!-- Nav -->
               <ul class="nav nav-segment nav-fill" id="expensesTab" role="tablist">
-                <li class="nav-item" data-bs-toggle="chart-bar" data-datasets="thisWeek" data-trigger="click" data-action="toggle">
-                  <a class="nav-link active" href="javascript:;" data-bs-toggle="tab">This week</a>
+                <li class="nav-item" data-bs-toggle="chart-bar" data-datasets="thisWeek" data-trigger="click" data-action="toggle" role="presentation">
+                  <a class="nav-link active" href="javascript:;" data-bs-toggle="tab" aria-selected="true" role="tab"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Essa semana</font></font></a>
                 </li>
-                <li class="nav-item" data-bs-toggle="chart-bar" data-datasets="lastWeek" data-trigger="click" data-action="toggle">
-                  <a class="nav-link" href="javascript:;" data-bs-toggle="tab">Last week</a>
+                <li class="nav-item" data-bs-toggle="chart-bar" data-datasets="lastWeek" data-trigger="click" data-action="toggle" role="presentation">
+                  <a class="nav-link" href="javascript:;" data-bs-toggle="tab" aria-selected="false" tabindex="-1" role="tab"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Semana passada</font></font></a>
                 </li>
               </ul>
               <!-- End Nav -->
@@ -1861,10 +1860,10 @@
               <div class="row mb-4">
                 <div class="col-sm mb-2 mb-sm-0">
                   <div class="d-flex align-items-center">
-                    <span class="h1 mb-0">35%</span>
+                    <span class="h1 mb-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">35%</font></font></span>
                     <span class="text-success ms-2">
-                      <i class="bi-graph-up"></i> 25.3%
-                    </span>
+                      <i class="bi-graph-up"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">25,3%
+                    </font></font></span>
                   </div>
                 </div>
                 <!-- End Col -->
@@ -1872,13 +1871,13 @@
                 <div class="col-sm-auto align-self-sm-end">
                   <div class="row fs-6 text-body">
                     <div class="col-auto">
-                      <span class="legend-indicator bg-primary"></span> New
-                    </div>
+                      <span class="legend-indicator bg-primary"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Novo
+                    </font></font></div>
                     <!-- End Col -->
 
                     <div class="col-auto">
-                      <span class="legend-indicator"></span> Overdue
-                    </div>
+                      <span class="legend-indicator"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Atrasado
+                    </font></font></div>
                     <!-- End Col -->
                   </div>
                   <!-- End Row -->
@@ -1889,72 +1888,72 @@
 
               <!-- Bar Chart -->
               <div class="chartjs-custom">
-                <canvas id="updatingBarChart" style="height: 20rem;" data-hs-chartjs-options='{
-                          "type": "bar",
-                          "data": {
-                            "labels": ["May 1", "May 2", "May 3", "May 4", "May 5", "May 6", "May 7", "May 8", "May 9", "May 10"],
-                            "datasets": [{
-                              "data": [200, 300, 290, 350, 150, 350, 300, 100, 125, 220],
-                              "backgroundColor": "#377dff",
-                              "hoverBackgroundColor": "#377dff",
-                              "borderColor": "#377dff",
-                              "maxBarThickness": "10"
+                <canvas id="updatingBarChart" style="height: 320px; display: block; box-sizing: border-box; width: 562.5px;" data-hs-chartjs-options="{
+                          &quot;type&quot;: &quot;bar&quot;,
+                          &quot;data&quot;: {
+                            &quot;labels&quot;: [&quot;May 1&quot;, &quot;May 2&quot;, &quot;May 3&quot;, &quot;May 4&quot;, &quot;May 5&quot;, &quot;May 6&quot;, &quot;May 7&quot;, &quot;May 8&quot;, &quot;May 9&quot;, &quot;May 10&quot;],
+                            &quot;datasets&quot;: [{
+                              &quot;data&quot;: [200, 300, 290, 350, 150, 350, 300, 100, 125, 220],
+                              &quot;backgroundColor&quot;: &quot;#377dff&quot;,
+                              &quot;hoverBackgroundColor&quot;: &quot;#377dff&quot;,
+                              &quot;borderColor&quot;: &quot;#377dff&quot;,
+                              &quot;maxBarThickness&quot;: &quot;10&quot;
                             },
                             {
-                              "data": [150, 230, 382, 204, 169, 290, 300, 100, 300, 225, 120],
-                              "backgroundColor": "#e7eaf3",
-                              "borderColor": "#e7eaf3",
-                              "maxBarThickness": "10"
+                              &quot;data&quot;: [150, 230, 382, 204, 169, 290, 300, 100, 300, 225, 120],
+                              &quot;backgroundColor&quot;: &quot;#e7eaf3&quot;,
+                              &quot;borderColor&quot;: &quot;#e7eaf3&quot;,
+                              &quot;maxBarThickness&quot;: &quot;10&quot;
                             }]
                           },
-                          "options": {
-                            "scales": {
-                              "y": {
-                                "grid": {
-                                  "color": "#e7eaf3",
-                                  "drawBorder": false,
-                                  "zeroLineColor": "#e7eaf3"
+                          &quot;options&quot;: {
+                            &quot;scales&quot;: {
+                              &quot;y&quot;: {
+                                &quot;grid&quot;: {
+                                  &quot;color&quot;: &quot;#e7eaf3&quot;,
+                                  &quot;drawBorder&quot;: false,
+                                  &quot;zeroLineColor&quot;: &quot;#e7eaf3&quot;
                                 },
-                                "ticks": {
-                                  "beginAtZero": true,
-                                  "stepSize": 100,
-                                  "fontSize": 12,
-                                  "fontColor":  "#97a4af",
-                                  "fontFamily": "Open Sans, sans-serif",
-                                  "padding": 10,
-                                  "postfix": "$"
+                                &quot;ticks&quot;: {
+                                  &quot;beginAtZero&quot;: true,
+                                  &quot;stepSize&quot;: 100,
+                                  &quot;fontSize&quot;: 12,
+                                  &quot;fontColor&quot;:  &quot;#97a4af&quot;,
+                                  &quot;fontFamily&quot;: &quot;Open Sans, sans-serif&quot;,
+                                  &quot;padding&quot;: 10,
+                                  &quot;postfix&quot;: &quot;$&quot;
                                 }
                               },
-                              "x": {
-                                "grid": {
-                                  "display": false,
-                                  "drawBorder": false
+                              &quot;x&quot;: {
+                                &quot;grid&quot;: {
+                                  &quot;display&quot;: false,
+                                  &quot;drawBorder&quot;: false
                                 },
-                                "ticks": {
-                                  "fontSize": 12,
-                                  "fontColor":  "#97a4af",
-                                  "fontFamily": "Open Sans, sans-serif",
-                                  "padding": 5
+                                &quot;ticks&quot;: {
+                                  &quot;fontSize&quot;: 12,
+                                  &quot;fontColor&quot;:  &quot;#97a4af&quot;,
+                                  &quot;fontFamily&quot;: &quot;Open Sans, sans-serif&quot;,
+                                  &quot;padding&quot;: 5
                                 },
-                                "categoryPercentage": 0.5,
-                                "maxBarThickness": "10"
+                                &quot;categoryPercentage&quot;: 0.5,
+                                &quot;maxBarThickness&quot;: &quot;10&quot;
                               }
                             },
-                            "cornerRadius": 2,
-                            "plugins": {
-                              "tooltip": {
-                                "prefix": "$",
-                                "hasIndicator": true,
-                                "mode": "index",
-                                "intersect": false
+                            &quot;cornerRadius&quot;: 2,
+                            &quot;plugins&quot;: {
+                              &quot;tooltip&quot;: {
+                                &quot;prefix&quot;: &quot;$&quot;,
+                                &quot;hasIndicator&quot;: true,
+                                &quot;mode&quot;: &quot;index&quot;,
+                                &quot;intersect&quot;: false
                               }
                             },
-                            "hover": {
-                              "mode": "nearest",
-                              "intersect": true
+                            &quot;hover&quot;: {
+                              &quot;mode&quot;: &quot;nearest&quot;,
+                              &quot;intersect&quot;: true
                             }
                           }
-                        }'></canvas>
+                        }" width="1125" height="640"></canvas>
               </div>
               <!-- End Bar Chart -->
             </div>
@@ -1973,7 +1972,7 @@
           <div class="row justify-content-between align-items-center flex-grow-1">
             <div class="col-md">
               <div class="d-flex justify-content-between align-items-center">
-                <h4 class="card-header-title">Users</h4>
+                <h4 class="card-header-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Usuários</font></font></h4>
 
                 <!-- Datatable Info -->
                 <div id="datatableCounterInfo" style="display: none;">
@@ -1998,23 +1997,23 @@
                 <div class="col-sm-auto">
                   <div class="row align-items-center gx-0">
                     <div class="col">
-                      <span class="text-secondary me-2">Status:</span>
+                      <span class="text-secondary me-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Status:</font></font></span>
                     </div>
                     <!-- End Col -->
 
                     <div class="col-auto">
                       <!-- Select -->
                       <div class="tom-select-custom tom-select-custom-end">
-                        <select class="js-select js-datatable-filter form-select form-select-sm form-select-borderless" data-target-column-index="2" data-target-table="datatable" autocomplete="off" data-hs-tom-select-options='{
-                                  "searchInDropdown": false,
-                                  "hideSearch": true,
-                                  "dropdownWidth": "10rem"
-                                }'>
-                          <option value="null" selected>All</option>
-                          <option value="successful">Successful</option>
-                          <option value="overdue">Overdue</option>
-                          <option value="pending">Pending</option>
-                        </select>
+                        <select class="js-select js-datatable-filter form-select form-select-sm form-select-borderless tomselected ts-hidden-accessible" data-target-column-index="2" data-target-table="datatable" autocomplete="off" data-hs-tom-select-options="{
+                                  &quot;searchInDropdown&quot;: false,
+                                  &quot;hideSearch&quot;: true,
+                                  &quot;dropdownWidth&quot;: &quot;10rem&quot;
+                                }" id="tomselect-1" tabindex="-1">
+                          
+                          <option value="successful"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bem-sucedido</font></font></option>
+                          <option value="overdue"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Atrasado</font></font></option>
+                          <option value="pending"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pendente</font></font></option>
+                        <option value="null" selected=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Todos</font></font></option></select><div class="ts-wrapper js-select js-datatable-filter form-select form-select-sm form-select-borderless single plugin-change_listener plugin-hs_smart_position input-hidden full has-items"><div class="ts-control"><div data-value="null" class="item" data-ts-item=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Todos</font></font></div></div><div class="tom-select-custom"><div class="ts-dropdown single plugin-change_listener plugin-hs_smart_position" style="display: none;"><div role="listbox" tabindex="-1" class="ts-dropdown-content" id="tomselect-1-ts-dropdown"></div></div></div></div>
                       </div>
                       <!-- End Select -->
                     </div>
@@ -2027,22 +2026,22 @@
                 <div class="col-sm-auto">
                   <div class="row align-items-center gx-0">
                     <div class="col">
-                      <span class="text-secondary me-2">Signed up:</span>
+                      <span class="text-secondary me-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Inscreveu-se:</font></font></span>
                     </div>
                     <!-- End Col -->
 
                     <div class="col-auto">
                       <!-- Select -->
                       <div class="tom-select-custom tom-select-custom-end">
-                        <select class="js-select js-datatable-filter form-select form-select-sm form-select-borderless" data-target-column-index="5" data-target-table="datatable" autocomplete="off" data-hs-tom-select-options='{
-                                  "searchInDropdown": false,
-                                  "hideSearch": true,
-                                  "dropdownWidth": "10rem"
-                                }'>
-                          <option value="null" selected>All</option>
-                          <option value="1 year ago">1 year ago</option>
-                          <option value="6 months ago">6 months ago</option>
-                        </select>
+                        <select class="js-select js-datatable-filter form-select form-select-sm form-select-borderless tomselected ts-hidden-accessible" data-target-column-index="5" data-target-table="datatable" autocomplete="off" data-hs-tom-select-options="{
+                                  &quot;searchInDropdown&quot;: false,
+                                  &quot;hideSearch&quot;: true,
+                                  &quot;dropdownWidth&quot;: &quot;10rem&quot;
+                                }" id="tomselect-2" tabindex="-1">
+                          
+                          <option value="1 year ago"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1 ano atrás</font></font></option>
+                          <option value="6 months ago"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">6 meses atrás</font></font></option>
+                        <option value="null" selected=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Todos</font></font></option></select><div class="ts-wrapper js-select js-datatable-filter form-select form-select-sm form-select-borderless single plugin-change_listener plugin-hs_smart_position input-hidden full has-items"><div class="ts-control"><div data-value="null" class="item" data-ts-item=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Todos</font></font></div></div><div class="tom-select-custom"><div class="ts-dropdown single plugin-change_listener plugin-hs_smart_position" style="display: none;"><div role="listbox" tabindex="-1" class="ts-dropdown-content" id="tomselect-2-ts-dropdown"></div></div></div></div>
                       </div>
                       <!-- End Select -->
                     </div>
@@ -2059,7 +2058,7 @@
                       <div class="input-group-prepend input-group-text">
                         <i class="bi-search"></i>
                       </div>
-                      <input id="datatableSearch" type="search" class="form-control" placeholder="Search users" aria-label="Search users">
+                      <input id="datatableSearch" type="search" class="form-control" placeholder="Pesquisar usuários" aria-label="Pesquisar usuários">
                     </div>
                     <!-- End Search -->
                   </form>
@@ -2076,41 +2075,71 @@
 
         <!-- Table -->
         <div class="table-responsive datatable-custom">
-          <table id="datatable" class="table table-borderless table-thead-bordered table-nowrap table-align-middle card-table" data-hs-datatables-options='{
-                   "columnDefs": [{
-                      "targets": [0, 1, 4],
-                      "orderable": false
+          <div id="datatable_wrapper" class="dataTables_wrapper no-footer"><div class="dataTables_length" id="datatable_length"><label>Show <select name="datatable_length" aria-controls="datatable" class=""><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div><div id="datatable_filter" class="dataTables_filter"><label>Search:<input type="search" class="" placeholder="" aria-controls="datatable"></label></div><table id="datatable" class="table table-borderless table-thead-bordered table-nowrap table-align-middle card-table dataTable no-footer" data-hs-datatables-options="{
+                   &quot;columnDefs&quot;: [{
+                      &quot;targets&quot;: [0, 1, 4],
+                      &quot;orderable&quot;: false
                     }],
-                   "order": [],
-                   "info": {
-                     "totalQty": "#datatableWithPaginationInfoTotalQty"
+                   &quot;order&quot;: [],
+                   &quot;info&quot;: {
+                     &quot;totalQty&quot;: &quot;#datatableWithPaginationInfoTotalQty&quot;
                    },
-                   "search": "#datatableSearch",
-                   "entries": "#datatableEntries",
-                   "pageLength": 8,
-                   "isResponsive": false,
-                   "isShowPaging": false,
-                   "pagination": "datatablePagination"
-                 }'>
+                   &quot;search&quot;: &quot;#datatableSearch&quot;,
+                   &quot;entries&quot;: &quot;#datatableEntries&quot;,
+                   &quot;pageLength&quot;: 8,
+                   &quot;isResponsive&quot;: false,
+                   &quot;isShowPaging&quot;: false,
+                   &quot;pagination&quot;: &quot;datatablePagination&quot;
+                 }" role="grid" aria-describedby="datatable_info">
             <thead class="thead-light">
-              <tr>
-                <th scope="col" class="table-column-pe-0">
+              <tr role="row"><th scope="col" class="table-column-pe-0 sorting_disabled" rowspan="1" colspan="1" aria-label="
+                  
+                    
+                    
+                  
+                " style="width: 36.2266px;">
                   <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="datatableCheckAll">
                     <label class="form-check-label" for="datatableCheckAll"></label>
                   </div>
-                </th>
-                <th class="table-column-ps-0">Full name</th>
-                <th>Status</th>
-                <th>Type</th>
-                <th>Email</th>
-                <th>Signed up</th>
-                <th>User ID</th>
-              </tr>
+                </th><th class="table-column-ps-0 sorting_disabled" rowspan="1" colspan="1" aria-label="Nome completo" style="width: 235.211px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nome completo</font></font></th><th class="sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="Status: ativar para classificar a coluna em ordem crescente" style="width: 122.055px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Status</font></font></th><th class="sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="Tipo: ativar para classificar a coluna em ordem crescente" style="width: 157.453px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tipo</font></font></th><th class="sorting_disabled" rowspan="1" colspan="1" aria-label="E-mail" style="width: 166.375px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">E-mail</font></font></th><th class="sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="Inscrito: ative para classificar a coluna em ordem crescente" style="width: 127.078px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Inscrito</font></font></th><th class="sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="ID do usuário: ativar para classificar a coluna em ordem crescente" style="width: 94.602px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ID do usuário</font></font></th></tr>
             </thead>
 
             <tbody>
-              <tr>
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+
+              
+            <tr role="row" class="odd">
                 <td class="table-column-pe-0">
                   <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="usersDataCheck2">
@@ -2121,24 +2150,22 @@
                   <a class="d-flex align-items-center" href="./user-profile.html">
                     <div class="flex-shrink-0">
                       <div class="avatar avatar-sm avatar-circle">
-                        <img class="avatar-img" src="./assets/img/160x160/img10.jpg" alt="Image Description">
+                        <img class="avatar-img" src="./assets/img/160x160/img10.jpg" alt="Descrição da imagem">
                       </div>
                     </div>
                     <div class="flex-grow-1 ms-3">
-                      <h5 class="text-inherit mb-0">Amanda Harvey <i class="bi-patch-check-fill text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Top endorsed"></i></h5>
+                      <h5 class="text-inherit mb-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Amanda Harvey</font></font><i class="bi-patch-check-fill text-primary" data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Mais endossado" data-bs-original-title="Top endorsed"></i></h5>
                     </div>
                   </a>
                 </td>
                 <td>
-                  <span class="legend-indicator bg-success"></span>Successful
-                </td>
-                <td>Unassigned</td>
-                <td>amanda@site.com</td>
-                <td>1 year ago</td>
-                <td>67989</td>
-              </tr>
-
-              <tr>
+                  <span class="legend-indicator bg-success"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bem-sucedido
+                </font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Não atribuído</font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">amanda@site.com</font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1 ano atrás</font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">67989</font></font></td>
+              </tr><tr role="row" class="even">
                 <td class="table-column-pe-0">
                   <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="usersDataCheck3">
@@ -2149,24 +2176,22 @@
                   <a class="d-flex align-items-center" href="./user-profile.html">
                     <div class="flex-shrink-0">
                       <div class="avatar avatar-sm avatar-soft-primary avatar-circle">
-                        <span class="avatar-initials">A</span>
+                        <span class="avatar-initials"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">A</font></font></span>
                       </div>
                     </div>
                     <div class="flex-grow-1 ms-3">
-                      <h5 class="text-inherit mb-0">Anne Richard</h5>
+                      <h5 class="text-inherit mb-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ana Ricardo</font></font></h5>
                     </div>
                   </a>
                 </td>
                 <td>
-                  <span class="legend-indicator bg-success"></span>Successful
-                </td>
-                <td>Subscription</td>
-                <td>anne@site.com</td>
-                <td>6 months ago</td>
-                <td>67326</td>
-              </tr>
-
-              <tr>
+                  <span class="legend-indicator bg-success"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bem-sucedido
+                </font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Inscrição</font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">anne@site.com</font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">6 meses atrás</font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">67326</font></font></td>
+              </tr><tr role="row" class="odd">
                 <td class="table-column-pe-0">
                   <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="usersDataCheck4">
@@ -2177,24 +2202,22 @@
                   <a class="d-flex align-items-center" href="./user-profile.html">
                     <div class="flex-shrink-0">
                       <div class="avatar avatar-sm avatar-circle">
-                        <img class="avatar-img" src="./assets/img/160x160/img3.jpg" alt="Image Description">
+                        <img class="avatar-img" src="./assets/img/160x160/img3.jpg" alt="Descrição da imagem">
                       </div>
                     </div>
                     <div class="flex-grow-1 ms-3">
-                      <h5 class="text-inherit mb-0">David Harrison</h5>
+                      <h5 class="text-inherit mb-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">David Harrison</font></font></h5>
                     </div>
                   </a>
                 </td>
                 <td>
-                  <span class="legend-indicator bg-danger"></span>Overdue
-                </td>
-                <td>Non-subscription</td>
-                <td>david@site.com</td>
-                <td>6 months ago</td>
-                <td>55821</td>
-              </tr>
-
-              <tr>
+                  <span class="legend-indicator bg-danger"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Atrasado
+                </font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Não assinatura</font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">david@site.com</font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">6 meses atrás</font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">55821</font></font></td>
+              </tr><tr role="row" class="even">
                 <td class="table-column-pe-0">
                   <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="usersDataCheck5">
@@ -2205,24 +2228,22 @@
                   <a class="d-flex align-items-center" href="./user-profile.html">
                     <div class="flex-shrink-0">
                       <div class="avatar avatar-sm avatar-circle">
-                        <img class="avatar-img" src="./assets/img/160x160/img5.jpg" alt="Image Description">
+                        <img class="avatar-img" src="./assets/img/160x160/img5.jpg" alt="Descrição da imagem">
                       </div>
                     </div>
                     <div class="flex-grow-1 ms-3">
-                      <h5 class="text-inherit mb-0">Finch Hoot</h5>
+                      <h5 class="text-inherit mb-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Passarinho</font></font></h5>
                     </div>
                   </a>
                 </td>
                 <td>
-                  <span class="legend-indicator bg-warning"></span>Pending
-                </td>
-                <td>Subscription</td>
-                <td>finch@site.com</td>
-                <td>1 year ago</td>
-                <td>85214</td>
-              </tr>
-
-              <tr>
+                  <span class="legend-indicator bg-warning"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pendente
+                </font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Inscrição</font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">finch@site.com</font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1 ano atrás</font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">85214</font></font></td>
+              </tr><tr role="row" class="odd">
                 <td class="table-column-pe-0">
                   <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="usersDataCheck6">
@@ -2233,24 +2254,22 @@
                   <a class="d-flex align-items-center" href="./user-profile.html">
                     <div class="flex-shrink-0">
                       <div class="avatar avatar-sm avatar-soft-dark avatar-circle">
-                        <span class="avatar-initials">B</span>
+                        <span class="avatar-initials"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">B</font></font></span>
                       </div>
                     </div>
                     <div class="flex-grow-1 ms-3">
-                      <h5 class="text-inherit mb-0">Bob Dean</h5>
+                      <h5 class="text-inherit mb-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bob Dean</font></font></h5>
                     </div>
                   </a>
                 </td>
                 <td>
-                  <span class="legend-indicator bg-success"></span>Successful
-                </td>
-                <td>Subscription</td>
-                <td>bob@site.com</td>
-                <td>6 months ago</td>
-                <td>75470</td>
-              </tr>
-
-              <tr>
+                  <span class="legend-indicator bg-success"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bem-sucedido
+                </font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Inscrição</font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">bob@site.com</font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">6 meses atrás</font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">75470</font></font></td>
+              </tr><tr role="row" class="even">
                 <td class="table-column-pe-0">
                   <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="usersDataCheck7">
@@ -2261,24 +2280,22 @@
                   <a class="d-flex align-items-center" href="./user-profile.html">
                     <div class="flex-shrink-0">
                       <div class="avatar avatar-sm avatar-circle">
-                        <img class="avatar-img" src="./assets/img/160x160/img9.jpg" alt="Image Description">
+                        <img class="avatar-img" src="./assets/img/160x160/img9.jpg" alt="Descrição da imagem">
                       </div>
                     </div>
                     <div class="flex-grow-1 ms-3">
-                      <h5 class="text-inherit mb-0">Ella Lauda <i class="bi-patch-check-fill text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Top endorsed"></i></h5>
+                      <h5 class="text-inherit mb-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ela Lauda</font></font><i class="bi-patch-check-fill text-primary" data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Mais endossado" data-bs-original-title="Top endorsed"></i></h5>
                     </div>
                   </a>
                 </td>
                 <td>
-                  <span class="legend-indicator bg-warning"></span>Pending
-                </td>
-                <td>Subscription</td>
-                <td>Ella@site.com</td>
-                <td>1 year ago</td>
-                <td>37534</td>
-              </tr>
-
-              <tr>
+                  <span class="legend-indicator bg-warning"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pendente
+                </font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Inscrição</font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ella@site.com</font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1 ano atrás</font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">37534</font></font></td>
+              </tr><tr role="row" class="odd">
                 <td class="table-column-pe-0">
                   <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="usersDataCheck8">
@@ -2289,24 +2306,22 @@
                   <a class="d-flex align-items-center" href="./user-profile.html">
                     <div class="flex-shrink-0">
                       <div class="avatar avatar-sm avatar-circle">
-                        <img class="avatar-img" src="./assets/img/160x160/img4.jpg" alt="Image Description">
+                        <img class="avatar-img" src="./assets/img/160x160/img4.jpg" alt="Descrição da imagem">
                       </div>
                     </div>
                     <div class="flex-grow-1 ms-3">
-                      <h5 class="text-inherit mb-0">Sam Kart</h5>
+                      <h5 class="text-inherit mb-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sam Kart</font></font></h5>
                     </div>
                   </a>
                 </td>
                 <td>
-                  <span class="legend-indicator bg-success"></span>Successful
-                </td>
-                <td>Non-subscription</td>
-                <td>sam@site.com</td>
-                <td>1 year ago</td>
-                <td>57300</td>
-              </tr>
-
-              <tr>
+                  <span class="legend-indicator bg-success"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bem-sucedido
+                </font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Não assinatura</font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">sam@site.com</font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1 ano atrás</font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">57300</font></font></td>
+              </tr><tr role="row" class="even">
                 <td class="table-column-pe-0">
                   <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="usersDataCheck9">
@@ -2317,276 +2332,23 @@
                   <a class="d-flex align-items-center" href="./user-profile.html">
                     <div class="flex-shrink-0">
                       <div class="avatar avatar-sm avatar-circle">
-                        <img class="avatar-img" src="./assets/img/160x160/img6.jpg" alt="Image Description">
+                        <img class="avatar-img" src="./assets/img/160x160/img6.jpg" alt="Descrição da imagem">
                       </div>
                     </div>
                     <div class="flex-grow-1 ms-3">
-                      <h5 class="text-inherit mb-0">Costa Quinn</h5>
+                      <h5 class="text-inherit mb-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Costa Quinn</font></font></h5>
                     </div>
                   </a>
                 </td>
                 <td>
-                  <span class="legend-indicator bg-danger"></span>Overdue
-                </td>
-                <td>Unassigned</td>
-                <td>costa@site.com</td>
-                <td>1 year ago</td>
-                <td>71288</td>
-              </tr>
-
-              <tr>
-                <td class="table-column-pe-0">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="usersDataCheck10">
-                    <label class="form-check-label" for="usersDataCheck10"></label>
-                  </div>
-                </td>
-                <td class="table-column-ps-0">
-                  <a class="d-flex align-items-center" href="./user-profile.html">
-                    <div class="flex-shrink-0">
-                      <div class="avatar avatar-sm avatar-soft-primary avatar-circle">
-                        <span class="avatar-initials">R</span>
-                      </div>
-                    </div>
-                    <div class="flex-grow-1 ms-3">
-                      <h5 class="text-inherit mb-0">Rachel Doe</h5>
-                    </div>
-                  </a>
-                </td>
-                <td>
-                  <span class="legend-indicator bg-warning"></span>Pending
-                </td>
-                <td>Unassigned</td>
-                <td>rachel@site.com</td>
-                <td>6 months ago</td>
-                <td>95211</td>
-              </tr>
-
-              <tr>
-                <td class="table-column-pe-0">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="usersDataCheck11">
-                    <label class="form-check-label" for="usersDataCheck11"></label>
-                  </div>
-                </td>
-                <td class="table-column-ps-0">
-                  <a class="d-flex align-items-center" href="./user-profile.html">
-                    <div class="flex-shrink-0">
-                      <div class="avatar avatar-sm avatar-soft-dark avatar-circle">
-                        <span class="avatar-initials">B</span>
-                      </div>
-                    </div>
-                    <div class="flex-grow-1 ms-3">
-                      <h5 class="text-inherit mb-0">Brian Halligan</h5>
-                    </div>
-                  </a>
-                </td>
-                <td>
-                  <span class="legend-indicator bg-warning"></span>Pending
-                </td>
-                <td>Subscription</td>
-                <td>brian@site.com</td>
-                <td>1 year ago</td>
-                <td>58643</td>
-              </tr>
-
-              <tr>
-                <td class="table-column-pe-0">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="usersDataCheck12">
-                    <label class="form-check-label" for="usersDataCheck12"></label>
-                  </div>
-                </td>
-                <td class="table-column-ps-0">
-                  <a class="d-flex align-items-center" href="./user-profile.html">
-                    <div class="flex-shrink-0">
-                      <div class="avatar avatar-sm avatar-circle">
-                        <img class="avatar-img" src="./assets/img/160x160/img8.jpg" alt="Image Description">
-                      </div>
-                    </div>
-                    <div class="flex-grow-1 ms-3">
-                      <h5 class="text-inherit mb-0">Linda Bates</h5>
-                    </div>
-                  </a>
-                </td>
-                <td>
-                  <span class="legend-indicator bg-warning"></span>Pending
-                </td>
-                <td>Subscription</td>
-                <td>linda@site.com</td>
-                <td>1 year ago</td>
-                <td>44414</td>
-              </tr>
-
-              <tr>
-                <td class="table-column-pe-0">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="usersDataCheck13">
-                    <label class="form-check-label" for="usersDataCheck13"></label>
-                  </div>
-                </td>
-                <td class="table-column-ps-0">
-                  <a class="d-flex align-items-center" href="./user-profile.html">
-                    <div class="flex-shrink-0">
-                      <div class="avatar avatar-sm avatar-soft-info avatar-circle">
-                        <span class="avatar-initials">C</span>
-                      </div>
-                    </div>
-                    <div class="flex-grow-1 ms-3">
-                      <h5 class="text-inherit mb-0">Chris Mathew <i class="bi-patch-check-fill text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Top endorsed"></i></h5>
-                    </div>
-                  </a>
-                </td>
-                <td>
-                  <span class="legend-indicator bg-success"></span>Successful
-                </td>
-                <td>Non-subscription</td>
-                <td>chris@site.com</td>
-                <td>1 year ago</td>
-                <td>12569</td>
-              </tr>
-
-              <tr>
-                <td class="table-column-pe-0">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="usersDataCheck14">
-                    <label class="form-check-label" for="usersDataCheck14"></label>
-                  </div>
-                </td>
-                <td class="table-column-ps-0">
-                  <a class="d-flex align-items-center" href="./user-profile.html">
-                    <div class="flex-shrink-0">
-                      <div class="avatar avatar-sm avatar-soft-dark avatar-circle">
-                        <span class="avatar-initials">L</span>
-                      </div>
-                    </div>
-                    <div class="flex-grow-1 ms-3">
-                      <h5 class="text-inherit mb-0">Lewis Clarke</h5>
-                    </div>
-                  </a>
-                </td>
-                <td>
-                  <span class="legend-indicator bg-danger"></span>Overdue
-                </td>
-                <td>Non-subscription</td>
-                <td>lewis@site.com</td>
-                <td>1 year ago</td>
-                <td>54621</td>
-              </tr>
-
-              <tr>
-                <td class="table-column-pe-0">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="usersDataCheck15">
-                    <label class="form-check-label" for="usersDataCheck15"></label>
-                  </div>
-                </td>
-                <td class="table-column-ps-0">
-                  <a class="d-flex align-items-center" href="./user-profile.html">
-                    <div class="flex-shrink-0">
-                      <div class="avatar avatar-sm avatar-circle">
-                        <img class="avatar-img" src="./assets/img/160x160/img7.jpg" alt="Image Description">
-                      </div>
-                    </div>
-                    <div class="flex-grow-1 ms-3">
-                      <h5 class="text-inherit mb-0">Clarice Boone <i class="bi-patch-check-fill text-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Top endorsed"></i></h5>
-                    </div>
-                  </a>
-                </td>
-                <td>
-                  <span class="legend-indicator bg-success"></span>Successful
-                </td>
-                <td>Non-subscription</td>
-                <td>clarice@site.com</td>
-                <td>6 months ago</td>
-                <td>23485</td>
-              </tr>
-
-              <tr>
-                <td class="table-column-pe-0">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="usersDataCheck16">
-                    <label class="form-check-label" for="usersDataCheck16"></label>
-                  </div>
-                </td>
-                <td class="table-column-ps-0">
-                  <a class="d-flex align-items-center" href="./user-profile.html">
-                    <div class="flex-shrink-0">
-                      <div class="avatar avatar-sm avatar-soft-danger avatar-circle">
-                        <span class="avatar-initials">M</span>
-                      </div>
-                    </div>
-                    <div class="flex-grow-1 ms-3">
-                      <h5 class="text-inherit mb-0">Mark Colbert</h5>
-                    </div>
-                  </a>
-                </td>
-                <td>
-                  <span class="legend-indicator bg-success"></span>Successful
-                </td>
-                <td>Subscription</td>
-                <td>mark@site.com</td>
-                <td>6 months ago</td>
-                <td>78463</td>
-              </tr>
-
-              <tr>
-                <td class="table-column-pe-0">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="usersDataCheck17">
-                    <label class="form-check-label" for="usersDataCheck17"></label>
-                  </div>
-                </td>
-                <td class="table-column-ps-0">
-                  <a class="d-flex align-items-center" href="./user-profile.html">
-                    <div class="flex-shrink-0">
-                      <div class="avatar avatar-sm avatar-soft-info avatar-circle">
-                        <span class="avatar-initials">J</span>
-                      </div>
-                    </div>
-                    <div class="flex-grow-1 ms-3">
-                      <h5 class="text-inherit mb-0">Johnny Appleseed</h5>
-                    </div>
-                  </a>
-                </td>
-                <td>
-                  <span class="legend-indicator bg-warning"></span>Pending
-                </td>
-                <td>Subscription</td>
-                <td>johnny@site.com</td>
-                <td>1 year ago</td>
-                <td>23564</td>
-              </tr>
-
-              <tr>
-                <td class="table-column-pe-0">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="usersDataCheck18">
-                    <label class="form-check-label" for="usersDataCheck18"></label>
-                  </div>
-                </td>
-                <td class="table-column-ps-0">
-                  <a class="d-flex align-items-center" href="./user-profile.html">
-                    <div class="flex-shrink-0">
-                      <div class="avatar avatar-sm avatar-soft-primary avatar-circle">
-                        <span class="avatar-initials">P</span>
-                      </div>
-                    </div>
-                    <div class="flex-grow-1 ms-3">
-                      <h5 class="text-inherit mb-0">Phileas Fogg</h5>
-                    </div>
-                  </a>
-                </td>
-                <td>
-                  <span class="legend-indicator bg-warning"></span>Pending
-                </td>
-                <td>Subscription</td>
-                <td>phileas@site.com</td>
-                <td>6 months ago</td>
-                <td>39199</td>
-              </tr>
-            </tbody>
-          </table>
+                  <span class="legend-indicator bg-danger"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Atrasado
+                </font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Não atribuído</font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">costa@site.com</font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1 ano atrás</font></font></td>
+                <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">71288</font></font></td>
+              </tr></tbody>
+          </table><div class="dataTables_info" id="datatable_info" role="status" aria-live="polite">Showing 1 to 8 of 17 entries</div></div>
         </div>
         <!-- End Table -->
 
@@ -2596,26 +2358,26 @@
           <div class="row justify-content-center justify-content-sm-between align-items-sm-center">
             <div class="col-sm mb-2 mb-sm-0">
               <div class="d-flex justify-content-center justify-content-sm-start align-items-center">
-                <span class="me-2">Showing:</span>
+                <span class="me-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mostrando:</font></font></span>
 
                 <!-- Select -->
                 <div class="tom-select-custom">
-                  <select id="datatableEntries" class="js-select form-select form-select-borderless w-auto" autocomplete="off" data-hs-tom-select-options='{
-                            "searchInDropdown": false,
-                            "hideSearch": true
-                          }'>
-                    <option value="4">4</option>
-                    <option value="6">6</option>
-                    <option value="8" selected>8</option>
-                    <option value="12">12</option>
-                  </select>
+                  <select id="datatableEntries" class="js-select form-select form-select-borderless w-auto tomselected ts-hidden-accessible" autocomplete="off" data-hs-tom-select-options="{
+                            &quot;searchInDropdown&quot;: false,
+                            &quot;hideSearch&quot;: true
+                          }" tabindex="-1">
+                    <option value="4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">4</font></font></option>
+                    <option value="6"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">6</font></font></option>
+                    
+                    <option value="12"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">12</font></font></option>
+                  <option value="8" selected=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">8</font></font></option></select><div class="ts-wrapper js-select form-select form-select-borderless w-auto single plugin-change_listener plugin-hs_smart_position input-hidden full has-items"><div class="ts-control"><div data-value="8" class="item" data-ts-item=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">8</font></font></div></div><div class="tom-select-custom"><div class="ts-dropdown single plugin-change_listener plugin-hs_smart_position" style="display: none;"><div role="listbox" tabindex="-1" class="ts-dropdown-content" id="datatableEntries-ts-dropdown"></div></div></div></div>
                 </div>
                 <!-- End Select -->
 
-                <span class="text-secondary me-2">of</span>
+                <span class="text-secondary me-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">de</font></font></span>
 
                 <!-- Pagination Quantity -->
-                <span id="datatableWithPaginationInfoTotalQty"></span>
+                <span id="datatableWithPaginationInfoTotalQty"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">17</font></font></span>
               </div>
             </div>
             <!-- End Col -->
@@ -2623,7 +2385,7 @@
             <div class="col-sm-auto">
               <div class="d-flex justify-content-center justify-content-sm-end">
                 <!-- Pagination -->
-                <nav id="datatablePagination" aria-label="Activity pagination"></nav>
+                <nav id="datatablePagination" aria-label="Paginação de atividades"><div class="dataTables_paginate paging_simple_numbers" id="datatable_paginate"><ul id="datatable_pagination" class="pagination datatable-custom-pagination"><li class="paginate_item page-item disabled"><a class="paginate_button previous page-link" aria-controls="datatable" data-dt-idx="0" tabindex="0" id="datatable_previous"><span aria-hidden="true"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Anterior</font></font></span></a></li><li class="paginate_item page-item active"><a class="paginate_button page-link" aria-controls="datatable" data-dt-idx="1" tabindex="0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1</font></font></a></li><li class="paginate_item page-item"><a class="paginate_button page-link" aria-controls="datatable" data-dt-idx="2" tabindex="0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2</font></font></a></li><li class="paginate_item page-item"><a class="paginate_button page-link" aria-controls="datatable" data-dt-idx="3" tabindex="0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3</font></font></a></li><li class="paginate_item page-item"><a class="paginate_button next page-link" aria-controls="datatable" data-dt-idx="4" tabindex="0" id="datatable_next"><span aria-hidden="true"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Próximo</font></font></span></a></li></ul></div></nav>
               </div>
             </div>
             <!-- End Col -->
@@ -2640,12 +2402,12 @@
           <div class="card h-100">
             <!-- Header -->
             <div class="card-header card-header-content-sm-between">
-              <h4 class="card-header-title mb-2 mb-sm-0">Transactions</h4>
+              <h4 class="card-header-title mb-2 mb-sm-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Transações</font></font></h4>
 
               <!-- Daterangepicker -->
               <button id="js-daterangepicker-predefined" class="btn btn-ghost-secondary btn-sm dropdown-toggle">
                 <i class="bi-calendar-week"></i>
-                <span class="js-daterangepicker-predefined-preview ms-1"></span>
+                <span class="js-daterangepicker-predefined-preview ms-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">14 de dezembro a 14 de dezembro de 2023</font></font></span>
               </button>
               <!-- End Daterangepicker -->
             </div>
@@ -2655,95 +2417,95 @@
             <div class="card-body">
               <!-- Chart -->
               <div class="chartjs-custom mx-auto" style="height: 20rem;">
-                <canvas class="js-chart-datalabels" data-hs-chartjs-options='{
-                              "type": "bubble",
-                              "data": {
-                                "datasets": [
+                <canvas class="js-chart-datalabels" data-hs-chartjs-options="{
+                              &quot;type&quot;: &quot;bubble&quot;,
+                              &quot;data&quot;: {
+                                &quot;datasets&quot;: [
                                   {
-                                    "label": "Label 1",
-                                    "data": [
-                                      {"x": 50, "y": 65, "r": 99}
+                                    &quot;label&quot;: &quot;Label 1&quot;,
+                                    &quot;data&quot;: [
+                                      {&quot;x&quot;: 50, &quot;y&quot;: 65, &quot;r&quot;: 99}
                                     ],
-                                    "color": "#fff",
-                                    "backgroundColor": "rgba(55, 125, 255, 0.9)",
-                                    "borderColor": "transparent"
+                                    &quot;color&quot;: &quot;#fff&quot;,
+                                    &quot;backgroundColor&quot;: &quot;rgba(55, 125, 255, 0.9)&quot;,
+                                    &quot;borderColor&quot;: &quot;transparent&quot;
                                   },
                                   {
-                                    "label": "Label 2",
-                                    "data": [
-                                      {"x": 46, "y": 42, "r": 65}
+                                    &quot;label&quot;: &quot;Label 2&quot;,
+                                    &quot;data&quot;: [
+                                      {&quot;x&quot;: 46, &quot;y&quot;: 42, &quot;r&quot;: 65}
                                     ],
-                                    "color": "#fff",
-                                    "backgroundColor": "rgba(100, 0, 214, 0.8)",
-                                    "borderColor": "transparent"
+                                    &quot;color&quot;: &quot;#fff&quot;,
+                                    &quot;backgroundColor&quot;: &quot;rgba(100, 0, 214, 0.8)&quot;,
+                                    &quot;borderColor&quot;: &quot;transparent&quot;
                                   },
                                   {
-                                    "label": "Label 3",
-                                    "data": [
-                                      {"x": 48, "y": 15, "r": 38}
+                                    &quot;label&quot;: &quot;Label 3&quot;,
+                                    &quot;data&quot;: [
+                                      {&quot;x&quot;: 48, &quot;y&quot;: 15, &quot;r&quot;: 38}
                                     ],
-                                    "color": "#fff",
-                                    "backgroundColor": "#00c9db",
-                                    "borderColor": "transparent"
+                                    &quot;color&quot;: &quot;#fff&quot;,
+                                    &quot;backgroundColor&quot;: &quot;#00c9db&quot;,
+                                    &quot;borderColor&quot;: &quot;transparent&quot;
                                   },
                                   {
-                                    "label": "Label 3",
-                                    "data": [
-                                      {"x": 55, "y": 2, "r": 61}
+                                    &quot;label&quot;: &quot;Label 3&quot;,
+                                    &quot;data&quot;: [
+                                      {&quot;x&quot;: 55, &quot;y&quot;: 2, &quot;r&quot;: 61}
                                     ],
-                                    "color": "#fff",
-                                    "backgroundColor": "#4338ca",
-                                    "borderColor": "transparent"
+                                    &quot;color&quot;: &quot;#fff&quot;,
+                                    &quot;backgroundColor&quot;: &quot;#4338ca&quot;,
+                                    &quot;borderColor&quot;: &quot;transparent&quot;
                                   }
                                 ]
                               },
-                              "options": {
-                                "scales": {
-                                  "y": {
-                                    "grid": {
-                                      "display": false,
-                                      "drawBorder": false
+                              &quot;options&quot;: {
+                                &quot;scales&quot;: {
+                                  &quot;y&quot;: {
+                                    &quot;grid&quot;: {
+                                      &quot;display&quot;: false,
+                                      &quot;drawBorder&quot;: false
                                     },
-                                    "ticks": {
-                                      "display": false,
-                                      "max": 100,
-                                      "beginAtZero": true
+                                    &quot;ticks&quot;: {
+                                      &quot;display&quot;: false,
+                                      &quot;max&quot;: 100,
+                                      &quot;beginAtZero&quot;: true
                                     }
                                   },
-                                  "x": {
-                                  "grid": {
-                                      "display": false,
-                                      "drawBorder": false
+                                  &quot;x&quot;: {
+                                  &quot;grid&quot;: {
+                                      &quot;display&quot;: false,
+                                      &quot;drawBorder&quot;: false
                                     },
-                                    "ticks": {
-                                      "display": false,
-                                      "max": 100,
-                                      "beginAtZero": true
+                                    &quot;ticks&quot;: {
+                                      &quot;display&quot;: false,
+                                      &quot;max&quot;: 100,
+                                      &quot;beginAtZero&quot;: true
                                     }
                                   }
                                 },
-                                "plugins": {
-                                  "tooltip": false
+                                &quot;plugins&quot;: {
+                                  &quot;tooltip&quot;: false
                                 }
                               }
-                            }'></canvas>
+                            }" width="945" height="640" style="display: block; box-sizing: border-box; height: 320px; width: 472.5px;"></canvas>
               </div>
               <!-- End Chart -->
 
               <div class="row justify-content-center">
                 <div class="col-auto">
-                  <span class="legend-indicator bg-primary"></span> New
-                </div>
+                  <span class="legend-indicator bg-primary"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Novo
+                </font></font></div>
                 <!-- End Col -->
 
                 <div class="col-auto">
-                  <span class="legend-indicator" style="background-color: #7000f2;"></span> Pending
-                </div>
+                  <span class="legend-indicator" style="background-color: #7000f2;"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pendente
+                </font></font></div>
                 <!-- End Col -->
 
                 <div class="col-auto">
-                  <span class="legend-indicator bg-info"></span> Failed
-                </div>
+                  <span class="legend-indicator bg-info"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Fracassado
+                </font></font></div>
                 <!-- End Col -->
               </div>
               <!-- End Row -->
@@ -2758,7 +2520,7 @@
           <div class="card h-100">
             <!-- Header -->
             <div class="card-header card-header-content-between">
-              <h4 class="card-header-title">Reports overview</h4>
+              <h4 class="card-header-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Visão geral dos relatórios</font></font></h4>
 
               <!-- Dropdown -->
               <div class="dropdown">
@@ -2794,64 +2556,64 @@
 
             <!-- Body -->
             <div class="card-body">
-              <span class="h1 d-block mb-4">$7,431.14 USD</span>
+              <span class="h1 d-block mb-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">US$ 7.431,14</font></font></span>
 
               <!-- Progress -->
               <div class="progress rounded-pill mb-2">
-                <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" data-bs-toggle="tooltip" data-bs-placement="top" title="Gross value"></div>
-                <div class="progress-bar opacity-50" role="progressbar" style="width: 33%" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" data-bs-toggle="tooltip" data-bs-placement="top" title="Net volume from sales"></div>
-                <div class="progress-bar opacity-25" role="progressbar" style="width: 9%" aria-valuenow="9" aria-valuemin="0" aria-valuemax="100" data-bs-toggle="tooltip" data-bs-placement="top" title="New volume from sales"></div>
+                <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Valor bruto" data-bs-original-title="Gross value"></div>
+                <div class="progress-bar opacity-50" role="progressbar" style="width: 33%" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Volume líquido de vendas" data-bs-original-title="Net volume from sales"></div>
+                <div class="progress-bar opacity-25" role="progressbar" style="width: 9%" aria-valuenow="9" aria-valuemin="0" aria-valuemax="100" data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Novo volume de vendas" data-bs-original-title="New volume from sales"></div>
               </div>
 
               <div class="d-flex justify-content-between mb-4">
-                <span>0%</span>
-                <span>100%</span>
+                <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">0%</font></font></span>
+                <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">100%</font></font></span>
               </div>
               <!-- End Progress -->
 
               <!-- Table -->
               <div class="table-responsive">
                 <table class="table table-lg table-nowrap card-table mb-0">
-                  <tr>
+                  <tbody><tr>
                     <th scope="row">
-                      <span class="legend-indicator bg-primary"></span>Gross value
-                    </th>
-                    <td>$3,500.71</td>
+                      <span class="legend-indicator bg-primary"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Valor bruto
+                    </font></font></th>
+                    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">US$ 3.500,71</font></font></td>
                     <td>
-                      <span class="badge bg-soft-success text-success">+12.1%</span>
+                      <span class="badge bg-soft-success text-success"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+12,1%</font></font></span>
                     </td>
                   </tr>
 
                   <tr>
                     <th scope="row">
-                      <span class="legend-indicator bg-primary opacity-50"></span>Net volume from sales
-                    </th>
-                    <td>$2,980.45</td>
+                      <span class="legend-indicator bg-primary opacity-50"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Volume líquido de vendas
+                    </font></font></th>
+                    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">US$ 2.980,45</font></font></td>
                     <td>
-                      <span class="badge bg-soft-warning text-warning">+6.9%</span>
+                      <span class="badge bg-soft-warning text-warning"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+6,9%</font></font></span>
                     </td>
                   </tr>
 
                   <tr>
                     <th scope="row">
-                      <span class="legend-indicator bg-primary opacity-25"></span>New volume from sales
-                    </th>
-                    <td>$950.00</td>
+                      <span class="legend-indicator bg-primary opacity-25"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Novo volume de vendas
+                    </font></font></th>
+                    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">US$ 950,00</font></font></td>
                     <td>
-                      <span class="badge bg-soft-danger text-danger">-1.5%</span>
+                      <span class="badge bg-soft-danger text-danger"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-1,5%</font></font></span>
                     </td>
                   </tr>
 
                   <tr>
                     <th scope="row">
-                      <span class="legend-indicator"></span>Other
-                    </th>
-                    <td>32</td>
+                      <span class="legend-indicator"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Outro
+                    </font></font></th>
+                    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">32</font></font></td>
                     <td>
-                      <span class="badge bg-soft-success text-success">1.9%</span>
+                      <span class="badge bg-soft-success text-success"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1,9%</font></font></span>
                     </td>
                   </tr>
-                </table>
+                </tbody></table>
               </div>
               <!-- End Table -->
             </div>
@@ -2868,7 +2630,7 @@
     <div class="footer">
       <div class="row justify-content-between align-items-center">
         <div class="col">
-          <p class="fs-6 mb-0">&copy; Front. <span class="d-none d-sm-inline-block">2022 Htmlstream.</span></p>
+          <p class="fs-6 mb-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">© Frente.</font></font><span class="d-none d-sm-inline-block"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2022 HTMLstream.</font></font></span></p>
         </div>
         <!-- End Col -->
 
@@ -2877,11 +2639,11 @@
             <!-- List Separator -->
             <ul class="list-inline list-separator">
               <li class="list-inline-item">
-                <a class="list-separator-link" href="#">FAQ</a>
+                <a class="list-separator-link" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Perguntas frequentes</font></font></a>
               </li>
 
               <li class="list-inline-item">
-                <a class="list-separator-link" href="#">License</a>
+                <a class="list-separator-link" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Licença</font></font></a>
               </li>
 
               <li class="list-inline-item">
@@ -2910,25 +2672,25 @@
   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasBuilder" aria-labelledby="offcanvasBuilderLabel">
     <div class="offcanvas-header align-items-start">
       <div>
-        <h3 id="offcanvasBuilderLabel">Front Builder</h3>
-        <p class="mb-0">Customize the overview page layout.</p>
+        <h3 id="offcanvasBuilderLabel"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Construtor frontal</font></font></h3>
+        <p class="mb-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Personalize o layout da página de visão geral.</font></font></p>
       </div>
-      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
     </div>
 
     <div class="offcanvas-body">
-      <h4 class="mb-1">Theme Appearance Mode</h4>
-      <p>Check out all <a href="./documentation/layout.html">Layout Options here</a></p>
+      <h4 class="mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Modo de aparência do tema</font></font></h4>
+      <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Confira todas as </font></font><a href="./documentation/layout.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">opções de layout aqui</font></font></a></p>
 
       <div class="row gx-3">
         <!-- Check -->
         <div class="col-6">
           <div class="form-check form-check-label-highlighter text-center">
-            <input type="radio" class="form-check-input" name="layoutSkinsRadio" id="layoutSkinsRadio1" checked value="default">
+            <input type="radio" class="form-check-input" name="layoutSkinsRadio" id="layoutSkinsRadio1" checked="" value="default">
             <label class="form-check-label mb-2" for="layoutSkinsRadio1">
-              <img class="form-check-img" src="./assets/img/415x310/img1.jpg" alt="Image Description">
+              <img class="form-check-img" src="./assets/img/415x310/img1.jpg" alt="Descrição da imagem">
             </label>
-            <span class="form-check-text">Default</span>
+            <span class="form-check-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Padrão</font></font></span>
           </div>
         </div>
         <!-- End Check -->
@@ -2938,9 +2700,9 @@
           <div class="form-check form-check-label-highlighter text-center">
             <input type="radio" class="form-check-input" name="layoutSkinsRadio" id="layoutSkinsRadio2" value="dark">
             <label class="form-check-label mb-2" for="layoutSkinsRadio2">
-              <img class="form-check-img" src="./assets/img/415x310/img2.jpg" alt="Image Description">
+              <img class="form-check-img" src="./assets/img/415x310/img2.jpg" alt="Descrição da imagem">
             </label>
-            <span class="form-check-text">Dark Mode</span>
+            <span class="form-check-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Modo escuro</font></font></span>
           </div>
         </div>
         <!-- End Check -->
@@ -2953,12 +2715,12 @@
         <!-- Check -->
         <div class="col-6">
           <div class="form-check form-check-label-highlighter text-center">
-            <input type="radio" class="form-check-input" name="layout" id="navbarLayoutSkinsRadio1" checked value="default">
+            <input type="radio" class="form-check-input" name="layout" id="navbarLayoutSkinsRadio1" checked="" value="default">
             <label class="form-check-label mb-2" for="navbarLayoutSkinsRadio1">
               <img class="form-check-img" src="./assets/svg/layouts-light/sidebar-default.svg" alt="Image Description" data-hs-theme-appearance="dark">
-              <img class="form-check-img" src="./assets/svg/layouts/sidebar-default.svg" alt="Image Description" data-hs-theme-appearance="default">
+              <img class="form-check-img" src="./assets/svg/layouts/sidebar-default.svg" alt="Descrição da imagem" data-hs-theme-appearance="default">
             </label>
-            <span class="form-check-text">Default</span>
+            <span class="form-check-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Padrão</font></font></span>
           </div>
         </div>
         <!-- End Check -->
@@ -2969,9 +2731,9 @@
             <input type="radio" class="form-check-input" name="layout" id="navbarLayoutSkinsRadio2" value="navbar-dark">
             <label class="form-check-label mb-2" for="navbarLayoutSkinsRadio2">
               <img class="form-check-img" src="./assets/svg/layouts-light/sidebar-dark.svg" alt="Image Description" data-hs-theme-appearance="dark">
-              <img class="form-check-img" src="./assets/svg/layouts/sidebar-dark.svg" alt="Image Description" data-hs-theme-appearance="default">
+              <img class="form-check-img" src="./assets/svg/layouts/sidebar-dark.svg" alt="Descrição da imagem" data-hs-theme-appearance="default">
             </label>
-            <span class="form-check-text">Dark</span>
+            <span class="form-check-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Escuro</font></font></span>
           </div>
         </div>
         <!-- End Check -->
@@ -2980,19 +2742,19 @@
 
       <hr>
 
-      <h4 class="mb-1">Sidebar Nav</h4>
-      <p>Check out all <a href="./documentation/layout.html">Layout Options here</a></p>
+      <h4 class="mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Navegação na barra lateral</font></font></h4>
+      <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Confira todas as </font></font><a href="./documentation/layout.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">opções de layout aqui</font></font></a></p>
 
       <div class="row gx-3">
         <!-- Check -->
         <div class="col-6">
           <div class="form-check form-check-label-highlighter text-center">
-            <input type="radio" class="form-check-input" name="sidebarNavOptions" id="sidebarNavOptions1" value="pills" checked>
+            <input type="radio" class="form-check-input" name="sidebarNavOptions" id="sidebarNavOptions1" value="pills" checked="">
             <label class="form-check-label mb-2" for="sidebarNavOptions1">
               <img class="form-check-img" src="./assets/svg/layouts-light/demo-layouts-default-classic.svg" alt="Image Description" data-hs-theme-appearance="dark">
-              <img class="form-check-img" src="./assets/svg/layouts/demo-layouts-default-classic.svg" alt="Image Description" data-hs-theme-appearance="default">
+              <img class="form-check-img" src="./assets/svg/layouts/demo-layouts-default-classic.svg" alt="Descrição da imagem" data-hs-theme-appearance="default">
             </label>
-            <span class="form-check-text">Pills</span>
+            <span class="form-check-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Comprimidos</font></font></span>
           </div>
         </div>
         <!-- End Check -->
@@ -3003,9 +2765,9 @@
             <input type="radio" class="form-check-input" name="sidebarNavOptions" id="sidebarNavOptions2" value="tabs">
             <label class="form-check-label mb-2" for="sidebarNavOptions2">
               <img class="form-check-img" src="./assets/svg/layouts-light/demo-layouts-nav-tabs.svg" alt="Image Description" data-hs-theme-appearance="dark">
-              <img class="form-check-img" src="./assets/svg/layouts/demo-layouts-nav-tabs.svg" alt="Image Description" data-hs-theme-appearance="default">
+              <img class="form-check-img" src="./assets/svg/layouts/demo-layouts-nav-tabs.svg" alt="Descrição da imagem" data-hs-theme-appearance="default">
             </label>
-            <span class="form-check-text">Tabs</span>
+            <span class="form-check-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Guias</font></font></span>
           </div>
         </div>
         <!-- End Check -->
@@ -3017,11 +2779,11 @@
       <!-- Form Switch -->
       <label class="row form-check form-switch mb-3" for="builderFluidSwitch">
         <span class="col-10 ms-0">
-          <span class="d-block h4 mb-1">Header Layout Options</span>
-          <span class="d-block fs-5">Toggle to container-fluid layout</span>
+          <span class="d-block h4 mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Opções de layout de cabeçalho</font></font></span>
+          <span class="d-block fs-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Alternar para layout fluido de contêiner</font></font></span>
         </span>
         <span class="col-2 text-end">
-          <input type="checkbox" class="form-check-input" id="builderFluidSwitch">
+          <input type="checkbox" class="form-check-input" id="builderFluidSwitch" disabled="">
         </span>
       </label>
       <!-- End Form Switch -->
@@ -3032,10 +2794,10 @@
           <div class="form-check form-check-label-highlighter text-center">
             <input type="radio" class="form-check-input" name="layout" id="headerLayoutOptions1" value="single-header">
             <label class="form-check-label mb-2" for="headerLayoutOptions1">
-              <img class="form-check-img" src="./assets/svg/layouts/header-default-container.svg" alt="Image Description" data-hs-theme-appearance="default">
+              <img class="form-check-img" src="./assets/svg/layouts/header-default-container.svg" alt="Descrição da imagem" data-hs-theme-appearance="default">
               <img class="form-check-img" src="./assets/svg/layouts-light/header-default-container.svg" alt="Image Description" data-hs-theme-appearance="dark">
             </label>
-            <span class="form-check-text">Default</span>
+            <span class="form-check-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Padrão</font></font></span>
           </div>
         </div>
         <!-- End Check -->
@@ -3045,10 +2807,10 @@
           <div class="form-check form-check-label-highlighter text-center">
             <input type="radio" class="form-check-input" name="layout" id="headerLayoutOptions2" value="double-header">
             <label class="form-check-label mb-2" for="headerLayoutOptions2">
-              <img class="form-check-img" src="./assets/svg/layouts/header-double-line-container.svg" alt="Image Description" data-hs-theme-appearance="default">
+              <img class="form-check-img" src="./assets/svg/layouts/header-double-line-container.svg" alt="Descrição da imagem" data-hs-theme-appearance="default">
               <img class="form-check-img" src="./assets/svg/layouts-light/header-double-line-container.svg" alt="Image Description" data-hs-theme-appearance="dark">
             </label>
-            <span class="form-check-text">Double line</span>
+            <span class="form-check-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Linha dupla</font></font></span>
           </div>
         </div>
         <!-- End Check -->
@@ -3062,8 +2824,8 @@
         <div class="col">
           <div class="d-grid">
             <button type="button" id="js-builder-reset" class="btn btn-white btn-lg">
-              <i class="bi-arrow-counterclockwise"></i> Reset
-            </button>
+              <i class="bi-arrow-counterclockwise"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Reiniciar
+            </font></font></button>
           </div>
         </div>
         <!-- End Col -->
@@ -3071,8 +2833,8 @@
         <div class="col">
           <div class="d-grid">
             <button type="button" id="js-builder-preview" class="btn btn-primary btn-lg">
-              <i class="eye-visible"></i> Preview
-            </button>
+              <i class="eye-visible"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Visualização
+            </font></font></button>
           </div>
         </div>
         <!-- End Col -->
@@ -3087,2009 +2849,12 @@
   <!-- Builder Toggle -->
   <div id="builderOffcanvas" class="position-fixed bottom-0 end-0 me-5 mb-5" style="z-index: 3;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBuilder" aria-controls="offcanvasBuilder">
     <a class="btn btn-dark btn-lg" href="javascript:;">
-      <i class="bi-sliders fs-6 me-2"></i> Customize
-    </a>
+      <i class="bi-sliders fs-6 me-2"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Customizar
+    </font></font></a>
   </div>
   <!-- End Builder Toggle -->
 
-  <div class="d-none js-build-layouts">
-    <div class="js-build-layout-header-default">
-      <!-- Single Header -->
-      <header id="header" class="navbar navbar-expand-lg navbar-bordered bg-white  ">
-        <div class="container">
-          <nav class="js-mega-menu navbar-nav-wrap">
-            <!-- Logo -->
-
-            <a class="navbar-brand" href="./index.html" aria-label="Front">
-              <img class="navbar-brand-logo" src="./assets/svg/logos/logo.svg" alt="Logo" data-hs-theme-appearance="default">
-              <img class="navbar-brand-logo" src="./assets/svg/logos-light/logo.svg" alt="Logo" data-hs-theme-appearance="dark">
-            </a>
-
-            <!-- End Logo -->
-
-            <!-- Secondary Content -->
-            <div class="navbar-nav-wrap-secondary-content">
-              <!-- Navbar -->
-              <ul class="navbar-nav">
-                <li class="nav-item d-none d-md-inline-block">
-                  <!-- Notification -->
-                  <div class="dropdown">
-                    <button type="button" class="btn btn-ghost-secondary btn-icon rounded-circle" id="navbarNotificationsDropdown" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-dropdown-animation>
-                      <i class="bi-bell"></i>
-                      <span class="btn-status btn-sm-status btn-status-danger"></span>
-                    </button>
-
-                    <div class="dropdown-menu dropdown-menu-end dropdown-card navbar-dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="navbarNotificationsDropdown" style="width: 25rem;">
-                      <div class="card">
-                        <!-- Header -->
-                        <div class="card-header card-header-content-between">
-                          <h4 class="card-title mb-0">Notifications</h4>
-
-                          <!-- Unfold -->
-                          <div class="dropdown">
-                            <button type="button" class="btn btn-icon btn-sm btn-ghost-secondary rounded-circle" id="navbarNotificationsDropdownSettings" data-bs-toggle="dropdown" aria-expanded="false">
-                              <i class="bi-three-dots-vertical"></i>
-                            </button>
-
-                            <div class="dropdown-menu dropdown-menu-end navbar-dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="navbarNotificationsDropdownSettings">
-                              <span class="dropdown-header">Settings</span>
-                              <a class="dropdown-item" href="#">
-                                <i class="bi-archive dropdown-item-icon"></i> Archive all
-                              </a>
-                              <a class="dropdown-item" href="#">
-                                <i class="bi-check2-all dropdown-item-icon"></i> Mark all as read
-                              </a>
-                              <a class="dropdown-item" href="#">
-                                <i class="bi-toggle-off dropdown-item-icon"></i> Disable notifications
-                              </a>
-                              <a class="dropdown-item" href="#">
-                                <i class="bi-gift dropdown-item-icon"></i> What's new?
-                              </a>
-                              <div class="dropdown-divider"></div>
-                              <span class="dropdown-header">Feedback</span>
-                              <a class="dropdown-item" href="#">
-                                <i class="bi-chat-left-dots dropdown-item-icon"></i> Report
-                              </a>
-                            </div>
-                          </div>
-                          <!-- End Unfold -->
-                        </div>
-                        <!-- End Header -->
-
-                        <!-- Nav -->
-                        <ul class="nav nav-tabs nav-justified" id="notificationTab" role="tablist">
-                          <li class="nav-item">
-                            <a class="nav-link active" href="#notificationNavOne" id="notificationNavOne-tab" data-bs-toggle="tab" data-bs-target="#notificationNavOne" role="tab" aria-controls="notificationNavOne" aria-selected="true">Messages (3)</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#notificationNavTwo" id="notificationNavTwo-tab" data-bs-toggle="tab" data-bs-target="#notificationNavTwo" role="tab" aria-controls="notificationNavTwo" aria-selected="false">Archived</a>
-                          </li>
-                        </ul>
-                        <!-- End Nav -->
-
-                        <!-- Body -->
-                        <div class="card-body-height">
-                          <!-- Tab Content -->
-                          <div class="tab-content" id="notificationTabContent">
-                            <div class="tab-pane fade show active" id="notificationNavOne" role="tabpanel" aria-labelledby="notificationNavOne-tab">
-                              <!-- List Group -->
-                              <ul class="list-group list-group-flush navbar-card-list-group">
-                                <!-- Item -->
-                                <li class="list-group-item form-check-select">
-                                  <div class="row">
-                                    <div class="col-auto">
-                                      <div class="d-flex align-items-center">
-                                        <div class="form-check">
-                                          <input class="form-check-input" type="checkbox" value="" id="notificationCheck1" checked>
-                                          <label class="form-check-label" for="notificationCheck1"></label>
-                                          <span class="form-check-stretched-bg"></span>
-                                        </div>
-                                        <img class="avatar avatar-sm avatar-circle" src="./assets/img/160x160/img3.jpg" alt="Image Description">
-                                      </div>
-                                    </div>
-                                    <!-- End Col -->
-
-                                    <div class="col ms-n2">
-                                      <h5 class="mb-1">Brian Warner</h5>
-                                      <p class="text-body fs-5">changed an issue from "In Progress" to <span class="badge bg-success">Review</span></p>
-                                    </div>
-                                    <!-- End Col -->
-
-                                    <small class="col-auto text-muted text-cap">2hr</small>
-                                    <!-- End Col -->
-                                  </div>
-                                  <!-- End Row -->
-
-                                  <a class="stretched-link" href="#"></a>
-                                </li>
-                                <!-- End Item -->
-
-                                <!-- Item -->
-                                <li class="list-group-item form-check-select">
-                                  <div class="row">
-                                    <div class="col-auto">
-                                      <div class="d-flex align-items-center">
-                                        <div class="form-check">
-                                          <input class="form-check-input" type="checkbox" value="" id="notificationCheck2" checked>
-                                          <label class="form-check-label" for="notificationCheck2"></label>
-                                          <span class="form-check-stretched-bg"></span>
-                                        </div>
-                                        <div class="avatar avatar-sm avatar-soft-dark avatar-circle">
-                                          <span class="avatar-initials">K</span>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <!-- End Col -->
-
-                                    <div class="col ms-n2">
-                                      <h5 class="mb-1">Klara Hampton</h5>
-                                      <p class="text-body fs-5">mentioned you in a comment</p>
-                                      <blockquote class="blockquote blockquote-sm">
-                                        Nice work, love! You really nailed it. Keep it up!
-                                      </blockquote>
-                                    </div>
-                                    <!-- End Col -->
-
-                                    <small class="col-auto text-muted text-cap">10hr</small>
-                                    <!-- End Col -->
-                                  </div>
-                                  <!-- End Row -->
-
-                                  <a class="stretched-link" href="#"></a>
-                                </li>
-                                <!-- End Item -->
-
-                                <!-- Item -->
-                                <li class="list-group-item form-check-select">
-                                  <div class="row">
-                                    <div class="col-auto">
-                                      <div class="d-flex align-items-center">
-                                        <div class="form-check">
-                                          <input class="form-check-input" type="checkbox" value="" id="notificationCheck3" checked>
-                                          <label class="form-check-label" for="notificationCheck3"></label>
-                                          <span class="form-check-stretched-bg"></span>
-                                        </div>
-                                        <div class="avatar avatar-sm avatar-circle">
-                                          <img class="avatar-img" src="./assets/img/160x160/img10.jpg" alt="Image Description">
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <!-- End Col -->
-
-                                    <div class="col ms-n2">
-                                      <h5 class="mb-1">Ruby Walter</h5>
-                                      <p class="text-body fs-5">joined the Slack group HS Team</p>
-                                    </div>
-                                    <!-- End Col -->
-
-                                    <small class="col-auto text-muted text-cap">3dy</small>
-                                    <!-- End Col -->
-                                  </div>
-                                  <!-- End Row -->
-
-                                  <a class="stretched-link" href="#"></a>
-                                </li>
-                                <!-- End Item -->
-
-                                <!-- Item -->
-                                <li class="list-group-item form-check-select">
-                                  <div class="row">
-                                    <div class="col-auto">
-                                      <div class="d-flex align-items-center">
-                                        <div class="form-check">
-                                          <input class="form-check-input" type="checkbox" value="" id="notificationCheck4">
-                                          <label class="form-check-label" for="notificationCheck4"></label>
-                                          <span class="form-check-stretched-bg"></span>
-                                        </div>
-                                        <div class="avatar avatar-sm avatar-circle">
-                                          <img class="avatar-img" src="./assets/svg/brands/google-icon.svg" alt="Image Description">
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <!-- End Col -->
-
-                                    <div class="col ms-n2">
-                                      <h5 class="mb-1">from Google</h5>
-                                      <p class="text-body fs-5">Start using forms to capture the information of prospects visiting your Google website</p>
-                                    </div>
-                                    <!-- End Col -->
-
-                                    <small class="col-auto text-muted text-cap">17dy</small>
-                                    <!-- End Col -->
-                                  </div>
-                                  <!-- End Row -->
-
-                                  <a class="stretched-link" href="#"></a>
-                                </li>
-                                <!-- End Item -->
-
-                                <!-- Item -->
-                                <li class="list-group-item form-check-select">
-                                  <div class="row">
-                                    <div class="col-auto">
-                                      <div class="d-flex align-items-center">
-                                        <div class="form-check">
-                                          <input class="form-check-input" type="checkbox" value="" id="notificationCheck5">
-                                          <label class="form-check-label" for="notificationCheck5"></label>
-                                          <span class="form-check-stretched-bg"></span>
-                                        </div>
-                                        <div class="avatar avatar-sm avatar-circle">
-                                          <img class="avatar-img" src="./assets/img/160x160/img7.jpg" alt="Image Description">
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <!-- End Col -->
-
-                                    <div class="col ms-n2">
-                                      <h5 class="mb-1">Sara Villar</h5>
-                                      <p class="text-body fs-5">completed <i class="bi-journal-bookmark-fill text-primary"></i> FD-7 task</p>
-                                    </div>
-                                    <!-- End Col -->
-
-                                    <small class="col-auto text-muted text-cap">2mn</small>
-                                    <!-- End Col -->
-                                  </div>
-                                  <!-- End Row -->
-
-                                  <a class="stretched-link" href="#"></a>
-                                </li>
-                                <!-- End Item -->
-                              </ul>
-                              <!-- End List Group -->
-                            </div>
-
-                            <div class="tab-pane fade" id="notificationNavTwo" role="tabpanel" aria-labelledby="notificationNavTwo-tab">
-                              <!-- List Group -->
-                              <ul class="list-group list-group-flush navbar-card-list-group">
-                                <!-- Item -->
-                                <li class="list-group-item form-check-select">
-                                  <div class="row">
-                                    <div class="col-auto">
-                                      <div class="d-flex align-items-center">
-                                        <div class="form-check">
-                                          <input class="form-check-input" type="checkbox" value="" id="notificationCheck6">
-                                          <label class="form-check-label" for="notificationCheck6"></label>
-                                          <span class="form-check-stretched-bg"></span>
-                                        </div>
-                                        <div class="avatar avatar-sm avatar-soft-dark avatar-circle">
-                                          <span class="avatar-initials">A</span>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <!-- End Col -->
-
-                                    <div class="col ms-n2">
-                                      <h5 class="mb-1">Anne Richard</h5>
-                                      <p class="text-body fs-5">accepted your invitation to join Notion</p>
-                                    </div>
-                                    <!-- End Col -->
-
-                                    <small class="col-auto text-muted text-cap">1dy</small>
-                                    <!-- End Col -->
-                                  </div>
-                                  <!-- End Row -->
-
-                                  <a class="stretched-link" href="#"></a>
-                                </li>
-                                <!-- End Item -->
-
-                                <!-- Item -->
-                                <li class="list-group-item form-check-select">
-                                  <div class="row">
-                                    <div class="col-auto">
-                                      <div class="d-flex align-items-center">
-                                        <div class="form-check">
-                                          <input class="form-check-input" type="checkbox" value="" id="notificationCheck7">
-                                          <label class="form-check-label" for="notificationCheck7"></label>
-                                          <span class="form-check-stretched-bg"></span>
-                                        </div>
-                                        <div class="avatar avatar-sm avatar-circle">
-                                          <img class="avatar-img" src="./assets/img/160x160/img5.jpg" alt="Image Description">
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <!-- End Col -->
-
-                                    <div class="col ms-n2">
-                                      <h5 class="mb-1">Finch Hoot</h5>
-                                      <p class="text-body fs-5">left Slack group HS projects</p>
-                                    </div>
-                                    <!-- End Col -->
-
-                                    <small class="col-auto text-muted text-cap">1dy</small>
-                                    <!-- End Col -->
-                                  </div>
-                                  <!-- End Row -->
-
-                                  <a class="stretched-link" href="#"></a>
-                                </li>
-                                <!-- End Item -->
-
-                                <!-- Item -->
-                                <li class="list-group-item form-check-select">
-                                  <div class="row">
-                                    <div class="col-auto">
-                                      <div class="d-flex align-items-center">
-                                        <div class="form-check">
-                                          <input class="form-check-input" type="checkbox" value="" id="notificationCheck8">
-                                          <label class="form-check-label" for="notificationCheck8"></label>
-                                          <span class="form-check-stretched-bg"></span>
-                                        </div>
-                                        <div class="avatar avatar-sm avatar-dark avatar-circle">
-                                          <span class="avatar-initials">HS</span>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <!-- End Col -->
-
-                                    <div class="col ms-n2">
-                                      <h5 class="mb-1">Htmlstream</h5>
-                                      <p class="text-body fs-5">you earned a "Top endorsed" <i class="bi-patch-check-fill text-primary"></i> badge</p>
-                                    </div>
-                                    <!-- End Col -->
-
-                                    <small class="col-auto text-muted text-cap">6dy</small>
-                                    <!-- End Col -->
-                                  </div>
-                                  <!-- End Row -->
-
-                                  <a class="stretched-link" href="#"></a>
-                                </li>
-                                <!-- End Item -->
-
-                                <!-- Item -->
-                                <li class="list-group-item form-check-select">
-                                  <div class="row">
-                                    <div class="col-auto">
-                                      <div class="d-flex align-items-center">
-                                        <div class="form-check">
-                                          <input class="form-check-input" type="checkbox" value="" id="notificationCheck9">
-                                          <label class="form-check-label" for="notificationCheck9"></label>
-                                          <span class="form-check-stretched-bg"></span>
-                                        </div>
-                                        <div class="avatar avatar-sm avatar-circle">
-                                          <img class="avatar-img" src="./assets/img/160x160/img8.jpg" alt="Image Description">
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <!-- End Col -->
-
-                                    <div class="col ms-n2">
-                                      <h5 class="mb-1">Linda Bates</h5>
-                                      <p class="text-body fs-5">Accepted your connection</p>
-                                    </div>
-                                    <!-- End Col -->
-
-                                    <small class="col-auto text-muted text-cap">17dy</small>
-                                    <!-- End Col -->
-                                  </div>
-                                  <!-- End Row -->
-
-                                  <a class="stretched-link" href="#"></a>
-                                </li>
-                                <!-- End Item -->
-
-                                <!-- Item -->
-                                <li class="list-group-item form-check-select">
-                                  <div class="row">
-                                    <div class="col-auto">
-                                      <div class="d-flex align-items-center">
-                                        <div class="form-check">
-                                          <input class="form-check-input" type="checkbox" value="" id="notificationCheck10">
-                                          <label class="form-check-label" for="notificationCheck10"></label>
-                                          <span class="form-check-stretched-bg"></span>
-                                        </div>
-                                        <div class="avatar avatar-sm avatar-soft-dark avatar-circle">
-                                          <span class="avatar-initials">L</span>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <!-- End Col -->
-
-                                    <div class="col ms-n2">
-                                      <h5 class="mb-1">Lewis Clarke</h5>
-                                      <p class="text-body fs-5">completed <i class="bi-journal-bookmark-fill text-primary"></i> FD-134 task</p>
-                                    </div>
-                                    <!-- End Col -->
-
-                                    <small class="col-auto text-muted text-cap">2mts</small>
-                                    <!-- End Col -->
-                                  </div>
-                                  <!-- End Row -->
-
-                                  <a class="stretched-link" href="#"></a>
-                                </li>
-                                <!-- End Item -->
-                              </ul>
-                              <!-- End List Group -->
-                            </div>
-                          </div>
-                          <!-- End Tab Content -->
-                        </div>
-                        <!-- End Body -->
-
-                        <!-- Card Footer -->
-                        <a class="card-footer text-center" href="#">
-                          View all notifications <i class="bi-chevron-right"></i>
-                        </a>
-                        <!-- End Card Footer -->
-                      </div>
-                    </div>
-                  </div>
-                  <!-- End Notification -->
-                </li>
-
-                <li class="nav-item d-none d-sm-inline-block">
-                  <!-- Apps -->
-                  <div class="dropdown">
-                    <button type="button" class="btn btn-icon btn-ghost-secondary rounded-circle" id="navbarAppsDropdown" data-bs-toggle="dropdown" aria-expanded="false" data-bs-dropdown-animation>
-                      <i class="bi-app-indicator"></i>
-                    </button>
-
-                    <div class="dropdown-menu dropdown-menu-end dropdown-card navbar-dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="navbarAppsDropdown" style="width: 25rem;">
-                      <div class="card">
-                        <!-- Header -->
-                        <div class="card-header">
-                          <h4 class="card-title">Web apps &amp; services</h4>
-                        </div>
-                        <!-- End Header -->
-
-                        <!-- Body -->
-                        <div class="card-body card-body-height">
-                          <a class="dropdown-item" href="#">
-                            <div class="d-flex align-items-center">
-                              <div class="flex-shrink-0">
-                                <img class="avatar avatar-xs avatar-4x3" src="./assets/svg/brands/atlassian-icon.svg" alt="Image Description">
-                              </div>
-                              <div class="flex-grow-1 text-truncate ms-3">
-                                <h5 class="mb-0">Atlassian</h5>
-                                <p class="card-text text-body">Security and control across Cloud</p>
-                              </div>
-                            </div>
-                          </a>
-
-                          <a class="dropdown-item" href="#">
-                            <div class="d-flex align-items-center">
-                              <div class="flex-shrink-0">
-                                <img class="avatar avatar-xs avatar-4x3" src="./assets/svg/brands/slack-icon.svg" alt="Image Description">
-                              </div>
-                              <div class="flex-grow-1 text-truncate ms-3">
-                                <h5 class="mb-0">Slack <span class="badge bg-primary rounded-pill text-uppercase ms-1">Try</span></h5>
-                                <p class="card-text text-body">Email collaboration software</p>
-                              </div>
-                            </div>
-                          </a>
-
-                          <a class="dropdown-item" href="#">
-                            <div class="d-flex align-items-center">
-                              <div class="flex-shrink-0">
-                                <img class="avatar avatar-xs avatar-4x3" src="./assets/svg/brands/google-webdev-icon.svg" alt="Image Description">
-                              </div>
-                              <div class="flex-grow-1 text-truncate ms-3">
-                                <h5 class="mb-0">Google webdev</h5>
-                                <p class="card-text text-body">Work involved in developing a website</p>
-                              </div>
-                            </div>
-                          </a>
-
-                          <a class="dropdown-item" href="#">
-                            <div class="d-flex align-items-center">
-                              <div class="flex-shrink-0">
-                                <img class="avatar avatar-xs avatar-4x3" src="./assets/svg/brands/frontapp-icon.svg" alt="Image Description">
-                              </div>
-                              <div class="flex-grow-1 text-truncate ms-3">
-                                <h5 class="mb-0">Frontapp</h5>
-                                <p class="card-text text-body">The inbox for teams</p>
-                              </div>
-                            </div>
-                          </a>
-
-                          <a class="dropdown-item" href="#">
-                            <div class="d-flex align-items-center">
-                              <div class="flex-shrink-0">
-                                <img class="avatar avatar-xs avatar-4x3" src="./assets/svg/illustrations/review-rating-shield.svg" alt="Image Description">
-                              </div>
-                              <div class="flex-grow-1 text-truncate ms-3">
-                                <h5 class="mb-0">HS Support</h5>
-                                <p class="card-text text-body">Customer service and support</p>
-                              </div>
-                            </div>
-                          </a>
-
-                          <a class="dropdown-item" href="#">
-                            <div class="d-flex align-items-center">
-                              <div class="flex-shrink-0">
-                                <div class="avatar avatar-sm avatar-soft-dark">
-                                  <span class="avatar-initials"><i class="bi-grid"></i></span>
-                                </div>
-                              </div>
-                              <div class="flex-grow-1 text-truncate ms-3">
-                                <h5 class="mb-0">More Front products</h5>
-                                <p class="card-text text-body">Check out more HS products</p>
-                              </div>
-                            </div>
-                          </a>
-                        </div>
-                        <!-- End Body -->
-
-                        <!-- Footer -->
-                        <a class="card-footer text-center" href="#">
-                          View all apps <i class="bi-chevron-right"></i>
-                        </a>
-                        <!-- End Footer -->
-                      </div>
-                    </div>
-                  </div>
-                  <!-- End Apps -->
-                </li>
-
-                <li class="nav-item d-none d-sm-inline-block">
-                  <!-- Activity -->
-                  <button class="btn btn-ghost-secondary btn-icon rounded-circle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasActivityStream" aria-controls="offcanvasActivityStream">
-                    <i class="bi-x-diamond"></i>
-                  </button>
-                  <!-- Activity -->
-                </li>
-
-                <li class="nav-item">
-                  <!-- Style Switcher -->
-                  <div class="dropdown ">
-                    <button type="button" class="btn btn-ghost-secondary btn-icon rounded-circle" id="selectThemeDropdown" data-bs-toggle="dropdown" aria-expanded="false" data-bs-dropdown-animation>
-
-                    </button>
-
-                    <div class="dropdown-menu dropdown-menu-end navbar-dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="selectThemeDropdown">
-                      <a class="dropdown-item" href="#" data-icon="bi-moon-stars" data-value="auto">
-                        <i class="bi-moon-stars me-2"></i>
-                        <span class="text-truncate" title="Auto (system default)">Auto (system default)</span>
-                      </a>
-                      <a class="dropdown-item" href="#" data-icon="bi-brightness-high" data-value="default">
-                        <i class="bi-brightness-high me-2"></i>
-                        <span class="text-truncate" title="Default (light mode)">Default (light mode)</span>
-                      </a>
-                      <a class="dropdown-item active" href="#" data-icon="bi-moon" data-value="dark">
-                        <i class="bi-moon me-2"></i>
-                        <span class="text-truncate" title="Dark">Dark</span>
-                      </a>
-                    </div>
-                  </div>
-
-                  <!-- End Style Switcher -->
-                </li>
-
-                <li class="nav-item">
-                  <!-- Account -->
-                  <div class="dropdown">
-                    <a class="navbar-dropdown-account-wrapper" href="javascript:;" id="accountNavbarDropdown" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-dropdown-animation>
-                      <div class="avatar avatar-sm avatar-circle">
-                        <img class="avatar-img" src="./assets/img/160x160/img6.jpg" alt="Image Description">
-                        <span class="avatar-status avatar-sm-status avatar-status-success"></span>
-                      </div>
-                    </a>
-
-                    <div class="dropdown-menu dropdown-menu-end navbar-dropdown-menu navbar-dropdown-menu-borderless navbar-dropdown-account" aria-labelledby="accountNavbarDropdown" style="width: 16rem;">
-                      <div class="dropdown-item-text">
-                        <div class="d-flex align-items-center">
-                          <div class="avatar avatar-sm avatar-circle">
-                            <img class="avatar-img" src="./assets/img/160x160/img6.jpg" alt="Image Description">
-                          </div>
-                          <div class="flex-grow-1 ms-3">
-                            <h5 class="mb-0">Mark Williams</h5>
-                            <p class="card-text text-body">mark@site.com</p>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="dropdown-divider"></div>
-
-                      <!-- Dropdown -->
-                      <div class="dropdown">
-                        <a class="navbar-dropdown-submenu-item dropdown-item dropdown-toggle" href="javascript:;" id="navSubmenuPagesAccountDropdown1" data-bs-toggle="dropdown" aria-expanded="false">Set status</a>
-
-                        <div class="dropdown-menu dropdown-menu-end navbar-dropdown-menu navbar-dropdown-menu-borderless navbar-dropdown-sub-menu" aria-labelledby="navSubmenuPagesAccountDropdown1">
-                          <a class="dropdown-item" href="#">
-                            <span class="legend-indicator bg-success me-1"></span> Available
-                          </a>
-                          <a class="dropdown-item" href="#">
-                            <span class="legend-indicator bg-danger me-1"></span> Busy
-                          </a>
-                          <a class="dropdown-item" href="#">
-                            <span class="legend-indicator bg-warning me-1"></span> Away
-                          </a>
-                          <div class="dropdown-divider"></div>
-                          <a class="dropdown-item" href="#"> Reset status
-                          </a>
-                        </div>
-                      </div>
-                      <!-- End Dropdown -->
-
-                      <a class="dropdown-item" href="#">Profile &amp; account</a>
-                      <a class="dropdown-item" href="#">Settings</a>
-
-                      <div class="dropdown-divider"></div>
-
-                      <a class="dropdown-item" href="#">
-                        <div class="d-flex align-items-center">
-                          <div class="flex-shrink-0">
-                            <div class="avatar avatar-sm avatar-dark avatar-circle">
-                              <span class="avatar-initials">HS</span>
-                            </div>
-                          </div>
-                          <div class="flex-grow-1 ms-2">
-                            <h5 class="mb-0">Htmlstream <span class="badge bg-primary rounded-pill text-uppercase ms-1">PRO</span></h5>
-                            <span class="card-text">hs.example.com</span>
-                          </div>
-                        </div>
-                      </a>
-
-                      <div class="dropdown-divider"></div>
-
-                      <!-- Dropdown -->
-                      <div class="dropdown">
-                        <a class="navbar-dropdown-submenu-item dropdown-item dropdown-toggle" href="javascript:;" id="navSubmenuPagesAccountDropdown2" data-bs-toggle="dropdown" aria-expanded="false">Customization</a>
-
-                        <div class="dropdown-menu dropdown-menu-end navbar-dropdown-menu navbar-dropdown-menu-borderless navbar-dropdown-sub-menu" aria-labelledby="navSubmenuPagesAccountDropdown2">
-                          <a class="dropdown-item" href="#">
-                            Invite people
-                          </a>
-                          <a class="dropdown-item" href="#">
-                            Analytics
-                            <i class="bi-box-arrow-in-up-right"></i>
-                          </a>
-                          <a class="dropdown-item" href="#">
-                            Customize Front
-                            <i class="bi-box-arrow-in-up-right"></i>
-                          </a>
-                        </div>
-                      </div>
-                      <!-- End Dropdown -->
-
-                      <a class="dropdown-item" href="#">Manage team</a>
-
-                      <div class="dropdown-divider"></div>
-
-                      <a class="dropdown-item" href="#">Sign out</a>
-                    </div>
-                  </div>
-                  <!-- End Account -->
-                </li>
-              </ul>
-              <!-- End Navbar -->
-            </div>
-            <!-- End Secondary Content -->
-
-            <!-- Toggler -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContainerNavDropdown" aria-controls="navbarContainerNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-default">
-                <i class="bi-list"></i>
-              </span>
-              <span class="navbar-toggler-toggled">
-                <i class="bi-x"></i>
-              </span>
-            </button>
-            <!-- End Toggler -->
-
-            <!-- Collapse -->
-            <div class="collapse navbar-collapse" id="navbarContainerNavDropdown">
-              <ul class="navbar-nav">
-                <!-- Dashboards -->
-                <li class="hs-has-sub-menu nav-item">
-                  <a id="dashboardsMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle active" href="#" role="button"><i class="bi-house-door dropdown-item-icon"></i> Dashboards</a>
-
-                  <!-- Mega Menu -->
-                  <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="dashboardsMegaMenu" style="min-width: 14rem;">
-                    <a class="dropdown-item active" href="./index.html">Default</a>
-                    <a class="dropdown-item " href="./dashboard-alternative.html">Alternative</a>
-                  </div>
-                  <!-- End Mega Menu -->
-                </li>
-                <!-- End Dashboards -->
-
-                <!-- Pages -->
-                <li class="hs-has-sub-menu nav-item">
-                  <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button"><i class="bi-files-alt dropdown-item-icon"></i> Pages</a>
-
-                  <!-- Mega Menu -->
-                  <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="pagesMegaMenu" style="min-width: 14rem;">
-                    <!-- Users -->
-                    <div class="hs-has-sub-menu nav-item">
-                      <a id="usersMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button">Users</a>
-
-                      <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="usersMegaMenu" style="min-width: 14rem;">
-                        <a class="dropdown-item " href="./users.html">Overview</a>
-                        <a class="dropdown-item " href="./users-leaderboard.html">Leaderboard</a>
-                        <a class="dropdown-item " href="./users-add-user.html">Add User <span class="badge bg-info rounded-pill ms-1">Hot</span></a>
-                      </div>
-                    </div>
-                    <!-- End Users -->
-
-                    <!-- User Profile -->
-                    <div class="hs-has-sub-menu nav-item">
-                      <a id="userProfileMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button">User Profile <span class="badge bg-primary rounded-pill ms-1">5</span></a>
-
-                      <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="userProfileMegaMenu" style="min-width: 14rem;">
-                        <a class="dropdown-item " href="./user-profile.html">Profile</a>
-                        <a class="dropdown-item " href="./user-profile-teams.html">Teams</a>
-                        <a class="dropdown-item " href="./user-profile-projects.html">Projects</a>
-                        <a class="dropdown-item " href="./user-profile-connections.html">Connections</a>
-                        <a class="dropdown-item " href="./user-profile-my-profile.html">My Profile</a>
-                      </div>
-                    </div>
-                    <!-- End User Profile -->
-
-                    <!-- Account -->
-                    <div class="hs-has-sub-menu nav-item">
-                      <a id="accountMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button">Account</a>
-
-                      <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="accountMegaMenu" style="min-width: 14rem;">
-                        <a class="dropdown-item " href="./account-settings.html">Settings</a>
-                        <a class="dropdown-item " href="./account-billing.html">Billing</a>
-                        <a class="dropdown-item " href="./account-invoice.html">Invoice</a>
-                      </div>
-                    </div>
-                    <!-- End Account -->
-
-                    <!-- E-commerce -->
-                    <div class="hs-has-sub-menu nav-item">
-                      <a id="ecommerceMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button">E-commerce</a>
-
-                      <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="ecommerceMegaMenu" style="min-width: 14rem;">
-                        <a class="dropdown-item " href="./ecommerce.html">Overview</a>
-
-                        <!-- Products -->
-                        <div class="hs-has-sub-menu nav-item">
-                          <a id="productsMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button">Products</a>
-
-                          <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="productsMegaMenu" style="min-width: 14rem;">
-                            <a class="dropdown-item " href="./ecommerce-products.html">Products</a>
-                            <a class="dropdown-item " href="./ecommerce-product-details.html">Product Details</a>
-                            <a class="dropdown-item " href="./ecommerce-add-product.html">Add Product</a>
-                          </div>
-                        </div>
-                        <!-- End Products -->
-
-                        <!-- Products -->
-                        <div class="hs-has-sub-menu nav-item">
-                          <a id="ordersMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button">Orders</a>
-
-                          <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="ordersMegaMenu" style="min-width: 14rem;">
-                            <a class="dropdown-item " href="./ecommerce-orders.html">Orders</a>
-                            <a class="dropdown-item " href="./ecommerce-order-details.html">Order Details</a>
-                          </div>
-                        </div>
-                        <!-- End Products -->
-
-                        <!-- Customers -->
-                        <div class="hs-has-sub-menu nav-item">
-                          <a id="customersMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button">Customers</a>
-
-                          <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="customersMegaMenu" style="min-width: 14rem;">
-                            <a class="dropdown-item " href="./ecommerce-customers.html">Customers</a>
-                            <a class="dropdown-item " href="./ecommerce-customer-details.html">Customer Details</a>
-                            <a class="dropdown-item " href="./ecommerce-add-customers.html">Add Customers</a>
-                          </div>
-                        </div>
-                        <!-- End Customers -->
-
-                        <a class="dropdown-item " href="./ecommerce-referrals.html">Referrals</a>
-                        <a class="dropdown-item " href="./ecommerce-manage-reviews.html">Manage Reviews</a>
-                        <a class="dropdown-item " href="./ecommerce-checkout.html">Checkout</a>
-                      </div>
-                    </div>
-                    <!-- End E-commerce -->
-
-                    <!-- Projects -->
-                    <div class="hs-has-sub-menu nav-item">
-                      <a id="projectsMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button">Projects</a>
-
-                      <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="projectsMegaMenu" style="min-width: 14rem;">
-                        <a class="dropdown-item " href="./projects.html">Overview</a>
-                        <a class="dropdown-item " href="./projects-timeline.html">Timeline</a>
-                      </div>
-                    </div>
-                    <!-- End Projects -->
-
-                    <!-- Project -->
-                    <div class="hs-has-sub-menu nav-item">
-                      <a id="projectMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button">Project</a>
-
-                      <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="projectMegaMenu" style="min-width: 14rem;">
-                        <a class="dropdown-item " href="./project.html">Overview</a>
-                        <a class="dropdown-item " href="./project-files.html">Files</a>
-                        <a class="dropdown-item " href="./project-activity.html">Activity</a>
-                        <a class="dropdown-item " href="./project-teams.html">Teams</a>
-                        <a class="dropdown-item " href="./project-settings.html">Settings</a>
-                      </div>
-                    </div>
-                    <!-- End Project -->
-
-                    <!-- Authentication -->
-                    <div class="hs-has-sub-menu nav-item">
-                      <a id="authenticationMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button">Authentication</a>
-
-                      <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="authenticationMegaMenu" style="min-width: 14rem;">
-                        <!-- Log In -->
-                        <div class="hs-has-sub-menu nav-item">
-                          <a id="loginMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button">Log In</a>
-
-                          <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="loginMegaMenu" style="min-width: 14rem;">
-                            <a class="dropdown-item " href="./authentication-login-basic.html">Basic</a>
-                            <a class="dropdown-item " href="./authentication-login-cover.html">Cover</a>
-                          </div>
-                        </div>
-                        <!-- End Log In -->
-
-                        <!-- Sign Up -->
-                        <div class="hs-has-sub-menu nav-item">
-                          <a id="signupMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button">Sign Up</a>
-
-                          <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="signupMegaMenu" style="min-width: 14rem;">
-                            <a class="dropdown-item " href="./authentication-signup-basic.html">Basic</a>
-                            <a class="dropdown-item " href="./authentication-signup-cover.html">Cover</a>
-                          </div>
-                        </div>
-                        <!-- End Sign Up -->
-
-                        <!-- Reset Password -->
-                        <div class="hs-has-sub-menu nav-item">
-                          <a id="resetPasswordMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button">Reset Password</a>
-
-                          <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="resetPasswordMegaMenu" style="min-width: 14rem;">
-                            <a class="dropdown-item " href="./authentication-reset-password-basic.html">Basic</a>
-                            <a class="dropdown-item " href="./authentication-reset-password-cover.html">Cover</a>
-                          </div>
-                        </div>
-                        <!-- End Reset Password -->
-
-                        <!-- Email Verification -->
-                        <div class="hs-has-sub-menu nav-item">
-                          <a id="emailVerificationMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button">Email Verification</a>
-
-                          <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="emailVerificationMegaMenu" style="min-width: 14rem;">
-                            <a class="dropdown-item " href="./authentication-email-verification-basic.html">Basic</a>
-                            <a class="dropdown-item " href="./authentication-email-verification-cover.html">Cover</a>
-                          </div>
-                        </div>
-                        <!-- End Email Verification -->
-
-                        <!-- 2-step Verification -->
-                        <div class="hs-has-sub-menu nav-item">
-                          <a id="2stepVerificationMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button">2-step Verification</a>
-
-                          <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="2stepVerificationMegaMenu" style="min-width: 14rem;">
-                            <a class="dropdown-item " href="./authentication-2-step-verification-basic.html">Basic</a>
-                            <a class="dropdown-item " href="./authentication-2-step-verification-cover.html">Cover</a>
-                          </div>
-                        </div>
-                        <!-- End 2-step Verification -->
-
-                        <a class="dropdown-item" href="javascript:;" data-bs-toggle="modal" data-bs-target="#welcomeMessageModal">Welcome Message</a>
-                        <a class="dropdown-item " href="./error-404.html">Error 404</a>
-                        <a class="dropdown-item " href="./error-500.html">Error 500</a>
-                      </div>
-                    </div>
-                    <!-- End Authentication -->
-
-                    <a class="dropdown-item " href="./api-keys.html" data-placement="left">API Keys</a>
-                    <a class="dropdown-item " href="./welcome-page.html" data-placement="left">Welcome Page</a>
-                    <a class="dropdown-item " href="./landing.html" data-placement="left">Landing Page <span class="badge bg-info rounded-pill ms-1">New</span></a>
-                  </div>
-                  <!-- End Mega Menu -->
-                </li>
-                <!-- End Pages -->
-
-                <!-- Apps -->
-                <li class="hs-has-sub-menu nav-item">
-                  <a id="appsMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button"><i class="bi-app-indicator dropdown-item-icon"></i> Apps</a>
-
-                  <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="appsMegaMenu" style="min-width: 14rem;">
-                    <a class="dropdown-item " href="./apps-kanban.html">Kanban</a>
-                    <a class="dropdown-item " href="./apps-calendar.html">Calendar</a>
-                    <a class="dropdown-item " href="./apps-invoice-generator.html">Invoice Generator</a>
-                    <a class="dropdown-item " href="./apps-file-manager.html">File Manager</a>
-                  </div>
-                </li>
-                <!-- End Apps -->
-
-                <li class="nav-item">
-                  <a class="nav-link " href="./layouts/index.html">
-                    <i class="bi-grid-1x2 dropdown-item-icon"></i> Layouts
-                  </a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link " href="./documentation/index.html" data-placement="left">
-                    <i class="bi-book dropdown-item-icon"></i> Docs
-                  </a>
-                </li>
-              </ul>
-
-            </div>
-            <!-- End Collapse -->
-          </nav>
-        </div>
-      </header>
-
-      <!-- End Single Header -->
-    </div>
-    <div class="js-build-layout-header-double">
-      <!-- Double Header -->
-      <header id="header" class="navbar navbar-expand-lg navbar-bordered navbar-spacer-y-0 flex-lg-column">
-        <div class="navbar-dark w-100 bg-dark py-2">
-          <div class="container">
-            <div class="navbar-nav-wrap">
-              <!-- Logo -->
-              <a class="navbar-brand" href="./index.html" aria-label="Front">
-                <img class="navbar-brand-logo" src="./assets/svg/logos/logo-white.svg" alt="Logo">
-              </a>
-              <!-- End Logo -->
-
-              <!-- Content Start -->
-              <div class="navbar-nav-wrap-content-start">
-                <!-- Search Form -->
-                <div class="d-none d-lg-block">
-                  <div class="dropdown ms-2">
-                    <!-- Input Group -->
-                    <div class="d-none d-lg-block">
-                      <div class="input-group input-group-merge input-group-borderless input-group-hover-light navbar-input-group">
-                        <div class="input-group-prepend input-group-text">
-                          <i class="bi-search"></i>
-                        </div>
-
-                        <input type="search" class="js-form-search form-control" placeholder="Search in front" aria-label="Search in front" data-hs-form-search-options='{
-                                 "clearIcon": "#clearSearchResultsIcon",
-                                 "dropMenuElement": "#searchDropdownMenu",
-                                 "dropMenuOffset": 20,
-                                 "toggleIconOnFocus": true,
-                                 "activeClass": "focus"
-                               }'>
-                        <a class="input-group-append input-group-text" href="javascript:;">
-                          <i id="clearSearchResultsIcon" class="bi-x-lg" style="display: none;"></i>
-                        </a>
-                      </div>
-                    </div>
-
-                    <button class="js-form-search js-form-search-mobile-toggle btn btn-ghost-secondary btn-icon rounded-circle d-lg-none" type="button" data-hs-form-search-options='{
-                                 "clearIcon": "#clearSearchResultsIcon",
-                                 "dropMenuElement": "#searchDropdownMenu",
-                                 "dropMenuOffset": 20,
-                                 "toggleIconOnFocus": true,
-                                 "activeClass": "focus"
-                               }'>
-                      <i class="bi-search"></i>
-                    </button>
-                    <!-- End Input Group -->
-
-                    <!-- Card Search Content -->
-                    <div id="searchDropdownMenu" class="hs-form-search-menu-content dropdown-menu dropdown-menu-form-search navbar-dropdown-menu-borderless">
-                      <div class="card">
-                        <!-- Body -->
-                        <div class="card-body-height">
-                          <div class="d-lg-none">
-                            <div class="input-group input-group-merge navbar-input-group mb-5">
-                              <div class="input-group-prepend input-group-text">
-                                <i class="bi-search"></i>
-                              </div>
-
-                              <input type="search" class="form-control" placeholder="Search in front" aria-label="Search in front">
-                              <a class="input-group-append input-group-text" href="javascript:;">
-                                <i class="bi-x-lg"></i>
-                              </a>
-                            </div>
-                          </div>
-
-                          <span class="dropdown-header">Recent searches</span>
-
-                          <div class="dropdown-item bg-transparent text-wrap">
-                            <a class="btn btn-soft-dark btn-xs rounded-pill" href="./index.html">
-                              Gulp <i class="bi-search ms-1"></i>
-                            </a>
-                            <a class="btn btn-soft-dark btn-xs rounded-pill" href="./index.html">
-                              Notification panel <i class="bi-search ms-1"></i>
-                            </a>
-                          </div>
-
-                          <div class="dropdown-divider"></div>
-
-                          <span class="dropdown-header">Tutorials</span>
-
-                          <a class="dropdown-item" href="./index.html">
-                            <div class="d-flex align-items-center">
-                              <div class="flex-shrink-0">
-                                <span class="icon icon-soft-dark icon-xs icon-circle">
-                                  <i class="bi-sliders"></i>
-                                </span>
-                              </div>
-
-                              <div class="flex-grow-1 text-truncate ms-2">
-                                <span>How to set up Gulp?</span>
-                              </div>
-                            </div>
-                          </a>
-
-                          <a class="dropdown-item" href="./index.html">
-                            <div class="d-flex align-items-center">
-                              <div class="flex-shrink-0">
-                                <span class="icon icon-soft-dark icon-xs icon-circle">
-                                  <i class="bi-paint-bucket"></i>
-                                </span>
-                              </div>
-
-                              <div class="flex-grow-1 text-truncate ms-2">
-                                <span>How to change theme color?</span>
-                              </div>
-                            </div>
-                          </a>
-
-                          <div class="dropdown-divider"></div>
-
-                          <span class="dropdown-header">Members</span>
-
-                          <a class="dropdown-item" href="./index.html">
-                            <div class="d-flex align-items-center">
-                              <div class="flex-shrink-0">
-                                <img class="avatar avatar-xs avatar-circle" src="./assets/img/160x160/img10.jpg" alt="Image Description">
-                              </div>
-                              <div class="flex-grow-1 text-truncate ms-2">
-                                <span>Amanda Harvey <i class="tio-verified text-primary" data-toggle="tooltip" data-placement="top" title="Top endorsed"></i></span>
-                              </div>
-                            </div>
-                          </a>
-
-                          <a class="dropdown-item" href="./index.html">
-                            <div class="d-flex align-items-center">
-                              <div class="flex-shrink-0">
-                                <img class="avatar avatar-xs avatar-circle" src="./assets/img/160x160/img3.jpg" alt="Image Description">
-                              </div>
-                              <div class="flex-grow-1 text-truncate ms-2">
-                                <span>David Harrison</span>
-                              </div>
-                            </div>
-                          </a>
-
-                          <a class="dropdown-item" href="./index.html">
-                            <div class="d-flex align-items-center">
-                              <div class="flex-shrink-0">
-                                <div class="avatar avatar-xs avatar-soft-info avatar-circle">
-                                  <span class="avatar-initials">A</span>
-                                </div>
-                              </div>
-                              <div class="flex-grow-1 text-truncate ms-2">
-                                <span>Anne Richard</span>
-                              </div>
-                            </div>
-                          </a>
-                        </div>
-                        <!-- End Body -->
-
-                        <!-- Footer -->
-                        <a class="card-footer text-center" href="./index.html">
-                          See all results <i class="bi-chevron-right small"></i>
-                        </a>
-                        <!-- End Footer -->
-                      </div>
-                    </div>
-                    <!-- End Card Search Content -->
-
-                  </div>
-
-                </div>
-                <!-- End Search Form -->
-              </div>
-              <!-- End Content Start -->
-
-              <!-- Content End -->
-              <div class="navbar-nav-wrap-content-end">
-                <!-- Navbar -->
-                <ul class="navbar-nav">
-                  <li class="nav-item d-none d-md-inline-block">
-                    <!-- Notification -->
-                    <div class="dropdown">
-                      <button type="button" class="btn btn-ghost-light btn-icon rounded-circle" id="navbarNotificationsDropdown" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-dropdown-animation>
-                        <i class="bi-bell"></i>
-                        <span class="btn-status btn-sm-status btn-status-danger"></span>
-                      </button>
-
-                      <div class="dropdown-menu dropdown-menu-end dropdown-card navbar-dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="navbarNotificationsDropdown" style="width: 25rem;">
-                        <div class="card">
-                          <!-- Header -->
-                          <div class="card-header card-header-content-between">
-                            <h4 class="card-title mb-0">Notifications</h4>
-
-                            <!-- Unfold -->
-                            <div class="dropdown">
-                              <button type="button" class="btn btn-icon btn-sm btn-ghost-secondary rounded-circle" id="navbarNotificationsDropdownSettings" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="bi-three-dots-vertical"></i>
-                              </button>
-
-                              <div class="dropdown-menu dropdown-menu-end navbar-dropdown-menu-borderless" aria-labelledby="navbarNotificationsDropdownSettings">
-                                <span class="dropdown-header">Settings</span>
-                                <a class="dropdown-item" href="#">
-                                  <i class="bi-archive dropdown-item-icon"></i> Archive all
-                                </a>
-                                <a class="dropdown-item" href="#">
-                                  <i class="bi-check2-all dropdown-item-icon"></i> Mark all as read
-                                </a>
-                                <a class="dropdown-item" href="#">
-                                  <i class="bi-toggle-off dropdown-item-icon"></i> Disable notifications
-                                </a>
-                                <a class="dropdown-item" href="#">
-                                  <i class="bi-gift dropdown-item-icon"></i> What's new?
-                                </a>
-                                <div class="dropdown-divider"></div>
-                                <span class="dropdown-header">Feedback</span>
-                                <a class="dropdown-item" href="#">
-                                  <i class="bi-chat-left-dots dropdown-item-icon"></i> Report
-                                </a>
-                              </div>
-                            </div>
-                            <!-- End Unfold -->
-                          </div>
-                          <!-- End Header -->
-
-                          <!-- Nav -->
-                          <ul class="nav nav-tabs nav-justified" id="notificationTab" role="tablist">
-                            <li class="nav-item">
-                              <a class="nav-link active" href="#notificationNavOne" id="notificationNavOne-tab" data-bs-toggle="tab" data-bs-target="#notificationNavOne" role="tab" aria-controls="notificationNavOne" aria-selected="true">Messages (3)</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#notificationNavTwo" id="notificationNavTwo-tab" data-bs-toggle="tab" data-bs-target="#notificationNavTwo" role="tab" aria-controls="notificationNavTwo" aria-selected="false">Archived</a>
-                            </li>
-                          </ul>
-                          <!-- End Nav -->
-
-                          <!-- Body -->
-                          <div class="card-body-height">
-                            <!-- Tab Content -->
-                            <div class="tab-content" id="notificationTabContent">
-                              <div class="tab-pane fade show active" id="notificationNavOne" role="tabpanel" aria-labelledby="notificationNavOne-tab">
-                                <!-- List Group -->
-                                <ul class="list-group list-group-flush navbar-card-list-group">
-                                  <!-- Item -->
-                                  <li class="list-group-item form-check-select">
-                                    <div class="row">
-                                      <div class="col-auto">
-                                        <div class="d-flex align-items-center">
-                                          <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="notificationCheck1" checked>
-                                            <label class="form-check-label" for="notificationCheck1"></label>
-                                            <span class="form-check-stretched-bg"></span>
-                                          </div>
-                                          <img class="avatar avatar-sm avatar-circle" src="./assets/img/160x160/img3.jpg" alt="Image Description">
-                                        </div>
-                                      </div>
-                                      <!-- End Col -->
-
-                                      <div class="col ms-n2">
-                                        <h5 class="mb-1">Brian Warner</h5>
-                                        <p class="text-body fs-5">changed an issue from "In Progress" to <span class="badge bg-success">Review</span></p>
-                                      </div>
-                                      <!-- End Col -->
-
-                                      <small class="col-auto text-muted text-cap">2hr</small>
-                                      <!-- End Col -->
-                                    </div>
-                                    <!-- End Row -->
-
-                                    <a class="stretched-link" href="#"></a>
-                                  </li>
-                                  <!-- End Item -->
-
-                                  <!-- Item -->
-                                  <li class="list-group-item form-check-select">
-                                    <div class="row">
-                                      <div class="col-auto">
-                                        <div class="d-flex align-items-center">
-                                          <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="notificationCheck2" checked>
-                                            <label class="form-check-label" for="notificationCheck2"></label>
-                                            <span class="form-check-stretched-bg"></span>
-                                          </div>
-                                          <div class="avatar avatar-sm avatar-soft-dark avatar-circle">
-                                            <span class="avatar-initials">K</span>
-                                          </div>
-                                        </div>
-                                      </div>
-                                      <!-- End Col -->
-
-                                      <div class="col ms-n2">
-                                        <h5 class="mb-1">Klara Hampton</h5>
-                                        <p class="text-body fs-5">mentioned you in a comment</p>
-                                        <blockquote class="blockquote blockquote-sm">
-                                          Nice work, love! You really nailed it. Keep it up!
-                                        </blockquote>
-                                      </div>
-                                      <!-- End Col -->
-
-                                      <small class="col-auto text-muted text-cap">10hr</small>
-                                      <!-- End Col -->
-                                    </div>
-                                    <!-- End Row -->
-
-                                    <a class="stretched-link" href="#"></a>
-                                  </li>
-                                  <!-- End Item -->
-
-                                  <!-- Item -->
-                                  <li class="list-group-item form-check-select">
-                                    <div class="row">
-                                      <div class="col-auto">
-                                        <div class="d-flex align-items-center">
-                                          <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="notificationCheck3" checked>
-                                            <label class="form-check-label" for="notificationCheck3"></label>
-                                            <span class="form-check-stretched-bg"></span>
-                                          </div>
-                                          <div class="avatar avatar-sm avatar-circle">
-                                            <img class="avatar-img" src="./assets/img/160x160/img10.jpg" alt="Image Description">
-                                          </div>
-                                        </div>
-                                      </div>
-                                      <!-- End Col -->
-
-                                      <div class="col ms-n2">
-                                        <h5 class="mb-1">Ruby Walter</h5>
-                                        <p class="text-body fs-5">joined the Slack group HS Team</p>
-                                      </div>
-                                      <!-- End Col -->
-
-                                      <small class="col-auto text-muted text-cap">3dy</small>
-                                      <!-- End Col -->
-                                    </div>
-                                    <!-- End Row -->
-
-                                    <a class="stretched-link" href="#"></a>
-                                  </li>
-                                  <!-- End Item -->
-
-                                  <!-- Item -->
-                                  <li class="list-group-item form-check-select">
-                                    <div class="row">
-                                      <div class="col-auto">
-                                        <div class="d-flex align-items-center">
-                                          <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="notificationCheck4">
-                                            <label class="form-check-label" for="notificationCheck4"></label>
-                                            <span class="form-check-stretched-bg"></span>
-                                          </div>
-                                          <div class="avatar avatar-sm avatar-circle">
-                                            <img class="avatar-img" src="./assets/svg/brands/google-icon.svg" alt="Image Description">
-                                          </div>
-                                        </div>
-                                      </div>
-                                      <!-- End Col -->
-
-                                      <div class="col ms-n2">
-                                        <h5 class="mb-1">from Google</h5>
-                                        <p class="text-body fs-5">Start using forms to capture the information of prospects visiting your Google website</p>
-                                      </div>
-                                      <!-- End Col -->
-
-                                      <small class="col-auto text-muted text-cap">17dy</small>
-                                      <!-- End Col -->
-                                    </div>
-                                    <!-- End Row -->
-
-                                    <a class="stretched-link" href="#"></a>
-                                  </li>
-                                  <!-- End Item -->
-
-                                  <!-- Item -->
-                                  <li class="list-group-item form-check-select">
-                                    <div class="row">
-                                      <div class="col-auto">
-                                        <div class="d-flex align-items-center">
-                                          <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="notificationCheck5">
-                                            <label class="form-check-label" for="notificationCheck5"></label>
-                                            <span class="form-check-stretched-bg"></span>
-                                          </div>
-                                          <div class="avatar avatar-sm avatar-circle">
-                                            <img class="avatar-img" src="./assets/img/160x160/img7.jpg" alt="Image Description">
-                                          </div>
-                                        </div>
-                                      </div>
-                                      <!-- End Col -->
-
-                                      <div class="col ms-n2">
-                                        <h5 class="mb-1">Sara Villar</h5>
-                                        <p class="text-body fs-5">completed <i class="bi-journal-bookmark-fill text-primary"></i> FD-7 task</p>
-                                      </div>
-                                      <!-- End Col -->
-
-                                      <small class="col-auto text-muted text-cap">2mn</small>
-                                      <!-- End Col -->
-                                    </div>
-                                    <!-- End Row -->
-
-                                    <a class="stretched-link" href="#"></a>
-                                  </li>
-                                  <!-- End Item -->
-                                </ul>
-                                <!-- End List Group -->
-                              </div>
-
-                              <div class="tab-pane fade" id="notificationNavTwo" role="tabpanel" aria-labelledby="notificationNavTwo-tab">
-                                <!-- List Group -->
-                                <ul class="list-group list-group-flush navbar-card-list-group">
-                                  <!-- Item -->
-                                  <li class="list-group-item form-check-select">
-                                    <div class="row">
-                                      <div class="col-auto">
-                                        <div class="d-flex align-items-center">
-                                          <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="notificationCheck6">
-                                            <label class="form-check-label" for="notificationCheck6"></label>
-                                            <span class="form-check-stretched-bg"></span>
-                                          </div>
-                                          <div class="avatar avatar-sm avatar-soft-dark avatar-circle">
-                                            <span class="avatar-initials">A</span>
-                                          </div>
-                                        </div>
-                                      </div>
-                                      <!-- End Col -->
-
-                                      <div class="col ms-n2">
-                                        <h5 class="mb-1">Anne Richard</h5>
-                                        <p class="text-body fs-5">accepted your invitation to join Notion</p>
-                                      </div>
-                                      <!-- End Col -->
-
-                                      <small class="col-auto text-muted text-cap">1dy</small>
-                                      <!-- End Col -->
-                                    </div>
-                                    <!-- End Row -->
-
-                                    <a class="stretched-link" href="#"></a>
-                                  </li>
-                                  <!-- End Item -->
-
-                                  <!-- Item -->
-                                  <li class="list-group-item form-check-select">
-                                    <div class="row">
-                                      <div class="col-auto">
-                                        <div class="d-flex align-items-center">
-                                          <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="notificationCheck7">
-                                            <label class="form-check-label" for="notificationCheck7"></label>
-                                            <span class="form-check-stretched-bg"></span>
-                                          </div>
-                                          <div class="avatar avatar-sm avatar-circle">
-                                            <img class="avatar-img" src="./assets/img/160x160/img5.jpg" alt="Image Description">
-                                          </div>
-                                        </div>
-                                      </div>
-                                      <!-- End Col -->
-
-                                      <div class="col ms-n2">
-                                        <h5 class="mb-1">Finch Hoot</h5>
-                                        <p class="text-body fs-5">left Slack group HS projects</p>
-                                      </div>
-                                      <!-- End Col -->
-
-                                      <small class="col-auto text-muted text-cap">1dy</small>
-                                      <!-- End Col -->
-                                    </div>
-                                    <!-- End Row -->
-
-                                    <a class="stretched-link" href="#"></a>
-                                  </li>
-                                  <!-- End Item -->
-
-                                  <!-- Item -->
-                                  <li class="list-group-item form-check-select">
-                                    <div class="row">
-                                      <div class="col-auto">
-                                        <div class="d-flex align-items-center">
-                                          <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="notificationCheck8">
-                                            <label class="form-check-label" for="notificationCheck8"></label>
-                                            <span class="form-check-stretched-bg"></span>
-                                          </div>
-                                          <div class="avatar avatar-sm avatar-dark avatar-circle">
-                                            <span class="avatar-initials">HS</span>
-                                          </div>
-                                        </div>
-                                      </div>
-                                      <!-- End Col -->
-
-                                      <div class="col ms-n2">
-                                        <h5 class="mb-1">Htmlstream</h5>
-                                        <p class="text-body fs-5">you earned a "Top endorsed" <i class="bi-patch-check-fill text-primary"></i> badge</p>
-                                      </div>
-                                      <!-- End Col -->
-
-                                      <small class="col-auto text-muted text-cap">6dy</small>
-                                      <!-- End Col -->
-                                    </div>
-                                    <!-- End Row -->
-
-                                    <a class="stretched-link" href="#"></a>
-                                  </li>
-                                  <!-- End Item -->
-
-                                  <!-- Item -->
-                                  <li class="list-group-item form-check-select">
-                                    <div class="row">
-                                      <div class="col-auto">
-                                        <div class="d-flex align-items-center">
-                                          <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="notificationCheck9">
-                                            <label class="form-check-label" for="notificationCheck9"></label>
-                                            <span class="form-check-stretched-bg"></span>
-                                          </div>
-                                          <div class="avatar avatar-sm avatar-circle">
-                                            <img class="avatar-img" src="./assets/img/160x160/img8.jpg" alt="Image Description">
-                                          </div>
-                                        </div>
-                                      </div>
-                                      <!-- End Col -->
-
-                                      <div class="col ms-n2">
-                                        <h5 class="mb-1">Linda Bates</h5>
-                                        <p class="text-body fs-5">Accepted your connection</p>
-                                      </div>
-                                      <!-- End Col -->
-
-                                      <small class="col-auto text-muted text-cap">17dy</small>
-                                      <!-- End Col -->
-                                    </div>
-                                    <!-- End Row -->
-
-                                    <a class="stretched-link" href="#"></a>
-                                  </li>
-                                  <!-- End Item -->
-
-                                  <!-- Item -->
-                                  <li class="list-group-item form-check-select">
-                                    <div class="row">
-                                      <div class="col-auto">
-                                        <div class="d-flex align-items-center">
-                                          <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="notificationCheck10">
-                                            <label class="form-check-label" for="notificationCheck10"></label>
-                                            <span class="form-check-stretched-bg"></span>
-                                          </div>
-                                          <div class="avatar avatar-sm avatar-soft-dark avatar-circle">
-                                            <span class="avatar-initials">L</span>
-                                          </div>
-                                        </div>
-                                      </div>
-                                      <!-- End Col -->
-
-                                      <div class="col ms-n2">
-                                        <h5 class="mb-1">Lewis Clarke</h5>
-                                        <p class="text-body fs-5">completed <i class="bi-journal-bookmark-fill text-primary"></i> FD-134 task</p>
-                                      </div>
-                                      <!-- End Col -->
-
-                                      <small class="col-auto text-muted text-cap">2mts</small>
-                                      <!-- End Col -->
-                                    </div>
-                                    <!-- End Row -->
-
-                                    <a class="stretched-link" href="#"></a>
-                                  </li>
-                                  <!-- End Item -->
-                                </ul>
-                                <!-- End List Group -->
-                              </div>
-                            </div>
-                            <!-- End Tab Content -->
-                          </div>
-                          <!-- End Body -->
-
-                          <!-- Card Footer -->
-                          <a class="card-footer text-center" href="#">
-                            View all notifications <i class="bi-chevron-right"></i>
-                          </a>
-                          <!-- End Card Footer -->
-                        </div>
-                      </div>
-                    </div>
-                    <!-- End Notification -->
-                  </li>
-
-                  <li class="nav-item d-none d-sm-inline-block">
-                    <!-- Apps -->
-                    <div class="dropdown">
-                      <button type="button" class="btn btn-icon btn-ghost-light rounded-circle" id="navbarAppsDropdown" data-bs-toggle="dropdown" aria-expanded="false" data-bs-dropdown-animation>
-                        <i class="bi-app-indicator"></i>
-                      </button>
-
-                      <div class="dropdown-menu dropdown-menu-end dropdown-card navbar-dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="navbarAppsDropdown" style="width: 25rem;">
-                        <div class="card">
-                          <!-- Header -->
-                          <div class="card-header">
-                            <h4 class="card-title">Web apps &amp; services</h4>
-                          </div>
-                          <!-- End Header -->
-
-                          <!-- Body -->
-                          <div class="card-body card-body-height">
-                            <a class="dropdown-item" href="#">
-                              <div class="d-flex align-items-center">
-                                <div class="flex-shrink-0">
-                                  <img class="avatar avatar-xs avatar-4x3" src="./assets/svg/brands/atlassian-icon.svg" alt="Image Description">
-                                </div>
-                                <div class="flex-grow-1 text-truncate ms-3">
-                                  <h5 class="mb-0">Atlassian</h5>
-                                  <p class="card-text text-body">Security and control across Cloud</p>
-                                </div>
-                              </div>
-                            </a>
-
-                            <a class="dropdown-item" href="#">
-                              <div class="d-flex align-items-center">
-                                <div class="flex-shrink-0">
-                                  <img class="avatar avatar-xs avatar-4x3" src="./assets/svg/brands/slack-icon.svg" alt="Image Description">
-                                </div>
-                                <div class="flex-grow-1 text-truncate ms-3">
-                                  <h5 class="mb-0">Slack <span class="badge bg-primary rounded-pill text-uppercase ms-1">Try</span></h5>
-                                  <p class="card-text text-body">Email collaboration software</p>
-                                </div>
-                              </div>
-                            </a>
-
-                            <a class="dropdown-item" href="#">
-                              <div class="d-flex align-items-center">
-                                <div class="flex-shrink-0">
-                                  <img class="avatar avatar-xs avatar-4x3" src="./assets/svg/brands/google-webdev-icon.svg" alt="Image Description">
-                                </div>
-                                <div class="flex-grow-1 text-truncate ms-3">
-                                  <h5 class="mb-0">Google webdev</h5>
-                                  <p class="card-text text-body">Work involved in developing a website</p>
-                                </div>
-                              </div>
-                            </a>
-
-                            <a class="dropdown-item" href="#">
-                              <div class="d-flex align-items-center">
-                                <div class="flex-shrink-0">
-                                  <img class="avatar avatar-xs avatar-4x3" src="./assets/svg/brands/frontapp-icon.svg" alt="Image Description">
-                                </div>
-                                <div class="flex-grow-1 text-truncate ms-3">
-                                  <h5 class="mb-0">Frontapp</h5>
-                                  <p class="card-text text-body">The inbox for teams</p>
-                                </div>
-                              </div>
-                            </a>
-
-                            <a class="dropdown-item" href="#">
-                              <div class="d-flex align-items-center">
-                                <div class="flex-shrink-0">
-                                  <img class="avatar avatar-xs avatar-4x3" src="./assets/svg/illustrations/review-rating-shield.svg" alt="Image Description">
-                                </div>
-                                <div class="flex-grow-1 text-truncate ms-3">
-                                  <h5 class="mb-0">HS Support</h5>
-                                  <p class="card-text text-body">Customer service and support</p>
-                                </div>
-                              </div>
-                            </a>
-
-                            <a class="dropdown-item" href="#">
-                              <div class="d-flex align-items-center">
-                                <div class="flex-shrink-0">
-                                  <div class="avatar avatar-sm avatar-soft-dark">
-                                    <span class="avatar-initials"><i class="bi-grid"></i></span>
-                                  </div>
-                                </div>
-                                <div class="flex-grow-1 text-truncate ms-3">
-                                  <h5 class="mb-0">More Front products</h5>
-                                  <p class="card-text text-body">Check out more HS products</p>
-                                </div>
-                              </div>
-                            </a>
-                          </div>
-                          <!-- End Body -->
-
-                          <!-- Footer -->
-                          <a class="card-footer text-center" href="#">
-                            View all apps <i class="bi-chevron-right"></i>
-                          </a>
-                          <!-- End Footer -->
-                        </div>
-                      </div>
-                    </div>
-                    <!-- End Apps -->
-                  </li>
-
-                  <li class="nav-item d-none d-sm-inline-block">
-                    <!-- Activity -->
-                    <button class="btn btn-ghost-light btn-icon rounded-circle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasActivityStream" aria-controls="offcanvasActivityStream">
-                      <i class="bi-x-diamond"></i>
-                    </button>
-                    <!-- Activity -->
-                  </li>
-
-                  <li class="nav-item">
-                    <!-- Style Switcher -->
-                    <div class="dropdown ">
-                      <button type="button" class="btn btn-ghost-light btn-icon rounded-circle" id="selectThemeDropdown" data-bs-toggle="dropdown" aria-expanded="false" data-bs-dropdown-animation>
-
-                      </button>
-
-                      <div class="dropdown-menu dropdown-menu-end navbar-dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="selectThemeDropdown">
-                        <a class="dropdown-item" href="#" data-icon="bi-moon-stars" data-value="auto">
-                          <i class="bi-moon-stars me-2"></i>
-                          <span class="text-truncate" title="Auto (system default)">Auto (system default)</span>
-                        </a>
-                        <a class="dropdown-item" href="#" data-icon="bi-brightness-high" data-value="default">
-                          <i class="bi-brightness-high me-2"></i>
-                          <span class="text-truncate" title="Default (light mode)">Default (light mode)</span>
-                        </a>
-                        <a class="dropdown-item active" href="#" data-icon="bi-moon" data-value="dark">
-                          <i class="bi-moon me-2"></i>
-                          <span class="text-truncate" title="Dark">Dark</span>
-                        </a>
-                      </div>
-                    </div>
-
-                    <!-- End Style Switcher -->
-                  </li>
-
-                  <li class="nav-item">
-                    <!-- Account -->
-                    <div class="dropdown">
-                      <a class="navbar-dropdown-account-wrapper" href="javascript:;" id="accountNavbarDropdown" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" data-bs-dropdown-animation>
-                        <div class="avatar avatar-sm avatar-circle">
-                          <img class="avatar-img" src="./assets/img/160x160/img6.jpg" alt="Image Description">
-                          <span class="avatar-status avatar-sm-status avatar-status-success"></span>
-                        </div>
-                      </a>
-
-                      <div class="dropdown-menu dropdown-menu-end navbar-dropdown-menu navbar-dropdown-menu-borderless navbar-dropdown-account" aria-labelledby="accountNavbarDropdown" style="width: 16rem;">
-                        <div class="dropdown-item-text">
-                          <div class="d-flex align-items-center">
-                            <div class="avatar avatar-sm avatar-circle">
-                              <img class="avatar-img" src="./assets/img/160x160/img6.jpg" alt="Image Description">
-                            </div>
-                            <div class="flex-grow-1 ms-3">
-                              <h5 class="mb-0">Mark Williams</h5>
-                              <p class="card-text text-body">mark@site.com</p>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="dropdown-divider"></div>
-
-                        <!-- Dropdown -->
-                        <div class="dropdown">
-                          <a class="navbar-dropdown-submenu-item dropdown-item dropdown-toggle" href="javascript:;" id="navSubmenuPagesAccountDropdown1" data-bs-toggle="dropdown" aria-expanded="false">Set status</a>
-
-                          <div class="dropdown-menu dropdown-menu-end navbar-dropdown-menu navbar-dropdown-menu-borderless navbar-dropdown-sub-menu" aria-labelledby="navSubmenuPagesAccountDropdown1">
-                            <a class="dropdown-item" href="#">
-                              <span class="legend-indicator bg-success me-1"></span> Available
-                            </a>
-                            <a class="dropdown-item" href="#">
-                              <span class="legend-indicator bg-danger me-1"></span> Busy
-                            </a>
-                            <a class="dropdown-item" href="#">
-                              <span class="legend-indicator bg-warning me-1"></span> Away
-                            </a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#"> Reset status
-                            </a>
-                          </div>
-                        </div>
-                        <!-- End Dropdown -->
-
-                        <a class="dropdown-item" href="#">Profile &amp; account</a>
-                        <a class="dropdown-item" href="#">Settings</a>
-
-                        <div class="dropdown-divider"></div>
-
-                        <a class="dropdown-item" href="#">
-                          <div class="d-flex align-items-center">
-                            <div class="flex-shrink-0">
-                              <div class="avatar avatar-sm avatar-dark avatar-circle">
-                                <span class="avatar-initials">HS</span>
-                              </div>
-                            </div>
-                            <div class="flex-grow-1 ms-2">
-                              <h5 class="mb-0">Htmlstream <span class="badge bg-primary rounded-pill text-uppercase ms-1">PRO</span></h5>
-                              <span class="card-text">hs.example.com</span>
-                            </div>
-                          </div>
-                        </a>
-
-                        <div class="dropdown-divider"></div>
-
-                        <!-- Dropdown -->
-                        <div class="dropdown">
-                          <a class="navbar-dropdown-submenu-item dropdown-item dropdown-toggle" href="javascript:;" id="navSubmenuPagesAccountDropdown2" data-bs-toggle="dropdown" aria-expanded="false">Customization</a>
-
-                          <div class="dropdown-menu dropdown-menu-end navbar-dropdown-menu navbar-dropdown-menu-borderless navbar-dropdown-sub-menu" aria-labelledby="navSubmenuPagesAccountDropdown2">
-                            <a class="dropdown-item" href="#">
-                              Invite people
-                            </a>
-                            <a class="dropdown-item" href="#">
-                              Analytics
-                              <i class="bi-box-arrow-in-up-right"></i>
-                            </a>
-                            <a class="dropdown-item" href="#">
-                              Customize Front
-                              <i class="bi-box-arrow-in-up-right"></i>
-                            </a>
-                          </div>
-                        </div>
-                        <!-- End Dropdown -->
-
-                        <a class="dropdown-item" href="#">Manage team</a>
-
-                        <div class="dropdown-divider"></div>
-
-                        <a class="dropdown-item" href="#">Sign out</a>
-                      </div>
-                    </div>
-                    <!-- End Account -->
-                  </li>
-
-                  <li class="nav-item">
-                    <!-- Toggler -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDoubleLineContainerNavDropdown" aria-controls="navbarDoubleLineContainerNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-default">
-                        <i class="bi-list"></i>
-                      </span>
-                      <span class="navbar-toggler-toggled">
-                        <i class="bi-x"></i>
-                      </span>
-                    </button>
-                    <!-- End Toggler -->
-                  </li>
-                </ul>
-                <!-- End Navbar -->
-              </div>
-              <!-- End Content End -->
-            </div>
-          </div>
-        </div>
-
-        <div class="container">
-          <nav class="js-mega-menu flex-grow-1">
-            <!-- Collapse -->
-            <div class="collapse navbar-collapse" id="navbarDoubleLineContainerNavDropdown">
-              <ul class="navbar-nav">
-                <!-- Dashboards -->
-                <li class="hs-has-sub-menu nav-item">
-                  <a id="dashboardsMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle active" href="#" role="button"><i class="bi-house-door dropdown-item-icon"></i> Dashboards</a>
-
-                  <!-- Mega Menu -->
-                  <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="dashboardsMegaMenu" style="min-width: 14rem;">
-                    <a class="dropdown-item active" href="./index.html">Default</a>
-                    <a class="dropdown-item " href="./dashboard-alternative.html">Alternative</a>
-                  </div>
-                  <!-- End Mega Menu -->
-                </li>
-                <!-- End Dashboards -->
-
-                <!-- Pages -->
-                <li class="hs-has-sub-menu nav-item">
-                  <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button"><i class="bi-files-alt dropdown-item-icon"></i> Pages</a>
-
-                  <!-- Mega Menu -->
-                  <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="pagesMegaMenu" style="min-width: 14rem;">
-                    <!-- Users -->
-                    <div class="hs-has-sub-menu nav-item">
-                      <a id="usersMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button">Users</a>
-
-                      <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="usersMegaMenu" style="min-width: 14rem;">
-                        <a class="dropdown-item " href="./users.html">Overview</a>
-                        <a class="dropdown-item " href="./users-leaderboard.html">Leaderboard</a>
-                        <a class="dropdown-item " href="./users-add-user.html">Add User <span class="badge bg-info rounded-pill ms-1">Hot</span></a>
-                      </div>
-                    </div>
-                    <!-- End Users -->
-
-                    <!-- User Profile -->
-                    <div class="hs-has-sub-menu nav-item">
-                      <a id="userProfileMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button">User Profile <span class="badge bg-primary rounded-pill ms-1">5</span></a>
-
-                      <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="userProfileMegaMenu" style="min-width: 14rem;">
-                        <a class="dropdown-item " href="./user-profile.html">Profile</a>
-                        <a class="dropdown-item " href="./user-profile-teams.html">Teams</a>
-                        <a class="dropdown-item " href="./user-profile-projects.html">Projects</a>
-                        <a class="dropdown-item " href="./user-profile-connections.html">Connections</a>
-                        <a class="dropdown-item " href="./user-profile-my-profile.html">My Profile</a>
-                      </div>
-                    </div>
-                    <!-- End User Profile -->
-
-                    <!-- Account -->
-                    <div class="hs-has-sub-menu nav-item">
-                      <a id="accountMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button">Account</a>
-
-                      <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="accountMegaMenu" style="min-width: 14rem;">
-                        <a class="dropdown-item " href="./account-settings.html">Settings</a>
-                        <a class="dropdown-item " href="./account-billing.html">Billing</a>
-                        <a class="dropdown-item " href="./account-invoice.html">Invoice</a>
-                      </div>
-                    </div>
-                    <!-- End Account -->
-
-                    <!-- E-commerce -->
-                    <div class="hs-has-sub-menu nav-item">
-                      <a id="ecommerceMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button">E-commerce</a>
-
-                      <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="ecommerceMegaMenu" style="min-width: 14rem;">
-                        <a class="dropdown-item " href="./ecommerce.html">Overview</a>
-
-                        <!-- Products -->
-                        <div class="hs-has-sub-menu nav-item">
-                          <a id="productsMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button">Products</a>
-
-                          <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="productsMegaMenu" style="min-width: 14rem;">
-                            <a class="dropdown-item " href="./ecommerce-products.html">Products</a>
-                            <a class="dropdown-item " href="./ecommerce-product-details.html">Product Details</a>
-                            <a class="dropdown-item " href="./ecommerce-add-product.html">Add Product</a>
-                          </div>
-                        </div>
-                        <!-- End Products -->
-
-                        <!-- Products -->
-                        <div class="hs-has-sub-menu nav-item">
-                          <a id="ordersMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button">Orders</a>
-
-                          <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="ordersMegaMenu" style="min-width: 14rem;">
-                            <a class="dropdown-item " href="./ecommerce-orders.html">Orders</a>
-                            <a class="dropdown-item " href="./ecommerce-order-details.html">Order Details</a>
-                          </div>
-                        </div>
-                        <!-- End Products -->
-
-                        <!-- Customers -->
-                        <div class="hs-has-sub-menu nav-item">
-                          <a id="customersMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button">Customers</a>
-
-                          <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="customersMegaMenu" style="min-width: 14rem;">
-                            <a class="dropdown-item " href="./ecommerce-customers.html">Customers</a>
-                            <a class="dropdown-item " href="./ecommerce-customer-details.html">Customer Details</a>
-                            <a class="dropdown-item " href="./ecommerce-add-customers.html">Add Customers</a>
-                          </div>
-                        </div>
-                        <!-- End Customers -->
-
-                        <a class="dropdown-item " href="./ecommerce-referrals.html">Referrals</a>
-                        <a class="dropdown-item " href="./ecommerce-manage-reviews.html">Manage Reviews</a>
-                        <a class="dropdown-item " href="./ecommerce-checkout.html">Checkout</a>
-                      </div>
-                    </div>
-                    <!-- End E-commerce -->
-
-                    <!-- Projects -->
-                    <div class="hs-has-sub-menu nav-item">
-                      <a id="projectsMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button">Projects</a>
-
-                      <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="projectsMegaMenu" style="min-width: 14rem;">
-                        <a class="dropdown-item " href="./projects.html">Overview</a>
-                        <a class="dropdown-item " href="./projects-timeline.html">Timeline</a>
-                      </div>
-                    </div>
-                    <!-- End Projects -->
-
-                    <!-- Project -->
-                    <div class="hs-has-sub-menu nav-item">
-                      <a id="projectMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button">Project</a>
-
-                      <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="projectMegaMenu" style="min-width: 14rem;">
-                        <a class="dropdown-item " href="./project.html">Overview</a>
-                        <a class="dropdown-item " href="./project-files.html">Files</a>
-                        <a class="dropdown-item " href="./project-activity.html">Activity</a>
-                        <a class="dropdown-item " href="./project-teams.html">Teams</a>
-                        <a class="dropdown-item " href="./project-settings.html">Settings</a>
-                      </div>
-                    </div>
-                    <!-- End Project -->
-
-                    <!-- Authentication -->
-                    <div class="hs-has-sub-menu nav-item">
-                      <a id="authenticationMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button">Authentication</a>
-
-                      <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="authenticationMegaMenu" style="min-width: 14rem;">
-                        <!-- Log In -->
-                        <div class="hs-has-sub-menu nav-item">
-                          <a id="loginMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button">Log In</a>
-
-                          <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="loginMegaMenu" style="min-width: 14rem;">
-                            <a class="dropdown-item " href="./authentication-login-basic.html">Basic</a>
-                            <a class="dropdown-item " href="./authentication-login-cover.html">Cover</a>
-                          </div>
-                        </div>
-                        <!-- End Log In -->
-
-                        <!-- Sign Up -->
-                        <div class="hs-has-sub-menu nav-item">
-                          <a id="signupMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button">Sign Up</a>
-
-                          <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="signupMegaMenu" style="min-width: 14rem;">
-                            <a class="dropdown-item " href="./authentication-signup-basic.html">Basic</a>
-                            <a class="dropdown-item " href="./authentication-signup-cover.html">Cover</a>
-                          </div>
-                        </div>
-                        <!-- End Sign Up -->
-
-                        <!-- Reset Password -->
-                        <div class="hs-has-sub-menu nav-item">
-                          <a id="resetPasswordMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button">Reset Password</a>
-
-                          <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="resetPasswordMegaMenu" style="min-width: 14rem;">
-                            <a class="dropdown-item " href="./authentication-reset-password-basic.html">Basic</a>
-                            <a class="dropdown-item " href="./authentication-reset-password-cover.html">Cover</a>
-                          </div>
-                        </div>
-                        <!-- End Reset Password -->
-
-                        <!-- Email Verification -->
-                        <div class="hs-has-sub-menu nav-item">
-                          <a id="emailVerificationMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button">Email Verification</a>
-
-                          <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="emailVerificationMegaMenu" style="min-width: 14rem;">
-                            <a class="dropdown-item " href="./authentication-email-verification-basic.html">Basic</a>
-                            <a class="dropdown-item " href="./authentication-email-verification-cover.html">Cover</a>
-                          </div>
-                        </div>
-                        <!-- End Email Verification -->
-
-                        <!-- 2-step Verification -->
-                        <div class="hs-has-sub-menu nav-item">
-                          <a id="2stepVerificationMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button">2-step Verification</a>
-
-                          <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="2stepVerificationMegaMenu" style="min-width: 14rem;">
-                            <a class="dropdown-item " href="./authentication-2-step-verification-basic.html">Basic</a>
-                            <a class="dropdown-item " href="./authentication-2-step-verification-cover.html">Cover</a>
-                          </div>
-                        </div>
-                        <!-- End 2-step Verification -->
-
-                        <a class="dropdown-item" href="javascript:;" data-bs-toggle="modal" data-bs-target="#welcomeMessageModal">Welcome Message</a>
-                        <a class="dropdown-item " href="./error-404.html">Error 404</a>
-                        <a class="dropdown-item " href="./error-500.html">Error 500</a>
-                      </div>
-                    </div>
-                    <!-- End Authentication -->
-
-                    <a class="dropdown-item " href="./api-keys.html" data-placement="left">API Keys</a>
-                    <a class="dropdown-item " href="./welcome-page.html" data-placement="left">Welcome Page</a>
-                    <a class="dropdown-item " href="./landing.html" data-placement="left">Landing Page <span class="badge bg-info rounded-pill ms-1">New</span></a>
-                  </div>
-                  <!-- End Mega Menu -->
-                </li>
-                <!-- End Pages -->
-
-                <!-- Apps -->
-                <li class="hs-has-sub-menu nav-item">
-                  <a id="appsMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button"><i class="bi-app-indicator dropdown-item-icon"></i> Apps</a>
-
-                  <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="appsMegaMenu" style="min-width: 14rem;">
-                    <a class="dropdown-item " href="./apps-kanban.html">Kanban</a>
-                    <a class="dropdown-item " href="./apps-calendar.html">Calendar</a>
-                    <a class="dropdown-item " href="./apps-invoice-generator.html">Invoice Generator</a>
-                    <a class="dropdown-item " href="./apps-file-manager.html">File Manager</a>
-                  </div>
-                </li>
-                <!-- End Apps -->
-
-                <li class="nav-item">
-                  <a class="nav-link " href="./layouts/index.html">
-                    <i class="bi-grid-1x2 dropdown-item-icon"></i> Layouts
-                  </a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link " href="./documentation/index.html" data-placement="left">
-                    <i class="bi-book dropdown-item-icon"></i> Docs
-                  </a>
-                </li>
-              </ul>
-
-            </div>
-            <!-- End Collapse -->
-          </nav>
-        </div>
-      </header>
-      <!-- End Double Header -->
-    </div>
-  </div>
+  
 
   <script src="./assets/js/demo.js"></script>
 
@@ -5100,23 +2865,23 @@
   <!-- Keyboard Shortcuts -->
   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasKeyboardShortcuts" aria-labelledby="offcanvasKeyboardShortcutsLabel">
     <div class="offcanvas-header">
-      <h4 id="offcanvasKeyboardShortcutsLabel" class="mb-0">Keyboard shortcuts</h4>
-      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      <h4 id="offcanvasKeyboardShortcutsLabel" class="mb-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Atalhos do teclado</font></font></h4>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
     </div>
     <div class="offcanvas-body">
       <div class="list-group list-group-sm list-group-flush list-group-no-gutters mb-5">
         <div class="list-group-item">
-          <h5 class="mb-1">Formatting</h5>
+          <h5 class="mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Formatação</font></font></h5>
         </div>
         <div class="list-group-item">
           <div class="row align-items-center">
             <div class="col-5">
-              <span class="fw-semibold">Bold</span>
+              <span class="fw-semibold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Audacioso</font></font></span>
             </div>
             <!-- End Col -->
 
             <div class="col-7 text-end">
-              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small">+</span> <kbd class="d-inline-block mb-1">b</kbd>
+              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font></span> <kbd class="d-inline-block mb-1">b</kbd>
             </div>
           </div>
           <!-- End Row -->
@@ -5125,27 +2890,12 @@
         <div class="list-group-item">
           <div class="row align-items-center">
             <div class="col-5">
-              <em>italic</em>
+              <em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">itálico</font></font></em>
             </div>
             <!-- End Col -->
 
             <div class="col-7 text-end">
-              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small">+</span> <kbd class="d-inline-block mb-1">i</kbd>
-            </div>
-            <!-- End Col -->
-          </div>
-          <!-- End Row -->
-        </div>
-
-        <div class="list-group-item">
-          <div class="row align-items-center">
-            <div class="col-5">
-              <u>Underline</u>
-            </div>
-            <!-- End Col -->
-
-            <div class="col-7 text-end">
-              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small">+</span> <kbd class="d-inline-block mb-1">u</kbd>
+              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font></span> <kbd class="d-inline-block mb-1">i</kbd>
             </div>
             <!-- End Col -->
           </div>
@@ -5155,12 +2905,27 @@
         <div class="list-group-item">
           <div class="row align-items-center">
             <div class="col-5">
-              <s>Strikethrough</s>
+              <u><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sublinhado</font></font></u>
             </div>
             <!-- End Col -->
 
             <div class="col-7 text-end">
-              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small">+</span> <kbd class="d-inline-block mb-1">Alt</kbd> <span class="text-muted small">+</span> <kbd class="d-inline-block mb-1">s</kbd>
+              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font></span> <kbd class="d-inline-block mb-1">u</kbd>
+            </div>
+            <!-- End Col -->
+          </div>
+          <!-- End Row -->
+        </div>
+
+        <div class="list-group-item">
+          <div class="row align-items-center">
+            <div class="col-5">
+              <s><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tachado</font></font></s>
+            </div>
+            <!-- End Col -->
+
+            <div class="col-7 text-end">
+              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+ </font></font></span> <kbd class="d-inline-block mb-1">Alt</kbd> <span class="text-muted small"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font></span> <kbd class="d-inline-block mb-1">s</kbd>
               <!-- End Col -->
             </div>
           </div>
@@ -5170,12 +2935,12 @@
         <div class="list-group-item">
           <div class="row align-items-center">
             <div class="col-5">
-              <span class="small">Small text</span>
+              <span class="small"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Texto pequeno</font></font></span>
             </div>
             <!-- End Col -->
 
             <div class="col-7 text-end">
-              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small">+</span> <kbd class="d-inline-block mb-1">s</kbd>
+              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font></span> <kbd class="d-inline-block mb-1">s</kbd>
             </div>
             <!-- End Col -->
           </div>
@@ -5185,12 +2950,12 @@
         <div class="list-group-item">
           <div class="row align-items-center">
             <div class="col-5">
-              <mark>Highlight</mark>
+              <mark><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Destaque</font></font></mark>
             </div>
             <!-- End Col -->
 
             <div class="col-7 text-end">
-              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small">+</span> <kbd class="d-inline-block mb-1">e</kbd>
+              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font></span> <kbd class="d-inline-block mb-1">e</kbd>
             </div>
             <!-- End Col -->
           </div>
@@ -5201,12 +2966,12 @@
 
       <div class="list-group list-group-sm list-group-flush list-group-no-gutters mb-5">
         <div class="list-group-item">
-          <h5 class="mb-1">Insert</h5>
+          <h5 class="mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Inserir</font></font></h5>
         </div>
         <div class="list-group-item">
           <div class="row align-items-center">
             <div class="col-5">
-              <span>Mention person <a href="#">(@Brian)</a></span>
+              <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mencionar pessoa </font></font><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">(@Brian)</font></font></a></span>
             </div>
             <!-- End Col -->
 
@@ -5221,7 +2986,7 @@
         <div class="list-group-item">
           <div class="row align-items-center">
             <div class="col-5">
-              <span>Link to doc <a href="#">(+Meeting notes)</a></span>
+              <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Link para o documento </font></font><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">(+Notas da reunião)</font></font></a></span>
             </div>
             <!-- End Col -->
 
@@ -5236,7 +3001,7 @@
         <div class="list-group-item">
           <div class="row align-items-center">
             <div class="col-5">
-              <a href="#">#hashtag</a>
+              <a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">#hashtag</font></font></a>
             </div>
             <!-- End Col -->
 
@@ -5251,7 +3016,7 @@
         <div class="list-group-item">
           <div class="row align-items-center">
             <div class="col-5">
-              <span>Date</span>
+              <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Data</font></font></span>
             </div>
             <!-- End Col -->
 
@@ -5270,7 +3035,7 @@
         <div class="list-group-item">
           <div class="row align-items-center">
             <div class="col-5">
-              <span>Time</span>
+              <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tempo</font></font></span>
             </div>
             <!-- End Col -->
 
@@ -5286,7 +3051,7 @@
         <div class="list-group-item">
           <div class="row align-items-center">
             <div class="col-5">
-              <span>Note box</span>
+              <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Caixa de notas</font></font></span>
             </div>
             <!-- End Col -->
 
@@ -5306,17 +3071,17 @@
 
       <div class="list-group list-group-sm list-group-flush list-group-no-gutters mb-5">
         <div class="list-group-item">
-          <h5 class="mb-1">Editing</h5>
+          <h5 class="mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Edição</font></font></h5>
         </div>
         <div class="list-group-item">
           <div class="row align-items-center">
             <div class="col-5">
-              <span>Find and replace</span>
+              <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Localizar e substituir</font></font></span>
             </div>
             <!-- End Col -->
 
             <div class="col-7 text-end">
-              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small">+</span> <kbd class="d-inline-block mb-1">r</kbd>
+              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font></span> <kbd class="d-inline-block mb-1">r</kbd>
             </div>
             <!-- End Col -->
           </div>
@@ -5326,12 +3091,12 @@
         <div class="list-group-item">
           <div class="row align-items-center">
             <div class="col-5">
-              <span>Find next</span>
+              <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Encontre o próximo</font></font></span>
             </div>
             <!-- End Col -->
 
             <div class="col-7 text-end">
-              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small">+</span> <kbd class="d-inline-block mb-1">n</kbd>
+              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font></span> <kbd class="d-inline-block mb-1">n</kbd>
             </div>
             <!-- End Col -->
           </div>
@@ -5341,12 +3106,12 @@
         <div class="list-group-item">
           <div class="row align-items-center">
             <div class="col-5">
-              <span>Find previous</span>
+              <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Encontrar anterior</font></font></span>
             </div>
             <!-- End Col -->
 
             <div class="col-7 text-end">
-              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small">+</span> <kbd class="d-inline-block mb-1">p</kbd>
+              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font></span> <kbd class="d-inline-block mb-1">p</kbd>
             </div>
             <!-- End Col -->
           </div>
@@ -5356,7 +3121,7 @@
         <div class="list-group-item">
           <div class="row align-items-center">
             <div class="col-5">
-              <span>Indent</span>
+              <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Recuar</font></font></span>
             </div>
             <!-- End Col -->
 
@@ -5371,12 +3136,12 @@
         <div class="list-group-item">
           <div class="row align-items-center">
             <div class="col-5">
-              <span>Un-indent</span>
+              <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Remover recuo</font></font></span>
             </div>
             <!-- End Col -->
 
             <div class="col-7 text-end">
-              <kbd class="d-inline-block mb-1">Shift</kbd> <span class="text-muted small">+</span> <kbd class="d-inline-block mb-1">Tab</kbd>
+              <kbd class="d-inline-block mb-1">Shift</kbd> <span class="text-muted small"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font></span> <kbd class="d-inline-block mb-1">Tab</kbd>
             </div>
             <!-- End Col -->
           </div>
@@ -5386,12 +3151,12 @@
         <div class="list-group-item">
           <div class="row align-items-center">
             <div class="col-5">
-              <span>Move line up</span>
+              <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mover a fila</font></font></span>
             </div>
             <!-- End Col -->
 
             <div class="col-7 text-end">
-              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small">+</span> <kbd class="d-inline-block mb-1">Shift</kbd> <span class="text-muted small">+</span> <kbd class="d-inline-block mb-1"><i class="bi-arrow-up-short"></i></kbd>
+              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+ </font></font></span> <kbd class="d-inline-block mb-1">Shift</kbd> <span class="text-muted small"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font></span> <kbd class="d-inline-block mb-1"><i class="bi-arrow-up-short"></i></kbd>
             </div>
             <!-- End Col -->
           </div>
@@ -5401,12 +3166,12 @@
         <div class="list-group-item">
           <div class="row align-items-center">
             <div class="col-5">
-              <span>Move line down</span>
+              <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mover linha para baixo</font></font></span>
             </div>
             <!-- End Col -->
 
             <div class="col-7 text-end">
-              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small">+</span> <kbd class="d-inline-block mb-1">Shift</kbd> <span class="text-muted small">+</span> <kbd class="d-inline-block mb-1"><i class="bi-arrow-down-short fs-5"></i></kbd>
+              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+ </font></font></span> <kbd class="d-inline-block mb-1">Shift</kbd> <span class="text-muted small"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font></span> <kbd class="d-inline-block mb-1"><i class="bi-arrow-down-short fs-5"></i></kbd>
             </div>
             <!-- End Col -->
           </div>
@@ -5416,12 +3181,12 @@
         <div class="list-group-item">
           <div class="row align-items-center">
             <div class="col-5">
-              <span>Add a comment</span>
+              <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Adicione um comentário</font></font></span>
             </div>
             <!-- End Col -->
 
             <div class="col-7 text-end">
-              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small">+</span> <kbd class="d-inline-block mb-1">Alt</kbd> <span class="text-muted small">+</span> <kbd class="d-inline-block mb-1">m</kbd>
+              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+ </font></font></span> <kbd class="d-inline-block mb-1">Alt</kbd> <span class="text-muted small"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font></span> <kbd class="d-inline-block mb-1">m</kbd>
             </div>
             <!-- End Col -->
           </div>
@@ -5431,12 +3196,12 @@
         <div class="list-group-item">
           <div class="row align-items-center">
             <div class="col-5">
-              <span>Undo</span>
+              <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Desfazer</font></font></span>
             </div>
             <!-- End Col -->
 
             <div class="col-7 text-end">
-              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small">+</span> <kbd class="d-inline-block mb-1">z</kbd>
+              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font></span> <kbd class="d-inline-block mb-1">z</kbd>
             </div>
             <!-- End Col -->
           </div>
@@ -5446,12 +3211,12 @@
         <div class="list-group-item">
           <div class="row align-items-center">
             <div class="col-5">
-              <span>Redo</span>
+              <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Refazer</font></font></span>
             </div>
             <!-- End Col -->
 
             <div class="col-7 text-end">
-              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small">+</span> <kbd class="d-inline-block mb-1">y</kbd>
+              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font></span> <kbd class="d-inline-block mb-1">y</kbd>
             </div>
             <!-- End Col -->
           </div>
@@ -5462,17 +3227,17 @@
 
       <div class="list-group list-group-sm list-group-flush list-group-no-gutters">
         <div class="list-group-item">
-          <h5 class="mb-1">Application</h5>
+          <h5 class="mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Aplicativo</font></font></h5>
         </div>
         <div class="list-group-item">
           <div class="row align-items-center">
             <div class="col-5">
-              <span>Create new doc</span>
+              <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Criar novo documento</font></font></span>
             </div>
             <!-- End Col -->
 
             <div class="col-7 text-end">
-              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small">+</span> <kbd class="d-inline-block mb-1">Alt</kbd> <span class="text-muted small">+</span> <kbd class="d-inline-block mb-1">n</kbd>
+              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+ </font></font></span> <kbd class="d-inline-block mb-1">Alt</kbd> <span class="text-muted small"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font></span> <kbd class="d-inline-block mb-1">n</kbd>
             </div>
             <!-- End Col -->
           </div>
@@ -5482,12 +3247,12 @@
         <div class="list-group-item">
           <div class="row align-items-center">
             <div class="col-5">
-              <span>Present</span>
+              <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Presente</font></font></span>
             </div>
             <!-- End Col -->
 
             <div class="col-7 text-end">
-              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small">+</span> <kbd class="d-inline-block mb-1">Shift</kbd> <span class="text-muted small">+</span> <kbd class="d-inline-block mb-1">p</kbd>
+              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+ </font></font></span> <kbd class="d-inline-block mb-1">Shift</kbd> <span class="text-muted small"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font></span> <kbd class="d-inline-block mb-1">p</kbd>
             </div>
             <!-- End Col -->
           </div>
@@ -5497,12 +3262,12 @@
         <div class="list-group-item">
           <div class="row align-items-center">
             <div class="col-5">
-              <span>Share</span>
+              <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Compartilhar</font></font></span>
             </div>
             <!-- End Col -->
 
             <div class="col-7 text-end">
-              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small">+</span> <kbd class="d-inline-block mb-1">Shift</kbd> <span class="text-muted small">+</span> <kbd class="d-inline-block mb-1">s</kbd>
+              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+ </font></font></span> <kbd class="d-inline-block mb-1">Shift</kbd> <span class="text-muted small"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font></span> <kbd class="d-inline-block mb-1">s</kbd>
             </div>
             <!-- End Col -->
           </div>
@@ -5512,12 +3277,12 @@
         <div class="list-group-item">
           <div class="row align-items-center">
             <div class="col-5">
-              <span>Search docs</span>
+              <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pesquisar documentos</font></font></span>
             </div>
             <!-- End Col -->
 
             <div class="col-7 text-end">
-              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small">+</span> <kbd class="d-inline-block mb-1">Shift</kbd> <span class="text-muted small">+</span> <kbd class="d-inline-block mb-1">o</kbd>
+              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+ </font></font></span> <kbd class="d-inline-block mb-1">Shift</kbd> <span class="text-muted small"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font></span> <kbd class="d-inline-block mb-1">o</kbd>
             </div>
             <!-- End Col -->
           </div>
@@ -5527,12 +3292,12 @@
         <div class="list-group-item">
           <div class="row align-items-center">
             <div class="col-5">
-              <span>Keyboard shortcuts</span>
+              <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Atalhos do teclado</font></font></span>
             </div>
             <!-- End Col -->
 
             <div class="col-7 text-end">
-              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small">+</span> <kbd class="d-inline-block mb-1">Shift</kbd> <span class="text-muted small">+</span> <kbd class="d-inline-block mb-1">/</kbd>
+              <kbd class="d-inline-block mb-1">Ctrl</kbd> <span class="text-muted small"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+ </font></font></span> <kbd class="d-inline-block mb-1">Shift</kbd> <span class="text-muted small"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font></span> <kbd class="d-inline-block mb-1">/</kbd>
             </div>
             <!-- End Col -->
           </div>
@@ -5547,8 +3312,8 @@
   <!-- Activity -->
   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasActivityStream" aria-labelledby="offcanvasActivityStreamLabel">
     <div class="offcanvas-header">
-      <h4 id="offcanvasActivityStreamLabel" class="mb-0">Activity stream</h4>
-      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      <h4 id="offcanvasActivityStreamLabel" class="mb-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Fluxo de atividades</font></font></h4>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
     </div>
     <div class="offcanvas-body">
       <!-- Step -->
@@ -5557,13 +3322,13 @@
         <li class="step-item">
           <div class="step-content-wrapper">
             <div class="step-avatar">
-              <img class="step-avatar" src="./assets/img/160x160/img9.jpg" alt="Image Description">
+              <img class="step-avatar" src="./assets/img/160x160/img9.jpg" alt="Descrição da imagem">
             </div>
 
             <div class="step-content">
-              <h5 class="mb-1">Iana Robinson</h5>
+              <h5 class="mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Iana Robinson</font></font></h5>
 
-              <p class="fs-5 mb-1">Added 2 files to task <a class="text-uppercase" href="#"><i class="bi-journal-bookmark-fill"></i> Fd-7</a></p>
+              <p class="fs-5 mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Adicionados 2 arquivos à tarefa</font></font><a class="text-uppercase" href="#"><i class="bi-journal-bookmark-fill"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Fd-7</font></font></a></p>
 
               <ul class="list-group list-group-sm">
                 <!-- List Item -->
@@ -5573,11 +3338,11 @@
                       <!-- Media -->
                       <div class="d-flex">
                         <div class="flex-shrink-0">
-                          <img class="avatar avatar-xs" src="./assets/svg/brands/excel-icon.svg" alt="Image Description">
+                          <img class="avatar avatar-xs" src="./assets/svg/brands/excel-icon.svg" alt="Descrição da imagem">
                         </div>
                         <div class="flex-grow-1 text-truncate ms-2">
-                          <span class="d-block fs-6 text-dark text-truncate" title="weekly-reports.xls">weekly-reports.xls</span>
-                          <span class="d-block small text-muted">12kb</span>
+                          <span class="d-block fs-6 text-dark text-truncate" title="relatórios semanais.xls"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">relatórios semanais.xls</font></font></span>
+                          <span class="d-block small text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">12kb</font></font></span>
                         </div>
                       </div>
                       <!-- End Media -->
@@ -5588,11 +3353,11 @@
                       <!-- Media -->
                       <div class="d-flex">
                         <div class="flex-shrink-0">
-                          <img class="avatar avatar-xs" src="./assets/svg/brands/word-icon.svg" alt="Image Description">
+                          <img class="avatar avatar-xs" src="./assets/svg/brands/word-icon.svg" alt="Descrição da imagem">
                         </div>
                         <div class="flex-grow-1 text-truncate ms-2">
-                          <span class="d-block fs-6 text-dark text-truncate" title="weekly-reports.xls">weekly-reports.xls</span>
-                          <span class="d-block small text-muted">4kb</span>
+                          <span class="d-block fs-6 text-dark text-truncate" title="relatórios semanais.xls"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">relatórios semanais.xls</font></font></span>
+                          <span class="d-block small text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">4kb</font></font></span>
                         </div>
                       </div>
                       <!-- End Media -->
@@ -5604,7 +3369,7 @@
                 <!-- End List Item -->
               </ul>
 
-              <span class="small text-muted text-uppercase">Now</span>
+              <span class="small text-muted text-uppercase"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Agora</font></font></span>
             </div>
           </div>
         </li>
@@ -5613,14 +3378,14 @@
         <!-- Step Item -->
         <li class="step-item">
           <div class="step-content-wrapper">
-            <span class="step-icon step-icon-soft-dark">B</span>
+            <span class="step-icon step-icon-soft-dark"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">B</font></font></span>
 
             <div class="step-content">
-              <h5 class="mb-1">Bob Dean</h5>
+              <h5 class="mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bob Dean</font></font></h5>
 
-              <p class="fs-5 mb-1">Marked <a class="text-uppercase" href="#"><i class="bi-journal-bookmark-fill"></i> Fr-6</a> as <span class="badge bg-soft-success text-success rounded-pill"><span class="legend-indicator bg-success"></span>"Completed"</span></p>
+              <p class="fs-5 mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Marcado</font></font><a class="text-uppercase" href="#"><i class="bi-journal-bookmark-fill"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Fr-6</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> como</font></font><span class="badge bg-soft-success text-success rounded-pill"><span class="legend-indicator bg-success"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"Concluído"</font></font></span></p>
 
-              <span class="small text-muted text-uppercase">Today</span>
+              <span class="small text-muted text-uppercase"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Hoje</font></font></span>
             </div>
           </div>
         </li>
@@ -5630,36 +3395,36 @@
         <li class="step-item">
           <div class="step-content-wrapper">
             <div class="step-avatar">
-              <img class="step-avatar-img" src="./assets/img/160x160/img3.jpg" alt="Image Description">
+              <img class="step-avatar-img" src="./assets/img/160x160/img3.jpg" alt="Descrição da imagem">
             </div>
 
             <div class="step-content">
-              <h5 class="h5 mb-1">Crane</h5>
+              <h5 class="h5 mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Guindaste</font></font></h5>
 
-              <p class="fs-5 mb-1">Added 5 card to <a href="#">Payments</a></p>
+              <p class="fs-5 mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Adicionado 5 cartões aos </font></font><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pagamentos</font></font></a></p>
 
               <ul class="list-group list-group-sm">
                 <li class="list-group-item list-group-item-light">
                   <div class="row gx-1">
                     <div class="col">
-                      <img class="img-fluid rounded" src="./assets/svg/components/card-1.svg" alt="Image Description">
+                      <img class="img-fluid rounded" src="./assets/svg/components/card-1.svg" alt="Descrição da imagem">
                     </div>
                     <div class="col">
-                      <img class="img-fluid rounded" src="./assets/svg/components/card-2.svg" alt="Image Description">
+                      <img class="img-fluid rounded" src="./assets/svg/components/card-2.svg" alt="Descrição da imagem">
                     </div>
                     <div class="col">
-                      <img class="img-fluid rounded" src="./assets/svg/components/card-3.svg" alt="Image Description">
+                      <img class="img-fluid rounded" src="./assets/svg/components/card-3.svg" alt="Descrição da imagem">
                     </div>
                     <div class="col-auto align-self-center">
                       <div class="text-center">
-                        <a href="#">+2</a>
+                        <a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+2</font></font></a>
                       </div>
                     </div>
                   </div>
                 </li>
               </ul>
 
-              <span class="small text-muted text-uppercase">May 12</span>
+              <span class="small text-muted text-uppercase"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">12 de maio</font></font></span>
             </div>
           </div>
         </li>
@@ -5668,32 +3433,14 @@
         <!-- Step Item -->
         <li class="step-item">
           <div class="step-content-wrapper">
-            <span class="step-icon step-icon-soft-info">D</span>
+            <span class="step-icon step-icon-soft-info"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">D</font></font></span>
 
             <div class="step-content">
-              <h5 class="mb-1">David Lidell</h5>
+              <h5 class="mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">David Lidel</font></font></h5>
 
-              <p class="fs-5 mb-1">Added a new member to Front Dashboard</p>
+              <p class="fs-5 mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Adicionado um novo membro ao Front Dashboard</font></font></p>
 
-              <span class="small text-muted text-uppercase">May 15</span>
-            </div>
-          </div>
-        </li>
-        <!-- End Step Item -->
-
-        <!-- Step Item -->
-        <li class="step-item">
-          <div class="step-content-wrapper">
-            <div class="step-avatar">
-              <img class="step-avatar-img" src="./assets/img/160x160/img7.jpg" alt="Image Description">
-            </div>
-
-            <div class="step-content">
-              <h5 class="mb-1">Rachel King</h5>
-
-              <p class="fs-5 mb-1">Marked <a class="text-uppercase" href="#"><i class="bi-journal-bookmark-fill"></i> Fr-3</a> as <span class="badge bg-soft-success text-success rounded-pill"><span class="legend-indicator bg-success"></span>"Completed"</span></p>
-
-              <span class="small text-muted text-uppercase">Apr 29</span>
+              <span class="small text-muted text-uppercase"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">15 de maio</font></font></span>
             </div>
           </div>
         </li>
@@ -5703,15 +3450,33 @@
         <li class="step-item">
           <div class="step-content-wrapper">
             <div class="step-avatar">
-              <img class="step-avatar-img" src="./assets/img/160x160/img5.jpg" alt="Image Description">
+              <img class="step-avatar-img" src="./assets/img/160x160/img7.jpg" alt="Descrição da imagem">
             </div>
 
             <div class="step-content">
-              <h5 class="mb-1">Finch Hoot</h5>
+              <h5 class="mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Raquel Rei</font></font></h5>
 
-              <p class="fs-5 mb-1">Earned a "Top endorsed" <i class="bi-patch-check-fill text-primary"></i> badge</p>
+              <p class="fs-5 mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Marcado</font></font><a class="text-uppercase" href="#"><i class="bi-journal-bookmark-fill"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Fr-3</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> como</font></font><span class="badge bg-soft-success text-success rounded-pill"><span class="legend-indicator bg-success"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"Concluído"</font></font></span></p>
 
-              <span class="small text-muted text-uppercase">Apr 06</span>
+              <span class="small text-muted text-uppercase"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">29 de abril</font></font></span>
+            </div>
+          </div>
+        </li>
+        <!-- End Step Item -->
+
+        <!-- Step Item -->
+        <li class="step-item">
+          <div class="step-content-wrapper">
+            <div class="step-avatar">
+              <img class="step-avatar-img" src="./assets/img/160x160/img5.jpg" alt="Descrição da imagem">
+            </div>
+
+            <div class="step-content">
+              <h5 class="mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Passarinho</font></font></h5>
+
+              <p class="fs-5 mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ganhou um "Top endossado"</font></font><i class="bi-patch-check-fill text-primary"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">distintivo</font></font></p>
+
+              <span class="small text-muted text-uppercase"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">06 de abril</font></font></span>
             </div>
           </div>
         </li>
@@ -5725,11 +3490,11 @@
             </span>
 
             <div class="step-content">
-              <h5 class="mb-1">Project status updated</h5>
+              <h5 class="mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Status do projeto atualizado</font></font></h5>
 
-              <p class="fs-5 mb-1">Marked <a class="text-uppercase" href="#"><i class="bi-journal-bookmark-fill"></i> Fr-3</a> as <span class="badge bg-soft-primary text-primary rounded-pill"><span class="legend-indicator bg-primary"></span>"In progress"</span></p>
+              <p class="fs-5 mb-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Marcado</font></font><a class="text-uppercase" href="#"><i class="bi-journal-bookmark-fill"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Fr-3</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> como</font></font><span class="badge bg-soft-primary text-primary rounded-pill"><span class="legend-indicator bg-primary"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"Em andamento"</font></font></span></p>
 
-              <span class="small text-muted text-uppercase">Feb 10</span>
+              <span class="small text-muted text-uppercase"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">10 de fevereiro</font></font></span>
             </div>
           </div>
         </li>
@@ -5738,7 +3503,7 @@
       <!-- End Step -->
 
       <div class="d-grid">
-        <a class="btn btn-white" href="javascript:;">View all <i class="bi-chevron-right"></i></a>
+        <a class="btn btn-white" href="javascript:;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ver tudo</font></font><i class="bi-chevron-right"></i></a>
       </div>
     </div>
   </div>
@@ -5818,16 +3583,16 @@
               <div class="input-group-append input-group-append-last-sm-down-none">
                 <!-- Select -->
                 <div class="tom-select-custom tom-select-custom-end">
-                  <select class="js-select form-select" autocomplete="off" data-hs-tom-select-options='{
-                            "searchInDropdown": false,
-                            "hideSearch": true,
-                            "dropdownWidth": "11rem"
-                          }'>
-                    <option value="guest" selected>Guest</option>
+                  <select class="js-select form-select tomselected ts-hidden-accessible" autocomplete="off" data-hs-tom-select-options="{
+                            &quot;searchInDropdown&quot;: false,
+                            &quot;hideSearch&quot;: true,
+                            &quot;dropdownWidth&quot;: &quot;11rem&quot;
+                          }" id="tomselect-4" tabindex="-1">
+                    
                     <option value="can edit">Can edit</option>
                     <option value="can comment">Can comment</option>
                     <option value="full access">Full access</option>
-                  </select>
+                  <option value="guest" selected="">Guest</option></select><div class="ts-wrapper js-select form-select single plugin-change_listener plugin-hs_smart_position input-hidden full has-items"><div class="ts-control"><div data-value="guest" class="item" data-ts-item="">Guest</div></div><div class="tom-select-custom"><div class="ts-dropdown single plugin-change_listener plugin-hs_smart_position" style="display: none;"><div role="listbox" tabindex="-1" class="ts-dropdown-content" id="tomselect-4-ts-dropdown"></div></div></div></div>
                 </div>
                 <!-- End Select -->
 
@@ -5872,17 +3637,17 @@
                     <div class="col-sm-auto">
                       <!-- Select -->
                       <div class="tom-select-custom tom-select-custom-sm-end">
-                        <select class="js-select form-select form-select-borderless tom-select-custom-form-select-invite-user tom-select-form-select-ps-0" autocomplete="off" data-hs-tom-select-options='{
-                                  "searchInDropdown": false,
-                                  "hideSearch": true,
-                                  "dropdownWidth": "11rem"
-                                }'>
-                          <option value="guest" selected>Guest</option>
+                        <select class="js-select form-select form-select-borderless tom-select-custom-form-select-invite-user tom-select-form-select-ps-0 tomselected ts-hidden-accessible" autocomplete="off" data-hs-tom-select-options="{
+                                  &quot;searchInDropdown&quot;: false,
+                                  &quot;hideSearch&quot;: true,
+                                  &quot;dropdownWidth&quot;: &quot;11rem&quot;
+                                }" id="tomselect-5" tabindex="-1">
+                          
                           <option value="can edit">Can edit</option>
                           <option value="can comment">Can comment</option>
                           <option value="full access">Full access</option>
-                          <option value="remove" data-option-template='<div class="text-danger">Remove</div>'>Remove</option>
-                        </select>
+                          <option value="remove" data-option-template="<div class=&quot;text-danger&quot;>Remove</div>">Remove</option>
+                        <option value="guest" selected="">Guest</option></select><div class="ts-wrapper js-select form-select form-select-borderless tom-select-custom-form-select-invite-user tom-select-form-select-ps-0 single plugin-change_listener plugin-hs_smart_position input-hidden full has-items"><div class="ts-control"><div data-value="guest" class="item" data-ts-item="">Guest</div></div><div class="tom-select-custom"><div class="ts-dropdown single plugin-change_listener plugin-hs_smart_position" style="display: none;"><div role="listbox" tabindex="-1" class="ts-dropdown-content" id="tomselect-5-ts-dropdown"></div></div></div></div>
                       </div>
                       <!-- End Select -->
                     </div>
@@ -5912,17 +3677,17 @@
                     <div class="col-sm-auto">
                       <!-- Select -->
                       <div class="tom-select-custom tom-select-custom-sm-end">
-                        <select class="js-select form-select form-select-borderless tom-select-custom-form-select-invite-user tom-select-form-select-ps-0" autocomplete="off" data-hs-tom-select-options='{
-                                  "searchInDropdown": false,
-                                  "hideSearch": true,
-                                  "dropdownWidth": "11rem"
-                                }'>
-                          <option value="guest" selected>Guest</option>
+                        <select class="js-select form-select form-select-borderless tom-select-custom-form-select-invite-user tom-select-form-select-ps-0 tomselected ts-hidden-accessible" autocomplete="off" data-hs-tom-select-options="{
+                                  &quot;searchInDropdown&quot;: false,
+                                  &quot;hideSearch&quot;: true,
+                                  &quot;dropdownWidth&quot;: &quot;11rem&quot;
+                                }" id="tomselect-6" tabindex="-1">
+                          
                           <option value="can edit">Can edit</option>
                           <option value="can comment">Can comment</option>
                           <option value="full access">Full access</option>
-                          <option value="remove" data-option-template='<div class="text-danger">Remove</div>'>Remove</option>
-                        </select>
+                          <option value="remove" data-option-template="<div class=&quot;text-danger&quot;>Remove</div>">Remove</option>
+                        <option value="guest" selected="">Guest</option></select><div class="ts-wrapper js-select form-select form-select-borderless tom-select-custom-form-select-invite-user tom-select-form-select-ps-0 single plugin-change_listener plugin-hs_smart_position input-hidden full has-items"><div class="ts-control"><div data-value="guest" class="item" data-ts-item="">Guest</div></div><div class="tom-select-custom"><div class="ts-dropdown single plugin-change_listener plugin-hs_smart_position" style="display: none;"><div role="listbox" tabindex="-1" class="ts-dropdown-content" id="tomselect-6-ts-dropdown"></div></div></div></div>
                       </div>
                       <!-- End Select -->
                     </div>
@@ -5952,17 +3717,17 @@
                     <div class="col-sm-auto">
                       <!-- Select -->
                       <div class="tom-select-custom tom-select-custom-sm-end">
-                        <select class="js-select form-select form-select-borderless tom-select-custom-form-select-invite-user tom-select-form-select-ps-0" autocomplete="off" data-hs-tom-select-options='{
-                                  "searchInDropdown": false,
-                                  "hideSearch": true,
-                                  "dropdownWidth": "11rem"
-                                }'>
-                          <option value="guest" selected>Guest</option>
+                        <select class="js-select form-select form-select-borderless tom-select-custom-form-select-invite-user tom-select-form-select-ps-0 tomselected ts-hidden-accessible" autocomplete="off" data-hs-tom-select-options="{
+                                  &quot;searchInDropdown&quot;: false,
+                                  &quot;hideSearch&quot;: true,
+                                  &quot;dropdownWidth&quot;: &quot;11rem&quot;
+                                }" id="tomselect-7" tabindex="-1">
+                          
                           <option value="can edit">Can edit</option>
                           <option value="can comment">Can comment</option>
                           <option value="full access">Full access</option>
-                          <option value="remove" data-option-template='<div class="text-danger">Remove</div>'>Remove</option>
-                        </select>
+                          <option value="remove" data-option-template="<div class=&quot;text-danger&quot;>Remove</div>">Remove</option>
+                        <option value="guest" selected="">Guest</option></select><div class="ts-wrapper js-select form-select form-select-borderless tom-select-custom-form-select-invite-user tom-select-form-select-ps-0 single plugin-change_listener plugin-hs_smart_position input-hidden full has-items"><div class="ts-control"><div data-value="guest" class="item" data-ts-item="">Guest</div></div><div class="tom-select-custom"><div class="ts-dropdown single plugin-change_listener plugin-hs_smart_position" style="display: none;"><div role="listbox" tabindex="-1" class="ts-dropdown-content" id="tomselect-7-ts-dropdown"></div></div></div></div>
                       </div>
                       <!-- End Select -->
                     </div>
@@ -5992,17 +3757,17 @@
                     <div class="col-sm-auto">
                       <!-- Select -->
                       <div class="tom-select-custom tom-select-custom-sm-end">
-                        <select class="js-select form-select form-select-borderless tom-select-custom-form-select-invite-user tom-select-form-select-ps-0" autocomplete="off" data-hs-tom-select-options='{
-                                  "searchInDropdown": false,
-                                  "hideSearch": true,
-                                  "dropdownWidth": "11rem"
-                                }'>
-                          <option value="guest" selected>Guest</option>
+                        <select class="js-select form-select form-select-borderless tom-select-custom-form-select-invite-user tom-select-form-select-ps-0 tomselected ts-hidden-accessible" autocomplete="off" data-hs-tom-select-options="{
+                                  &quot;searchInDropdown&quot;: false,
+                                  &quot;hideSearch&quot;: true,
+                                  &quot;dropdownWidth&quot;: &quot;11rem&quot;
+                                }" id="tomselect-8" tabindex="-1">
+                          
                           <option value="can edit">Can edit</option>
                           <option value="can comment">Can comment</option>
                           <option value="full access">Full access</option>
-                          <option value="remove" data-option-template='<div class="text-danger">Remove</div>'>Remove</option>
-                        </select>
+                          <option value="remove" data-option-template="<div class=&quot;text-danger&quot;>Remove</div>">Remove</option>
+                        <option value="guest" selected="">Guest</option></select><div class="ts-wrapper js-select form-select form-select-borderless tom-select-custom-form-select-invite-user tom-select-form-select-ps-0 single plugin-change_listener plugin-hs_smart_position input-hidden full has-items"><div class="ts-control"><div data-value="guest" class="item" data-ts-item="">Guest</div></div><div class="tom-select-custom"><div class="ts-dropdown single plugin-change_listener plugin-hs_smart_position" style="display: none;"><div role="listbox" tabindex="-1" class="ts-dropdown-content" id="tomselect-8-ts-dropdown"></div></div></div></div>
                       </div>
                       <!-- End Select -->
                     </div>
@@ -6023,17 +3788,17 @@
               <input type="hidden" id="inviteUserPublicClipboard" value="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/">
 
               <p class="modal-footer-text">The public share <a href="#">link settings</a>
-                <i class="bi-question-circle" data-bs-toggle="tooltip" data-bs-placement="top" title="The public share link allows people to view the project without giving access to full collaboration features."></i>
+                <i class="bi-question-circle" data-bs-toggle="tooltip" data-bs-placement="top" aria-label="The public share link allows people to view the project without giving access to full collaboration features." data-bs-original-title="The public share link allows people to view the project without giving access to full collaboration features."></i>
               </p>
             </div>
 
             <div class="col-sm-3 text-sm-end">
-              <a class="js-clipboard btn btn-white btn-sm text-nowrap" href="javascript:;" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy to clipboard!" data-hs-clipboard-options='{
-                  "type": "tooltip",
-                  "successText": "Copied!",
-                  "contentTarget": "#inviteUserPublicClipboard",
-                  "container": "#inviteUserModal"
-                 }'>
+              <a class="js-clipboard btn btn-white btn-sm text-nowrap" href="javascript:;" data-bs-toggle="tooltip" data-bs-placement="top" data-hs-clipboard-options="{
+                  &quot;type&quot;: &quot;tooltip&quot;,
+                  &quot;successText&quot;: &quot;Copied!&quot;,
+                  &quot;contentTarget&quot;: &quot;#inviteUserPublicClipboard&quot;,
+                  &quot;container&quot;: &quot;#inviteUserModal&quot;
+                 }" data-bs-original-title="Copy to clipboard!">
                 <i class="bi-link-45deg me-1"></i> Copy link</a>
             </div>
           </div>
@@ -6044,6 +3809,282 @@
   </div>
   <!-- End Create a new user Modal -->
   <!-- ========== END SECONDARY CONTENTS ========== -->
+
+  <!-- JS Implementing Plugins -->
+  <script src="./assets/js/vendor.min.js"></script>
+
+  <script src="./assets/vendor/chartjs-plugin-datalabels/dist/chartjs-plugin-datalabels.min.js"></script>
+
+  <!-- JS Front -->
+  <script src="./assets/js/theme.min.js"></script>
+  <script src="./assets/js/hs.theme-appearance-charts.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    $(document).on('ready', function () {
+      // INITIALIZATION OF DATERANGEPICKER
+      // =======================================================
+      $('.js-daterangepicker').daterangepicker();
+
+      $('.js-daterangepicker-times').daterangepicker({
+        timePicker: true,
+        startDate: moment().startOf('hour'),
+        endDate: moment().startOf('hour').add(32, 'hour'),
+        locale: {
+          format: 'M/DD hh:mm A'
+        }
+      });
+
+      var start = moment();
+      var end = moment();
+
+      function cb(start, end) {
+        $('#js-daterangepicker-predefined .js-daterangepicker-predefined-preview').html(start.format('MMM D') + ' - ' + end.format('MMM D, YYYY'));
+      }
+
+      $('#js-daterangepicker-predefined').daterangepicker({
+        startDate: start,
+        endDate: end,
+        ranges: {
+          'Today': [moment(), moment()],
+          'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+          'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+          'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+          'This Month': [moment().startOf('month'), moment().endOf('month')],
+          'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+        }
+      }, cb);
+
+      cb(start, end);
+    });
+
+
+    // INITIALIZATION OF DATATABLES
+    // =======================================================
+    HSCore.components.HSDatatables.init($('#datatable'), {
+      select: {
+        style: 'multi',
+        selector: 'td:first-child input[type="checkbox"]',
+        classMap: {
+          checkAll: '#datatableCheckAll',
+          counter: '#datatableCounter',
+          counterInfo: '#datatableCounterInfo'
+        }
+      },
+      language: {
+        zeroRecords: `<div class="text-center p-4">
+              <img class="mb-3" src="./assets/svg/illustrations/oc-error.svg" alt="Image Description" style="width: 10rem;" data-hs-theme-appearance="default">
+              <img class="mb-3" src="./assets/svg/illustrations-light/oc-error.svg" alt="Image Description" style="width: 10rem;" data-hs-theme-appearance="dark">
+            <p class="mb-0">No data to show</p>
+            </div>`
+      }
+    });
+
+    const datatable = HSCore.components.HSDatatables.getItem(0)
+
+    document.querySelectorAll('.js-datatable-filter').forEach(function (item) {
+      item.addEventListener('change',function(e) {
+        const elVal = e.target.value,
+    targetColumnIndex = e.target.getAttribute('data-target-column-index'),
+    targetTable = e.target.getAttribute('data-target-table');
+
+    HSCore.components.HSDatatables.getItem(targetTable).column(targetColumnIndex).search(elVal !== 'null' ? elVal : '').draw()
+      })
+    })
+  </script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    (function() {
+      localStorage.removeItem('hs_theme')
+
+      window.onload = function () {
+        
+
+        // INITIALIZATION OF NAVBAR VERTICAL ASIDE
+        // =======================================================
+        new HSSideNav('.js-navbar-vertical-aside').init()
+
+
+        // INITIALIZATION OF FORM SEARCH
+        // =======================================================
+        const HSFormSearchInstance = new HSFormSearch('.js-form-search')
+
+        if (HSFormSearchInstance.collection.length) {
+          HSFormSearchInstance.getItem(1).on('close', function (el) {
+            el.classList.remove('top-0')
+          })
+
+          document.querySelector('.js-form-search-mobile-toggle').addEventListener('click', e => {
+            let dataOptions = JSON.parse(e.currentTarget.getAttribute('data-hs-form-search-options')),
+              $menu = document.querySelector(dataOptions.dropMenuElement)
+
+            $menu.classList.add('top-0')
+            $menu.style.left = 0
+          })
+        }
+
+
+        // INITIALIZATION OF BOOTSTRAP DROPDOWN
+        // =======================================================
+        HSBsDropdown.init()
+
+
+        // INITIALIZATION OF CHARTJS
+        // =======================================================
+        HSCore.components.HSChartJS.init('.js-chart')
+
+
+        // INITIALIZATION OF CHARTJS
+        // =======================================================
+        HSCore.components.HSChartJS.init('#updatingBarChart')
+        const updatingBarChart = HSCore.components.HSChartJS.getItem('updatingBarChart')
+
+        // Call when tab is clicked
+        document.querySelectorAll('[data-bs-toggle="chart-bar"]').forEach(item => {
+          item.addEventListener('click', e => {
+            let keyDataset = e.currentTarget.getAttribute('data-datasets')
+
+            const styles = HSCore.components.HSChartJS.getTheme('updatingBarChart', HSThemeAppearance.getAppearance())
+
+            if (keyDataset === 'lastWeek') {
+              updatingBarChart.data.labels = ["Apr 22", "Apr 23", "Apr 24", "Apr 25", "Apr 26", "Apr 27", "Apr 28", "Apr 29", "Apr 30", "Apr 31"];
+              updatingBarChart.data.datasets = [
+                {
+                  "data": [120, 250, 300, 200, 300, 290, 350, 100, 125, 320],
+                  "backgroundColor": styles.data.datasets[0].backgroundColor,
+                  "hoverBackgroundColor": styles.data.datasets[0].hoverBackgroundColor,
+                  "borderColor": styles.data.datasets[0].borderColor,
+                  "maxBarThickness": 10
+                },
+                {
+                  "data": [250, 130, 322, 144, 129, 300, 260, 120, 260, 245, 110],
+                  "backgroundColor": styles.data.datasets[1].backgroundColor,
+                  "borderColor": styles.data.datasets[1].borderColor,
+                  "maxBarThickness": 10
+                }
+              ];
+              updatingBarChart.update();
+            } else {
+              updatingBarChart.data.labels = ["May 1", "May 2", "May 3", "May 4", "May 5", "May 6", "May 7", "May 8", "May 9", "May 10"];
+              updatingBarChart.data.datasets = [
+                {
+                  "data": [200, 300, 290, 350, 150, 350, 300, 100, 125, 220],
+                  "backgroundColor": styles.data.datasets[0].backgroundColor,
+                  "hoverBackgroundColor": styles.data.datasets[0].hoverBackgroundColor,
+                  "borderColor": styles.data.datasets[0].borderColor,
+                  "maxBarThickness": 10
+                },
+                {
+                  "data": [150, 230, 382, 204, 169, 290, 300, 100, 300, 225, 120],
+                  "backgroundColor": styles.data.datasets[1].backgroundColor,
+                  "borderColor": styles.data.datasets[1].borderColor,
+                  "maxBarThickness": 10
+                }
+              ]
+              updatingBarChart.update();
+            }
+          })
+        })
+
+
+        // INITIALIZATION OF CHARTJS
+        // =======================================================
+        HSCore.components.HSChartJS.init('.js-chart-datalabels', {
+          plugins: [ChartDataLabels],
+          options: {
+            plugins: {
+              datalabels: {
+                anchor: function (context) {
+                  var value = context.dataset.data[context.dataIndex];
+                  return value.r < 20 ? 'end' : 'center';
+                },
+                align: function (context) {
+                  var value = context.dataset.data[context.dataIndex];
+                  return value.r < 20 ? 'end' : 'center';
+                },
+                color: function (context) {
+                  var value = context.dataset.data[context.dataIndex];
+                  return value.r < 20 ? context.dataset.backgroundColor : context.dataset.color;
+                },
+                font: function (context) {
+                  var value = context.dataset.data[context.dataIndex],
+                    fontSize = 25;
+
+                  if (value.r > 50) {
+                    fontSize = 35;
+                  }
+
+                  if (value.r > 70) {
+                    fontSize = 55;
+                  }
+
+                  return {
+                    weight: 'lighter',
+                    size: fontSize
+                  };
+                },
+                formatter: function (value) {
+                  return value.r
+                },
+                offset: 2,
+                padding: 0
+              }
+            },
+          }
+        })
+
+        // INITIALIZATION OF SELECT
+        // =======================================================
+        HSCore.components.HSTomSelect.init('.js-select')
+
+
+        // INITIALIZATION OF CLIPBOARD
+        // =======================================================
+        HSCore.components.HSClipboard.init('.js-clipboard')
+      }
+    })()
+  </script>
+
+  <!-- Style Switcher JS -->
+
+  <script>
+      (function () {
+        // STYLE SWITCHER
+        // =======================================================
+        const $dropdownBtn = document.getElementById('selectThemeDropdown') // Dropdowon trigger
+        const $variants = document.querySelectorAll(`[aria-labelledby="selectThemeDropdown"] [data-icon]`) // All items of the dropdown
+
+        // Function to set active style in the dorpdown menu and set icon for dropdown trigger
+        const setActiveStyle = function () {
+          $variants.forEach($item => {
+            if ($item.getAttribute('data-value') === HSThemeAppearance.getOriginalAppearance()) {
+              $dropdownBtn.innerHTML = `<i class="${$item.getAttribute('data-icon')}" />`
+              return $item.classList.add('active')
+            }
+
+            $item.classList.remove('active')
+          })
+        }
+
+        // Add a click event to all items of the dropdown to set the style
+        $variants.forEach(function ($item) {
+          $item.addEventListener('click', function () {
+            HSThemeAppearance.setAppearance($item.getAttribute('data-value'))
+          })
+        })
+
+        // Call the setActiveStyle on load page
+        setActiveStyle()
+
+        // Add event listener on change style to call the setActiveStyle function
+        window.addEventListener('on-hs-appearance-change', function () {
+          setActiveStyle()
+        })
+      })()
+    </script>
+
+  <!-- End Style Switcher JS -->
 
   <!-- JS Implementing Plugins -->
   <script src="./assets/js/vendor.min.js"></script>
