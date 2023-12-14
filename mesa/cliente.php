@@ -1129,28 +1129,28 @@
       <div class="page-header">
         <div class="row align-items-center mb-3">
           <div class="col-md mb-2 mb-md-0">
-            <h1 class="page-header-title">Customers <span class="badge bg-soft-dark text-dark ms-2">97,524</span></h1>
+            <h1 class="page-header-title">Clientes <span class="badge bg-soft-dark text-dark ms-2">97,524</span></h1>
 
             <div class="d-sm-flex mt-2">
               <a class="d-inline-block text-body mb-2 mb-sm-0 me-3" href="javascript:;" data-bs-toggle="modal" data-bs-target="#importCustomersModal">
-                <i class="bi-upload me-1"></i> Import customers
+                <i class="bi-upload me-1"></i> Importar
               </a>
               <a class="d-inline-block text-body mb-2 mb-sm-0 me-3" href="javascript:;" data-bs-toggle="modal" data-bs-target="#exportCustomersModal">
-                <i class="bi-download me-1"></i> Export
+                <i class="bi-download me-1"></i> Exportar
               </a>
 
               <!-- Dropdown -->
               <div class="dropdown">
                 <a class="d-inline-block text-body mb-2 mb-sm-0 me-3" href="javascript:;" id="moreOptionsDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                  More options <i class="bi-chevron-down"></i>
+                 Mais opções <i class="bi-chevron-down"></i>
                 </a>
 
                 <div class="dropdown-menu mt-1" aria-labelledby="moreOptionsDropdown">
                   <a class="dropdown-item" href="#">
-                    <i class="bi-clipboard dropdown-item-icon"></i> Manage duplicates
+                    <i class="bi-clipboard dropdown-item-icon"></i> Duplicados
                   </a>
                   <a class="dropdown-item" href="#">
-                    <i class="bi-pencil dropdown-item-icon"></i> Edit users
+                    <i class="bi-pencil dropdown-item-icon"></i> Editar usuário
                   </a>
                   <a class="dropdown-item" href="#">
                     <i class="bi-arrow-clockwise dropdown-item-icon"></i> Restore clients
