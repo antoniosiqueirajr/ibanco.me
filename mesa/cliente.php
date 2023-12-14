@@ -5238,7 +5238,7 @@
         <!-- Body -->
         <div class="modal-body p-sm-5">
           <div class="text-center mb-5">
-            <h4 class="h1">Welcome to Front Customers</h4>
+            <h4 class="h1">Bem vindo ao Connector</h4>
           </div>
 
           <!-- Media -->
