@@ -1220,12 +1220,6 @@
                 </a>
               </div>
 
-              <div class="nav-item">
-                <a class="nav-link " href="./landing.html" data-placement="left">
-                  <i class="bi-box-seam nav-icon"></i>
-                  <span class="nav-link-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Página inicial</font></font><span class="badge bg-info rounded-pill ms-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Novo</font></font></span></span>
-                </a>
-              </div>
             </div>
             <!-- End Collapse -->
 
