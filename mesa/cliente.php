@@ -988,104 +988,6 @@
 
 
      
-              <!-- Collapse -->
-              <div class="nav-item">
-                <a class="nav-link dropdown-toggle " href="#navbarVerticalMenuPagesProjectMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuPagesProjectMenu" aria-expanded="false" aria-controls="navbarVerticalMenuPagesProjectMenu">
-                  <i class="bi-briefcase nav-icon"></i>
-                  <span class="nav-link-title">Project</span>
-                </a>
-
-                <div id="navbarVerticalMenuPagesProjectMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuPagesMenu">
-                  <a class="nav-link " href="./project.html">Overview</a>
-                  <a class="nav-link " href="./project-files.html">Files</a>
-                  <a class="nav-link " href="./project-activity.html">Activity</a>
-                  <a class="nav-link " href="./project-teams.html">Teams</a>
-                  <a class="nav-link " href="./project-settings.html">Settings</a>
-                </div>
-              </div>
-              <!-- End Collapse -->
-
-              <!-- Collapse -->
-              <div class="nav-item">
-                <a class="nav-link dropdown-toggle  collapsed" href="#" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuAuthentication" aria-expanded="false" aria-controls="navbarVerticalMenuAuthentication">
-                  <i class="bi-shield-lock nav-icon"></i>
-                  <span class="nav-link-title">Authentication</span>
-                </a>
-
-                <div id="navbarVerticalMenuAuthentication" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenu">
-                  <div id="navbarVerticalMenuAuthenticationMenu">
-                    <!-- Collapse -->
-                    <div class="nav-item">
-                      <a class="nav-link dropdown-toggle " href="#navbarVerticalMenuAuthenticationLoginMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuAuthenticationLoginMenu" aria-expanded="false" aria-controls="navbarVerticalMenuAuthenticationLoginMenu">
-                        Log In
-                      </a>
-
-                      <div id="navbarVerticalMenuAuthenticationLoginMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuAuthenticationMenu">
-                        <a class="nav-link " href="./authentication-login-basic.html">Basic</a>
-                        <a class="nav-link " href="./authentication-login-cover.html">Cover</a>
-                      </div>
-                    </div>
-                    <!-- End Collapse -->
-
-                    <!-- Collapse -->
-                    <div class="nav-item">
-                      <a class="nav-link dropdown-toggle " href="#navbarVerticalMenuAuthenticationSignupMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuAuthenticationSignupMenu" aria-expanded="false" aria-controls="navbarVerticalMenuAuthenticationSignupMenu">
-                        Sign Up
-                      </a>
-
-                      <div id="navbarVerticalMenuAuthenticationSignupMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuAuthenticationMenu">
-                        <a class="nav-link " href="./authentication-signup-basic.html">Basic</a>
-                        <a class="nav-link " href="./authentication-signup-cover.html">Cover</a>
-                      </div>
-                    </div>
-                    <!-- End Collapse -->
-
-                    <!-- Collapse -->
-                    <div class="nav-item">
-                      <a class="nav-link dropdown-toggle " href="#navbarVerticalMenuAuthenticationResetPasswordMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuAuthenticationResetPasswordMenu" aria-expanded="false" aria-controls="navbarVerticalMenuAuthenticationResetPasswordMenu">
-                        Reset Password
-                      </a>
-
-                      <div id="navbarVerticalMenuAuthenticationResetPasswordMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuAuthenticationMenu">
-                        <a class="nav-link " href="./authentication-reset-password-basic.html">Basic</a>
-                        <a class="nav-link " href="./authentication-reset-password-cover.html">Cover</a>
-                      </div>
-                    </div>
-                    <!-- End Collapse -->
-
-                    <!-- Collapse -->
-                    <div class="nav-item">
-                      <a class="nav-link dropdown-toggle " href="#navbarVerticalMenuAuthenticationEmailVerificationMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuAuthenticationEmailVerificationMenu" aria-expanded="false" aria-controls="navbarVerticalMenuAuthenticationEmailVerificationMenu">
-                        Email Verification
-                      </a>
-
-                      <div id="navbarVerticalMenuAuthenticationEmailVerificationMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuAuthenticationMenu">
-                        <a class="nav-link " href="./authentication-email-verification-basic.html">Basic</a>
-                        <a class="nav-link " href="./authentication-email-verification-cover.html">Cover</a>
-                      </div>
-                    </div>
-                    <!-- End Collapse -->
-
-                    <!-- Collapse -->
-                    <div class="nav-item">
-                      <a class="nav-link dropdown-toggle " href="#navbarVerticalMenuAuthentication2StepVerificationMenu" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuAuthentication2StepVerificationMenu" aria-expanded="false" aria-controls="navbarVerticalMenuAuthentication2StepVerificationMenu">
-                        2-step Verification
-                      </a>
-
-                      <div id="navbarVerticalMenuAuthentication2StepVerificationMenu" class="nav-collapse collapse " data-bs-parent="#navbarVerticalMenuAuthenticationMenu">
-                        <a class="nav-link " href="./authentication-2-step-verification-basic.html">Basic</a>
-                        <a class="nav-link " href="./authentication-2-step-verification-cover.html">Cover</a>
-                      </div>
-                    </div>
-                    <!-- End Collapse -->
-
-                    <a class="nav-link" href="javascript:;" data-bs-toggle="modal" data-bs-target="#welcomeMessageModal">Welcome Message</a>
-                    <a class="nav-link " href="./error-404.html">Error 404</a>
-                    <a class="nav-link " href="./error-500.html">Error 500</a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Collapse -->
 
               <div class="nav-item">
                 <a class="nav-link " href="./api-keys.html" data-placement="left">
@@ -1094,29 +996,14 @@
                 </a>
               </div>
 
-              <div class="nav-item">
-                <a class="nav-link " href="./welcome-page.html" data-placement="left">
-                  <i class="bi-eye nav-icon"></i>
-                  <span class="nav-link-title">Welcome Page</span>
-                </a>
-              </div>
-
-              <div class="nav-item">
-                <a class="nav-link " href="./landing.html" data-placement="left">
-                  <i class="bi-box-seam nav-icon"></i>
-                  <span class="nav-link-title">Landing Page <span class="badge bg-info rounded-pill ms-1">New</span></span>
-                </a>
-              </div>
-            </div>
-            <!-- End Collapse -->
 
             <span class="dropdown-header mt-4">Apps</span>
             <small class="bi-three-dots nav-subtitle-replacer"></small>
 
             <div class="nav-item">
-              <a class="nav-link " href="./apps-kanban.html" data-placement="left">
+              <a class="nav-link " href="./clientes.php" data-placement="left">
                 <i class="bi-kanban nav-icon"></i>
-                <span class="nav-link-title">Kanban</span>
+                <span class="nav-link-title">Clientes</span>
               </a>
             </div>
 
@@ -1133,41 +1020,6 @@
                 <span class="nav-link-title">Invoice Generator</span>
               </a>
             </div>
-
-            <div class="nav-item">
-              <a class="nav-link " href="./apps-file-manager.html" data-placement="left">
-                <i class="bi-folder2-open nav-icon"></i>
-                <span class="nav-link-title">File Manager</span>
-              </a>
-            </div>
-
-            <span class="dropdown-header mt-4">Layouts</span>
-            <small class="bi-three-dots nav-subtitle-replacer"></small>
-
-            <div class="nav-item">
-              <a class="nav-link " href="./layouts/index.html" data-placement="left">
-                <i class="bi-grid-1x2 nav-icon"></i>
-                <span class="nav-link-title">Layouts</span>
-              </a>
-            </div>
-
-            <span class="dropdown-header mt-4">Documentation</span>
-            <small class="bi-three-dots nav-subtitle-replacer"></small>
-
-            <div class="nav-item">
-              <a class="nav-link " href="./documentation/index.html" data-placement="left">
-                <i class="bi-book nav-icon"></i>
-                <span class="nav-link-title">Documentation <span class="badge bg-primary rounded-pill ms-1">v2.1.1</span></span>
-              </a>
-            </div>
-
-            <div class="nav-item">
-              <a class="nav-link " href="./documentation/typography.html" data-placement="left">
-                <i class="bi-layers nav-icon"></i>
-                <span class="nav-link-title">Components</span>
-              </a>
-            </div>
-          </div>
 
         </div>
         <!-- End Content -->
