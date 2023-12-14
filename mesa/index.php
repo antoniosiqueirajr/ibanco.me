@@ -1260,33 +1260,6 @@
               </a>
             </div>
 
-            <span class="dropdown-header mt-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Layouts</font></font></span>
-            <small class="bi-three-dots nav-subtitle-replacer"></small>
-
-            <div class="nav-item">
-              <a class="nav-link " href="./layouts/index.html" data-placement="left">
-                <i class="bi-grid-1x2 nav-icon"></i>
-                <span class="nav-link-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Layouts</font></font></span>
-              </a>
-            </div>
-
-            <span class="dropdown-header mt-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Documentação</font></font></span>
-            <small class="bi-three-dots nav-subtitle-replacer"></small>
-
-            <div class="nav-item">
-              <a class="nav-link " href="./documentation/index.html" data-placement="left">
-                <i class="bi-book nav-icon"></i>
-                <span class="nav-link-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Documentação</font></font><span class="badge bg-primary rounded-pill ms-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">v2.1.1</font></font></span></span>
-              </a>
-            </div>
-
-            <div class="nav-item">
-              <a class="nav-link " href="./documentation/typography.html" data-placement="left">
-                <i class="bi-layers nav-icon"></i>
-                <span class="nav-link-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Componentes</font></font></span>
-              </a>
-            </div>
-          </div>
 
         </div>
         <!-- End Content -->
