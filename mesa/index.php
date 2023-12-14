@@ -978,9 +978,6 @@
             </div>
             <!-- End Collapse -->
 
-            <span class="dropdown-header mt-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Páginas</font></font></span>
-            <small class="bi-three-dots nav-subtitle-replacer"></small>
-
             <!-- Collapse -->
             <div class="navbar-nav nav-compact">
 
@@ -992,32 +989,13 @@
             <small class="bi-three-dots nav-subtitle-replacer"></small>
 
             <div class="nav-item">
-              <a class="nav-link " href="./apps-kanban.html" data-placement="left">
+              <a class="nav-link " href="./clientes.php" data-placement="left">
                 <i class="bi-kanban nav-icon"></i>
-                <span class="nav-link-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Kanban</font></font></span>
+                <span class="nav-link-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Clientes</font></font></span>
               </a>
             </div>
 
-            <div class="nav-item">
-              <a class="nav-link " href="./apps-calendar.html" data-placement="left">
-                <i class="bi-calendar-week nav-icon"></i>
-                <span class="nav-link-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Calendário</font></font></span>
-              </a>
-            </div>
-
-            <div class="nav-item">
-              <a class="nav-link " href="./apps-invoice-generator.html" data-placement="left">
-                <i class="bi-receipt nav-icon"></i>
-                <span class="nav-link-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gerador de faturas</font></font></span>
-              </a>
-            </div>
-
-            <div class="nav-item">
-              <a class="nav-link " href="./apps-file-manager.html" data-placement="left">
-                <i class="bi-folder2-open nav-icon"></i>
-                <span class="nav-link-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gerenciador de arquivos</font></font></span>
-              </a>
-            </div>
+            
 
 
         </div>
