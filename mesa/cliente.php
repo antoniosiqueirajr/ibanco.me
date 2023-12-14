@@ -1186,20 +1186,18 @@
           <!-- Nav -->
           <ul class="nav nav-tabs page-header-tabs">
             <li class="nav-item">
-              <a class="nav-link active" href="#">All</a>
+              <a class="nav-link active" href="#">Todos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">New</a>
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Novos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Returning</a>
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Retorno</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Abandoned checkouts</a>
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Sem fatura</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Email subscribers</a>
-            </li>
+
           </ul>
           <!-- End Nav -->
         </div>
