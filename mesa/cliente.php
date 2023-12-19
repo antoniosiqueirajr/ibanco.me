@@ -985,18 +985,30 @@
               <div class="nav-item">
                 <a class="nav-link " href="./api-keys.html" data-placement="left">
                   <i class="bi-key nav-icon"></i>
-                  <span class="nav-link-title">API Keys</span>
+                  <span class="nav-link-title">Clientes</span>
                 </a>
               </div>
 
 
-            <span class="dropdown-header mt-4">Apps</span>
+            <span class="dropdown-header mt-4">Operações</span>
             <small class="bi-three-dots nav-subtitle-replacer"></small>
 
             <div class="nav-item">
               <a class="nav-link " href="./clientes.php" data-placement="left">
                 <i class="bi-kanban nav-icon"></i>
-                <span class="nav-link-title">Clientes</span>
+                <span class="nav-link-title">Boletos</span>
+              </a>
+            </div>
+            <div class="nav-item">
+              <a class="nav-link " href="./clientes.php" data-placement="left">
+                <i class="bi-kanban nav-icon"></i>
+                <span class="nav-link-title">Cartões</span>
+              </a>
+            </div>
+            <div class="nav-item">
+              <a class="nav-link " href="./clientes.php" data-placement="left">
+                <i class="bi-kanban nav-icon"></i>
+                <span class="nav-link-title">Orchestrador</span>
               </a>
             </div>
 
