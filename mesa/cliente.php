@@ -143,7 +143,7 @@
     <div class="navbar-nav-wrap">
       <!-- Logo -->
       <a class="navbar-brand" href="./index.html" aria-label="Front">
-        <img width="50%" src="assets/logo/sjr-global.png"> 
+        <img width="70%" src="assets/logo/sjr-global.png"> 
   </a>
       <!-- End Logo -->
 
@@ -941,7 +941,7 @@
         <!-- Logo -->
 
         <a class="navbar-brand" href="./index.html" aria-label="Front">
-        <img width="50%" src="assets/logo/sjr-global.png">    </a>
+        <img width="70%" src="assets/logo/sjr-global.png">    </a>
 
         <!-- End Logo -->
 
@@ -2381,8 +2381,8 @@
             <!-- Logo -->
 
             <a class="navbar-brand" href="./index.html" aria-label="Front">
-              <img width="50%" class="navbar-brand-logo" src=".assets/logo/sjr-global.png" alt="Logo" data-hs-theme-appearance="default">
-              <img width="50%" class="navbar-brand-logo" src=".assets/logo/sjr-global.png" alt="Logo" data-hs-theme-appearance="dark">
+              <img width="70%" class="navbar-brand-logo" src=".assets/logo/sjr-global.png" alt="Logo" data-hs-theme-appearance="default">
+              <img width="70%" class="navbar-brand-logo" src=".assets/logo/sjr-global.png" alt="Logo" data-hs-theme-appearance="dark">
             </a>
 
             <!-- End Logo -->
