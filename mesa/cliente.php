@@ -970,7 +970,7 @@
             </div>
             <!-- End Collapse -->
 
-            <span class="dropdown-header mt-4">Pages</span>
+            <span class="dropdown-header mt-4">Aplicações</span>
             <small class="bi-three-dots nav-subtitle-replacer"></small>
 
             <!-- Collapse -->
@@ -982,6 +982,12 @@
 
      
 
+              <div class="nav-item">
+                <a class="nav-link " href="./api-keys.html" data-placement="left">
+                  <i class="bi-key nav-icon"></i>
+                  <span class="nav-link-title">Empresas</span>
+                </a>
+              </div>
               <div class="nav-item">
                 <a class="nav-link " href="./api-keys.html" data-placement="left">
                   <i class="bi-key nav-icon"></i>
