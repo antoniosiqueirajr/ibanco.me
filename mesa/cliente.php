@@ -143,7 +143,7 @@
     <div class="navbar-nav-wrap">
       <!-- Logo -->
       <a class="navbar-brand" href="./index.html" aria-label="Front">
-        <img src="assets/logo/sjr-global.png"> 
+        <img width="20%" src="assets/logo/sjr-global.png"> 
   </a>
       <!-- End Logo -->
 
