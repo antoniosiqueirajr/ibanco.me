@@ -2,17 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redes Sociais</title>
+    <meta http-equiv="refresh" content="0;url=https://www.instagram.com/ibancome/">
+    <title>Redirecionando para Instagram</title>
 </head>
 <body>
-
-<h1>Links para Redes Sociais</h1>
-
-<ul>
-    <li><a href="https://www.instagram.com/ibancome/">Instagram</a></li>
-    <!-- Adicione mais links para outras redes sociais, se necessário -->
-</ul>
-
+    <p>Se você não foi redirecionado, clique <a href="https://www.instagram.com/ibancome/">aqui</a>.</p>
 </body>
 </html>
