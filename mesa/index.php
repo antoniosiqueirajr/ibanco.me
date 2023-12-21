@@ -1009,32 +1009,7 @@
               </a>
             </div>
 
-            <span class="dropdown-header mt-4">Layouts</span>
-            <small class="bi-three-dots nav-subtitle-replacer"></small>
 
-            <div class="nav-item">
-              <a class="nav-link " href="./layouts/index.html" data-placement="left">
-                <i class="bi-grid-1x2 nav-icon"></i>
-                <span class="nav-link-title">Layouts</span>
-              </a>
-            </div>
-
-            <span class="dropdown-header mt-4">Documentation</span>
-            <small class="bi-three-dots nav-subtitle-replacer"></small>
-
-            <div class="nav-item">
-              <a class="nav-link " href="./documentation/index.html" data-placement="left">
-                <i class="bi-book nav-icon"></i>
-                <span class="nav-link-title">Documentation <span class="badge bg-primary rounded-pill ms-1">v2.1.1</span></span>
-              </a>
-            </div>
-
-            <div class="nav-item">
-              <a class="nav-link " href="./documentation/typography.html" data-placement="left">
-                <i class="bi-layers nav-icon"></i>
-                <span class="nav-link-title">Components</span>
-              </a>
-            </div>
           </div>
 
         </div>
