@@ -3761,7 +3761,7 @@
                           <i class="bi-search"></i>
                         </div>
 
-                        <input type="search" class="js-form-search form-control" placeholder="Search in front" aria-label="Search in front" data-hs-form-search-options='{
+                        <input type="search" class="js-form-search form-control" placeholder="Buscar cobranças" aria-label="Buscar cobrança" data-hs-form-search-options='{
                                  "clearIcon": "#clearSearchResultsIcon",
                                  "dropMenuElement": "#searchDropdownMenu",
                                  "dropMenuOffset": 20,
