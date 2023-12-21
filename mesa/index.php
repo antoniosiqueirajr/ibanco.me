@@ -1159,7 +1159,7 @@
 
               <div class="row align-items-center gx-2 mb-1">
                 <div class="col-6">
-                  <h2 class="card-title text-inherit">100.000.000</h2>
+                  <h2 class="card-title text-inherit">100.000</h2>
                 </div>
                 <!-- End Col -->
 
