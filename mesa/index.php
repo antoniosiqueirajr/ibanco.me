@@ -1212,7 +1212,7 @@
               <span class="badge bg-soft-success text-success">
                 <i class="bi-graph-up"></i> 12.5%
               </span>
-              <span class="text-body fs-6 ms-1">from 70,104</span>
+              <span class="text-body fs-6 ms-1"> mês anteiror 70.104</span>
             </div>
           </a>
           <!-- End Card -->
