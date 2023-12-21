@@ -848,8 +848,8 @@
                       <img class="avatar-img" src="./assets/img/160x160/img6.jpg" alt="Image Description">
                     </div>
                     <div class="flex-grow-1 ms-3">
-                      <h5 class="mb-0">Mark Williams</h5>
-                      <p class="card-text text-body">mark@site.com</p>
+                      <h5 class="mb-0">Antonio Siqueira</h5>
+                      <p class="card-text text-body">antonio@ibanco.me</p>
                     </div>
                   </div>
                 </div>
@@ -2250,7 +2250,7 @@
                   <span class="legend-indicator bg-success"></span>Successful
                 </td>
                 <td>Subscription</td>
-                <td>mark@site.com</td>
+                <td>antonio@ibanco.me</td>
                 <td>6 months ago</td>
                 <td>78463</td>
               </tr>
@@ -3399,8 +3399,8 @@
                             <img class="avatar-img" src="./assets/img/160x160/img6.jpg" alt="Image Description">
                           </div>
                           <div class="flex-grow-1 ms-3">
-                            <h5 class="mb-0">Mark Williams</h5>
-                            <p class="card-text text-body">mark@site.com</p>
+                            <h5 class="mb-0">Antonio Siqueira</h5>
+                            <p class="card-text text-body">antonio@ibanco.me</p>
                           </div>
                         </div>
                       </div>
@@ -4470,8 +4470,8 @@
                               <img class="avatar-img" src="./assets/img/160x160/img6.jpg" alt="Image Description">
                             </div>
                             <div class="flex-grow-1 ms-3">
-                              <h5 class="mb-0">Mark Williams</h5>
-                              <p class="card-text text-body">mark@site.com</p>
+                              <h5 class="mb-0">Antonio Siqueira</h5>
+                              <p class="card-text text-body">antonio@ibanco.me</p>
                             </div>
                           </div>
                         </div>
