@@ -168,7 +168,7 @@
                 <i class="bi-search"></i>
               </div>
 
-              <input type="search" class="js-form-search form-control" placeholder="Search in front" aria-label="Search in front" data-hs-form-search-options='{
+              <input type="search" class="js-form-search form-control" placeholder="Localizar cobranças" aria-label="Localizar cobranças" data-hs-form-search-options='{
                        "clearIcon": "#clearSearchResultsIcon",
                        "dropMenuElement": "#searchDropdownMenu",
                        "dropMenuOffset": 20,
@@ -203,7 +203,7 @@
                       <i class="bi-search"></i>
                     </div>
 
-                    <input type="search" class="form-control" placeholder="Search in front" aria-label="Search in front">
+                    <input type="search" class="form-control" placeholder="Localizar cobranças" aria-label="Localizar cobranças">
                     <a class="input-group-append input-group-text" href="javascript:;">
                       <i class="bi-x-lg"></i>
                     </a>
@@ -3796,7 +3796,7 @@
                                 <i class="bi-search"></i>
                               </div>
 
-                              <input type="search" class="form-control" placeholder="Search in front" aria-label="Search in front">
+                              <input type="search" class="form-control" placeholder="Localizar cobranças" aria-label="Localizar cobranças">
                               <a class="input-group-append input-group-text" href="javascript:;">
                                 <i class="bi-x-lg"></i>
                               </a>
