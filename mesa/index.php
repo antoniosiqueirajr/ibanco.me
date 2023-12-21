@@ -4117,7 +4117,6 @@
                 <!-- Apps -->
                 <li class="hs-has-sub-menu nav-item">
                   <a id="appsMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button"><i class="bi-app-indicator dropdown-item-icon"></i> Apps</a>
-
                   <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="appsMegaMenu" style="min-width: 14rem;">
                     <a class="dropdown-item " href="./apps-kanban.html">Nova cobrança</a>
                     <a class="dropdown-item " href="./apps-calendar.html">Conciliações</a>
