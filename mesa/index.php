@@ -1425,7 +1425,7 @@
           <div class="card h-100">
             <!-- Header -->
             <div class="card-header card-header-content-between">
-              <h4 class="card-header-title">Import data into Front Dashboard</h4>
+              <h4 class="card-header-title">Concilie seus recebivéis</h4>
 
               <!-- Dropdown -->
               <div class="dropdown">
@@ -1477,14 +1477,14 @@
                     <div class="flex-grow-1 ms-3">
                       <div class="row align-items-center">
                         <div class="col">
-                          <h5 class="mb-0">Capsule</h5>
-                          <span class="d-block fs-6 text-body">Users</span>
+                          <h5 class="mb-0">Banco Itaú</h5>
+                          <span class="d-block fs-6 text-body">Contas empresariais</span>
                         </div>
                         <!-- End Col -->
 
                         <div class="col-auto">
                           <a class="btn btn-primary btn-sm" href="#" title="Launch importer" target="_blank">
-                            Launch <span class="d-none d-sm-inline-block">importer</span>
+                            Launch <span class="d-none d-sm-inline-block">Importar</span>
                             <i class="bi-box-arrow-up-right ms-1"></i>
                           </a>
                         </div>
