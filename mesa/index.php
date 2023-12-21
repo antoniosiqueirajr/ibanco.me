@@ -4119,10 +4119,10 @@
                   <a id="appsMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button"><i class="bi-app-indicator dropdown-item-icon"></i> Apps</a>
 
                   <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="appsMegaMenu" style="min-width: 14rem;">
-                    <a class="dropdown-item " href="./apps-kanban.html">Kanban</a>
-                    <a class="dropdown-item " href="./apps-calendar.html">Calendar</a>
-                    <a class="dropdown-item " href="./apps-invoice-generator.html">Invoice Generator</a>
-                    <a class="dropdown-item " href="./apps-file-manager.html">File Manager</a>
+                    <a class="dropdown-item " href="./apps-kanban.html">Nova cobrança</a>
+                    <a class="dropdown-item " href="./apps-calendar.html">Conciliações</a>
+                    <a class="dropdown-item " href="./apps-invoice-generator.html">Transações</a>
+                    <a class="dropdown-item " href="./apps-file-manager.html">WhatsApp <span class='bg-soft-danger'>Novo</span></a>
                   </div>
                 </li>
                 <!-- End Apps -->
