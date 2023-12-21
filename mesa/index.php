@@ -1134,13 +1134,13 @@
       <div class="page-header">
         <div class="row align-items-center">
           <div class="col">
-            <h1 class="page-header-title">Dashboard</h1>
+            <h1 class="page-header-title">iBanco Painel</h1>
           </div>
           <!-- End Col -->
 
           <div class="col-auto">
             <a class="btn btn-primary" href="javascript:;" data-bs-toggle="modal" data-bs-target="#inviteUserModal">
-              <i class="bi-person-plus-fill me-1"></i> Invite users
+              <i class="bi-person-plus-fill me-1"></i> Nova cobrança
             </a>
           </div>
           <!-- End Col -->
@@ -1155,11 +1155,11 @@
           <!-- Card -->
           <a class="card card-hover-shadow h-100" href="#">
             <div class="card-body">
-              <h6 class="card-subtitle">Total Users</h6>
+              <h6 class="card-subtitle">Saldo</h6>
 
               <div class="row align-items-center gx-2 mb-1">
                 <div class="col-6">
-                  <h2 class="card-title text-inherit">72,540</h2>
+                  <h2 class="card-title text-inherit">100.000.000</h2>
                 </div>
                 <!-- End Col -->
 
