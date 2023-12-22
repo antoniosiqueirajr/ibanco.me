@@ -1123,12 +1123,22 @@
 
 
 
-            <div class="profile-complete-status">
-              <div class="progress-value fw-500">87%</div>
-              <div class="progress-line position-relative">
-                <div class="inner-line" style="width:80%;"></div>
+            <div class="card-body">Carteira de cobranças
+              <span class="h1 d-block mb-4">R$ 700.431,14 BRL</span>
+
+              <!-- Progress -->
+              <div class="progress rounded-pill mb-2">
+                <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Gross value" data-bs-original-title="Gross value"></div>
+                <div class="progress-bar opacity-50" role="progressbar" style="width: 33%" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Net volume from sales" data-bs-original-title="Net volume from sales"></div>
+                <div class="progress-bar opacity-25" role="progressbar" style="width: 9%" aria-valuenow="9" aria-valuemin="0" aria-valuemax="100" data-bs-toggle="tooltip" data-bs-placement="top" aria-label="New volume from sales" data-bs-original-title="New volume from sales"></div>
               </div>
-              <p>Profile Complete</p>
+
+              <div class="d-flex justify-content-between mb-4">
+                <span>0%</span>
+                <span>100%</span>
+              </div>
+              <!-- End Progress -->
+
             </div>
 
 
