@@ -1128,7 +1128,7 @@
 
           </div>
 
-          <div class="nav-item">
+          <div class="nav-item" style="margin-top: 20%" >
           <div class="card-body">Carteira de cobranças
               <span class="h1 d-block mb-4">R$ 700.431,14 BRL</span>
 
