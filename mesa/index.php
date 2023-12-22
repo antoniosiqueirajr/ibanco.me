@@ -1914,8 +1914,8 @@
             <!-- Logo -->
 
             <a class="navbar-brand" href="./index.html" aria-label="Front">
-              <img class="navbar-brand-logo" src="./assets/svg/logos/logo.svg" alt="Logo" data-hs-theme-appearance="default">
-              <img class="navbar-brand-logo" src="./assets/svg/logos-light/logo.svg" alt="Logo" data-hs-theme-appearance="dark">
+              <img width="150px" class="navbar-brand-logo" src="./assets/svg/logos/logo.svg" alt="Logo" data-hs-theme-appearance="default">
+              <img width="150px" class="navbar-brand-logo" src="./assets/svg/logos-light/logo.svg" alt="Logo" data-hs-theme-appearance="dark">
             </a>
 
             <!-- End Logo -->
