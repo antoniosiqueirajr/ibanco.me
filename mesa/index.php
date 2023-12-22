@@ -965,21 +965,26 @@
           <div id="navbarVerticalMenu" class="nav nav-pills nav-vertical card-navbar-nav">
             <!-- Collapse -->
             <div class="nav-item">
-              <a class="nav-link dropdown-toggle active" href="#navbarVerticalMenuDashboards" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuDashboards" aria-expanded="true" aria-controls="navbarVerticalMenuDashboards">
+              <a class="nav-link dropdown-toggle" href="#navbarVerticalMenuDashboards" role="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalMenuDashboards" aria-expanded="true" aria-controls="navbarVerticalMenuDashboards">
                 <i class="bi-house-door nav-icon"></i>
-                <span class="nav-link-title">Dashboards</span>
+                <span class="nav-link-title">Resumo</span>
               </a>
 
-              <div id="navbarVerticalMenuDashboards" class="nav-collapse collapse show" data-bs-parent="#navbarVerticalMenu">
-                <a class="nav-link active" href="./index.html">Default</a>
-                <a class="nav-link " href="./dashboard-alternative.html">Alternative</a>
-              </div>
+            
             </div>
             <!-- End Collapse -->
 
 
-            <span class="dropdown-header mt-4">Apps</span>
+            <span class="dropdown-header mt-4">Conta</span>
             <small class="bi-three-dots nav-subtitle-replacer"></small> 
+
+            <div class="nav-item">
+              <a class="nav-link " href="" data-placement="left">
+                <i class="bi-kanban nav-icon"></i>
+                <span class="nav-link-title">Extrato</span>
+              </a>
+            </div>
+
 
 
             <div class="nav-item">
@@ -995,6 +1000,13 @@
                 <span class="nav-link-title">Pagamentos</span>
               </a>
             </div>
+
+
+            <span class="dropdown-header mt-4">Gestão</span>
+            <small class="bi-three-dots nav-subtitle-replacer"></small> 
+
+
+            
 
             <div class="nav-item">
               <a class="nav-link " href="" data-placement="left">
@@ -1015,6 +1027,17 @@
               <a class="nav-link " href="" data-placement="left">
                 <i class="bi-receipt nav-icon"></i>
                 <span class="nav-link-title">Antecipação de cartões</span>
+              </a>
+            </div>
+
+
+            <span class="dropdown-header mt-4">Configurações</span>
+            <small class="bi-three-dots nav-subtitle-replacer"></small> 
+
+            <div class="nav-item">
+              <a class="nav-link " href="./apps-file-manager.html" data-placement="left">
+                <i class="bi-folder2-open nav-icon"></i>
+                <span class="nav-link-title">Empresas</span>
               </a>
             </div>
 
