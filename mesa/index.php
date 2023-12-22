@@ -1811,7 +1811,7 @@
     <div class="footer">
       <div class="row justify-content-between align-items-center">
         <div class="col">
-          <p class="fs-6 mb-0">&copy; Front. <span class="d-none d-sm-inline-block">2022 Htmlstream.</span></p>
+          <p class="fs-6 mb-0">&copy; iBanco Me. <span class="d-none d-sm-inline-block">2024 iBanco.</span></p>
         </div>
         <!-- End Col -->
 
