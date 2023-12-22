@@ -1129,7 +1129,8 @@
           </div>
 
           <div class="nav-item" style="margin-top: 40%" >
-          <div class="card-body"><font color="#fff">Carteira de cobranças</font>
+        
+            <font color="#fff">Saldo</font>
               <span class="h1 d-block mb-4"> <font color="#fff">R$ 700.431,14 BRL</font></span>
 
               <!-- Progress -->
@@ -1145,8 +1146,7 @@
               </div>
               <!-- End Progress -->
 
-            </div>
-
+          
 
 
           </div>
