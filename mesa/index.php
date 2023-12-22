@@ -1701,7 +1701,7 @@
           <div class="card h-100">
             <!-- Header -->
             <div class="card-header card-header-content-between">
-              <h4 class="card-header-title">Reports overview</h4>
+              <h4 class="card-header-title">Receitas previstas</h4>
 
               <!-- Dropdown -->
               <div class="dropdown">
@@ -1710,16 +1710,16 @@
                 </button>
 
                 <div class="dropdown-menu dropdown-menu-end mt-1" aria-labelledby="reportsOverviewDropdown1">
-                  <span class="dropdown-header">Settings</span>
+                  <span class="dropdown-header">Configurações</span>
 
                   <a class="dropdown-item" href="#">
-                    <i class="bi-share-fill dropdown-item-icon"></i> Share reports
+                    <i class="bi-share-fill dropdown-item-icon"></i> Compartilhar
                   </a>
                   <a class="dropdown-item" href="#">
                     <i class="bi-download dropdown-item-icon"></i> Download
                   </a>
                   <a class="dropdown-item" href="#">
-                    <i class="bi-alt dropdown-item-icon"></i> Connect other apps
+                    <i class="bi-alt dropdown-item-icon"></i> Open Banking
                   </a>
 
                   <div class="dropdown-divider"></div>
@@ -1727,7 +1727,7 @@
                   <span class="dropdown-header">Feedback</span>
 
                   <a class="dropdown-item" href="#">
-                    <i class="bi-chat-left-dots dropdown-item-icon"></i> Report
+                    <i class="bi-chat-left-dots dropdown-item-icon"></i> Reportar
                   </a>
                 </div>
               </div>
@@ -1736,8 +1736,8 @@
             <!-- End Header -->
 
             <!-- Body -->
-            <div class="card-body">
-              <span class="h1 d-block mb-4">$7,431.14 USD</span>
+            <div class="card-body">Gross value
+              <span class="h1 d-block mb-4">R$ 700.431.14 BRL</span>
 
               <!-- Progress -->
               <div class="progress rounded-pill mb-2">
@@ -1757,9 +1757,9 @@
                 <table class="table table-lg table-nowrap card-table mb-0">
                   <tr>
                     <th scope="row">
-                      <span class="legend-indicator bg-primary"></span>Gross value
+                      <span class="legend-indicator bg-primary"></span>Novas Cobranças
                     </th>
-                    <td>$3,500.71</td>
+                    <td>R$ 3.500,71</td>
                     <td>
                       <span class="badge bg-soft-success text-success">+12.1%</span>
                     </td>
@@ -1767,9 +1767,9 @@
 
                   <tr>
                     <th scope="row">
-                      <span class="legend-indicator bg-primary opacity-50"></span>Net volume from sales
+                      <span class="legend-indicator bg-primary opacity-50"></span>Em atraso
                     </th>
-                    <td>$2,980.45</td>
+                    <td>R$ 2.980,45</td>
                     <td>
                       <span class="badge bg-soft-warning text-warning">+6.9%</span>
                     </td>
@@ -1777,9 +1777,9 @@
 
                   <tr>
                     <th scope="row">
-                      <span class="legend-indicator bg-primary opacity-25"></span>New volume from sales
+                      <span class="legend-indicator bg-primary opacity-25"></span>Protestados
                     </th>
-                    <td>$950.00</td>
+                    <td>R$ 950,00</td>
                     <td>
                       <span class="badge bg-soft-danger text-danger">-1.5%</span>
                     </td>
@@ -1787,7 +1787,7 @@
 
                   <tr>
                     <th scope="row">
-                      <span class="legend-indicator"></span>Other
+                      <span class="legend-indicator"></span>Baixados
                     </th>
                     <td>32</td>
                     <td>
