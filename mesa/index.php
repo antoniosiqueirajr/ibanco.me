@@ -1566,15 +1566,15 @@
           <div class="card h-100">
             <!-- Header -->
             <div class="card-header card-header-content-sm-between">
-              <h4 class="card-header-title mb-2 mb-sm-0">Monthly expenses</h4>
+              <h4 class="card-header-title mb-2 mb-sm-0">Receitas x Previstos</h4>
 
               <!-- Nav -->
               <ul class="nav nav-segment nav-fill" id="expensesTab" role="tablist">
                 <li class="nav-item" data-bs-toggle="chart-bar" data-datasets="thisWeek" data-trigger="click" data-action="toggle">
-                  <a class="nav-link active" href="javascript:;" data-bs-toggle="tab">This week</a>
+                  <a class="nav-link active" href="javascript:;" data-bs-toggle="tab">Semana</a>
                 </li>
                 <li class="nav-item" data-bs-toggle="chart-bar" data-datasets="lastWeek" data-trigger="click" data-action="toggle">
-                  <a class="nav-link" href="javascript:;" data-bs-toggle="tab">Last week</a>
+                  <a class="nav-link" href="javascript:;" data-bs-toggle="tab">Mês anterior</a>
                 </li>
               </ul>
               <!-- End Nav -->
@@ -1737,7 +1737,7 @@
 
             <!-- Body -->
             <div class="card-body">Carteira de cobranças
-              <span class="h1 d-block mb-4">R$ 700.431.14 BRL</span>
+              <span class="h1 d-block mb-4">R$ 700.431,14 BRL</span>
 
               <!-- Progress -->
               <div class="progress rounded-pill mb-2">
