@@ -979,9 +979,6 @@
             </div>
             <div id="navbarVerticalMenuPagesMenu">
 
-
-     
-
               <div class="nav-item">
                 <a class="nav-link " href="./api-keys.html" data-placement="left">
                   <i class="bi-key nav-icon"></i>
@@ -3281,7 +3278,7 @@
                   <a id="appsMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button"><i class="bi-app-indicator dropdown-item-icon"></i> Apps</a>
 
                   <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="appsMegaMenu" style="min-width: 14rem;">
-                    <a class="dropdown-item " href="./apps-kanban.html">Kanban</a>
+                    <a class="dropdown-item " href="./apps-kanban.html">Clientes</a>
                
                   </div>
                 </li>
