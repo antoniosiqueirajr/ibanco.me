@@ -1736,7 +1736,7 @@
             <!-- End Header -->
 
             <!-- Body -->
-            <div class="card-body">Gross value
+            <div class="card-body">Carteira de cobranças
               <span class="h1 d-block mb-4">R$ 700.431.14 BRL</span>
 
               <!-- Progress -->
