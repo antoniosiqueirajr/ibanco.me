@@ -1123,7 +1123,12 @@
 
 
 
-            <div class="card-body">Carteira de cobranças
+           
+
+
+          </div>
+
+          <div class="card-body">Carteira de cobranças
               <span class="h1 d-block mb-4">R$ 700.431,14 BRL</span>
 
               <!-- Progress -->
@@ -1140,9 +1145,6 @@
               <!-- End Progress -->
 
             </div>
-
-
-          </div>
 
         </div>
         <!-- End Content -->
