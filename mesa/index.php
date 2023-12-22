@@ -982,16 +982,16 @@
             <small class="bi-three-dots nav-subtitle-replacer"></small>
 
             <div class="nav-item">
-              <a class="nav-link " href="./apps-kanban.html" data-placement="left">
+              <a class="nav-link " href="" data-placement="left">
                 <i class="bi-kanban nav-icon"></i>
-                <span class="nav-link-title">Kanban</span>
+                <span class="nav-link-title">Cliente</span>
               </a>
             </div>
 
             <div class="nav-item">
-              <a class="nav-link " href="./apps-calendar.html" data-placement="left">
+              <a class="nav-link " href="" data-placement="left">
                 <i class="bi-calendar-week nav-icon"></i>
-                <span class="nav-link-title">Calendar</span>
+                <span class="nav-link-title">Cobranças</span>
               </a>
             </div>
 
