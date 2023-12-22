@@ -1820,11 +1820,11 @@
             <!-- List Separator -->
             <ul class="list-inline list-separator">
               <li class="list-inline-item">
-                <a class="list-separator-link" href="#">FAQ</a>
+                <a class="list-separator-link" href="#">Termo de uso</a>
               </li>
 
               <li class="list-inline-item">
-                <a class="list-separator-link" href="#">License</a>
+                <a class="list-separator-link" href="#">Politicas privacidade</a>
               </li>
 
               <li class="list-inline-item">
