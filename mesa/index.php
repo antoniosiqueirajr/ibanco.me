@@ -1129,8 +1129,8 @@
           </div>
 
           <div class="nav-item" style="margin-top: 20%" >
-          <div class="card-body"><font color="#800080">Carteira de cobranças</font>
-              <span class="h1 d-block mb-4">R$ 700.431,14 BRL</span>
+          <div class="card-body"><font color="#fff">Carteira de cobranças</font>
+              <span class="h1 d-block mb-4"> <font color="#fff">R$ 700.431,14 BRL</font></span>
 
               <!-- Progress -->
               <div class="progress rounded-pill mb-2">
