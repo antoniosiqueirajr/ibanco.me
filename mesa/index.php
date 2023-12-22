@@ -979,15 +979,31 @@
 
 
             <span class="dropdown-header mt-4">Apps</span>
-            <small class="bi-three-dots nav-subtitle-replacer"></small>
+            <small class="bi-three-dots nav-subtitle-replacer"></small> 
+
 
             <div class="nav-item">
               <a class="nav-link " href="" data-placement="left">
                 <i class="bi-kanban nav-icon"></i>
-                <span class="nav-link-title">Cliente</span>
+                <span class="nav-link-title">Aprovações</span>
               </a>
             </div>
 
+            <div class="nav-item">
+              <a class="nav-link " href="" data-placement="left">
+                <i class="bi-kanban nav-icon"></i>
+                <span class="nav-link-title">Pagamentos</span>
+              </a>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link " href="" data-placement="left">
+                <i class="bi-kanban nav-icon"></i>
+                <span class="nav-link-title">PIX</span>
+              </a>
+            </div>
+
+      
             <div class="nav-item">
               <a class="nav-link " href="" data-placement="left">
                 <i class="bi-calendar-week nav-icon"></i>
@@ -996,16 +1012,16 @@
             </div>
 
             <div class="nav-item">
-              <a class="nav-link " href="./apps-invoice-generator.html" data-placement="left">
+              <a class="nav-link " href="" data-placement="left">
                 <i class="bi-receipt nav-icon"></i>
-                <span class="nav-link-title">Invoice Generator</span>
+                <span class="nav-link-title">Antecipação de cartões</span>
               </a>
             </div>
 
             <div class="nav-item">
               <a class="nav-link " href="./apps-file-manager.html" data-placement="left">
                 <i class="bi-folder2-open nav-icon"></i>
-                <span class="nav-link-title">File Manager</span>
+                <span class="nav-link-title">Integrações</span>
               </a>
             </div>
 
