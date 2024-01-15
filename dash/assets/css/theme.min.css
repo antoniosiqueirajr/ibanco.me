@@ -3992,7 +3992,7 @@ textarea.form-control-lg {
 }
 
 .navbar-nav .show > .nav-link, .navbar-nav .nav-link.active {
-    color:var(--ar-navbar-active-color)
+    color: #edcb50;
 }
 
 .navbar-nav .dropdown-menu {
@@ -8449,7 +8449,7 @@ textarea.form-control-lg {
 
 .text-primary {
     --ar-text-opacity: 1;
-    color: #866e6c !important;
+    color: #249a6d !important;
 }
 
 .text-secondary {
@@ -15186,7 +15186,7 @@ label {
 }
 
 .form-switch .form-check-input:checked {
-    background-color:var(--ar-primary)
+    background-color: #edcb50;
 }
 
 .form-switch .form-check-input:disabled {
@@ -15219,7 +15219,7 @@ label {
 .form-switch.mode-switch .form-check-input {
     order: 2;
     margin-left: 0;
-    background-color:var(--ar-primary) !important
+    background-color: #eddc36 !important;
 }
 
 .form-switch.mode-switch .form-check-input:checked ~ .form-check-label:first-of-type {
@@ -16314,7 +16314,7 @@ hr.dropdown-divider {
 }
 
 .nav {
-    --ar-nav-link-active-color: var(--ar-primary)
+    --ar-nav-link-active-color: #edcb50;
 }
 
 .nav-item {

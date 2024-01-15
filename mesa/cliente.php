@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Title -->
-  <title>Customers | Front - Admin &amp; Dashboard Template</title>
+  <title>Connetor | Transações</title>
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="./favicon.ico">
@@ -143,11 +143,8 @@
     <div class="navbar-nav-wrap">
       <!-- Logo -->
       <a class="navbar-brand" href="./index.html" aria-label="Front">
-        <img class="navbar-brand-logo" src="./assets/svg/logos/logo.svg" alt="Logo" data-hs-theme-appearance="default">
-        <img class="navbar-brand-logo" src="./assets/svg/logos-light/logo.svg" alt="Logo" data-hs-theme-appearance="dark">
-        <img class="navbar-brand-logo-mini" src="./assets/svg/logos/logo-short.svg" alt="Logo" data-hs-theme-appearance="default">
-        <img class="navbar-brand-logo-mini" src="./assets/svg/logos-light/logo-short.svg" alt="Logo" data-hs-theme-appearance="dark">
-      </a>
+        <img width="70%" src="assets/logo/sjr-global.png"> 
+  </a>
       <!-- End Logo -->
 
       <div class="navbar-nav-wrap-content-start">
@@ -944,11 +941,7 @@
         <!-- Logo -->
 
         <a class="navbar-brand" href="./index.html" aria-label="Front">
-          <img class="navbar-brand-logo" src="./assets/svg/logos/logo.svg" alt="Logo" data-hs-theme-appearance="default">
-          <img class="navbar-brand-logo" src="./assets/svg/logos-light/logo.svg" alt="Logo" data-hs-theme-appearance="dark">
-          <img class="navbar-brand-logo-mini" src="./assets/svg/logos/logo-short.svg" alt="Logo" data-hs-theme-appearance="default">
-          <img class="navbar-brand-logo-mini" src="./assets/svg/logos-light/logo-short.svg" alt="Logo" data-hs-theme-appearance="dark">
-        </a>
+        <img width="70%" src="assets/logo/sjr-global.png">    </a>
 
         <!-- End Logo -->
 
@@ -977,7 +970,7 @@
             </div>
             <!-- End Collapse -->
 
-            <span class="dropdown-header mt-4">Pages</span>
+            <span class="dropdown-header mt-4">Aplicações</span>
             <small class="bi-three-dots nav-subtitle-replacer"></small>
 
             <!-- Collapse -->
@@ -986,24 +979,39 @@
             </div>
             <div id="navbarVerticalMenuPagesMenu">
 
-
-     
-
               <div class="nav-item">
                 <a class="nav-link " href="./api-keys.html" data-placement="left">
                   <i class="bi-key nav-icon"></i>
-                  <span class="nav-link-title">API Keys</span>
+                  <span class="nav-link-title">Empresas</span>
+                </a>
+              </div>
+              <div class="nav-item">
+                <a class="nav-link " href="./api-keys.html" data-placement="left">
+                  <i class="bi-key nav-icon"></i>
+                  <span class="nav-link-title">Clientes</span>
                 </a>
               </div>
 
 
-            <span class="dropdown-header mt-4">Apps</span>
+            <span class="dropdown-header mt-4">Operações</span>
             <small class="bi-three-dots nav-subtitle-replacer"></small>
 
             <div class="nav-item">
               <a class="nav-link " href="./clientes.php" data-placement="left">
                 <i class="bi-kanban nav-icon"></i>
-                <span class="nav-link-title">Clientes</span>
+                <span class="nav-link-title">Boletos</span>
+              </a>
+            </div>
+            <div class="nav-item">
+              <a class="nav-link " href="./clientes.php" data-placement="left">
+                <i class="bi-kanban nav-icon"></i>
+                <span class="nav-link-title">Cartões</span>
+              </a>
+            </div>
+            <div class="nav-item">
+              <a class="nav-link " href="./clientes.php" data-placement="left">
+                <i class="bi-kanban nav-icon"></i>
+                <span class="nav-link-title">Orchestrador</span>
               </a>
             </div>
 
@@ -2388,8 +2396,8 @@
             <!-- Logo -->
 
             <a class="navbar-brand" href="./index.html" aria-label="Front">
-              <img class="navbar-brand-logo" src="./assets/svg/logos/logo.svg" alt="Logo" data-hs-theme-appearance="default">
-              <img class="navbar-brand-logo" src="./assets/svg/logos-light/logo.svg" alt="Logo" data-hs-theme-appearance="dark">
+              <img width="70%" class="navbar-brand-logo" src=".assets/logo/sjr-global.png" alt="Logo" data-hs-theme-appearance="default">
+              <img width="70%" class="navbar-brand-logo" src=".assets/logo/sjr-global.png" alt="Logo" data-hs-theme-appearance="dark">
             </a>
 
             <!-- End Logo -->
@@ -3270,7 +3278,7 @@
                   <a id="appsMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button"><i class="bi-app-indicator dropdown-item-icon"></i> Apps</a>
 
                   <div class="hs-sub-menu dropdown-menu navbar-dropdown-menu-borderless" aria-labelledby="appsMegaMenu" style="min-width: 14rem;">
-                    <a class="dropdown-item " href="./apps-kanban.html">Kanban</a>
+                    <a class="dropdown-item " href="./apps-kanban.html">Clientes</a>
                
                   </div>
                 </li>
