@@ -29,6 +29,7 @@
     <!--begin::Global Stylesheets Bundle(mandatory for all pages)-->
     <link href="assets/plugins/global/plugins.bundle-1.css" rel="stylesheet" type="text/css">
     <link href="assets/css/style.bundle-1.css" rel="stylesheet" type="text/css">
+    <link href="assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css"/>
     <!--end::Global Stylesheets Bundle-->
 
     <!--begin::Google tag-->
