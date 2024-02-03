@@ -24,19 +24,19 @@
         <meta property="og:url" content="https://keenthemes.com/metronic">
         <meta property="og:site_name" content="Metronic by Keenthemes">
         <link rel="canonical" href="https://preview.keenthemes.com/metronic8/demo1/index.html">
-        <link rel="shortcut icon" href="../../assets/media/logos/favicon.ico">
+        <link rel="shortcut icon" href="assets/media/logos/favicon.ico">
 
         <!--begin::Fonts(mandatory for all pages)-->
         <link rel="stylesheet" href="../../../../css?family=Inter:300,400,500,600,700">        <!--end::Fonts-->
 
                     <!--begin::Vendor Stylesheets(used for this page only)-->
-                            <link href="../../assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css">
+                            <link href="assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css">
                         <!--end::Vendor Stylesheets-->
         
         
                     <!--begin::Global Stylesheets Bundle(mandatory for all pages)-->
-                            <link href="../../assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css">
-                            <link href="../../assets/css/style.bundle.css" rel="stylesheet" type="text/css">
+                            <link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css">
+                            <link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css">
                         <!--end::Global Stylesheets Bundle-->
         
                     <!--begin::Google tag-->
@@ -187,7 +187,7 @@
 <!--begin::Menu-->
 <div class="menu menu-sub menu-sub-dropdown menu-column w-250px w-lg-325px" data-kt-menu="true">
 	<!--begin::Heading-->
-    <div class="d-flex flex-column flex-center bgi-no-repeat rounded-top px-9 py-10" style="background-image:url('../../assets/media/misc/dropdown-header-bg.png')">
+    <div class="d-flex flex-column flex-center bgi-no-repeat rounded-top px-9 py-10" style="background-image:url('assets/media/misc/dropdown-header-bg.png')">
         <!--begin::Title-->
         <h3 class="text-white fw-semibold mb-3">
             Quick Links 
@@ -273,7 +273,7 @@
 <!--begin::Menu-->
 <div class="menu menu-sub menu-sub-dropdown menu-column w-350px w-lg-375px" data-kt-menu="true" id="kt_menu_notifications">
 	<!--begin::Heading-->
-    <div class="d-flex flex-column bgi-no-repeat rounded-top" style="background-image:url('../../assets/media/misc/dropdown-header-bg.png')">
+    <div class="d-flex flex-column bgi-no-repeat rounded-top" style="background-image:url('assets/media/misc/dropdown-header-bg.png')">
         <!--begin::Title-->                                   
         <h3 class="text-white fw-semibold px-9 mt-10 mb-6">
             Notifications <span class="fs-8 opacity-75 ps-3">24 reports</span>
@@ -529,7 +529,7 @@
 
                 <!--begin::Illustration-->
                 <div class="text-center px-4">
-                    <img class="mw-100 mh-200px" alt="image" src="../../assets/media/illustrations/sigma-1/1.png">
+                    <img class="mw-100 mh-200px" alt="image" src="assets/media/illustrations/sigma-1/1.png">
                 </div>
                 <!--end::Illustration-->
             </div>
@@ -793,7 +793,7 @@
 			<div class="d-flex align-items-center mb-10" id="kt_header_user_menu_toggle">
 				<!--begin::Menu wrapper-->
 				<div class="cursor-pointer symbol symbol-40px" data-kt-menu-trigger="click" data-kt-menu-overflow="true" data-kt-menu-placement="top-start" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-dismiss="click" title="User profile">
-					<img src="../../assets/media/avatars/300-1.jpg" alt="image">
+					<img src="assets/media/avatars/300-1.jpg" alt="image">
 				</div>
 
 				
@@ -804,7 +804,7 @@
         <div class="menu-content d-flex align-items-center px-3">
             <!--begin::Avatar-->
             <div class="symbol symbol-50px me-5">
-                <img alt="Logo" src="../../assets/media/avatars/300-1.jpg">
+                <img alt="Logo" src="assets/media/avatars/300-1.jpg">
             </div>
             <!--end::Avatar-->
 
@@ -930,7 +930,7 @@
                 Language 
 
                 <span class="fs-8 rounded bg-light px-3 py-2 position-absolute translate-middle-y top-50 end-0">
-                    English <img class="w-15px h-15px rounded-1 ms-2" src="../../assets/media/flags/united-states.svg" alt="">
+                    English <img class="w-15px h-15px rounded-1 ms-2" src="assets/media/flags/united-states.svg" alt="">
                 </span>
             </span>
         </a>
@@ -941,7 +941,7 @@
             <div class="menu-item px-3">
                 <a href="/metronic8/demo7/../demo7/account/settings.html" class="menu-link d-flex px-5 active">
                     <span class="symbol symbol-20px me-4">
-                        <img class="rounded-1" src="../../assets/media/flags/united-states.svg" alt="">
+                        <img class="rounded-1" src="assets/media/flags/united-states.svg" alt="">
                     </span>
                     English
                 </a>
@@ -952,7 +952,7 @@
             <div class="menu-item px-3">
                 <a href="/metronic8/demo7/../demo7/account/settings.html" class="menu-link d-flex px-5">
                     <span class="symbol symbol-20px me-4">
-                        <img class="rounded-1" src="../../assets/media/flags/spain.svg" alt="">
+                        <img class="rounded-1" src="assets/media/flags/spain.svg" alt="">
                     </span>
                     Spanish
                 </a>
@@ -963,7 +963,7 @@
             <div class="menu-item px-3">
                 <a href="/metronic8/demo7/../demo7/account/settings.html" class="menu-link d-flex px-5">
                     <span class="symbol symbol-20px me-4">
-                        <img class="rounded-1" src="../../assets/media/flags/germany.svg" alt="">
+                        <img class="rounded-1" src="assets/media/flags/germany.svg" alt="">
                     </span>
                     German
                 </a>
@@ -974,7 +974,7 @@
             <div class="menu-item px-3">
                 <a href="/metronic8/demo7/../demo7/account/settings.html" class="menu-link d-flex px-5">
                     <span class="symbol symbol-20px me-4">
-                        <img class="rounded-1" src="../../assets/media/flags/japan.svg" alt="">
+                        <img class="rounded-1" src="assets/media/flags/japan.svg" alt="">
                     </span>
                     Japanese
                 </a>
@@ -985,7 +985,7 @@
             <div class="menu-item px-3">
                 <a href="/metronic8/demo7/../demo7/account/settings.html" class="menu-link d-flex px-5">
                     <span class="symbol symbol-20px me-4">
-                        <img class="rounded-1" src="../../assets/media/flags/france.svg" alt="">
+                        <img class="rounded-1" src="assets/media/flags/france.svg" alt="">
                     </span>
                     French
                 </a>
@@ -1094,7 +1094,7 @@
                     <a href="#" class="d-flex text-gray-900 text-hover-primary align-items-center mb-5">
                         <!--begin::Symbol-->
                         <div class="symbol symbol-40px me-4">
-                            <img src="../../assets/media/avatars/300-6.jpg" alt="">
+                            <img src="assets/media/avatars/300-6.jpg" alt="">
                         </div>
                         <!--end::Symbol-->
 
@@ -1113,7 +1113,7 @@
                     <a href="#" class="d-flex text-gray-900 text-hover-primary align-items-center mb-5">
                         <!--begin::Symbol-->
                         <div class="symbol symbol-40px me-4">
-                            <img src="../../assets/media/avatars/300-2.jpg" alt="">
+                            <img src="assets/media/avatars/300-2.jpg" alt="">
                         </div>
                         <!--end::Symbol-->
 
@@ -1132,7 +1132,7 @@
                     <a href="#" class="d-flex text-gray-900 text-hover-primary align-items-center mb-5">
                         <!--begin::Symbol-->
                         <div class="symbol symbol-40px me-4">
-                            <img src="../../assets/media/avatars/300-9.jpg" alt="">
+                            <img src="assets/media/avatars/300-9.jpg" alt="">
                         </div>
                         <!--end::Symbol-->
 
@@ -1151,7 +1151,7 @@
                     <a href="#" class="d-flex text-gray-900 text-hover-primary align-items-center mb-5">
                         <!--begin::Symbol-->
                         <div class="symbol symbol-40px me-4">
-                            <img src="../../assets/media/avatars/300-14.jpg" alt="">
+                            <img src="assets/media/avatars/300-14.jpg" alt="">
                         </div>
                         <!--end::Symbol-->
 
@@ -1170,7 +1170,7 @@
                     <a href="#" class="d-flex text-gray-900 text-hover-primary align-items-center mb-5">
                         <!--begin::Symbol-->
                         <div class="symbol symbol-40px me-4">
-                            <img src="../../assets/media/avatars/300-11.jpg" alt="">
+                            <img src="assets/media/avatars/300-11.jpg" alt="">
                         </div>
                         <!--end::Symbol-->
 
@@ -1194,7 +1194,7 @@
                         <!--begin::Symbol-->
                         <div class="symbol symbol-40px me-4">
                             <span class="symbol-label bg-light">                             
-                                <img class="w-20px h-20px" src="../../assets/media/svg/brand-logos/volicity-9.svg" alt="">                          
+                                <img class="w-20px h-20px" src="assets/media/svg/brand-logos/volicity-9.svg" alt="">                          
                             </span>
                         </div>
                         <!--end::Symbol-->
@@ -1215,7 +1215,7 @@
                         <!--begin::Symbol-->
                         <div class="symbol symbol-40px me-4">
                             <span class="symbol-label bg-light">                             
-                                <img class="w-20px h-20px" src="../../assets/media/svg/brand-logos/tvit.svg" alt="">                          
+                                <img class="w-20px h-20px" src="assets/media/svg/brand-logos/tvit.svg" alt="">                          
                             </span>
                         </div>
                         <!--end::Symbol-->
@@ -1236,7 +1236,7 @@
                         <!--begin::Symbol-->
                         <div class="symbol symbol-40px me-4">
                             <span class="symbol-label bg-light">                             
-                                <img class="w-20px h-20px" src="../../assets/media/svg/misc/infography.svg" alt="">                          
+                                <img class="w-20px h-20px" src="assets/media/svg/misc/infography.svg" alt="">                          
                             </span>
                         </div>
                         <!--end::Symbol-->
@@ -1257,7 +1257,7 @@
                         <!--begin::Symbol-->
                         <div class="symbol symbol-40px me-4">
                             <span class="symbol-label bg-light">                             
-                                <img class="w-20px h-20px" src="../../assets/media/svg/brand-logos/leaf.svg" alt="">                          
+                                <img class="w-20px h-20px" src="assets/media/svg/brand-logos/leaf.svg" alt="">                          
                             </span>
                         </div>
                         <!--end::Symbol-->
@@ -1278,7 +1278,7 @@
                         <!--begin::Symbol-->
                         <div class="symbol symbol-40px me-4">
                             <span class="symbol-label bg-light">                             
-                                <img class="w-20px h-20px" src="../../assets/media/svg/brand-logos/tower.svg" alt="">                          
+                                <img class="w-20px h-20px" src="assets/media/svg/brand-logos/tower.svg" alt="">                          
                             </span>
                         </div>
                         <!--end::Symbol-->
@@ -1887,7 +1887,7 @@
                 <!--begin::Symbol-->
                 <div class="symbol symbol-40px me-5">
                     <span class="symbol-label">
-                        <img src="../../assets/media/svg/brand-logos/bebo.svg" class="h-50 align-self-center" alt="">                
+                        <img src="assets/media/svg/brand-logos/bebo.svg" class="h-50 align-self-center" alt="">                
                     </span>
                 </div>
                 <!--end::Symbol-->
@@ -1910,7 +1910,7 @@
                 <!--begin::Symbol-->
                 <div class="symbol symbol-40px me-5">
                     <span class="symbol-label">
-                        <img src="../../assets/media/svg/brand-logos/vimeo.svg" class="h-50 align-self-center" alt="">                
+                        <img src="assets/media/svg/brand-logos/vimeo.svg" class="h-50 align-self-center" alt="">                
                     </span>
                 </div>
                 <!--end::Symbol-->
@@ -1933,7 +1933,7 @@
                 <!--begin::Symbol-->
                 <div class="symbol symbol-40px me-5">
                     <span class="symbol-label">
-                        <img src="../../assets/media/svg/brand-logos/kickstarter.svg" class="h-50 align-self-center" alt="">                
+                        <img src="assets/media/svg/brand-logos/kickstarter.svg" class="h-50 align-self-center" alt="">                
                     </span>
                 </div>
                 <!--end::Symbol-->
@@ -1956,7 +1956,7 @@
                 <!--begin::Symbol-->
                 <div class="symbol symbol-40px me-5">
                     <span class="symbol-label">
-                        <img src="../../assets/media/svg/brand-logos/balloon.svg" class="h-50 align-self-center" alt="">                
+                        <img src="assets/media/svg/brand-logos/balloon.svg" class="h-50 align-self-center" alt="">                
                     </span>
                 </div>
                 <!--end::Symbol-->
@@ -1979,7 +1979,7 @@
                 <!--begin::Symbol-->
                 <div class="symbol symbol-40px me-5">
                     <span class="symbol-label">
-                        <img src="../../assets/media/svg/brand-logos/infography.svg" class="h-50 align-self-center" alt="">                
+                        <img src="assets/media/svg/brand-logos/infography.svg" class="h-50 align-self-center" alt="">                
                     </span>
                 </div>
                 <!--end::Symbol-->
@@ -2002,7 +2002,7 @@
                 <!--begin::Symbol-->
                 <div class="symbol symbol-40px me-5">
                     <span class="symbol-label">
-                        <img src="../../assets/media/svg/brand-logos/disqus.svg" class="h-50 align-self-center" alt="">                
+                        <img src="assets/media/svg/brand-logos/disqus.svg" class="h-50 align-self-center" alt="">                
                     </span>
                 </div>
                 <!--end::Symbol-->
@@ -2025,7 +2025,7 @@
                 <!--begin::Symbol-->
                 <div class="symbol symbol-40px me-5">
                     <span class="symbol-label">
-                        <img src="../../assets/media/svg/brand-logos/plurk.svg" class="h-50 align-self-center" alt="">                
+                        <img src="assets/media/svg/brand-logos/plurk.svg" class="h-50 align-self-center" alt="">                
                     </span>
                 </div>
                 <!--end::Symbol-->
@@ -2097,7 +2097,7 @@
 
     <!--begin::Illustration-->
     <div class="text-center px-4">
-        <img src="../../assets/media/illustrations/sigma-1/18.png" alt="" class="mw-100 mh-300px">            
+        <img src="assets/media/illustrations/sigma-1/18.png" alt="" class="mw-100 mh-300px">            
     </div>
     <!--end::Illustration-->              
 </div>
@@ -2409,7 +2409,7 @@
             <div class="d-flex align-items-center mb-7">
                 <!--begin::Avatar-->
                 <div class="symbol symbol-50px me-5">
-                    <img src="../../assets/media/avatars/300-6.jpg" class="" alt=""> 
+                    <img src="assets/media/avatars/300-6.jpg" class="" alt=""> 
                 </div>
                 <!--end::Avatar-->
 
@@ -2426,7 +2426,7 @@
             <div class="d-flex align-items-center mb-7">
                 <!--begin::Avatar-->
                 <div class="symbol symbol-50px me-5">
-                    <img src="../../assets/media/avatars/300-5.jpg" class="" alt=""> 
+                    <img src="assets/media/avatars/300-5.jpg" class="" alt=""> 
                 </div>
                 <!--end::Avatar-->
 
@@ -2443,7 +2443,7 @@
             <div class="d-flex align-items-center mb-7">
                 <!--begin::Avatar-->
                 <div class="symbol symbol-50px me-5">
-                    <img src="../../assets/media/avatars/300-11.jpg" class="" alt=""> 
+                    <img src="assets/media/avatars/300-11.jpg" class="" alt=""> 
                 </div>
                 <!--end::Avatar-->
 
@@ -2460,7 +2460,7 @@
             <div class="d-flex align-items-center mb-7">
                 <!--begin::Avatar-->
                 <div class="symbol symbol-50px me-5">
-                    <img src="../../assets/media/avatars/300-23.jpg" class="" alt=""> 
+                    <img src="assets/media/avatars/300-23.jpg" class="" alt=""> 
                 </div>
                 <!--end::Avatar-->
 
@@ -2477,7 +2477,7 @@
             <div class="d-flex align-items-center mb-7">
                 <!--begin::Avatar-->
                 <div class="symbol symbol-50px me-5">
-                    <img src="../../assets/media/avatars/300-10.jpg" class="" alt=""> 
+                    <img src="assets/media/avatars/300-10.jpg" class="" alt=""> 
                 </div>
                 <!--end::Avatar-->
 
@@ -2494,7 +2494,7 @@
             <div class="d-flex align-items-center mb-7">
                 <!--begin::Avatar-->
                 <div class="symbol symbol-50px me-5">
-                    <img src="../../assets/media/avatars/300-9.jpg" class="" alt=""> 
+                    <img src="assets/media/avatars/300-9.jpg" class="" alt=""> 
                 </div>
                 <!--end::Avatar-->
 
@@ -2511,7 +2511,7 @@
             <div class="d-flex align-items-center ">
                 <!--begin::Avatar-->
                 <div class="symbol symbol-50px me-5">
-                    <img src="../../assets/media/avatars/300-12.jpg" class="" alt=""> 
+                    <img src="assets/media/avatars/300-12.jpg" class="" alt=""> 
                 </div>
                 <!--end::Avatar-->
 
@@ -2599,7 +2599,7 @@
 
       <!--begin::Logo-->
       <a href="/metronic8/demo7/../demo7/index.html" class="d-flex align-items-center">
-        <img alt="Logo" src="../../assets/media/logos/demo7.svg" class="h-30px">
+        <img alt="Logo" src="assets/media/logos/demo7.svg" class="h-30px">
       </a>
       <!--end::Logo-->
     </div>
@@ -2873,7 +2873,7 @@
                 <td>
                     -                </td>
                 <td data-filter="mastercard">
-                    <img src="../../assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
                     **** 6975                </td>
                 <td>
                     14 Dec 2020, 8:43 pm                </td>
@@ -2918,7 +2918,7 @@
                 <td>
                     Google                </td>
                 <td data-filter="visa">
-                    <img src="../../assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="">
                     **** 4397                </td>
                 <td>
                     01 Dec 2020, 10:12 am                </td>
@@ -2963,7 +2963,7 @@
                 <td>
                     Bistro Union                </td>
                 <td data-filter="mastercard">
-                    <img src="../../assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
                     **** 7691                </td>
                 <td>
                     12 Nov 2020, 2:01 pm                </td>
@@ -3008,7 +3008,7 @@
                 <td>
                     Astro Limited                </td>
                 <td data-filter="american_express">
-                    <img src="../../assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="">
                     **** 1149                </td>
                 <td>
                     21 Oct 2020, 5:54 pm                </td>
@@ -3053,7 +3053,7 @@
                 <td>
                     -                </td>
                 <td data-filter="visa">
-                    <img src="../../assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="">
                     **** 2647                </td>
                 <td>
                     19 Oct 2020, 7:32 am                </td>
@@ -3098,7 +3098,7 @@
                 <td>
                     Keenthemes                </td>
                 <td data-filter="american_express">
-                    <img src="../../assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="">
                     **** 1350                </td>
                 <td>
                     23 Sep 2020, 12:37 am                </td>
@@ -3143,7 +3143,7 @@
                 <td>
                     Paypal                </td>
                 <td data-filter="mastercard">
-                    <img src="../../assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
                     **** 2891                </td>
                 <td>
                     11 Sep 2020, 3:15 pm                </td>
@@ -3188,7 +3188,7 @@
                 <td>
                     -                </td>
                 <td data-filter="american_express">
-                    <img src="../../assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="">
                     **** 4248                </td>
                 <td>
                     03 Sep 2020, 1:08 am                </td>
@@ -3233,7 +3233,7 @@
                 <td>
                     Paramount                </td>
                 <td data-filter="visa">
-                    <img src="../../assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="">
                     **** 6329                </td>
                 <td>
                     01 Sep 2020, 4:58 pm                </td>
@@ -3278,7 +3278,7 @@
                 <td>
                     Trinity Studio                </td>
                 <td data-filter="visa">
-                    <img src="../../assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="">
                     **** 2108                </td>
                 <td>
                     18 Aug 2020, 3:34 pm                </td>
@@ -3323,7 +3323,7 @@
                 <td>
                     B&T Legal Services                </td>
                 <td data-filter="mastercard">
-                    <img src="../../assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
                     **** 5642                </td>
                 <td>
                     14 Aug 2020, 1:21 pm                </td>
@@ -3368,7 +3368,7 @@
                 <td>
                     Paysafe Security                </td>
                 <td data-filter="american_express">
-                    <img src="../../assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="">
                     **** 8457                </td>
                 <td>
                     11 Aug 2020, 5:13 pm                </td>
@@ -3413,7 +3413,7 @@
                 <td>
                     -                </td>
                 <td data-filter="mastercard">
-                    <img src="../../assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
                     **** 6975                </td>
                 <td>
                     14 Dec 2020, 8:43 pm                </td>
@@ -3458,7 +3458,7 @@
                 <td>
                     Google                </td>
                 <td data-filter="visa">
-                    <img src="../../assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="">
                     **** 4397                </td>
                 <td>
                     01 Dec 2020, 10:12 am                </td>
@@ -3503,7 +3503,7 @@
                 <td>
                     Bistro Union                </td>
                 <td data-filter="mastercard">
-                    <img src="../../assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
                     **** 7691                </td>
                 <td>
                     12 Nov 2020, 2:01 pm                </td>
@@ -3548,7 +3548,7 @@
                 <td>
                     Astro Limited                </td>
                 <td data-filter="american_express">
-                    <img src="../../assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="">
                     **** 1149                </td>
                 <td>
                     21 Oct 2020, 5:54 pm                </td>
@@ -3593,7 +3593,7 @@
                 <td>
                     -                </td>
                 <td data-filter="visa">
-                    <img src="../../assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="">
                     **** 2647                </td>
                 <td>
                     19 Oct 2020, 7:32 am                </td>
@@ -3638,7 +3638,7 @@
                 <td>
                     Keenthemes                </td>
                 <td data-filter="american_express">
-                    <img src="../../assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="">
                     **** 1350                </td>
                 <td>
                     23 Sep 2020, 12:37 am                </td>
@@ -3683,7 +3683,7 @@
                 <td>
                     Paypal                </td>
                 <td data-filter="mastercard">
-                    <img src="../../assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
                     **** 2891                </td>
                 <td>
                     11 Sep 2020, 3:15 pm                </td>
@@ -3728,7 +3728,7 @@
                 <td>
                     -                </td>
                 <td data-filter="american_express">
-                    <img src="../../assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="">
                     **** 4248                </td>
                 <td>
                     03 Sep 2020, 1:08 am                </td>
@@ -3773,7 +3773,7 @@
                 <td>
                     Paramount                </td>
                 <td data-filter="visa">
-                    <img src="../../assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="">
                     **** 6329                </td>
                 <td>
                     01 Sep 2020, 4:58 pm                </td>
@@ -3818,7 +3818,7 @@
                 <td>
                     Trinity Studio                </td>
                 <td data-filter="visa">
-                    <img src="../../assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="">
                     **** 2108                </td>
                 <td>
                     18 Aug 2020, 3:34 pm                </td>
@@ -3863,7 +3863,7 @@
                 <td>
                     B&T Legal Services                </td>
                 <td data-filter="mastercard">
-                    <img src="../../assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
                     **** 5642                </td>
                 <td>
                     14 Aug 2020, 1:21 pm                </td>
@@ -3908,7 +3908,7 @@
                 <td>
                     Paysafe Security                </td>
                 <td data-filter="american_express">
-                    <img src="../../assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="">
                     **** 8457                </td>
                 <td>
                     11 Aug 2020, 5:13 pm                </td>
@@ -3953,7 +3953,7 @@
                 <td>
                     -                </td>
                 <td data-filter="mastercard">
-                    <img src="../../assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
                     **** 6975                </td>
                 <td>
                     14 Dec 2020, 8:43 pm                </td>
@@ -3998,7 +3998,7 @@
                 <td>
                     Google                </td>
                 <td data-filter="visa">
-                    <img src="../../assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="">
                     **** 4397                </td>
                 <td>
                     01 Dec 2020, 10:12 am                </td>
@@ -4043,7 +4043,7 @@
                 <td>
                     Bistro Union                </td>
                 <td data-filter="mastercard">
-                    <img src="../../assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
                     **** 7691                </td>
                 <td>
                     12 Nov 2020, 2:01 pm                </td>
@@ -4088,7 +4088,7 @@
                 <td>
                     Astro Limited                </td>
                 <td data-filter="american_express">
-                    <img src="../../assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="">
                     **** 1149                </td>
                 <td>
                     21 Oct 2020, 5:54 pm                </td>
@@ -4133,7 +4133,7 @@
                 <td>
                     -                </td>
                 <td data-filter="visa">
-                    <img src="../../assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="">
                     **** 2647                </td>
                 <td>
                     19 Oct 2020, 7:32 am                </td>
@@ -4178,7 +4178,7 @@
                 <td>
                     Keenthemes                </td>
                 <td data-filter="american_express">
-                    <img src="../../assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="">
                     **** 1350                </td>
                 <td>
                     23 Sep 2020, 12:37 am                </td>
@@ -4223,7 +4223,7 @@
                 <td>
                     Paypal                </td>
                 <td data-filter="mastercard">
-                    <img src="../../assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
                     **** 2891                </td>
                 <td>
                     11 Sep 2020, 3:15 pm                </td>
@@ -4268,7 +4268,7 @@
                 <td>
                     -                </td>
                 <td data-filter="american_express">
-                    <img src="../../assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="">
                     **** 4248                </td>
                 <td>
                     03 Sep 2020, 1:08 am                </td>
@@ -4313,7 +4313,7 @@
                 <td>
                     Paramount                </td>
                 <td data-filter="visa">
-                    <img src="../../assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="">
                     **** 6329                </td>
                 <td>
                     01 Sep 2020, 4:58 pm                </td>
@@ -4358,7 +4358,7 @@
                 <td>
                     Trinity Studio                </td>
                 <td data-filter="visa">
-                    <img src="../../assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="">
                     **** 2108                </td>
                 <td>
                     18 Aug 2020, 3:34 pm                </td>
@@ -4403,7 +4403,7 @@
                 <td>
                     B&T Legal Services                </td>
                 <td data-filter="mastercard">
-                    <img src="../../assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
                     **** 5642                </td>
                 <td>
                     14 Aug 2020, 1:21 pm                </td>
@@ -4448,7 +4448,7 @@
                 <td>
                     Paysafe Security                </td>
                 <td data-filter="american_express">
-                    <img src="../../assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="">
                     **** 8457                </td>
                 <td>
                     11 Aug 2020, 5:13 pm                </td>
@@ -4493,7 +4493,7 @@
                 <td>
                     -                </td>
                 <td data-filter="mastercard">
-                    <img src="../../assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
                     **** 6975                </td>
                 <td>
                     14 Dec 2020, 8:43 pm                </td>
@@ -4538,7 +4538,7 @@
                 <td>
                     Google                </td>
                 <td data-filter="visa">
-                    <img src="../../assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/visa.svg" class="w-35px me-3" alt="">
                     **** 4397                </td>
                 <td>
                     01 Dec 2020, 10:12 am                </td>
@@ -4583,7 +4583,7 @@
                 <td>
                     Bistro Union                </td>
                 <td data-filter="mastercard">
-                    <img src="../../assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
                     **** 7691                </td>
                 <td>
                     12 Nov 2020, 2:01 pm                </td>
@@ -4628,7 +4628,7 @@
                 <td>
                     Astro Limited                </td>
                 <td data-filter="american_express">
-                    <img src="../../assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="">
+                    <img src="assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="">
                     **** 1149                </td>
                 <td>
                     21 Oct 2020, 5:54 pm                </td>
@@ -5324,7 +5324,7 @@
 
                 <!--begin::User-->
                 <div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Nina Nilson">
-                    <img src="../../assets/media/avatars/300-14.jpg" alt="img">
+                    <img src="assets/media/avatars/300-14.jpg" alt="img">
                 </div>  
                 <!--end::User--> 
             </div>
@@ -5350,13 +5350,13 @@
                 <div class="symbol-group symbol-hover flex-nowrap flex-grow-1 min-w-100px pe-2">
                     <!--begin::User-->
                     <div class="symbol symbol-circle symbol-25px">
-                        <img src="../../assets/media/avatars/300-2.jpg" alt="img">
+                        <img src="assets/media/avatars/300-2.jpg" alt="img">
                     </div>
                     <!--end::User-->
 
                     <!--begin::User-->
                     <div class="symbol symbol-circle symbol-25px">
-                        <img src="../../assets/media/avatars/300-14.jpg" alt="img">
+                        <img src="assets/media/avatars/300-14.jpg" alt="img">
                     </div>  
                     <!--end::User-->                                  
 
@@ -5396,7 +5396,7 @@
                 <div class="symbol-group symbol-hover flex-nowrap flex-grow-1 min-w-100px">
                     <!--begin::User-->
                     <div class="symbol symbol-circle symbol-25px">
-                        <img src="../../assets/media/avatars/300-20.jpg" alt="img">
+                        <img src="assets/media/avatars/300-20.jpg" alt="img">
                     </div>
                     <!--end::User-->                               
 
@@ -5452,7 +5452,7 @@
 
                 <!--begin::User-->
                 <div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Alan Nilson">
-                    <img src="../../assets/media/avatars/300-1.jpg" alt="img">
+                    <img src="assets/media/avatars/300-1.jpg" alt="img">
                 </div>  
                 <!--end::User--> 
             </div>
@@ -5490,7 +5490,7 @@
 
                 <!--begin::User-->
                 <div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Jan Hummer">
-                    <img src="../../assets/media/avatars/300-23.jpg" alt="img">
+                    <img src="assets/media/avatars/300-23.jpg" alt="img">
                 </div>  
                 <!--end::User--> 
             </div>
@@ -5504,7 +5504,7 @@
                 <!--begin::Item-->
                 <div class="d-flex flex-aligns-center pe-10 pe-lg-20">  
                     <!--begin::Icon-->                                  
-                    <img alt="" class="w-30px me-3" src="../../assets/media/svg/files/pdf.svg">
+                    <img alt="" class="w-30px me-3" src="assets/media/svg/files/pdf.svg">
                     <!--end::Icon--> 
 
                     <!--begin::Info--> 
@@ -5524,7 +5524,7 @@
                 <!--begin::Item-->
                 <div class="d-flex flex-aligns-center pe-10 pe-lg-20">   
                     <!--begin::Icon-->                                  
-                    <img alt="/metronic8/demo7/../demo7/apps/projects/project.html" class="w-30px me-3" src="../../assets/media/svg/files/doc.svg">
+                    <img alt="/metronic8/demo7/../demo7/apps/projects/project.html" class="w-30px me-3" src="assets/media/svg/files/doc.svg">
                     <!--end::Icon--> 
 
                     <!--begin::Info--> 
@@ -5544,7 +5544,7 @@
                 <!--begin::Item-->
                 <div class="d-flex flex-aligns-center">   
                     <!--begin::Icon-->                                  
-                    <img alt="/metronic8/demo7/../demo7/apps/projects/project.html" class="w-30px me-3" src="../../assets/media/svg/files/css.svg">
+                    <img alt="/metronic8/demo7/../demo7/apps/projects/project.html" class="w-30px me-3" src="assets/media/svg/files/css.svg">
                     <!--end::Icon--> 
 
                     <!--begin::Info--> 
@@ -5597,7 +5597,7 @@
 
                 <!--begin::User-->
                 <div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Nina Nilson">
-                    <img src="../../assets/media/avatars/300-14.jpg" alt="img">
+                    <img src="assets/media/avatars/300-14.jpg" alt="img">
                 </div>  
                 <!--end::User--> 
             </div>
@@ -5635,7 +5635,7 @@
 
                 <!--begin::User-->
                 <div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Marcus Dotson">
-                    <img src="../../assets/media/avatars/300-2.jpg" alt="img">
+                    <img src="assets/media/avatars/300-2.jpg" alt="img">
                 </div>  
                 <!--end::User--> 
             </div>
@@ -5650,7 +5650,7 @@
                 <div class="overlay me-10">  
                     <!--begin::Image-->                                      
                     <div class="overlay-wrapper">
-                        <img alt="img" class="rounded w-150px" src="../../assets/media/stock/600x400/img-29.jpg">  
+                        <img alt="img" class="rounded w-150px" src="assets/media/stock/600x400/img-29.jpg">  
                     </div>
                     <!--end::Image-->
 
@@ -5666,7 +5666,7 @@
                 <div class="overlay me-10">   
                     <!--begin::Image-->                                     
                     <div class="overlay-wrapper">
-                        <img alt="img" class="rounded w-150px" src="../../assets/media/stock/600x400/img-31.jpg"> 
+                        <img alt="img" class="rounded w-150px" src="assets/media/stock/600x400/img-31.jpg"> 
                     </div>
                     <!--end::Image-->
 
@@ -5682,7 +5682,7 @@
                 <div class="overlay">   
                     <!--begin::Image-->                                     
                     <div class="overlay-wrapper">
-                        <img alt="img" class="rounded w-150px" src="../../assets/media/stock/600x400/img-40.jpg">
+                        <img alt="img" class="rounded w-150px" src="assets/media/stock/600x400/img-40.jpg">
                     </div>
                     <!--end::Image-->
 
@@ -5770,7 +5770,7 @@
 
                 <!--begin::User-->
                 <div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Robert Rich">
-                    <img src="../../assets/media/avatars/300-4.jpg" alt="img">
+                    <img src="assets/media/avatars/300-4.jpg" alt="img">
                 </div>  
                 <!--end::User--> 
             </div>
@@ -5997,7 +5997,7 @@
         <div class="d-flex flex-column align-items-start">
             <!--begin::User-->
             <div class="d-flex align-items-center mb-2">
-                                    <!--begin::Avatar--><div class="symbol  symbol-35px symbol-circle "><img alt="Pic" src="../../assets/media/avatars/300-25.jpg"></div><!--end::Avatar-->
+                                    <!--begin::Avatar--><div class="symbol  symbol-35px symbol-circle "><img alt="Pic" src="assets/media/avatars/300-25.jpg"></div><!--end::Avatar-->
                     <!--begin::Details-->
                     <div class="ms-3">
                         <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary me-1">Brian Cox</a>
@@ -6030,7 +6030,7 @@
                     </div>
                     <!--end::Details-->
 
-                    <!--begin::Avatar--><div class="symbol  symbol-35px symbol-circle "><img alt="Pic" src="../../assets/media/avatars/300-1.jpg"></div><!--end::Avatar-->                 
+                    <!--begin::Avatar--><div class="symbol  symbol-35px symbol-circle "><img alt="Pic" src="assets/media/avatars/300-1.jpg"></div><!--end::Avatar-->                 
             </div>
             <!--end::User-->
 
@@ -6049,7 +6049,7 @@
         <div class="d-flex flex-column align-items-start">
             <!--begin::User-->
             <div class="d-flex align-items-center mb-2">
-                                    <!--begin::Avatar--><div class="symbol  symbol-35px symbol-circle "><img alt="Pic" src="../../assets/media/avatars/300-25.jpg"></div><!--end::Avatar-->
+                                    <!--begin::Avatar--><div class="symbol  symbol-35px symbol-circle "><img alt="Pic" src="assets/media/avatars/300-25.jpg"></div><!--end::Avatar-->
                     <!--begin::Details-->
                     <div class="ms-3">
                         <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary me-1">Brian Cox</a>
@@ -6082,7 +6082,7 @@
                     </div>
                     <!--end::Details-->
 
-                    <!--begin::Avatar--><div class="symbol  symbol-35px symbol-circle "><img alt="Pic" src="../../assets/media/avatars/300-1.jpg"></div><!--end::Avatar-->                 
+                    <!--begin::Avatar--><div class="symbol  symbol-35px symbol-circle "><img alt="Pic" src="assets/media/avatars/300-1.jpg"></div><!--end::Avatar-->                 
             </div>
             <!--end::User-->
 
@@ -6101,7 +6101,7 @@
         <div class="d-flex flex-column align-items-start">
             <!--begin::User-->
             <div class="d-flex align-items-center mb-2">
-                                    <!--begin::Avatar--><div class="symbol  symbol-35px symbol-circle "><img alt="Pic" src="../../assets/media/avatars/300-25.jpg"></div><!--end::Avatar-->
+                                    <!--begin::Avatar--><div class="symbol  symbol-35px symbol-circle "><img alt="Pic" src="assets/media/avatars/300-25.jpg"></div><!--end::Avatar-->
                     <!--begin::Details-->
                     <div class="ms-3">
                         <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary me-1">Brian Cox</a>
@@ -6134,7 +6134,7 @@
                     </div>
                     <!--end::Details-->
 
-                    <!--begin::Avatar--><div class="symbol  symbol-35px symbol-circle "><img alt="Pic" src="../../assets/media/avatars/300-1.jpg"></div><!--end::Avatar-->                 
+                    <!--begin::Avatar--><div class="symbol  symbol-35px symbol-circle "><img alt="Pic" src="assets/media/avatars/300-1.jpg"></div><!--end::Avatar-->                 
             </div>
             <!--end::User-->
 
@@ -6153,7 +6153,7 @@
         <div class="d-flex flex-column align-items-start">
             <!--begin::User-->
             <div class="d-flex align-items-center mb-2">
-                                    <!--begin::Avatar--><div class="symbol  symbol-35px symbol-circle "><img alt="Pic" src="../../assets/media/avatars/300-25.jpg"></div><!--end::Avatar-->
+                                    <!--begin::Avatar--><div class="symbol  symbol-35px symbol-circle "><img alt="Pic" src="assets/media/avatars/300-25.jpg"></div><!--end::Avatar-->
                     <!--begin::Details-->
                     <div class="ms-3">
                         <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary me-1">Brian Cox</a>
@@ -6186,7 +6186,7 @@
                     </div>
                     <!--end::Details-->
 
-                    <!--begin::Avatar--><div class="symbol  symbol-35px symbol-circle "><img alt="Pic" src="../../assets/media/avatars/300-1.jpg"></div><!--end::Avatar-->                 
+                    <!--begin::Avatar--><div class="symbol  symbol-35px symbol-circle "><img alt="Pic" src="assets/media/avatars/300-1.jpg"></div><!--end::Avatar-->                 
             </div>
             <!--end::User-->
 
@@ -6205,7 +6205,7 @@
         <div class="d-flex flex-column align-items-start">
             <!--begin::User-->
             <div class="d-flex align-items-center mb-2">
-                                    <!--begin::Avatar--><div class="symbol  symbol-35px symbol-circle "><img alt="Pic" src="../../assets/media/avatars/300-25.jpg"></div><!--end::Avatar-->
+                                    <!--begin::Avatar--><div class="symbol  symbol-35px symbol-circle "><img alt="Pic" src="assets/media/avatars/300-25.jpg"></div><!--end::Avatar-->
                     <!--begin::Details-->
                     <div class="ms-3">
                         <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary me-1">Brian Cox</a>
@@ -6315,7 +6315,7 @@
 
                     <!--begin::Pic--> 
                     <div class="symbol symbol-70px symbol-2by3 flex-shrink-0">
-                        <img src="../../assets/media/stock/600x400/img-1.jpg" alt="">   
+                        <img src="assets/media/stock/600x400/img-1.jpg" alt="">   
                     </div>                                       
                     <!--end::Pic-->            
                 </div>
@@ -6356,7 +6356,7 @@
 
                     <!--begin::Pic--> 
                     <div class="symbol symbol-70px symbol-2by3 flex-shrink-0">
-                        <img src="../../assets/media/stock/600x400/img-3.jpg" alt="">   
+                        <img src="assets/media/stock/600x400/img-3.jpg" alt="">   
                     </div>                                       
                     <!--end::Pic-->            
                 </div>
@@ -6397,7 +6397,7 @@
 
                     <!--begin::Pic--> 
                     <div class="symbol symbol-70px symbol-2by3 flex-shrink-0">
-                        <img src="../../assets/media/stock/600x400/img-8.jpg" alt="">   
+                        <img src="assets/media/stock/600x400/img-8.jpg" alt="">   
                     </div>                                       
                     <!--end::Pic-->            
                 </div>
@@ -6438,7 +6438,7 @@
 
                     <!--begin::Pic--> 
                     <div class="symbol symbol-70px symbol-2by3 flex-shrink-0">
-                        <img src="../../assets/media/stock/600x400/img-26.jpg" alt="">   
+                        <img src="assets/media/stock/600x400/img-26.jpg" alt="">   
                     </div>                                       
                     <!--end::Pic-->            
                 </div>
@@ -6479,7 +6479,7 @@
 
                     <!--begin::Pic--> 
                     <div class="symbol symbol-70px symbol-2by3 flex-shrink-0">
-                        <img src="../../assets/media/stock/600x400/img-21.jpg" alt="">   
+                        <img src="assets/media/stock/600x400/img-21.jpg" alt="">   
                     </div>                                       
                     <!--end::Pic-->            
                 </div>
@@ -6520,7 +6520,7 @@
 
                     <!--begin::Pic--> 
                     <div class="symbol symbol-70px symbol-2by3 flex-shrink-0">
-                        <img src="../../assets/media/stock/600x400/img-34.jpg" alt="">   
+                        <img src="assets/media/stock/600x400/img-34.jpg" alt="">   
                     </div>                                       
                     <!--end::Pic-->            
                 </div>
@@ -6561,7 +6561,7 @@
 
                     <!--begin::Pic--> 
                     <div class="symbol symbol-70px symbol-2by3 flex-shrink-0">
-                        <img src="../../assets/media/stock/600x400/img-27.jpg" alt="">   
+                        <img src="assets/media/stock/600x400/img-27.jpg" alt="">   
                     </div>                                       
                     <!--end::Pic-->            
                 </div>
@@ -6775,7 +6775,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo1.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo1.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -6795,7 +6795,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo2.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo2.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -6815,7 +6815,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo39.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo39.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -6835,7 +6835,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo31.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo31.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -6855,7 +6855,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo9.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo9.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -6875,7 +6875,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo38.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo38.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -6895,7 +6895,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo30.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo30.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -6915,7 +6915,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo6.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo6.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -6935,7 +6935,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo60.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo60.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -6955,7 +6955,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo8.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo8.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -6975,7 +6975,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo62.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo62.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -6995,7 +6995,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo58.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo58.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7015,7 +7015,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo56.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo56.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7035,7 +7035,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo34.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo34.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7055,7 +7055,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo27.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo27.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7075,7 +7075,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo29.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo29.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7095,7 +7095,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo57.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo57.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7115,7 +7115,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo3.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo3.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7135,7 +7135,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo36.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo36.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7155,7 +7155,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo20.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo20.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7175,7 +7175,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo59.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo59.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7195,7 +7195,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo55.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo55.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7215,7 +7215,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo51.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo51.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7235,7 +7235,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo10.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo10.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7255,7 +7255,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo61.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo61.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7275,7 +7275,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo52.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo52.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7295,7 +7295,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo63.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo63.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7315,7 +7315,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo40.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo40.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7335,7 +7335,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo23.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo23.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7355,7 +7355,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo64.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo64.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7375,7 +7375,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo35.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo35.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7395,7 +7395,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo33.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo33.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7415,7 +7415,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo19.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo19.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7435,7 +7435,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo25.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo25.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7455,7 +7455,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo50.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo50.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7475,7 +7475,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo32.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo32.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7495,7 +7495,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo37.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo37.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7515,7 +7515,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo42.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo42.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7535,7 +7535,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo5.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo5.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7555,7 +7555,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo16.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo16.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7575,7 +7575,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo4.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo4.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7595,7 +7595,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo53.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo53.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7615,7 +7615,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo7.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo7.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7635,7 +7635,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo21.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo21.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7655,7 +7655,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo24.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo24.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7675,7 +7675,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo28.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo28.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7695,7 +7695,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo44.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo44.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7715,7 +7715,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo11.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo11.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7735,7 +7735,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo26.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo26.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7755,7 +7755,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo22.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo22.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7775,7 +7775,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo41.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo41.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7795,7 +7795,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo18.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo18.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7815,7 +7815,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo54.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo54.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7835,7 +7835,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo15.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo15.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7855,7 +7855,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo14.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo14.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7875,7 +7875,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo13.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo13.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7895,7 +7895,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo12.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo12.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7915,7 +7915,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo48.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo48.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7935,7 +7935,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo17.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo17.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7955,7 +7955,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo49.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo49.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7975,7 +7975,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo43.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo43.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -7995,7 +7995,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo45.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo45.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8015,7 +8015,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo47.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo47.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8035,7 +8035,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo46.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/demos/demo46.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8069,7 +8069,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/multipurpose-demo7.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/multipurpose-demo7.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8088,7 +8088,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/marketing.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/marketing.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8107,7 +8107,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/social.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/social.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8126,7 +8126,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/ecommerce.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/ecommerce.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8145,7 +8145,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/store-analytics.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/store-analytics.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8164,7 +8164,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/logistics.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/logistics.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8183,7 +8183,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/delivery.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/delivery.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8202,7 +8202,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/online-courses.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/online-courses.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8221,7 +8221,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/school.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/school.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8240,7 +8240,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/crypto.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/crypto.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8259,7 +8259,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/finance-performance.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/finance-performance.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8278,7 +8278,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/website-analytics.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/website-analytics.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8297,7 +8297,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/bidding.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/bidding.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8316,7 +8316,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/podcast.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/podcast.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8335,7 +8335,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/projects.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/projects.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8354,7 +8354,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/call-center.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/call-center.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8373,7 +8373,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/pos.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/dashboards/pos.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8405,7 +8405,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/apps/projects.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/apps/projects.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8424,7 +8424,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/apps/ecommerce.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/apps/ecommerce.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8443,7 +8443,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/apps/customers.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/apps/customers.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8462,7 +8462,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/apps/subscriptions.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/apps/subscriptions.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8481,7 +8481,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/apps/user-management.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/apps/user-management.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8500,7 +8500,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/apps/invoices.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/apps/invoices.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8519,7 +8519,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/apps/support-center.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/apps/support-center.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8538,7 +8538,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/apps/chat.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/apps/chat.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8557,7 +8557,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/apps/calendar.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/apps/calendar.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8576,7 +8576,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/apps/file-manager.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/apps/file-manager.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8595,7 +8595,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/apps/inbox.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/apps/inbox.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8614,7 +8614,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/apps/contacts.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/apps/contacts.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8743,7 +8743,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/auth-corporate.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/auth-corporate.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8762,7 +8762,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/auth-creative.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/auth-creative.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8781,7 +8781,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/auth-fancy.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/auth-fancy.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8800,7 +8800,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/auth-overlay.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/auth-overlay.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8819,7 +8819,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/auth-multistep.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/auth-multistep.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8838,7 +8838,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/auth-2factor.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/auth-2factor.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8857,7 +8857,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/auth-passwordchanged.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/auth-passwordchanged.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8876,7 +8876,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/auth-verifyemail.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/auth-verifyemail.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8895,7 +8895,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/auth-welcome.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/auth-welcome.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8914,7 +8914,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/auth-comingsoon.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/auth-comingsoon.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8933,7 +8933,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/auth-accountdeactivated.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/auth-accountdeactivated.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8952,7 +8952,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/auth-404.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/auth-404.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -8971,7 +8971,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/auth-500.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/auth-500.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9013,7 +9013,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/profile-overview.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/profile-overview.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9032,7 +9032,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/profile-overview.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/profile-overview.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9051,7 +9051,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/profile-campaigns.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/profile-campaigns.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9070,7 +9070,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/profile-documents.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/profile-documents.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9089,7 +9089,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/profile-followers.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/profile-followers.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9108,7 +9108,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/profile-activity.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/profile-activity.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9147,7 +9147,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/corporate-aboutus.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/corporate-aboutus.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9166,7 +9166,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/corporate-contactus.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/corporate-contactus.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9185,7 +9185,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/corporate-license.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/corporate-license.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9204,7 +9204,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/corporate-ourteam.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/corporate-ourteam.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9223,7 +9223,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/corporate-sitemap.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/corporate-sitemap.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9262,7 +9262,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/social-activity.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/social-activity.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9281,7 +9281,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/social-feeds.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/social-feeds.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9300,7 +9300,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/social-followers.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/social-followers.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9319,7 +9319,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/social-settings.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/social-settings.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9358,7 +9358,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/faq-classic.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/faq-classic.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9377,7 +9377,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/faq-extended.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/faq-extended.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9396,7 +9396,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/blog-home.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/blog-home.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9415,7 +9415,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/blog-post.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/blog-post.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9446,7 +9446,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/account-overview.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/account-overview.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9465,7 +9465,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/account-settings.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/account-settings.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9484,7 +9484,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/account-billing.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/account-billing.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9503,7 +9503,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/account-security.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/account-security.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9522,7 +9522,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/account-referrals.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/account-referrals.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9541,7 +9541,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/account-logs.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/account-logs.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9560,7 +9560,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/account-apikeys.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/account-apikeys.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9579,7 +9579,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/account-statements.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/account-statements.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9598,7 +9598,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/account-billing.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/account-billing.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9626,7 +9626,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-viewfriends.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-viewfriends.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9645,7 +9645,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-upgradeplan.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-upgradeplan.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9664,7 +9664,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-topupwallet.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-topupwallet.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9683,7 +9683,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-shareandearn.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-shareandearn.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9702,7 +9702,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-selectuser.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-selectuser.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9721,7 +9721,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-placeyourbid.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-placeyourbid.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9740,7 +9740,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-offeradeal.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-offeradeal.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9759,7 +9759,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-newtarget.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-newtarget.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9778,7 +9778,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-newcard.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-newcard.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9797,7 +9797,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-newaddress.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-newaddress.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9816,7 +9816,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-invitefriend.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-invitefriend.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9835,7 +9835,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-createproject.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-createproject.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9854,7 +9854,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-createcampaign.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-createcampaign.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9873,7 +9873,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-createbusinessacc.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-createbusinessacc.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9892,7 +9892,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-createapp.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-createapp.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9911,7 +9911,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-createapikey.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-createapikey.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9930,7 +9930,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-2factorauth.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/modal-2factorauth.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9958,7 +9958,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/wizard-2factorauth.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/wizard-2factorauth.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9977,7 +9977,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/wizard-horizontal.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/wizard-horizontal.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -9996,7 +9996,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/wizard-vertical.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/wizard-vertical.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -10024,7 +10024,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/search-users.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/search-users.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -10043,7 +10043,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/search-horizontal.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/search-horizontal.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -10062,7 +10062,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/search-vertical.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/search-vertical.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -10081,7 +10081,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/search-location.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/search-location.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -10109,7 +10109,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/widgets-charts.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/widgets-charts.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -10128,7 +10128,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/widgets-feeds.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/widgets-feeds.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -10147,7 +10147,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/widgets-lists.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/widgets-lists.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -10166,7 +10166,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/widgets-mixed.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/widgets-mixed.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -10185,7 +10185,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/widgets-stats.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/widgets-stats.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -10204,7 +10204,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/widgets-tables.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/widgets-tables.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -10232,7 +10232,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/email-welcome.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/email-welcome.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -10251,7 +10251,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/email-subscriptionconfirmed.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/email-subscriptionconfirmed.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -10270,7 +10270,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/email-resetpassword.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/email-resetpassword.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -10289,7 +10289,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/email-creditcarddeclined.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/email-creditcarddeclined.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -10308,7 +10308,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/email-promo1.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/email-promo1.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -10327,7 +10327,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/email-promo2.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/email-promo2.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -10346,7 +10346,7 @@
 
 	<!--begin::Thumbnail-->
 	<span class="app-prebuilts-thumbnail rounded ms-12 mb-n6 mb-lg-n15 me-n6 mh-350px overflow-hidden">
-		<img src="../../assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/email-promo3.png" class="lozad w-100 rounded" alt="">
+		<img src="assets/media/preview/demos/placeholder.jpg" data-src="/metronic8/demo7/assets/media/preview/prebuilts/pages/email-promo3.png" class="lozad w-100 rounded" alt="">
 	</span>
 	<!--end::Thumbnail-->
 </a>
@@ -12484,7 +12484,7 @@
 
                 <!--begin::Google Contacts Invite-->
                 <div class="btn btn-light-primary fw-bold w-100 mb-8">
-                    <img alt="Logo" src="../../assets/media/svg/brand-logos/google-icon.svg" class="h-20px me-3">
+                    <img alt="Logo" src="assets/media/svg/brand-logos/google-icon.svg" class="h-20px me-3">
                     Invite Gmail Contacts
                 </div>
                 <!--end::Google Contacts Invite-->
@@ -12514,7 +12514,7 @@
                                 <div class="d-flex align-items-center">
                                     <!--begin::Avatar-->
                                     <div class="symbol symbol-35px symbol-circle">
-                                                                                    <img alt="Pic" src="../../assets/media/avatars/300-6.jpg">
+                                                                                    <img alt="Pic" src="assets/media/avatars/300-6.jpg">
                                                                             </div>
                                     <!--end::Avatar-->
 
@@ -12577,7 +12577,7 @@
                                 <div class="d-flex align-items-center">
                                     <!--begin::Avatar-->
                                     <div class="symbol symbol-35px symbol-circle">
-                                                                                    <img alt="Pic" src="../../assets/media/avatars/300-1.jpg">
+                                                                                    <img alt="Pic" src="assets/media/avatars/300-1.jpg">
                                                                             </div>
                                     <!--end::Avatar-->
 
@@ -12608,7 +12608,7 @@
                                 <div class="d-flex align-items-center">
                                     <!--begin::Avatar-->
                                     <div class="symbol symbol-35px symbol-circle">
-                                                                                    <img alt="Pic" src="../../assets/media/avatars/300-5.jpg">
+                                                                                    <img alt="Pic" src="assets/media/avatars/300-5.jpg">
                                                                             </div>
                                     <!--end::Avatar-->
 
@@ -12639,7 +12639,7 @@
                                 <div class="d-flex align-items-center">
                                     <!--begin::Avatar-->
                                     <div class="symbol symbol-35px symbol-circle">
-                                                                                    <img alt="Pic" src="../../assets/media/avatars/300-25.jpg">
+                                                                                    <img alt="Pic" src="assets/media/avatars/300-25.jpg">
                                                                             </div>
                                     <!--end::Avatar-->
 
@@ -12702,7 +12702,7 @@
                                 <div class="d-flex align-items-center">
                                     <!--begin::Avatar-->
                                     <div class="symbol symbol-35px symbol-circle">
-                                                                                    <img alt="Pic" src="../../assets/media/avatars/300-9.jpg">
+                                                                                    <img alt="Pic" src="assets/media/avatars/300-9.jpg">
                                                                             </div>
                                     <!--end::Avatar-->
 
@@ -12797,7 +12797,7 @@
                                 <div class="d-flex align-items-center">
                                     <!--begin::Avatar-->
                                     <div class="symbol symbol-35px symbol-circle">
-                                                                                    <img alt="Pic" src="../../assets/media/avatars/300-23.jpg">
+                                                                                    <img alt="Pic" src="assets/media/avatars/300-23.jpg">
                                                                             </div>
                                     <!--end::Avatar-->
 
@@ -12860,7 +12860,7 @@
                                 <div class="d-flex align-items-center">
                                     <!--begin::Avatar-->
                                     <div class="symbol symbol-35px symbol-circle">
-                                                                                    <img alt="Pic" src="../../assets/media/avatars/300-12.jpg">
+                                                                                    <img alt="Pic" src="assets/media/avatars/300-12.jpg">
                                                                             </div>
                                     <!--end::Avatar-->
 
@@ -12923,7 +12923,7 @@
                                 <div class="d-flex align-items-center">
                                     <!--begin::Avatar-->
                                     <div class="symbol symbol-35px symbol-circle">
-                                                                                    <img alt="Pic" src="../../assets/media/avatars/300-13.jpg">
+                                                                                    <img alt="Pic" src="assets/media/avatars/300-13.jpg">
                                                                             </div>
                                     <!--end::Avatar-->
 
@@ -12986,7 +12986,7 @@
                                 <div class="d-flex align-items-center">
                                     <!--begin::Avatar-->
                                     <div class="symbol symbol-35px symbol-circle">
-                                                                                    <img alt="Pic" src="../../assets/media/avatars/300-21.jpg">
+                                                                                    <img alt="Pic" src="assets/media/avatars/300-21.jpg">
                                                                             </div>
                                     <!--end::Avatar-->
 
@@ -13017,7 +13017,7 @@
                                 <div class="d-flex align-items-center">
                                     <!--begin::Avatar-->
                                     <div class="symbol symbol-35px symbol-circle">
-                                                                                    <img alt="Pic" src="../../assets/media/avatars/300-13.jpg">
+                                                                                    <img alt="Pic" src="assets/media/avatars/300-13.jpg">
                                                                             </div>
                                     <!--end::Avatar-->
 
@@ -13668,9 +13668,9 @@
 
         <!--begin::Card logos-->
         <div class="position-absolute translate-middle-y top-50 end-0 me-5">
-            <img src="../../assets/media/svg/card-logos/visa.svg" alt="" class="h-25px">
-            <img src="../../assets/media/svg/card-logos/mastercard.svg" alt="" class="h-25px">
-            <img src="../../assets/media/svg/card-logos/american-express.svg" alt="" class="h-25px">
+            <img src="assets/media/svg/card-logos/visa.svg" alt="" class="h-25px">
+            <img src="assets/media/svg/card-logos/mastercard.svg" alt="" class="h-25px">
+            <img src="assets/media/svg/card-logos/american-express.svg" alt="" class="h-25px">
         </div>
         <!--end::Card logos-->
     </div>
@@ -13797,7 +13797,7 @@
 
         <!--begin::Illustration-->
         <div class="text-center px-4 py-15">       
-            <img src="../../assets/media/illustrations/sigma-1/9.png" alt="" class="mw-100 mh-300px">
+            <img src="assets/media/illustrations/sigma-1/9.png" alt="" class="mw-100 mh-300px">
         </div>
         <!--end::Illustration-->
     </div>
@@ -13916,7 +13916,7 @@
             <a href="#" class="d-flex align-items-center p-3 rounded bg-state-light bg-state-opacity-50 mb-1">
                 <!--begin::Avatar-->
                 <div class="symbol symbol-35px symbol-circle me-5">
-                                            <img alt="Pic" src="../../assets/media/avatars/300-6.jpg">
+                                            <img alt="Pic" src="assets/media/avatars/300-6.jpg">
                                     </div>
                 <!--end::Avatar-->
 
@@ -13949,7 +13949,7 @@
             <a href="#" class="d-flex align-items-center p-3 rounded bg-state-light bg-state-opacity-50 mb-1">
                 <!--begin::Avatar-->
                 <div class="symbol symbol-35px symbol-circle me-5">
-                                            <img alt="Pic" src="../../assets/media/avatars/300-1.jpg">
+                                            <img alt="Pic" src="assets/media/avatars/300-1.jpg">
                                     </div>
                 <!--end::Avatar-->
 
@@ -13965,7 +13965,7 @@
             <a href="#" class="d-flex align-items-center p-3 rounded bg-state-light bg-state-opacity-50 mb-1">
                 <!--begin::Avatar-->
                 <div class="symbol symbol-35px symbol-circle me-5">
-                                            <img alt="Pic" src="../../assets/media/avatars/300-5.jpg">
+                                            <img alt="Pic" src="assets/media/avatars/300-5.jpg">
                                     </div>
                 <!--end::Avatar-->
 
@@ -13981,7 +13981,7 @@
             <a href="#" class="d-flex align-items-center p-3 rounded bg-state-light bg-state-opacity-50 mb-1">
                 <!--begin::Avatar-->
                 <div class="symbol symbol-35px symbol-circle me-5">
-                                            <img alt="Pic" src="../../assets/media/avatars/300-25.jpg">
+                                            <img alt="Pic" src="assets/media/avatars/300-25.jpg">
                                     </div>
                 <!--end::Avatar-->
 
@@ -14014,7 +14014,7 @@
 
                     <!--begin::Avatar-->
                     <div class="symbol symbol-35px symbol-circle">
-                                                    <img alt="Pic" src="../../assets/media/avatars/300-6.jpg">
+                                                    <img alt="Pic" src="assets/media/avatars/300-6.jpg">
                                             </div>
                     <!--end::Avatar-->
 
@@ -14099,7 +14099,7 @@
 
                     <!--begin::Avatar-->
                     <div class="symbol symbol-35px symbol-circle">
-                                                    <img alt="Pic" src="../../assets/media/avatars/300-1.jpg">
+                                                    <img alt="Pic" src="assets/media/avatars/300-1.jpg">
                                             </div>
                     <!--end::Avatar-->
 
@@ -14141,7 +14141,7 @@
 
                     <!--begin::Avatar-->
                     <div class="symbol symbol-35px symbol-circle">
-                                                    <img alt="Pic" src="../../assets/media/avatars/300-5.jpg">
+                                                    <img alt="Pic" src="assets/media/avatars/300-5.jpg">
                                             </div>
                     <!--end::Avatar-->
 
@@ -14183,7 +14183,7 @@
 
                     <!--begin::Avatar-->
                     <div class="symbol symbol-35px symbol-circle">
-                                                    <img alt="Pic" src="../../assets/media/avatars/300-25.jpg">
+                                                    <img alt="Pic" src="assets/media/avatars/300-25.jpg">
                                             </div>
                     <!--end::Avatar-->
 
@@ -14268,7 +14268,7 @@
 
                     <!--begin::Avatar-->
                     <div class="symbol symbol-35px symbol-circle">
-                                                    <img alt="Pic" src="../../assets/media/avatars/300-9.jpg">
+                                                    <img alt="Pic" src="assets/media/avatars/300-9.jpg">
                                             </div>
                     <!--end::Avatar-->
 
@@ -14396,7 +14396,7 @@
 
                     <!--begin::Avatar-->
                     <div class="symbol symbol-35px symbol-circle">
-                                                    <img alt="Pic" src="../../assets/media/avatars/300-23.jpg">
+                                                    <img alt="Pic" src="assets/media/avatars/300-23.jpg">
                                             </div>
                     <!--end::Avatar-->
 
@@ -14481,7 +14481,7 @@
 
                     <!--begin::Avatar-->
                     <div class="symbol symbol-35px symbol-circle">
-                                                    <img alt="Pic" src="../../assets/media/avatars/300-12.jpg">
+                                                    <img alt="Pic" src="assets/media/avatars/300-12.jpg">
                                             </div>
                     <!--end::Avatar-->
 
@@ -14566,7 +14566,7 @@
 
                     <!--begin::Avatar-->
                     <div class="symbol symbol-35px symbol-circle">
-                                                    <img alt="Pic" src="../../assets/media/avatars/300-13.jpg">
+                                                    <img alt="Pic" src="assets/media/avatars/300-13.jpg">
                                             </div>
                     <!--end::Avatar-->
 
@@ -14651,7 +14651,7 @@
 
                     <!--begin::Avatar-->
                     <div class="symbol symbol-35px symbol-circle">
-                                                    <img alt="Pic" src="../../assets/media/avatars/300-21.jpg">
+                                                    <img alt="Pic" src="assets/media/avatars/300-21.jpg">
                                             </div>
                     <!--end::Avatar-->
 
@@ -14693,7 +14693,7 @@
 
                     <!--begin::Avatar-->
                     <div class="symbol symbol-35px symbol-circle">
-                                                    <img alt="Pic" src="../../assets/media/avatars/300-6.jpg">
+                                                    <img alt="Pic" src="assets/media/avatars/300-6.jpg">
                                             </div>
                     <!--end::Avatar-->
 
@@ -14748,7 +14748,7 @@
 
     <!--begin::Illustration-->
     <div class="text-center px-5">
-        <img src="../../assets/media/illustrations/sigma-1/1.png" alt="" class="w-100 h-200px h-sm-325px">        
+        <img src="assets/media/illustrations/sigma-1/1.png" alt="" class="w-100 h-200px h-sm-325px">        
     </div>
     <!--end::Illustration-->
 </div>
@@ -14770,24 +14770,24 @@
             var hostUrl = "/metronic8/demo7/assets/";        </script>
 
                     <!--begin::Global Javascript Bundle(mandatory for all pages)-->
-                            <script src="../../assets/plugins/global/plugins.bundle.js"></script>
-                            <script src="../../assets/js/scripts.bundle.js"></script>
+                            <script src="assets/plugins/global/plugins.bundle.js"></script>
+                            <script src="assets/js/scripts.bundle.js"></script>
                         <!--end::Global Javascript Bundle-->
         
                     <!--begin::Vendors Javascript(used for this page only)-->
-                            <script src="../../assets/plugins/custom/datatables/datatables.bundle.js"></script>
+                            <script src="assets/plugins/custom/datatables/datatables.bundle.js"></script>
                         <!--end::Vendors Javascript-->
         
                     <!--begin::Custom Javascript(used for this page only)-->
-                            <script src="../../assets/js/custom/apps/customers/list/export.js"></script>
-                            <script src="../../assets/js/custom/apps/customers/list/list.js"></script>
-                            <script src="../../assets/js/custom/apps/customers/add.js"></script>
-                            <script src="../../assets/js/widgets.bundle.js"></script>
-                            <script src="../../assets/js/custom/widgets.js"></script>
-                            <script src="../../assets/js/custom/apps/chat/chat.js"></script>
-                            <script src="../../assets/js/custom/utilities/modals/upgrade-plan.js"></script>
-                            <script src="../../assets/js/custom/utilities/modals/create-app.js"></script>
-                            <script src="../../assets/js/custom/utilities/modals/users-search.js"></script>
+                            <script src="assets/js/custom/apps/customers/list/export.js"></script>
+                            <script src="assets/js/custom/apps/customers/list/list.js"></script>
+                            <script src="assets/js/custom/apps/customers/add.js"></script>
+                            <script src="assets/js/widgets.bundle.js"></script>
+                            <script src="assets/js/custom/widgets.js"></script>
+                            <script src="assets/js/custom/apps/chat/chat.js"></script>
+                            <script src="assets/js/custom/utilities/modals/upgrade-plan.js"></script>
+                            <script src="assets/js/custom/utilities/modals/create-app.js"></script>
+                            <script src="assets/js/custom/utilities/modals/users-search.js"></script>
                         <!--end::Custom Javascript-->
                 <!--end::Javascript-->
     </body>
