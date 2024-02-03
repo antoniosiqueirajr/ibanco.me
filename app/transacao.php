@@ -100,7 +100,7 @@
 		<!--begin::Logo-->
 		<div class="aside-logo d-none d-lg-flex flex-column align-items-center flex-column-auto py-10" id="kt_aside_logo">		
 			<a href="/metronic8/demo7/../demo7/index.html">
-				<img alt="Logo" src="../assets/media/logos/demo7.svg" class="h-35px">
+				<img alt="Logo" src="assets/media/logos/demo7.svg" class="h-35px">
 			</a>
 		</div>
 		<!--end::Logo-->
