@@ -295,11 +295,11 @@
                                     </div>
                                 </th>
                                 <th class="min-w-125px">Customer Name</th>
-                                <th class="min-w-125px">Email</th>
-                                <th class="min-w-125px">Company</th>
-                                <th class="min-w-125px">Payment Method</th>
-                                <th class="min-w-125px">Created Date</th>
-                                <th class="text-end min-w-70px">Actions</th>
+                                <th class="min-w-125px">CPF</th>
+                                <th class="min-w-125px">Empresa</th>
+                                <th class="min-w-125px">Meio Pagamento</th>
+                                <th class="min-w-125px">Data Operação</th>
+                                <th class="text-end min-w-70px">Ação</th>
                             </tr>
                         </thead>
                         <tbody class="fw-semibold text-gray-600">
@@ -314,22 +314,22 @@
                                     </div>
                                 </td>
                                 <td>
-                                    <a href="view.html" class="text-gray-800 text-hover-primary mb-1">Max Smith</a>
+                                    <a href="view.html" class="text-gray-800 text-hover-primary mb-1">ANTONIO FRANCISCO SIQUEIRA</a>
                                 </td>
                                 <td>
-                                    <a href="#" class="text-gray-600 text-hover-primary mb-1">max@kt.com</a>
+                                    <a href="#" class="text-gray-600 text-hover-primary mb-1">063.190.208-81</a>
                                 </td>
                                 <td>
-                                    Bistro Union </td>
+                                    EMPRESA A </td>
                                 <td data-filter="mastercard">
                                     <img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
                                     **** 7691
                                 </td>
                                 <td>
-                                    12 Nov 2020, 2:01 pm </td>
+                                    03 Fev de 2024 17:12:01 </td>
                                 <td class="text-end">
                                     <a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-                                        Actions
+                                        Ações
                                         <i class="ki-duotone ki-down fs-5 ms-1"></i>
                                     </a>
                                     <!--begin::Menu-->
@@ -353,52 +353,7 @@
                                     <!--end::Menu-->
                                 </td>
                             </tr>
-                            <tr>
-                                <td>
-                                    <div class="form-check form-check-sm form-check-custom form-check-solid">
-                                        <input class="form-check-input" type="checkbox" value="1">
-                                    </div>
-                                </td>
-                                <td>
-                                    <a href="view.html" class="text-gray-800 text-hover-primary mb-1">Sean Bean</a>
-                                </td>
-                                <td>
-                                    <a href="#" class="text-gray-600 text-hover-primary mb-1">sean@dellito.com</a>
-                                </td>
-                                <td>
-                                    Astro Limited </td>
-                                <td data-filter="american_express">
-                                    <img src="assets/media/svg/card-logos/american-express.svg" class="w-35px me-3" alt="">
-                                    **** 1149
-                                </td>
-                                <td>
-                                    21 Oct 2020, 5:54 pm </td>
-                                <td class="text-end">
-                                    <a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-                                        Actions
-                                        <i class="ki-duotone ki-down fs-5 ms-1"></i>
-                                    </a>
-                                    <!--begin::Menu-->
-                                    <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
-                                        <!--begin::Menu item-->
-                                        <div class="menu-item px-3">
-                                            <a href="view.html" class="menu-link px-3">
-                                                View
-                                            </a>
-                                        </div>
-                                        <!--end::Menu item-->
-
-                                        <!--begin::Menu item-->
-                                        <div class="menu-item px-3">
-                                            <a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">
-                                                Delete
-                                            </a>
-                                        </div>
-                                        <!--end::Menu item-->
-                                    </div>
-                                    <!--end::Menu-->
-                                </td>
-                            </tr>
+             
                         </tbody>
                     </table>
                     <!--end::Table-->
