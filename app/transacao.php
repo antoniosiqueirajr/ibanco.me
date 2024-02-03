@@ -12,24 +12,9 @@
 
                 <!--begin::Heading-->
                 <h1 class="text-gray-900 fw-bold my-0 fs-2">
-                    Customer List </h1>
+                   Transações</h1>
                 <!--end::Heading-->
-
-                <!--begin::Breadcrumb-->
-                <ul class="breadcrumb fw-semibold fs-base my-1">
-                    <li class="breadcrumb-item text-muted">
-                        <a href="/metronic8/demo7/../demo7/index.html" class="text-muted text-hover-primary">
-                            Home </a>
-                    </li>
-
-                    <li class="breadcrumb-item text-muted">
-                        Customers </li>
-
-                    <li class="breadcrumb-item text-gray-900">
-                        Customer Listing </li>
-
-                </ul>
-                <!--end::Breadcrumb-->
+             
             </div>
             <!--end::Page title--->
 
@@ -294,11 +279,12 @@
                                         <input class="form-check-input" type="checkbox" data-kt-check="true" data-kt-check-target="#kt_customers_table .form-check-input" value="1">
                                     </div>
                                 </th>
-                                <th class="min-w-125px">Customer Name</th>
+                                <th class="min-w-125px">Cliente</th>
                                 <th class="min-w-125px">CPF</th>
                                 <th class="min-w-125px">Empresa</th>
                                 <th class="min-w-125px">Meio Pagamento</th>
                                 <th class="min-w-125px">Data Operação</th>
+                                <th class="min-w-125px">Status</th>
                                 <th class="text-end min-w-70px">Ação</th>
                             </tr>
                         </thead>
@@ -327,6 +313,9 @@
                                 </td>
                                 <td>
                                     03 Fev de 2024 17:12:01 </td>
+
+                                    <td>
+                                    <span class="badge badge-circle badge-outline badge-primary">Pendente Conciliação</span> </td>
                                 <td class="text-end">
                                     <a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
                                         Ações
