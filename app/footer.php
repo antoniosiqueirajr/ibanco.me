@@ -5264,6 +5264,7 @@
     <script src="assets/js/custom/utilities/modals/upgrade-plan-1.js"></script>
     <script src="assets/js/custom/utilities/modals/create-app-1.js"></script>
     <script src="assets/js/custom/utilities/modals/users-search-1.js"></script>
+    <script src="assets/plugins/custom/datatables/datatables.bundle.js"></script>
     <!--end::Custom Javascript-->
     <!--end::Javascript-->
 </body>
