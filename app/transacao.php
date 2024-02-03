@@ -315,7 +315,7 @@
                                     03 Fev de 2024 17:12:01 </td>
 
                                     <td>
-                                    <span class="badge badge-square badge-warning">Pendente</span> </td>
+                                    <span class="badge badge-square badge-warning"> Pendente </span> </td>
                                 <td class="text-end">
                                     <a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
                                         Ações
