@@ -283,6 +283,8 @@
                                 <th class="min-w-125px">CPF</th>
                                 <th class="min-w-125px">Empresa</th>
                                 <th class="min-w-125px">Meio Pagamento</th>
+                                <th class="min-w-125px">Valor</th>
+                                <th class="min-w-125px">Taxa</th>
                                 <th class="min-w-125px">Data Operação</th>
                                 <th class="min-w-125px">Status</th>
                                 <th class="text-end min-w-70px">Ação</th>
@@ -311,6 +313,8 @@
                                     <img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
                                     **** 7691
                                 </td>
+                                <td>R$ 10.000,00</td>
+                                <td>R$ 100,00    <span class="badge badge-square badge-warning"> 1% </span> </td>
                                 <td>
                                     03 Fev de 2024 17:12:01 </td>
 
