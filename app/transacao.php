@@ -1,6 +1,6 @@
 ﻿<?php include_once "menu.php" ?>
 <!--begin::Wrapper-->
-<div class="wrapper d-flex" id="kt_wrapper">
+<div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper">
     <!--begin::Header-->
     <div id="kt_header" class="header " data-kt-sticky="true" data-kt-sticky-name="header" data-kt-sticky-offset="{default: '200px', lg: '300px'}">
 
