@@ -12,7 +12,7 @@
 
                 <!--begin::Heading-->
                 <h1 class="text-gray-900 fw-bold my-0 fs-2">
-                    eCommerce Dashboard </h1>
+                   Dashboard </h1>
                 <!--end::Heading-->
 
             </div>
@@ -356,7 +356,7 @@
                                     <!--begin::Amount-->
                                     <span class="fs-2hx fw-bold text-gray-900 me-2 lh-1 ls-n2">
                                         <font style="vertical-align: inherit;">
-                                            <font style="vertical-align: inherit;">2.420</font>
+                                            <font style="vertical-align: inherit;">0</font>
                                         </font>
                                     </span>
                                     <!--end::Amount-->
@@ -698,7 +698,7 @@
                                     </span>
                                     <span class="fs-2hx fw-bold text-gray-800 me-2 lh-1 ls-n2">
                                         <font style="vertical-align: inherit;">
-                                            <font style="vertical-align: inherit;">14.094</font>
+                                            <font style="vertical-align: inherit;">0</font>
                                         </font>
                                     </span>
                                 </div>
@@ -707,7 +707,7 @@
                                 <!--begin::Description-->
                                 <span class="fs-6 fw-semibold text-gray-500">
                                     <font style="vertical-align: inherit;">
-                                        <font style="vertical-align: inherit;">Outros $ 48.346 para a meta</font>
+                                        <font style="vertical-align: inherit;">Outros R$ 0 para a meta</font>
                                     </font>
                                 </span>
                                 <!--end::Description-->
