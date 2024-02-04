@@ -165,8 +165,17 @@
                                         <!--end::Label-->
 
                                         <!--begin::Input-->
-                                        <select class="form-select form-select-solid fw-bold" data-kt-select2="true" data-placeholder="Select option" data-allow-clear="true" data-kt-customer-table-filter="month" data-dropdown-parent="#kt-toolbar-filter">
+                                        <select class="form-select form-select-solid fw-bold" data-kt-select2="true" data-placeholder="Selecionar mês" data-allow-clear="true" data-kt-customer-table-filter="month" data-dropdown-parent="#kt-toolbar-filter">
                                             <option></option>
+                                            <option value="jan">Janeiro</option>
+                                            <option value="fev">Fevereiro</option>
+                                            <option value="mar">Março</option>
+                                            <option value="aug">Abril</option>
+                                            <option value="aug">Maio</option>
+                                            <option value="aug">Junho</option>
+                                            <option value="aug">Julho</option>
+                                            <option value="aug">Agosto</option>
+
                                             <option value="aug">Agosto</option>
                                             <option value="sep">Setembro</option>
                                             <option value="oct">Outubro</option>
