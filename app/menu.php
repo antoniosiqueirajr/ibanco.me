@@ -1390,7 +1390,7 @@
 
                                             <div id="kt_aside_menu_wrapper" class="menu-fit">
                                                 <!--begin:Menu item-->
-                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <!--begin:Menu link--><span class="menu-link"><span class="menu-icon"><i class="ki-duotone ki-element-11 fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i></span><span class="menu-title">Dashboards</span><span class="menu-arrow"></span></span><!--end:Menu link--><!--begin:Menu sub-->
                                                     <div class="menu-sub menu-sub-accordion"><!--begin:Menu item-->
                                                         <div class="menu-item"><!--begin:Menu link--><a class="menu-link" href="../index.html"><span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Default</span></a><!--end:Menu link-->
@@ -1495,7 +1495,7 @@
 
                                             <div id="kt_aside_menu_wrapper" class="menu-fit">
                                                 <!--begin:Menu item-->
-                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <!--begin:Menu link--><span class="menu-link"><span class="menu-icon"><i class="ki-duotone ki-element-11 fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i></span><span class="menu-title">Dashboards</span><span class="menu-arrow"></span></span><!--end:Menu link--><!--begin:Menu sub-->
                                                     <div class="menu-sub menu-sub-accordion"><!--begin:Menu item-->
                                                         <div class="menu-item"><!--begin:Menu link--><a class="menu-link" href="../index.html"><span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Default</span></a><!--end:Menu link-->
@@ -1513,7 +1513,7 @@
                                                 </div><!--end:Menu item--><!--begin:Menu item-->
 
                                                 <!-- Módulo 1: Vendas -->
-                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                <div data-kt-menu-trigger="click" class="menu-item  menu-accordion">
                                                     <span class="menu-link">
                                                         <span class="menu-icon"><i class="ki-duotone ki-element-11 fs-2"></i></span>
                                                         <span class="menu-title">Vendas</span>
@@ -1537,7 +1537,7 @@
                                                 </div>
 
                                                 <!-- Módulo 2: Compras -->
-                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <span class="menu-link">
                                                         <span class="menu-icon"><i class="ki-duotone ki-basket fs-2"></i></span>
                                                         <span class="menu-title">Compras</span>
@@ -1565,7 +1565,7 @@
 
 
                                                 <!-- Módulo 3: Estoque -->
-                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <span class="menu-link">
                                                         <span class="menu-icon"><i class="ki-duotone ki-box fs-2"></i></span>
                                                         <span class="menu-title">Estoque</span>
@@ -1591,7 +1591,7 @@
 
 
                                                 <!-- Módulo 4: Contabilidade -->
-                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <span class="menu-link">
                                                         <span class="menu-icon"><i class="ki-duotone ki-calculator fs-2"></i></span>
                                                         <span class="menu-title">Contabilidade</span>
@@ -1628,7 +1628,7 @@
 
 
                                                 <!-- Módulo 5: Recursos Humanos -->
-                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <span class="menu-link">
                                                         <span class="menu-icon"><i class="ki-duotone ki-users fs-2"></i></span>
                                                         <span class="menu-title">Recursos Humanos</span>
@@ -1666,7 +1666,7 @@
 
 
                                                 <!-- Módulo 6: Navegador -->
-                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <span class="menu-link">
                                                         <span class="menu-icon"><i class="ki-duotone ki-browser fs-2"></i></span>
                                                         <span class="menu-title">Navegador</span>
@@ -1698,7 +1698,7 @@
 
 
                                                 <!-- Módulo 7: Configurações -->
-                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <span class="menu-link">
                                                         <span class="menu-icon"><i class="ki-duotone ki-settings fs-2"></i></span>
                                                         <span class="menu-title">Configurações</span>
@@ -1729,7 +1729,7 @@
 
 
                                                 <!-- Módulo 8: Email -->
-                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <span class="menu-link">
                                                         <span class="menu-icon"><i class="ki-duotone ki-envelope fs-2"></i></span>
                                                         <span class="menu-title">Email</span>
@@ -1759,7 +1759,7 @@
                                                 </div>
 
                                                 <!-- Módulo 9: Calendário -->
-                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <span class="menu-link">
                                                         <span class="menu-icon"><i class="ki-duotone ki-calendar fs-2"></i></span>
                                                         <span class="menu-title">Calendário</span>
@@ -1790,7 +1790,7 @@
 
 
                                                 <!-- Módulo 10: Documentos -->
-                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <span class="menu-link">
                                                         <span class="menu-icon"><i class="ki-duotone ki-file-text fs-2"></i></span>
                                                         <span class="menu-title">Documentos</span>
@@ -1821,7 +1821,7 @@
 
 
                                                 <!-- Módulo 10: Documentos -->
-                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <span class="menu-link">
                                                         <span class="menu-icon"><i class="ki-duotone ki-file-text fs-2"></i></span>
                                                         <span class="menu-title">Documentos</span>
@@ -1850,7 +1850,7 @@
                                                     </div>
                                                 </div>
                                                 <!-- Módulo 11: Logística -->
-                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <span class="menu-link">
                                                         <span class="menu-icon"><i class="ki-duotone ki-truck fs-2"></i></span>
                                                         <span class="menu-title">Logística</span>
@@ -1879,7 +1879,7 @@
                                                     </div>
                                                 </div>
                                                 <!-- Módulo 12: Gestão de Equipe -->
-                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <span class="menu-link">
                                                         <span class="menu-icon"><i class="ki-duotone ki-users fs-2"></i></span>
                                                         <span class="menu-title">Gestão de Equipe</span>
@@ -1908,7 +1908,7 @@
                                                     </div>
                                                 </div>
                                                 <!-- Módulo 13: Relatórios -->
-                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <span class="menu-link">
                                                         <span class="menu-icon"><i class="ki-duotone ki-file-chart fs-2"></i></span>
                                                         <span class="menu-title">Relatórios</span>
@@ -1937,7 +1937,7 @@
                                                     </div>
                                                 </div>
                                                 <!-- Módulo 14: CRM -->
-                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <span class="menu-link">
                                                         <span class="menu-icon"><i class="ki-duotone ki-handshake fs-2"></i></span>
                                                         <span class="menu-title">CRM</span>
@@ -1966,7 +1966,7 @@
                                                     </div>
                                                 </div>
                                                 <!-- Módulo 15: Ponto de Venda -->
-                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <span class="menu-link">
                                                         <span class="menu-icon"><i class="ki-duotone ki-cash-register fs-2"></i></span>
                                                         <span class="menu-title">Ponto de Venda</span>
@@ -1995,7 +1995,7 @@
                                                     </div>
                                                 </div>
                                                 <!-- Módulo 16: E-commerce -->
-                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <span class="menu-link">
                                                         <span class="menu-icon"><i class="ki-duotone ki-shopping-cart fs-2"></i></span>
                                                         <span class="menu-title">E-commerce</span>
@@ -2024,7 +2024,7 @@
                                                     </div>
                                                 </div>
                                                 <!-- Módulo 17: Produção -->
-                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <span class="menu-link">
                                                         <span class="menu-icon"><i class="ki-duotone ki-settings fs-2"></i></span>
                                                         <span class="menu-title">Produção</span>
@@ -2053,7 +2053,7 @@
                                                     </div>
                                                 </div>
                                                 <!-- Módulo 18: Frotas -->
-                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <span class="menu-link">
                                                         <span class="menu-icon"><i class="ki-duotone ki-car fs-2"></i></span>
                                                         <span class="menu-title">Frotas</span>
@@ -2082,7 +2082,7 @@
                                                     </div>
                                                 </div>
                                                 <!-- Módulo 19: Faturamento -->
-                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <span class="menu-link">
                                                         <span class="menu-icon"><i class="ki-duotone ki-file-dollar fs-2"></i></span>
                                                         <span class="menu-title">Faturamento</span>
@@ -2111,7 +2111,7 @@
                                                     </div>
                                                 </div>
                                                 <!-- Módulo 20: Projetos -->
-                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <span class="menu-link">
                                                         <span class="menu-icon"><i class="ki-duotone ki-briefcase fs-2"></i></span>
                                                         <span class="menu-title">Projetos</span>
@@ -2140,7 +2140,7 @@
                                                     </div>
                                                 </div>
                                                 <!-- Módulo 21: Compras -->
-                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <span class="menu-link">
                                                         <span class="menu-icon"><i class="ki-duotone ki-shopping-cart fs-2"></i></span>
                                                         <span class="menu-title">Compras</span>
@@ -2169,7 +2169,7 @@
                                                     </div>
                                                 </div>
                                                 <!-- Módulo 21: Compras -->
-                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <span class="menu-link">
                                                         <span class="menu-icon"><i class="ki-duotone ki-shopping-cart fs-2"></i></span>
                                                         <span class="menu-title">Compras</span>
@@ -2198,7 +2198,7 @@
                                                     </div>
                                                 </div>
                                                 <!-- Módulo 23: Serviços -->
-                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <span class="menu-link">
                                                         <span class="menu-icon"><i class="ki-duotone ki-settings fs-2"></i></span>
                                                         <span class="menu-title">Serviços</span>
@@ -2227,7 +2227,7 @@
                                                     </div>
                                                 </div>
                                                 <!-- Módulo 24: Inventário -->
-                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <span class="menu-link">
                                                         <span class="menu-icon"><i class="ki-duotone ki-archive fs-2"></i></span>
                                                         <span class="menu-title">Inventário</span>
@@ -2258,7 +2258,7 @@
 
 
                                                 <!-- Módulo 25: Dashboard -->
-                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <span class="menu-link">
                                                         <span class="menu-icon"><i class="ki-duotone ki-element-11 fs-2"></i></span>
                                                         <span class="menu-title">Dashboard</span>
@@ -2382,7 +2382,7 @@
 
                                             <div id="kt_aside_menu_wrapper" class="menu-fit">
                                                 <!--begin:Menu item-->
-                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <!--begin:Menu link--><span class="menu-link"><span class="menu-icon"><i class="ki-duotone ki-element-11 fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i></span><span class="menu-title">Dashboards</span><span class="menu-arrow"></span></span><!--end:Menu link--><!--begin:Menu sub-->
                                                     <div class="menu-sub menu-sub-accordion"><!--begin:Menu item-->
                                                         <div class="menu-item"><!--begin:Menu link--><a class="menu-link" href="../index.html"><span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Default</span></a><!--end:Menu link-->
@@ -2456,7 +2456,7 @@
 
                                             <div id="kt_aside_menu_wrapper" class="menu-fit">
                                                 <!--begin:Menu item-->
-                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <!--begin:Menu link--><span class="menu-link"><span class="menu-icon"><i class="ki-duotone ki-element-11 fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i></span><span class="menu-title">Dashboards</span><span class="menu-arrow"></span></span><!--end:Menu link--><!--begin:Menu sub-->
                                                     <div class="menu-sub menu-sub-accordion"><!--begin:Menu item-->
                                                         <div class="menu-item"><!--begin:Menu link--><a class="menu-link" href="../index.html"><span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Default</span></a><!--end:Menu link-->
