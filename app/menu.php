@@ -1409,6 +1409,152 @@
                                                 </div><!--end:Menu item--><!--begin:Menu item-->
 
 
+                                                <!-- Menu Principal -->
+<div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+    <span class="menu-link">
+        <span class="menu-icon"><i class="ki-duotone ki-bank fs-2"></i></span>
+        <span class="menu-title">Banco</span>
+        <span class="menu-arrow"></span>
+    </span>
+    <div class="menu-sub menu-sub-accordion">
+
+        <!-- Módulo Contas -->
+        <div class="menu-item">
+            <a class="menu-link" href="#">
+                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                <span class="menu-title">Contas</span>
+            </a>
+            <div class="menu-sub menu-sub-accordion">
+                <div class="menu-item">
+                    <a class="menu-link" href="#">
+                        <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                        <span class="menu-title">Saldo</span>
+                    </a>
+                </div>
+                <div class="menu-item">
+                    <a class="menu-link" href="#">
+                        <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                        <span class="menu-title">Extrato</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Módulo Transferências -->
+        <div class="menu-item">
+            <a class="menu-link" href="#">
+                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                <span class="menu-title">Transferências</span>
+            </a>
+            <div class="menu-sub menu-sub-accordion">
+                <div class="menu-item">
+                    <a class="menu-link" href="#">
+                        <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                        <span class="menu-title">Transferência Interna</span>
+                    </a>
+                </div>
+                <div class="menu-item">
+                    <a class="menu-link" href="#">
+                        <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                        <span class="menu-title">TED/DOC</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Módulo Investimentos -->
+        <div class="menu-item">
+            <a class="menu-link" href="#">
+                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                <span class="menu-title">Investimentos</span>
+            </a>
+            <div class="menu-sub menu-sub-accordion">
+                <div class="menu-item">
+                    <a class="menu-link" href="#">
+                        <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                        <span class="menu-title">Renda Fixa</span>
+                    </a>
+                </div>
+                <div class="menu-item">
+                    <a class="menu-link" href="#">
+                        <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                        <span class="menu-title">Renda Variável</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Módulo Empréstimos -->
+        <div class="menu-item">
+            <a class="menu-link" href="#">
+                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                <span class="menu-title">Empréstimos</span>
+            </a>
+            <div class="menu-sub menu-sub-accordion">
+                <div class="menu-item">
+                    <a class="menu-link" href="#">
+                        <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                        <span class="menu-title">Simulação</span>
+                    </a>
+                </div>
+                <div class="menu-item">
+                    <a class="menu-link" href="#">
+                        <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                        <span class="menu-title">Solicitação</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Módulo Cartões -->
+        <div class="menu-item">
+            <a class="menu-link" href="#">
+                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                <span class="menu-title">Cartões</span>
+            </a>
+            <div class="menu-sub menu-sub-accordion">
+                <div class="menu-item">
+                    <a class="menu-link" href="#">
+                        <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                        <span class="menu-title">Fatura</span>
+                    </a>
+                </div>
+                <div class="menu-item">
+                    <a class="menu-link" href="#">
+                        <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                        <span class="menu-title">Bloqueio/Desbloqueio</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Módulo Serviços Online -->
+        <div class="menu-item">
+            <a class="menu-link" href="#">
+                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                <span class="menu-title">Serviços Online</span>
+            </a>
+            <div class="menu-sub menu-sub-accordion">
+                <div class="menu-item">
+                    <a class="menu-link" href="#">
+                        <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                        <span class="menu-title">Chat Online</span>
+                    </a>
+                </div>
+                <div class="menu-item">
+                    <a class="menu-link" href="#">
+                        <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                        <span class="menu-title">Agendamento de Atendimento</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
 
                                                 <div class="menu-item">
                                                     <!--begin:Menu link--><a class="menu-link" href="https://developer.ibanco.me" target="_blank"><span class="menu-icon"><i class="ki-duotone ki-code fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i></span><span class="menu-title">Extrato
