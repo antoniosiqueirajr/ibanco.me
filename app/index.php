@@ -118,7 +118,6 @@
         <!--end::Container-->
     </div>
     <!--end::Header-->
-    <!--begin::Content-->
     <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
         <!--begin::Container-->
         <div class=" container-xxl " id="kt_content_container">
@@ -136,24 +135,24 @@
                                 <!--begin::Info-->
                                 <div class="d-flex align-items-center">
                                     <!--begin::Currency-->
-                                    <span class="fs-4 fw-semibold text-gray-500 me-1 align-self-start">$</span>
+                                    <span class="fs-4 fw-semibold text-gray-500 me-1 align-self-start"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$</font></font></span>
                                     <!--end::Currency-->
 
                                     <!--begin::Amount-->
-                                    <span class="fs-2hx fw-bold text-gray-900 me-2 lh-1 ls-n2">69,700</span>
+                                    <span class="fs-2hx fw-bold text-gray-900 me-2 lh-1 ls-n2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">69.700</font></font></span>
                                     <!--end::Amount-->
 
                                     <!--begin::Badge-->
                                     <span class="badge badge-light-success fs-base">
-                                        <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1"><span class="path1"></span><span class="path2"></span></i>
-                                        2.2%
-                                    </span>
+                                        <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1"><span class="path1"></span><span class="path2"></span></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                        2,2%
+                                    </font></font></span>
                                     <!--end::Badge-->
                                 </div>
                                 <!--end::Info-->
 
                                 <!--begin::Subtitle-->
-                                <span class="text-gray-500 pt-1 fw-semibold fs-6">Expected Earnings</span>
+                                <span class="text-gray-500 pt-1 fw-semibold fs-6"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ganhos esperados</font></font></span>
                                 <!--end::Subtitle-->
                             </div>
                             <!--end::Title-->
@@ -165,7 +164,7 @@
                             <!--begin::Chart-->
                             <div class="d-flex flex-center me-5 pt-2">
                                 <div id="kt_card_widget_4_chart" style="min-width: 70px; min-height: 70px" data-kt-size="70" data-kt-line="11">
-                                </div>
+                                <span></span><canvas height="70" width="70"></canvas></div>
                             </div>
                             <!--end::Chart-->
 
@@ -178,11 +177,11 @@
                                     <!--end::Bullet-->
 
                                     <!--begin::Label-->
-                                    <div class="text-gray-500 flex-grow-1 me-4">Shoes</div>
+                                    <div class="text-gray-500 flex-grow-1 me-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sapato</font></font></div>
                                     <!--end::Label-->
 
                                     <!--begin::Stats-->
-                                    <div class="fw-bolder text-gray-700 text-xxl-end">$7,660</div>
+                                    <div class="fw-bolder text-gray-700 text-xxl-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">US$ 7.660</font></font></div>
                                     <!--end::Stats-->
                                 </div>
                                 <!--end::Label-->
@@ -194,11 +193,11 @@
                                     <!--end::Bullet-->
 
                                     <!--begin::Label-->
-                                    <div class="text-gray-500 flex-grow-1 me-4">Gaming</div>
+                                    <div class="text-gray-500 flex-grow-1 me-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Jogos</font></font></div>
                                     <!--end::Label-->
 
                                     <!--begin::Stats-->
-                                    <div class="fw-bolder text-gray-700 text-xxl-end">$2,820</div>
+                                    <div class="fw-bolder text-gray-700 text-xxl-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">US$ 2.820</font></font></div>
                                     <!--end::Stats-->
                                 </div>
                                 <!--end::Label-->
@@ -210,11 +209,11 @@
                                     <!--end::Bullet-->
 
                                     <!--begin::Label-->
-                                    <div class="text-gray-500 flex-grow-1 me-4">Others</div>
+                                    <div class="text-gray-500 flex-grow-1 me-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Outros</font></font></div>
                                     <!--end::Label-->
 
                                     <!--begin::Stats-->
-                                    <div class=" fw-bolder text-gray-700 text-xxl-end">$45,257</div>
+                                    <div class=" fw-bolder text-gray-700 text-xxl-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">US$ 45.257</font></font></div>
                                     <!--end::Stats-->
                                 </div>
                                 <!--end::Label-->
@@ -234,20 +233,20 @@
                                 <!--begin::Info-->
                                 <div class="d-flex align-items-center">
                                     <!--begin::Amount-->
-                                    <span class="fs-2hx fw-bold text-gray-900 me-2 lh-1 ls-n2">1,836</span>
+                                    <span class="fs-2hx fw-bold text-gray-900 me-2 lh-1 ls-n2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1.836</font></font></span>
                                     <!--end::Amount-->
 
                                     <!--begin::Badge-->
                                     <span class="badge badge-light-danger fs-base">
-                                        <i class="ki-duotone ki-arrow-down fs-5 text-danger ms-n1"><span class="path1"></span><span class="path2"></span></i>
-                                        2.2%
-                                    </span>
+                                        <i class="ki-duotone ki-arrow-down fs-5 text-danger ms-n1"><span class="path1"></span><span class="path2"></span></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                        2,2%
+                                    </font></font></span>
                                     <!--end::Badge-->
                                 </div>
                                 <!--end::Info-->
 
                                 <!--begin::Subtitle-->
-                                <span class="text-gray-500 pt-1 fw-semibold fs-6">Orders This Month</span>
+                                <span class="text-gray-500 pt-1 fw-semibold fs-6"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pedidos este mês</font></font></span>
                                 <!--end::Subtitle-->
                             </div>
                             <!--end::Title-->
@@ -259,8 +258,8 @@
                             <!--begin::Progress-->
                             <div class="d-flex align-items-center flex-column mt-3 w-100">
                                 <div class="d-flex justify-content-between w-100 mt-auto mb-2">
-                                    <span class="fw-bolder fs-6 text-gray-900">1,048 to Goal</span>
-                                    <span class="fw-bold fs-6 text-gray-500">62%</span>
+                                    <span class="fw-bolder fs-6 text-gray-900"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1.048 para meta</font></font></span>
+                                    <span class="fw-bold fs-6 text-gray-500"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">62%</font></font></span>
                                 </div>
 
                                 <div class="h-8px mx-3 w-100 bg-light-success rounded">
@@ -286,24 +285,24 @@
                                 <!--begin::Info-->
                                 <div class="d-flex align-items-center">
                                     <!--begin::Currency-->
-                                    <span class="fs-4 fw-semibold text-gray-500 me-1 align-self-start">$</span>
+                                    <span class="fs-4 fw-semibold text-gray-500 me-1 align-self-start"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$</font></font></span>
                                     <!--end::Currency-->
 
                                     <!--begin::Amount-->
-                                    <span class="fs-2hx fw-bold text-gray-900 me-2 lh-1 ls-n2">2,420</span>
+                                    <span class="fs-2hx fw-bold text-gray-900 me-2 lh-1 ls-n2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2.420</font></font></span>
                                     <!--end::Amount-->
 
                                     <!--begin::Badge-->
                                     <span class="badge badge-light-success fs-base">
-                                        <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1"><span class="path1"></span><span class="path2"></span></i>
-                                        2.6%
-                                    </span>
+                                        <i class="ki-duotone ki-arrow-up fs-5 text-success ms-n1"><span class="path1"></span><span class="path2"></span></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                        2,6%
+                                    </font></font></span>
                                     <!--end::Badge-->
                                 </div>
                                 <!--end::Info-->
 
                                 <!--begin::Subtitle-->
-                                <span class="text-gray-500 pt-1 fw-semibold fs-6">Average Daily Sales</span>
+                                <span class="text-gray-500 pt-1 fw-semibold fs-6"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Vendas Médias Diárias</font></font></span>
                                 <!--end::Subtitle-->
                             </div>
                             <!--end::Title-->
@@ -313,7 +312,7 @@
                         <!--begin::Card body-->
                         <div class="card-body d-flex align-items-end px-0 pb-0">
                             <!--begin::Chart-->
-                            <div id="kt_card_widget_6_chart" class="w-100" style="height: 80px"></div>
+                            <div id="kt_card_widget_6_chart" class="w-100" style="height: 80px; min-height: 80px;"><div id="apexchartsdkgiwdb4" class="apexcharts-canvas apexchartsdkgiwdb4 apexcharts-theme-light" style="width: 289px; height: 80px;"><svg id="SvgjsSvg1534" width="289" height="80" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" class="apexcharts-svg" xmlns:data="ApexChartsNS" transform="translate(0, 0)" style="background: transparent;"><foreignObject x="0" y="0" width="289" height="80"><div class="apexcharts-legend" xmlns="http://www.w3.org/1999/xhtml" style="max-height: 40px;"></div></foreignObject><g id="SvgjsG1580" class="apexcharts-yaxis" rel="0" transform="translate(-18, 0)"></g><g id="SvgjsG1536" class="apexcharts-inner apexcharts-graphical" transform="translate(35.43888888888889, 4.5)"><defs id="SvgjsDefs1535"><clipPath id="gridRectMaskdkgiwdb4"><rect id="SvgjsRect1538" width="281.99999999999994" height="111" x="-32.43888888888889" y="-20" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath><clipPath id="forecastMaskdkgiwdb4"></clipPath><clipPath id="nonForecastMaskdkgiwdb4"></clipPath><clipPath id="gridRectMarkerMaskdkgiwdb4"><rect id="SvgjsRect1539" width="230.1222222222222" height="75" x="-2" y="-2" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath></defs><g id="SvgjsG1559" class="apexcharts-grid"><g id="SvgjsG1560" class="apexcharts-gridlines-horizontal" style="display: none;"><line id="SvgjsLine1563" x1="-21.43888888888889" y1="0" x2="247.5611111111111" y2="0" stroke="#363843" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1564" x1="-21.43888888888889" y1="17.75" x2="247.5611111111111" y2="17.75" stroke="#363843" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1565" x1="-21.43888888888889" y1="35.5" x2="247.5611111111111" y2="35.5" stroke="#363843" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1566" x1="-21.43888888888889" y1="53.25" x2="247.5611111111111" y2="53.25" stroke="#363843" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1567" x1="-21.43888888888889" y1="71" x2="247.5611111111111" y2="71" stroke="#363843" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line></g><g id="SvgjsG1561" class="apexcharts-gridlines-vertical" style="display: none;"></g><line id="SvgjsLine1569" x1="0" y1="71" x2="226.1222222222222" y2="71" stroke="transparent" stroke-dasharray="0" stroke-linecap="butt"></line><line id="SvgjsLine1568" x1="0" y1="1" x2="0" y2="71" stroke="transparent" stroke-dasharray="0" stroke-linecap="butt"></line></g><g id="SvgjsG1562" class="apexcharts-grid-borders" style="display: none;"></g><g id="SvgjsG1540" class="apexcharts-bar-series apexcharts-plot-series"><g id="SvgjsG1541" class="apexcharts-series" rel="1" seriesName="Sales" data:realIndex="0"><path id="SvgjsPath1546" d="M -10.363935185185184 65.001 L -10.363935185185184 50.376 C -10.363935185185184 47.376 -7.363935185185184 44.376 -4.363935185185184 44.376 L -4.363935185185184 44.376 C -1.5 44.376 1.3639351851851842 47.376 1.3639351851851842 50.376 L 1.3639351851851842 65.001 C 1.3639351851851842 68.001 -1.6360648148148158 71.001 -4.636064814814816 71.001 L -4.636064814814816 71.001 C -7.5 71.001 -10.363935185185184 68.001 -10.363935185185184 65.001 Z " fill="rgba(0,162,97,0.85)" fill-opacity="1" stroke="transparent" stroke-opacity="1" stroke-linecap="round" stroke-width="9" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskdkgiwdb4)" pathTo="M -10.363935185185184 65.001 L -10.363935185185184 50.376 C -10.363935185185184 47.376 -7.363935185185184 44.376 -4.363935185185184 44.376 L -4.363935185185184 44.376 C -1.5 44.376 1.3639351851851842 47.376 1.3639351851851842 50.376 L 1.3639351851851842 65.001 C 1.3639351851851842 68.001 -1.6360648148148158 71.001 -4.636064814814816 71.001 L -4.636064814814816 71.001 C -7.5 71.001 -10.363935185185184 68.001 -10.363935185185184 65.001 Z " pathFrom="M -10.363935185185184 71.001 L -10.363935185185184 71.001 L 1.3639351851851842 71.001 L 1.3639351851851842 71.001 L 1.3639351851851842 71.001 L 1.3639351851851842 71.001 L 1.3639351851851842 71.001 L -10.363935185185184 71.001 Z" cy="44.375" cx="5.863935185185184" j="0" val="30" barHeight="26.625" barWidth="20.72787037037037"></path><path id="SvgjsPath1548" d="M 27.323101851851852 65.001 L 27.323101851851852 23.751 C 27.323101851851852 20.751 30.323101851851852 17.751 33.32310185185185 17.751 L 33.32310185185185 17.751 C 36.18703703703704 17.751 39.05097222222222 20.751 39.05097222222222 23.751 L 39.05097222222222 65.001 C 39.05097222222222 68.001 36.05097222222222 71.001 33.05097222222222 71.001 L 33.05097222222222 71.001 C 30.187037037037037 71.001 27.323101851851852 68.001 27.323101851851852 65.001 Z " fill="rgba(0,162,97,0.85)" fill-opacity="1" stroke="transparent" stroke-opacity="1" stroke-linecap="round" stroke-width="9" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskdkgiwdb4)" pathTo="M 27.323101851851852 65.001 L 27.323101851851852 23.751 C 27.323101851851852 20.751 30.323101851851852 17.751 33.32310185185185 17.751 L 33.32310185185185 17.751 C 36.18703703703704 17.751 39.05097222222222 20.751 39.05097222222222 23.751 L 39.05097222222222 65.001 C 39.05097222222222 68.001 36.05097222222222 71.001 33.05097222222222 71.001 L 33.05097222222222 71.001 C 30.187037037037037 71.001 27.323101851851852 68.001 27.323101851851852 65.001 Z " pathFrom="M 27.323101851851852 71.001 L 27.323101851851852 71.001 L 39.05097222222222 71.001 L 39.05097222222222 71.001 L 39.05097222222222 71.001 L 39.05097222222222 71.001 L 39.05097222222222 71.001 L 27.323101851851852 71.001 Z" cy="17.75" cx="43.55097222222222" j="1" val="60" barHeight="53.25" barWidth="20.72787037037037"></path><path id="SvgjsPath1550" d="M 65.01013888888889 65.001 L 65.01013888888889 29.963500000000007 C 65.01013888888889 26.963500000000007 68.01013888888889 23.963500000000007 71.01013888888889 23.963500000000007 L 71.01013888888889 23.963500000000007 C 73.87407407407407 23.963500000000007 76.73800925925926 26.963500000000007 76.73800925925926 29.963500000000007 L 76.73800925925926 65.001 C 76.73800925925926 68.001 73.73800925925926 71.001 70.73800925925926 71.001 L 70.73800925925926 71.001 C 67.87407407407407 71.001 65.01013888888889 68.001 65.01013888888889 65.001 Z " fill="rgba(0,162,97,0.85)" fill-opacity="1" stroke="transparent" stroke-opacity="1" stroke-linecap="round" stroke-width="9" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskdkgiwdb4)" pathTo="M 65.01013888888889 65.001 L 65.01013888888889 29.963500000000007 C 65.01013888888889 26.963500000000007 68.01013888888889 23.963500000000007 71.01013888888889 23.963500000000007 L 71.01013888888889 23.963500000000007 C 73.87407407407407 23.963500000000007 76.73800925925926 26.963500000000007 76.73800925925926 29.963500000000007 L 76.73800925925926 65.001 C 76.73800925925926 68.001 73.73800925925926 71.001 70.73800925925926 71.001 L 70.73800925925926 71.001 C 67.87407407407407 71.001 65.01013888888889 68.001 65.01013888888889 65.001 Z " pathFrom="M 65.01013888888889 71.001 L 65.01013888888889 71.001 L 76.73800925925926 71.001 L 76.73800925925926 71.001 L 76.73800925925926 71.001 L 76.73800925925926 71.001 L 76.73800925925926 71.001 L 65.01013888888889 71.001 Z" cy="23.962500000000006" cx="81.23800925925926" j="2" val="53" barHeight="47.037499999999994" barWidth="20.72787037037037"></path><path id="SvgjsPath1552" d="M 102.69717592592592 65.001 L 102.69717592592592 37.063500000000005 C 102.69717592592592 34.063500000000005 105.69717592592592 31.0635 108.69717592592592 31.0635 L 108.69717592592592 31.0635 C 111.5611111111111 31.0635 114.42504629629629 34.063500000000005 114.42504629629629 37.063500000000005 L 114.42504629629629 65.001 C 114.42504629629629 68.001 111.42504629629629 71.001 108.42504629629629 71.001 L 108.42504629629629 71.001 C 105.5611111111111 71.001 102.69717592592592 68.001 102.69717592592592 65.001 Z " fill="rgba(0,162,97,0.85)" fill-opacity="1" stroke="transparent" stroke-opacity="1" stroke-linecap="round" stroke-width="9" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskdkgiwdb4)" pathTo="M 102.69717592592592 65.001 L 102.69717592592592 37.063500000000005 C 102.69717592592592 34.063500000000005 105.69717592592592 31.0635 108.69717592592592 31.0635 L 108.69717592592592 31.0635 C 111.5611111111111 31.0635 114.42504629629629 34.063500000000005 114.42504629629629 37.063500000000005 L 114.42504629629629 65.001 C 114.42504629629629 68.001 111.42504629629629 71.001 108.42504629629629 71.001 L 108.42504629629629 71.001 C 105.5611111111111 71.001 102.69717592592592 68.001 102.69717592592592 65.001 Z " pathFrom="M 102.69717592592592 71.001 L 102.69717592592592 71.001 L 114.42504629629629 71.001 L 114.42504629629629 71.001 L 114.42504629629629 71.001 L 114.42504629629629 71.001 L 114.42504629629629 71.001 L 102.69717592592592 71.001 Z" cy="31.0625" cx="118.92504629629629" j="3" val="45" barHeight="39.9375" barWidth="20.72787037037037"></path><path id="SvgjsPath1554" d="M 140.38421296296298 65.001 L 140.38421296296298 23.751 C 140.38421296296298 20.751 143.38421296296298 17.751 146.38421296296298 17.751 L 146.38421296296298 17.751 C 149.24814814814818 17.751 152.11208333333335 20.751 152.11208333333335 23.751 L 152.11208333333335 65.001 C 152.11208333333335 68.001 149.11208333333335 71.001 146.11208333333335 71.001 L 146.11208333333335 71.001 C 143.24814814814818 71.001 140.38421296296298 68.001 140.38421296296298 65.001 Z " fill="rgba(0,162,97,0.85)" fill-opacity="1" stroke="transparent" stroke-opacity="1" stroke-linecap="round" stroke-width="9" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskdkgiwdb4)" pathTo="M 140.38421296296298 65.001 L 140.38421296296298 23.751 C 140.38421296296298 20.751 143.38421296296298 17.751 146.38421296296298 17.751 L 146.38421296296298 17.751 C 149.24814814814818 17.751 152.11208333333335 20.751 152.11208333333335 23.751 L 152.11208333333335 65.001 C 152.11208333333335 68.001 149.11208333333335 71.001 146.11208333333335 71.001 L 146.11208333333335 71.001 C 143.24814814814818 71.001 140.38421296296298 68.001 140.38421296296298 65.001 Z " pathFrom="M 140.38421296296298 71.001 L 140.38421296296298 71.001 L 152.11208333333335 71.001 L 152.11208333333335 71.001 L 152.11208333333335 71.001 L 152.11208333333335 71.001 L 152.11208333333335 71.001 L 140.38421296296298 71.001 Z" cy="17.75" cx="156.61208333333335" j="4" val="60" barHeight="53.25" barWidth="20.72787037037037"></path><path id="SvgjsPath1556" d="M 178.07124999999996 65.001 L 178.07124999999996 10.438500000000001 C 178.07124999999996 7.438500000000001 181.07124999999996 4.4385 184.07124999999996 4.4385 L 184.07124999999996 4.4385 C 186.93518518518516 4.4385 189.79912037037033 7.438500000000001 189.79912037037033 10.438500000000001 L 189.79912037037033 65.001 C 189.79912037037033 68.001 186.79912037037033 71.001 183.79912037037033 71.001 L 183.79912037037033 71.001 C 180.93518518518516 71.001 178.07124999999996 68.001 178.07124999999996 65.001 Z " fill="rgba(0,162,97,0.85)" fill-opacity="1" stroke="transparent" stroke-opacity="1" stroke-linecap="round" stroke-width="9" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskdkgiwdb4)" pathTo="M 178.07124999999996 65.001 L 178.07124999999996 10.438500000000001 C 178.07124999999996 7.438500000000001 181.07124999999996 4.4385 184.07124999999996 4.4385 L 184.07124999999996 4.4385 C 186.93518518518516 4.4385 189.79912037037033 7.438500000000001 189.79912037037033 10.438500000000001 L 189.79912037037033 65.001 C 189.79912037037033 68.001 186.79912037037033 71.001 183.79912037037033 71.001 L 183.79912037037033 71.001 C 180.93518518518516 71.001 178.07124999999996 68.001 178.07124999999996 65.001 Z " pathFrom="M 178.07124999999996 71.001 L 178.07124999999996 71.001 L 189.79912037037033 71.001 L 189.79912037037033 71.001 L 189.79912037037033 71.001 L 189.79912037037033 71.001 L 189.79912037037033 71.001 L 178.07124999999996 71.001 Z" cy="4.4375" cx="194.29912037037033" j="5" val="75" barHeight="66.5625" barWidth="20.72787037037037"></path><path id="SvgjsPath1558" d="M 215.758287037037 65.001 L 215.758287037037 29.963500000000007 C 215.758287037037 26.963500000000007 218.758287037037 23.963500000000007 221.758287037037 23.963500000000007 L 221.758287037037 23.963500000000007 C 224.6222222222222 23.963500000000007 227.48615740740738 26.963500000000007 227.48615740740738 29.963500000000007 L 227.48615740740738 65.001 C 227.48615740740738 68.001 224.48615740740738 71.001 221.48615740740738 71.001 L 221.48615740740738 71.001 C 218.6222222222222 71.001 215.758287037037 68.001 215.758287037037 65.001 Z " fill="rgba(0,162,97,0.85)" fill-opacity="1" stroke="transparent" stroke-opacity="1" stroke-linecap="round" stroke-width="9" stroke-dasharray="0" class="apexcharts-bar-area" index="0" clip-path="url(#gridRectMaskdkgiwdb4)" pathTo="M 215.758287037037 65.001 L 215.758287037037 29.963500000000007 C 215.758287037037 26.963500000000007 218.758287037037 23.963500000000007 221.758287037037 23.963500000000007 L 221.758287037037 23.963500000000007 C 224.6222222222222 23.963500000000007 227.48615740740738 26.963500000000007 227.48615740740738 29.963500000000007 L 227.48615740740738 65.001 C 227.48615740740738 68.001 224.48615740740738 71.001 221.48615740740738 71.001 L 221.48615740740738 71.001 C 218.6222222222222 71.001 215.758287037037 68.001 215.758287037037 65.001 Z " pathFrom="M 215.758287037037 71.001 L 215.758287037037 71.001 L 227.48615740740738 71.001 L 227.48615740740738 71.001 L 227.48615740740738 71.001 L 227.48615740740738 71.001 L 227.48615740740738 71.001 L 215.758287037037 71.001 Z" cy="23.962500000000006" cx="231.98615740740738" j="6" val="53" barHeight="47.037499999999994" barWidth="20.72787037037037"></path><g id="SvgjsG1543" class="apexcharts-bar-goals-markers"><g id="SvgjsG1545" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMaskdkgiwdb4)"></g><g id="SvgjsG1547" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMaskdkgiwdb4)"></g><g id="SvgjsG1549" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMaskdkgiwdb4)"></g><g id="SvgjsG1551" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMaskdkgiwdb4)"></g><g id="SvgjsG1553" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMaskdkgiwdb4)"></g><g id="SvgjsG1555" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMaskdkgiwdb4)"></g><g id="SvgjsG1557" className="apexcharts-bar-goals-groups" class="apexcharts-hidden-element-shown" clip-path="url(#gridRectMarkerMaskdkgiwdb4)"></g></g><g id="SvgjsG1544" class="apexcharts-bar-shadows apexcharts-hidden-element-shown"></g></g><g id="SvgjsG1542" class="apexcharts-datalabels apexcharts-hidden-element-shown" data:realIndex="0"></g></g><line id="SvgjsLine1570" x1="-21.43888888888889" y1="0" x2="247.5611111111111" y2="0" stroke="#b6b6b6" stroke-dasharray="0" stroke-width="1" stroke-linecap="butt" class="apexcharts-ycrosshairs"></line><line id="SvgjsLine1571" x1="-21.43888888888889" y1="0" x2="247.5611111111111" y2="0" stroke-dasharray="0" stroke-width="0" stroke-linecap="butt" class="apexcharts-ycrosshairs-hidden"></line><g id="SvgjsG1572" class="apexcharts-xaxis" transform="translate(0, 0)"><g id="SvgjsG1573" class="apexcharts-xaxis-texts-g" transform="translate(0, -4)"></g></g><g id="SvgjsG1581" class="apexcharts-yaxis-annotations"></g><g id="SvgjsG1582" class="apexcharts-xaxis-annotations"></g><g id="SvgjsG1583" class="apexcharts-point-annotations"></g></g></svg><div class="apexcharts-tooltip apexcharts-theme-light"><div class="apexcharts-tooltip-title" style="font-family: inherit; font-size: 12px;"></div><div class="apexcharts-tooltip-series-group" style="order: 1;"><span class="apexcharts-tooltip-marker" style="background-color: rgb(0, 162, 97);"></span><div class="apexcharts-tooltip-text" style="font-family: inherit; font-size: 12px;"><div class="apexcharts-tooltip-y-group"><span class="apexcharts-tooltip-text-y-label"></span><span class="apexcharts-tooltip-text-y-value"></span></div><div class="apexcharts-tooltip-goals-group"><span class="apexcharts-tooltip-text-goals-label"></span><span class="apexcharts-tooltip-text-goals-value"></span></div><div class="apexcharts-tooltip-z-group"><span class="apexcharts-tooltip-text-z-label"></span><span class="apexcharts-tooltip-text-z-value"></span></div></div></div></div><div class="apexcharts-yaxistooltip apexcharts-yaxistooltip-0 apexcharts-yaxistooltip-left apexcharts-theme-light"><div class="apexcharts-yaxistooltip-text"></div></div></div></div>
                             <!--end::Chart-->
                         </div>
                         <!--end::Card body-->
@@ -328,12 +327,11 @@
                             <!--begin::Title-->
                             <div class="card-title d-flex flex-column">
                                 <!--begin::Amount-->
-                                <span class="fs-2hx fw-bold text-gray-900 me-2 lh-1 ls-n2">6.3k</span>
+                                <span class="fs-2hx fw-bold text-gray-900 me-2 lh-1 ls-n2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">6,3 mil</font></font></span>
                                 <!--end::Amount-->
 
                                 <!--begin::Subtitle-->
-                                <span class="text-gray-500 pt-1 fw-semibold fs-6">New Customers This
-                                    Month</span>
+                                <span class="text-gray-500 pt-1 fw-semibold fs-6"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Novos clientes este mês</font></font></span>
                                 <!--end::Subtitle-->
                             </div>
                             <!--end::Title-->
@@ -343,31 +341,31 @@
                         <!--begin::Card body-->
                         <div class="card-body d-flex flex-column justify-content-end pe-0">
                             <!--begin::Title-->
-                            <span class="fs-6 fw-bolder text-gray-800 d-block mb-2">Today’s Heroes</span>
+                            <span class="fs-6 fw-bolder text-gray-800 d-block mb-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Os heróis de hoje</font></font></span>
                             <!--end::Title-->
 
                             <!--begin::Users group-->
                             <div class="symbol-group symbol-hover flex-nowrap">
-                                <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Alan Warden">
-                                    <span class="symbol-label bg-warning text-inverse-warning fw-bold">A</span>
+                                <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" data-bs-original-title="Alan Warden" data-kt-initialized="1">
+                                    <span class="symbol-label bg-warning text-inverse-warning fw-bold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">A</font></font></span>
                                 </div>
-                                <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Michael Eberon">
-                                    <img alt="Pic" src="assets/media/avatars/300-11-1.jpg">
+                                <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" aria-label="Michael Éberon" data-bs-original-title="Michael Eberon" data-kt-initialized="1">
+                                    <img alt="Foto" src="assets/media/avatars/300-11-1.jpg">
                                 </div>
-                                <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Susan Redwood">
-                                    <span class="symbol-label bg-primary text-inverse-primary fw-bold">S</span>
+                                <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" data-bs-original-title="Susan Redwood" data-kt-initialized="1">
+                                    <span class="symbol-label bg-primary text-inverse-primary fw-bold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">S</font></font></span>
                                 </div>
-                                <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Melody Macy">
-                                    <img alt="Pic" src="assets/media/avatars/300-2-1.jpg">
+                                <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" aria-label="Melodia Macy" data-bs-original-title="Melody Macy" data-kt-initialized="1">
+                                    <img alt="Foto" src="assets/media/avatars/300-2-1.jpg">
                                 </div>
-                                <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Perry Matthew">
-                                    <span class="symbol-label bg-danger text-inverse-danger fw-bold">P</span>
+                                <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" data-bs-original-title="Perry Matthew" data-kt-initialized="1">
+                                    <span class="symbol-label bg-danger text-inverse-danger fw-bold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">P</font></font></span>
                                 </div>
-                                <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Barry Walter">
-                                    <img alt="Pic" src="assets/media/avatars/300-12-1.jpg">
+                                <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" aria-label="Barry Walter" data-bs-original-title="Barry Walter" data-kt-initialized="1">
+                                    <img alt="Foto" src="assets/media/avatars/300-12-1.jpg">
                                 </div>
                                 <a href="#" class="symbol symbol-35px symbol-circle" data-bs-toggle="modal" data-bs-target="#kt_modal_view_users">
-                                    <span class="symbol-label bg-light text-gray-400 fs-8 fw-bold">+42</span>
+                                    <span class="symbol-label bg-light text-gray-400 fs-8 fw-bold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+42</font></font></span>
                                 </a>
                             </div>
                             <!--end::Users group-->
@@ -386,9 +384,8 @@
                         <div class="card-header py-5">
                             <!--begin::Title-->
                             <h3 class="card-title align-items-start flex-column">
-                                <span class="card-label fw-bold text-gray-900">Sales This Months</span>
-                                <span class="text-gray-500 mt-1 fw-semibold fs-6">Users from all
-                                    channels</span>
+                                <span class="card-label fw-bold text-gray-900"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Vendas nestes meses</font></font></span>
+                                <span class="text-gray-500 mt-1 fw-semibold fs-6"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Usuários de todos os canais</font></font></span>
                             </h3>
                             <!--end::Title-->
 
@@ -505,20 +502,19 @@
                             <div class="px-9 mb-5">
                                 <!--begin::Statistics-->
                                 <div class="d-flex mb-2">
-                                    <span class="fs-4 fw-semibold text-gray-500 me-1">$</span>
-                                    <span class="fs-2hx fw-bold text-gray-800 me-2 lh-1 ls-n2">14,094</span>
+                                    <span class="fs-4 fw-semibold text-gray-500 me-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$</font></font></span>
+                                    <span class="fs-2hx fw-bold text-gray-800 me-2 lh-1 ls-n2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">14.094</font></font></span>
                                 </div>
                                 <!--end::Statistics-->
 
                                 <!--begin::Description-->
-                                <span class="fs-6 fw-semibold text-gray-500">Another $48,346 to Goal</span>
+                                <span class="fs-6 fw-semibold text-gray-500"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Outros $ 48.346 para a meta</font></font></span>
                                 <!--end::Description-->
                             </div>
                             <!--end::Statistics-->
 
                             <!--begin::Chart-->
-                            <div id="kt_charts_widget_3" class="min-h-auto ps-4 pe-6" style="height: 300px">
-                            </div>
+                            <div id="kt_charts_widget_3" class="min-h-auto ps-4 pe-6" style="height: 300px; min-height: 315px;"><div id="apexchartsgnt2gc3r" class="apexcharts-canvas apexchartsgnt2gc3r apexcharts-theme-light" style="width: 579.5px; height: 300px;"><svg id="SvgjsSvg1295" width="579.5" height="300" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" class="apexcharts-svg apexcharts-zoomable" xmlns:data="ApexChartsNS" transform="translate(0, 0)" style="background: transparent;"><foreignObject x="0" y="0" width="579.5" height="300"><div class="apexcharts-legend" xmlns="http://www.w3.org/1999/xhtml" style="max-height: 150px;"></div></foreignObject><rect id="SvgjsRect1324" width="0" height="0" x="0" y="0" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fefefe"></rect><g id="SvgjsG1387" class="apexcharts-yaxis" rel="0" transform="translate(35.0390625, 0)"><g id="SvgjsG1388" class="apexcharts-yaxis-texts-g"><text id="SvgjsText1390" font-family="inherit" x="20" y="31.4" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-yaxis-label " style="font-family: inherit;"><tspan id="SvgjsTspan1391">$24K</tspan><title>$24K</title></text><text id="SvgjsText1393" font-family="inherit" x="20" y="87.12466666666667" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-yaxis-label " style="font-family: inherit;"><tspan id="SvgjsTspan1394">$20.5K</tspan><title>$20.5K</title></text><text id="SvgjsText1396" font-family="inherit" x="20" y="142.84933333333333" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-yaxis-label " style="font-family: inherit;"><tspan id="SvgjsTspan1397">$17K</tspan><title>$17K</title></text><text id="SvgjsText1399" font-family="inherit" x="20" y="198.57399999999998" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-yaxis-label " style="font-family: inherit;"><tspan id="SvgjsTspan1400">$13.5K</tspan><title>$13.5K</title></text><text id="SvgjsText1402" font-family="inherit" x="20" y="254.29866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-yaxis-label " style="font-family: inherit;"><tspan id="SvgjsTspan1403">$10K</tspan><title>$10K</title></text></g></g><g id="SvgjsG1297" class="apexcharts-inner apexcharts-graphical" transform="translate(65.0390625, 30)"><defs id="SvgjsDefs1296"><clipPath id="gridRectMaskgnt2gc3r"><rect id="SvgjsRect1301" width="511.4609375" height="238.89866666666666" x="-5" y="-8" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath><clipPath id="forecastMaskgnt2gc3r"></clipPath><clipPath id="nonForecastMaskgnt2gc3r"></clipPath><clipPath id="gridRectMarkerMaskgnt2gc3r"><rect id="SvgjsRect1302" width="508.4609375" height="226.89866666666666" x="-2" y="-2" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath><linearGradient id="SvgjsLinearGradient1307" x1="0" y1="0" x2="0" y2="1"><stop id="SvgjsStop1308" stop-opacity="0.4" stop-color="rgba(0,106,230,0.4)" offset="0"></stop><stop id="SvgjsStop1309" stop-opacity="0" stop-color="rgba(255,255,255,0)" offset="0.8"></stop><stop id="SvgjsStop1310" stop-opacity="0" stop-color="rgba(255,255,255,0)" offset="1"></stop></linearGradient></defs><g id="SvgjsG1313" class="apexcharts-grid"><g id="SvgjsG1314" class="apexcharts-gridlines-horizontal"><line id="SvgjsLine1318" x1="0" y1="55.724666666666664" x2="504.4609375" y2="55.724666666666664" stroke="#363843" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1319" x1="0" y1="111.44933333333333" x2="504.4609375" y2="111.44933333333333" stroke="#363843" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1320" x1="0" y1="167.17399999999998" x2="504.4609375" y2="167.17399999999998" stroke="#363843" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line></g><g id="SvgjsG1315" class="apexcharts-gridlines-vertical"></g><line id="SvgjsLine1323" x1="0" y1="222.89866666666666" x2="504.4609375" y2="222.89866666666666" stroke="transparent" stroke-dasharray="0" stroke-linecap="butt"></line><line id="SvgjsLine1322" x1="0" y1="1" x2="0" y2="222.89866666666666" stroke="transparent" stroke-dasharray="0" stroke-linecap="butt"></line></g><g id="SvgjsG1316" class="apexcharts-grid-borders"><line id="SvgjsLine1317" x1="0" y1="0" x2="504.4609375" y2="0" stroke="#363843" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1321" x1="0" y1="222.89866666666666" x2="504.4609375" y2="222.89866666666666" stroke="#363843" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line></g><g id="SvgjsG1303" class="apexcharts-area-series apexcharts-plot-series"><g id="SvgjsG1304" class="apexcharts-series" zIndex="0" seriesName="Sales" data:longestSeries="true" rel="1" data:realIndex="0"><path id="SvgjsPath1311" d="M 0 222.89866666666666 L 0 95.52799999999996C4.670934606481482, 95.52799999999996, 18.683738425925924, 95.52799999999996, 28.02560763888889, 95.52799999999996S46.70934606481482, 63.68533333333329, 56.05121527777778, 63.68533333333329S74.73495370370371, 63.68533333333329, 84.07682291666667, 63.68533333333329S102.7605613425926, 95.52799999999996, 112.10243055555556, 95.52799999999996S130.7861689814815, 95.52799999999996, 140.12803819444446, 95.52799999999996S158.81177662037038, 31.842666666666616, 168.15364583333334, 31.842666666666616S186.83738425925927, 31.842666666666616, 196.17925347222223, 31.842666666666616S214.86299189814815, 63.68533333333329, 224.20486111111111, 63.68533333333329S242.88859953703707, 63.68533333333329, 252.23046875000003, 63.68533333333329S270.914207175926, 95.52799999999996, 280.2560763888889, 95.52799999999996S298.9398148148148, 95.52799999999996, 308.28168402777777, 95.52799999999996S326.9654224537037, 63.68533333333329, 336.3072916666667, 63.68533333333329S354.9910300925926, 63.68533333333329, 364.3328993055556, 63.68533333333329S383.0166377314815, 95.52799999999996, 392.35850694444446, 95.52799999999996S411.04224537037044, 95.52799999999996, 420.38411458333337, 95.52799999999996S439.06785300925924, 63.68533333333329, 448.40972222222223, 63.68533333333329S467.09346064814815, 63.68533333333329, 476.43532986111114, 63.68533333333329S502.4220721998492, 34.15922333039614, 504.46093750000006, 31.842666666666616 L 504.46093750000006 222.89866666666666 L 0 222.89866666666666M 0 95.52799999999996z" fill="url(#SvgjsLinearGradient1307)" fill-opacity="1" stroke-opacity="1" stroke-linecap="butt" stroke-width="0" stroke-dasharray="0" class="apexcharts-area" index="0" clip-path="url(#gridRectMaskgnt2gc3r)" pathTo="M 0 222.89866666666666 L 0 95.52799999999996C4.670934606481482, 95.52799999999996, 18.683738425925924, 95.52799999999996, 28.02560763888889, 95.52799999999996S46.70934606481482, 63.68533333333329, 56.05121527777778, 63.68533333333329S74.73495370370371, 63.68533333333329, 84.07682291666667, 63.68533333333329S102.7605613425926, 95.52799999999996, 112.10243055555556, 95.52799999999996S130.7861689814815, 95.52799999999996, 140.12803819444446, 95.52799999999996S158.81177662037038, 31.842666666666616, 168.15364583333334, 31.842666666666616S186.83738425925927, 31.842666666666616, 196.17925347222223, 31.842666666666616S214.86299189814815, 63.68533333333329, 224.20486111111111, 63.68533333333329S242.88859953703707, 63.68533333333329, 252.23046875000003, 63.68533333333329S270.914207175926, 95.52799999999996, 280.2560763888889, 95.52799999999996S298.9398148148148, 95.52799999999996, 308.28168402777777, 95.52799999999996S326.9654224537037, 63.68533333333329, 336.3072916666667, 63.68533333333329S354.9910300925926, 63.68533333333329, 364.3328993055556, 63.68533333333329S383.0166377314815, 95.52799999999996, 392.35850694444446, 95.52799999999996S411.04224537037044, 95.52799999999996, 420.38411458333337, 95.52799999999996S439.06785300925924, 63.68533333333329, 448.40972222222223, 63.68533333333329S467.09346064814815, 63.68533333333329, 476.43532986111114, 63.68533333333329S502.4220721998492, 34.15922333039614, 504.46093750000006, 31.842666666666616 L 504.46093750000006 222.89866666666666 L 0 222.89866666666666M 0 95.52799999999996z" pathFrom="M -1 382.11199999999997 L -1 382.11199999999997 L 28.02560763888889 382.11199999999997 L 56.05121527777778 382.11199999999997 L 84.07682291666667 382.11199999999997 L 112.10243055555556 382.11199999999997 L 140.12803819444446 382.11199999999997 L 168.15364583333334 382.11199999999997 L 196.17925347222223 382.11199999999997 L 224.20486111111111 382.11199999999997 L 252.23046875000003 382.11199999999997 L 280.2560763888889 382.11199999999997 L 308.28168402777777 382.11199999999997 L 336.3072916666667 382.11199999999997 L 364.3328993055556 382.11199999999997 L 392.35850694444446 382.11199999999997 L 420.38411458333337 382.11199999999997 L 448.40972222222223 382.11199999999997 L 476.43532986111114 382.11199999999997 L 504.46093750000006 382.11199999999997"></path><path id="SvgjsPath1312" d="M 0 95.52799999999996C4.670934606481482, 95.52799999999996, 18.683738425925924, 95.52799999999996, 28.02560763888889, 95.52799999999996S46.70934606481482, 63.68533333333329, 56.05121527777778, 63.68533333333329S74.73495370370371, 63.68533333333329, 84.07682291666667, 63.68533333333329S102.7605613425926, 95.52799999999996, 112.10243055555556, 95.52799999999996S130.7861689814815, 95.52799999999996, 140.12803819444446, 95.52799999999996S158.81177662037038, 31.842666666666616, 168.15364583333334, 31.842666666666616S186.83738425925927, 31.842666666666616, 196.17925347222223, 31.842666666666616S214.86299189814815, 63.68533333333329, 224.20486111111111, 63.68533333333329S242.88859953703707, 63.68533333333329, 252.23046875000003, 63.68533333333329S270.914207175926, 95.52799999999996, 280.2560763888889, 95.52799999999996S298.9398148148148, 95.52799999999996, 308.28168402777777, 95.52799999999996S326.9654224537037, 63.68533333333329, 336.3072916666667, 63.68533333333329S354.9910300925926, 63.68533333333329, 364.3328993055556, 63.68533333333329S383.0166377314815, 95.52799999999996, 392.35850694444446, 95.52799999999996S411.04224537037044, 95.52799999999996, 420.38411458333337, 95.52799999999996S439.06785300925924, 63.68533333333329, 448.40972222222223, 63.68533333333329S467.09346064814815, 63.68533333333329, 476.43532986111114, 63.68533333333329S502.4220721998492, 34.15922333039614, 504.46093750000006, 31.842666666666616" fill="none" fill-opacity="1" stroke="#006ae6" stroke-opacity="1" stroke-linecap="butt" stroke-width="3" stroke-dasharray="0" class="apexcharts-area" index="0" clip-path="url(#gridRectMaskgnt2gc3r)" pathTo="M 0 95.52799999999996C4.670934606481482, 95.52799999999996, 18.683738425925924, 95.52799999999996, 28.02560763888889, 95.52799999999996S46.70934606481482, 63.68533333333329, 56.05121527777778, 63.68533333333329S74.73495370370371, 63.68533333333329, 84.07682291666667, 63.68533333333329S102.7605613425926, 95.52799999999996, 112.10243055555556, 95.52799999999996S130.7861689814815, 95.52799999999996, 140.12803819444446, 95.52799999999996S158.81177662037038, 31.842666666666616, 168.15364583333334, 31.842666666666616S186.83738425925927, 31.842666666666616, 196.17925347222223, 31.842666666666616S214.86299189814815, 63.68533333333329, 224.20486111111111, 63.68533333333329S242.88859953703707, 63.68533333333329, 252.23046875000003, 63.68533333333329S270.914207175926, 95.52799999999996, 280.2560763888889, 95.52799999999996S298.9398148148148, 95.52799999999996, 308.28168402777777, 95.52799999999996S326.9654224537037, 63.68533333333329, 336.3072916666667, 63.68533333333329S354.9910300925926, 63.68533333333329, 364.3328993055556, 63.68533333333329S383.0166377314815, 95.52799999999996, 392.35850694444446, 95.52799999999996S411.04224537037044, 95.52799999999996, 420.38411458333337, 95.52799999999996S439.06785300925924, 63.68533333333329, 448.40972222222223, 63.68533333333329S467.09346064814815, 63.68533333333329, 476.43532986111114, 63.68533333333329S502.4220721998492, 34.15922333039614, 504.46093750000006, 31.842666666666616" pathFrom="M -1 382.11199999999997 L -1 382.11199999999997 L 28.02560763888889 382.11199999999997 L 56.05121527777778 382.11199999999997 L 84.07682291666667 382.11199999999997 L 112.10243055555556 382.11199999999997 L 140.12803819444446 382.11199999999997 L 168.15364583333334 382.11199999999997 L 196.17925347222223 382.11199999999997 L 224.20486111111111 382.11199999999997 L 252.23046875000003 382.11199999999997 L 280.2560763888889 382.11199999999997 L 308.28168402777777 382.11199999999997 L 336.3072916666667 382.11199999999997 L 364.3328993055556 382.11199999999997 L 392.35850694444446 382.11199999999997 L 420.38411458333337 382.11199999999997 L 448.40972222222223 382.11199999999997 L 476.43532986111114 382.11199999999997 L 504.46093750000006 382.11199999999997" fill-rule="evenodd"></path><g id="SvgjsG1305" class="apexcharts-series-markers-wrap apexcharts-hidden-element-shown" data:realIndex="0"><g class="apexcharts-series-markers"><circle id="SvgjsCircle1407" r="0" cx="0" cy="0" class="apexcharts-marker w4444pz0ei no-pointer-events" stroke="#006ae6" fill="#006ae6" fill-opacity="1" stroke-width="3" stroke-opacity="0.9" default-marker-size="0"></circle></g></g></g><g id="SvgjsG1306" class="apexcharts-datalabels" data:realIndex="0"></g></g><line id="SvgjsLine1325" x1="0" y1="0" x2="0" y2="222.89866666666666" stroke="#006ae6" stroke-dasharray="3" stroke-linecap="butt" class="apexcharts-xcrosshairs" x="0" y="0" width="1" height="222.89866666666666" fill="#b1b9c4" filter="none" fill-opacity="0.9" stroke-width="1"></line><line id="SvgjsLine1326" x1="0" y1="0" x2="504.4609375" y2="0" stroke="#b6b6b6" stroke-dasharray="0" stroke-width="1" stroke-linecap="butt" class="apexcharts-ycrosshairs"></line><line id="SvgjsLine1327" x1="0" y1="0" x2="504.4609375" y2="0" stroke-dasharray="0" stroke-width="0" stroke-linecap="butt" class="apexcharts-ycrosshairs-hidden"></line><g id="SvgjsG1328" class="apexcharts-xaxis" transform="translate(0, 0)"><g id="SvgjsG1329" class="apexcharts-xaxis-texts-g" transform="translate(0, -10)"><text id="SvgjsText1331" font-family="inherit" x="0" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 1 -1)"><tspan id="SvgjsTspan1332"></tspan><title></title></text><text id="SvgjsText1334" font-family="inherit" x="28.025607638888893" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 1 -1)"><tspan id="SvgjsTspan1335"></tspan><title></title></text><text id="SvgjsText1337" font-family="inherit" x="56.051215277777786" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 1 -1)"><tspan id="SvgjsTspan1338"></tspan><title></title></text><text id="SvgjsText1340" font-family="inherit" x="84.07682291666667" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 85.07682037353516 240.89866638183594)"><tspan id="SvgjsTspan1341">Apr 04</tspan><title>Apr 04</title></text><text id="SvgjsText1343" font-family="inherit" x="112.10243055555556" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 1 -1)"><tspan id="SvgjsTspan1344"></tspan><title></title></text><text id="SvgjsText1346" font-family="inherit" x="140.12803819444443" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 1 -1)"><tspan id="SvgjsTspan1347"></tspan><title></title></text><text id="SvgjsText1349" font-family="inherit" x="168.15364583333331" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 169.1536407470703 240.89866638183594)"><tspan id="SvgjsTspan1350">Apr 07</tspan><title>Apr 07</title></text><text id="SvgjsText1352" font-family="inherit" x="196.1792534722222" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 1 -1)"><tspan id="SvgjsTspan1353"></tspan><title></title></text><text id="SvgjsText1355" font-family="inherit" x="224.2048611111111" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 1 -1)"><tspan id="SvgjsTspan1356"></tspan><title></title></text><text id="SvgjsText1358" font-family="inherit" x="252.23046875" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 253.23046875 240.89866638183594)"><tspan id="SvgjsTspan1359">Apr 10</tspan><title>Apr 10</title></text><text id="SvgjsText1361" font-family="inherit" x="280.2560763888889" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 1 -1)"><tspan id="SvgjsTspan1362"></tspan><title></title></text><text id="SvgjsText1364" font-family="inherit" x="308.2816840277778" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 1 -1)"><tspan id="SvgjsTspan1365"></tspan><title></title></text><text id="SvgjsText1367" font-family="inherit" x="336.30729166666674" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 337.3072814941406 240.89866638183594)"><tspan id="SvgjsTspan1368">Apr 13</tspan><title>Apr 13</title></text><text id="SvgjsText1370" font-family="inherit" x="364.33289930555566" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 1 -1)"><tspan id="SvgjsTspan1371"></tspan><title></title></text><text id="SvgjsText1373" font-family="inherit" x="392.35850694444457" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 1 -1)"><tspan id="SvgjsTspan1374"></tspan><title></title></text><text id="SvgjsText1376" font-family="inherit" x="420.3841145833335" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 421.3841247558594 240.89866638183594)"><tspan id="SvgjsTspan1377">Apr 16</tspan><title>Apr 16</title></text><text id="SvgjsText1379" font-family="inherit" x="448.4097222222224" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 1 -1)"><tspan id="SvgjsTspan1380"></tspan><title></title></text><text id="SvgjsText1382" font-family="inherit" x="476.4353298611113" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 1 -1)"><tspan id="SvgjsTspan1383"></tspan><title></title></text><text id="SvgjsText1385" font-family="inherit" x="504.4609375000002" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 1 -1)"><tspan id="SvgjsTspan1386"></tspan><title></title></text></g></g><g id="SvgjsG1404" class="apexcharts-yaxis-annotations"></g><g id="SvgjsG1405" class="apexcharts-xaxis-annotations"></g><g id="SvgjsG1406" class="apexcharts-point-annotations"></g><rect id="SvgjsRect1408" width="0" height="0" x="0" y="0" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fefefe" class="apexcharts-zoom-rect"></rect><rect id="SvgjsRect1409" width="0" height="0" x="0" y="0" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fefefe" class="apexcharts-selection-rect"></rect></g></svg><div class="apexcharts-tooltip apexcharts-theme-light"><div class="apexcharts-tooltip-title" style="font-family: inherit; font-size: 12px;"></div><div class="apexcharts-tooltip-series-group" style="order: 1;"><span class="apexcharts-tooltip-marker" style="background-color: rgb(0, 106, 230);"></span><div class="apexcharts-tooltip-text" style="font-family: inherit; font-size: 12px;"><div class="apexcharts-tooltip-y-group"><span class="apexcharts-tooltip-text-y-label"></span><span class="apexcharts-tooltip-text-y-value"></span></div><div class="apexcharts-tooltip-goals-group"><span class="apexcharts-tooltip-text-goals-label"></span><span class="apexcharts-tooltip-text-goals-value"></span></div><div class="apexcharts-tooltip-z-group"><span class="apexcharts-tooltip-text-z-label"></span><span class="apexcharts-tooltip-text-z-value"></span></div></div></div></div><div class="apexcharts-xaxistooltip apexcharts-xaxistooltip-bottom apexcharts-theme-light"><div class="apexcharts-xaxistooltip-text" style="font-family: inherit; font-size: 12px;"></div></div><div class="apexcharts-yaxistooltip apexcharts-yaxistooltip-0 apexcharts-yaxistooltip-left apexcharts-theme-light"><div class="apexcharts-yaxistooltip-text"></div></div></div></div>
                             <!--end::Chart-->
                         </div>
                         <!--end::Card body-->
@@ -539,7 +535,7 @@
                         <!--begin::Header-->
                         <div class="card-header align-items-center border-0">
                             <!--begin::Title-->
-                            <h3 class="fw-bold text-gray-900 m-0">Recent Orders</h3>
+                            <h3 class="fw-bold text-gray-900 m-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pedidos recentes</font></font></h3>
                             <!--end::Title-->
 
                             <!--begin::Menu-->
@@ -647,11 +643,11 @@
                         <!--begin::Body-->
                         <div class="card-body pt-2">
                             <!--begin::Nav-->
-                            <ul class="nav nav-pills nav-pills-custom mb-3">
+                            <ul class="nav nav-pills nav-pills-custom mb-3" role="tablist">
                                 <!--begin::Item-->
-                                <li class="nav-item mb-3 me-3 me-lg-6">
+                                <li class="nav-item mb-3 me-3 me-lg-6" role="presentation">
                                     <!--begin::Link-->
-                                    <a class="nav-link d-flex justify-content-between flex-column flex-center overflow-hidden active w-80px h-85px py-4" data-bs-toggle="pill" href="#kt_stats_widget_2_tab_1">
+                                    <a class="nav-link d-flex justify-content-between flex-column flex-center overflow-hidden active w-80px h-85px py-4" data-bs-toggle="pill" href="#kt_stats_widget_2_tab_1" aria-selected="true" role="tab">
                                         <!--begin::Icon-->
                                         <div class="nav-icon">
                                             <img alt="" src="assets/media/svg/products-categories/t-shirt.svg" class="">
@@ -659,9 +655,9 @@
                                         <!--end::Icon-->
 
                                         <!--begin::Subtitle-->
-                                        <span class="nav-text text-gray-700 fw-bold fs-6 lh-1">
-                                            T-shirt
-                                        </span>
+                                        <span class="nav-text text-gray-700 fw-bold fs-6 lh-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            Camiseta
+                                        </font></font></span>
                                         <!--end::Subtitle-->
 
                                         <!--begin::Bullet-->
@@ -673,9 +669,9 @@
                                 <!--end::Item-->
 
                                 <!--begin::Item-->
-                                <li class="nav-item mb-3 me-3 me-lg-6">
+                                <li class="nav-item mb-3 me-3 me-lg-6" role="presentation">
                                     <!--begin::Link-->
-                                    <a class="nav-link d-flex justify-content-between flex-column flex-center overflow-hidden w-80px h-85px py-4" data-bs-toggle="pill" href="#kt_stats_widget_2_tab_2">
+                                    <a class="nav-link d-flex justify-content-between flex-column flex-center overflow-hidden w-80px h-85px py-4" data-bs-toggle="pill" href="#kt_stats_widget_2_tab_2" aria-selected="false" tabindex="-1" role="tab">
                                         <!--begin::Icon-->
                                         <div class="nav-icon">
                                             <img alt="" src="assets/media/svg/products-categories/gaming.svg" class="">
@@ -683,9 +679,9 @@
                                         <!--end::Icon-->
 
                                         <!--begin::Subtitle-->
-                                        <span class="nav-text text-gray-700 fw-bold fs-6 lh-1">
-                                            Gaming
-                                        </span>
+                                        <span class="nav-text text-gray-700 fw-bold fs-6 lh-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            Jogos
+                                        </font></font></span>
                                         <!--end::Subtitle-->
 
                                         <!--begin::Bullet-->
@@ -697,9 +693,9 @@
                                 <!--end::Item-->
 
                                 <!--begin::Item-->
-                                <li class="nav-item mb-3 me-3 me-lg-6">
+                                <li class="nav-item mb-3 me-3 me-lg-6" role="presentation">
                                     <!--begin::Link-->
-                                    <a class="nav-link d-flex justify-content-between flex-column flex-center overflow-hidden w-80px h-85px py-4" data-bs-toggle="pill" href="#kt_stats_widget_2_tab_3">
+                                    <a class="nav-link d-flex justify-content-between flex-column flex-center overflow-hidden w-80px h-85px py-4" data-bs-toggle="pill" href="#kt_stats_widget_2_tab_3" aria-selected="false" tabindex="-1" role="tab">
                                         <!--begin::Icon-->
                                         <div class="nav-icon">
                                             <img alt="" src="assets/media/svg/products-categories/watch.svg" class="">
@@ -707,9 +703,9 @@
                                         <!--end::Icon-->
 
                                         <!--begin::Subtitle-->
-                                        <span class="nav-text text-gray-600 fw-bold fs-6 lh-1">
-                                            Watch
-                                        </span>
+                                        <span class="nav-text text-gray-600 fw-bold fs-6 lh-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            Assistir
+                                        </font></font></span>
                                         <!--end::Subtitle-->
 
                                         <!--begin::Bullet-->
@@ -721,9 +717,9 @@
                                 <!--end::Item-->
 
                                 <!--begin::Item-->
-                                <li class="nav-item mb-3 me-3 me-lg-6">
+                                <li class="nav-item mb-3 me-3 me-lg-6" role="presentation">
                                     <!--begin::Link-->
-                                    <a class="nav-link d-flex justify-content-between flex-column flex-center overflow-hidden w-80px h-85px py-4" data-bs-toggle="pill" href="#kt_stats_widget_2_tab_4">
+                                    <a class="nav-link d-flex justify-content-between flex-column flex-center overflow-hidden w-80px h-85px py-4" data-bs-toggle="pill" href="#kt_stats_widget_2_tab_4" aria-selected="false" tabindex="-1" role="tab">
                                         <!--begin::Icon-->
                                         <div class="nav-icon">
                                             <img alt="" src="assets/media/svg/products-categories/gloves.svg" class="nav-icon">
@@ -731,9 +727,9 @@
                                         <!--end::Icon-->
 
                                         <!--begin::Subtitle-->
-                                        <span class="nav-text text-gray-600 fw-bold fs-6 lh-1">
-                                            Gloves
-                                        </span>
+                                        <span class="nav-text text-gray-600 fw-bold fs-6 lh-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            Luvas
+                                        </font></font></span>
                                         <!--end::Subtitle-->
 
                                         <!--begin::Bullet-->
@@ -745,9 +741,9 @@
                                 <!--end::Item-->
 
                                 <!--begin::Item-->
-                                <li class="nav-item mb-3">
+                                <li class="nav-item mb-3" role="presentation">
                                     <!--begin::Link-->
-                                    <a class="nav-link d-flex justify-content-between flex-column flex-center overflow-hidden w-80px h-85px py-4" data-bs-toggle="pill" href="#kt_stats_widget_2_tab_5">
+                                    <a class="nav-link d-flex justify-content-between flex-column flex-center overflow-hidden w-80px h-85px py-4" data-bs-toggle="pill" href="#kt_stats_widget_2_tab_5" aria-selected="false" tabindex="-1" role="tab">
                                         <!--begin::Icon-->
                                         <div class="nav-icon">
                                             <img alt="" src="assets/media/svg/products-categories/shoes.svg" class="nav-icon">
@@ -755,9 +751,9 @@
                                         <!--end::Icon-->
 
                                         <!--begin::Subtitle-->
-                                        <span class="nav-text text-gray-600 fw-bold fs-6 lh-1">
-                                            Shoes
-                                        </span>
+                                        <span class="nav-text text-gray-600 fw-bold fs-6 lh-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            Sapato
+                                        </font></font></span>
                                         <!--end::Subtitle-->
 
                                         <!--begin::Bullet-->
@@ -774,7 +770,7 @@
                             <div class="tab-content">
 
                                 <!--begin::Tap pane-->
-                                <div class="tab-pane fade show active" id="kt_stats_widget_2_tab_1">
+                                <div class="tab-pane fade show active" id="kt_stats_widget_2_tab_1" role="tabpanel">
                                     <!--begin::Table container-->
                                     <div class="table-responsive">
                                         <!--begin::Table-->
@@ -782,11 +778,11 @@
                                             <!--begin::Table head-->
                                             <thead>
                                                 <tr class="fs-7 fw-bold text-gray-500 border-bottom-0">
-                                                    <th class="ps-0 w-50px">ITEM</th>
+                                                    <th class="ps-0 w-50px"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ITEM</font></font></th>
                                                     <th class="min-w-125px"></th>
-                                                    <th class="text-end min-w-100px">QTY</th>
-                                                    <th class="pe-0 text-end min-w-100px">PRICE</th>
-                                                    <th class="pe-0 text-end min-w-100px">TOTAL PRICE</th>
+                                                    <th class="text-end min-w-100px"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Quantidade</font></font></th>
+                                                    <th class="pe-0 text-end min-w-100px"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PREÇO</font></font></th>
+                                                    <th class="pe-0 text-end min-w-100px"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PREÇO TOTAL</font></font></th>
                                                 </tr>
                                             </thead>
                                             <!--end::Table head-->
@@ -798,19 +794,17 @@
                                                         <img src="assets/media/stock/ecommerce/210.png" class="w-50px ms-n1" alt="">
                                                     </td>
                                                     <td class="ps-0">
-                                                        <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 fw-bold text-hover-primary mb-1 fs-6 text-start pe-0">Elephant
-                                                            1802</a>
-                                                        <span class="text-gray-500 fw-semibold fs-7 d-block text-start ps-0">Item:
-                                                            #XDG-2347</span>
+                                                        <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 fw-bold text-hover-primary mb-1 fs-6 text-start pe-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Elefante 1802</font></font></a>
+                                                        <span class="text-gray-500 fw-semibold fs-7 d-block text-start ps-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Artigo: #XDG-2347</font></font></span>
                                                     </td>
                                                     <td>
-                                                        <span class="text-gray-800 fw-bold d-block fs-6 ps-0 text-end">x1</span>
+                                                        <span class="text-gray-800 fw-bold d-block fs-6 ps-0 text-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">x1</font></font></span>
                                                     </td>
                                                     <td class="text-end pe-0">
-                                                        <span class="text-gray-800 fw-bold d-block fs-6">$72.00</span>
+                                                        <span class="text-gray-800 fw-bold d-block fs-6"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">US$ 72,00</font></font></span>
                                                     </td>
                                                     <td class="text-end pe-0">
-                                                        <span class="text-gray-800 fw-bold d-block fs-6">$126.00</span>
+                                                        <span class="text-gray-800 fw-bold d-block fs-6"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">US$ 126,00</font></font></span>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -818,19 +812,17 @@
                                                         <img src="assets/media/stock/ecommerce/215.png" class="w-50px ms-n1" alt="">
                                                     </td>
                                                     <td class="ps-0">
-                                                        <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 fw-bold text-hover-primary mb-1 fs-6 text-start pe-0">Red
-                                                            Laga</a>
-                                                        <span class="text-gray-500 fw-semibold fs-7 d-block text-start ps-0">Item:
-                                                            #XDG-1321</span>
+                                                        <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 fw-bold text-hover-primary mb-1 fs-6 text-start pe-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Laga Vermelha</font></font></a>
+                                                        <span class="text-gray-500 fw-semibold fs-7 d-block text-start ps-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Artigo: #XDG-1321</font></font></span>
                                                     </td>
                                                     <td>
-                                                        <span class="text-gray-800 fw-bold d-block fs-6 ps-0 text-end">x2</span>
+                                                        <span class="text-gray-800 fw-bold d-block fs-6 ps-0 text-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">x2</font></font></span>
                                                     </td>
                                                     <td class="text-end pe-0">
-                                                        <span class="text-gray-800 fw-bold d-block fs-6">$45.00</span>
+                                                        <span class="text-gray-800 fw-bold d-block fs-6"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">US$ 45,00</font></font></span>
                                                     </td>
                                                     <td class="text-end pe-0">
-                                                        <span class="text-gray-800 fw-bold d-block fs-6">$76.00</span>
+                                                        <span class="text-gray-800 fw-bold d-block fs-6"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">US$ 76,00</font></font></span>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -838,18 +830,17 @@
                                                         <img src="assets/media/stock/ecommerce/209.png" class="w-50px ms-n1" alt="">
                                                     </td>
                                                     <td class="ps-0">
-                                                        <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 fw-bold text-hover-primary mb-1 fs-6 text-start pe-0">RiseUP</a>
-                                                        <span class="text-gray-500 fw-semibold fs-7 d-block text-start ps-0">Item:
-                                                            #XDG-4312</span>
+                                                        <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 fw-bold text-hover-primary mb-1 fs-6 text-start pe-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Erguer</font></font></a>
+                                                        <span class="text-gray-500 fw-semibold fs-7 d-block text-start ps-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Artigo: #XDG-4312</font></font></span>
                                                     </td>
                                                     <td>
-                                                        <span class="text-gray-800 fw-bold d-block fs-6 ps-0 text-end">x3</span>
+                                                        <span class="text-gray-800 fw-bold d-block fs-6 ps-0 text-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">x3</font></font></span>
                                                     </td>
                                                     <td class="text-end pe-0">
-                                                        <span class="text-gray-800 fw-bold d-block fs-6">$84.00</span>
+                                                        <span class="text-gray-800 fw-bold d-block fs-6"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">US$ 84,00</font></font></span>
                                                     </td>
                                                     <td class="text-end pe-0">
-                                                        <span class="text-gray-800 fw-bold d-block fs-6">$168.00</span>
+                                                        <span class="text-gray-800 fw-bold d-block fs-6"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">US$ 168,00</font></font></span>
                                                     </td>
                                                 </tr>
                                             </tbody>
@@ -862,7 +853,7 @@
                                 <!--end::Tap pane-->
 
                                 <!--begin::Tap pane-->
-                                <div class="tab-pane fade " id="kt_stats_widget_2_tab_2">
+                                <div class="tab-pane fade " id="kt_stats_widget_2_tab_2" role="tabpanel">
                                     <!--begin::Table container-->
                                     <div class="table-responsive">
                                         <!--begin::Table-->
@@ -950,7 +941,7 @@
                                 <!--end::Tap pane-->
 
                                 <!--begin::Tap pane-->
-                                <div class="tab-pane fade " id="kt_stats_widget_2_tab_3">
+                                <div class="tab-pane fade " id="kt_stats_widget_2_tab_3" role="tabpanel">
                                     <!--begin::Table container-->
                                     <div class="table-responsive">
                                         <!--begin::Table-->
@@ -1038,7 +1029,7 @@
                                 <!--end::Tap pane-->
 
                                 <!--begin::Tap pane-->
-                                <div class="tab-pane fade " id="kt_stats_widget_2_tab_4">
+                                <div class="tab-pane fade " id="kt_stats_widget_2_tab_4" role="tabpanel">
                                     <!--begin::Table container-->
                                     <div class="table-responsive">
                                         <!--begin::Table-->
@@ -1126,7 +1117,7 @@
                                 <!--end::Tap pane-->
 
                                 <!--begin::Tap pane-->
-                                <div class="tab-pane fade " id="kt_stats_widget_2_tab_5">
+                                <div class="tab-pane fade " id="kt_stats_widget_2_tab_5" role="tabpanel">
                                     <!--begin::Table container-->
                                     <div class="table-responsive">
                                         <!--begin::Table-->
@@ -1227,10 +1218,8 @@
                         <div class="card-header py-5">
                             <!--begin::Title-->
                             <h3 class="card-title align-items-start flex-column">
-                                <span class="card-label fw-bold text-gray-900">Discounted Product
-                                    Sales</span>
-                                <span class="text-gray-500 mt-1 fw-semibold fs-6">Users from all
-                                    channels</span>
+                                <span class="card-label fw-bold text-gray-900"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Vendas de produtos com desconto</font></font></span>
+                                <span class="text-gray-500 mt-1 fw-semibold fs-6"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Usuários de todos os canais</font></font></span>
                             </h3>
                             <!--end::Title-->
 
@@ -1348,31 +1337,29 @@
                                 <!--begin::Statistics-->
                                 <div class="d-flex align-items-center mb-2">
                                     <!--begin::Currency-->
-                                    <span class="fs-4 fw-semibold text-gray-500 align-self-start me-1">$</span>
+                                    <span class="fs-4 fw-semibold text-gray-500 align-self-start me-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$</font></font></span>
                                     <!--end::Currency-->
 
                                     <!--begin::Value-->
-                                    <span class="fs-2hx fw-bold text-gray-800 me-2 lh-1 ls-n2">3,706</span>
+                                    <span class="fs-2hx fw-bold text-gray-800 me-2 lh-1 ls-n2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3.706</font></font></span>
                                     <!--end::Value-->
 
                                     <!--begin::Label-->
                                     <span class="badge badge-light-success fs-base">
-                                        <i class="ki-duotone ki-arrow-down fs-5 text-success ms-n1"><span class="path1"></span><span class="path2"></span></i> 4.5%
-                                    </span>
+                                        <i class="ki-duotone ki-arrow-down fs-5 text-success ms-n1"><span class="path1"></span><span class="path2"></span></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">4,5%
+                                    </font></font></span>
                                     <!--end::Label-->
                                 </div>
                                 <!--end::Statistics-->
 
                                 <!--begin::Description-->
-                                <span class="fs-6 fw-semibold text-gray-500">Total Discounted Sales This
-                                    Month</span>
+                                <span class="fs-6 fw-semibold text-gray-500"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Total de vendas com desconto neste mês</font></font></span>
                                 <!--end::Description-->
                             </div>
                             <!--end::Info-->
 
                             <!--begin::Chart-->
-                            <div id="kt_charts_widget_4" class="min-h-auto ps-4 pe-6" style="height: 300px">
-                            </div>
+                            <div id="kt_charts_widget_4" class="min-h-auto ps-4 pe-6" style="height: 300px; min-height: 315px;"><div id="apexchartsuiiyq5e8" class="apexcharts-canvas apexchartsuiiyq5e8 apexcharts-theme-light" style="width: 579.5px; height: 300px;"><svg id="SvgjsSvg1411" width="579.5" height="300" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" class="apexcharts-svg apexcharts-zoomable" xmlns:data="ApexChartsNS" transform="translate(0, 0)" style="background: transparent;"><foreignObject x="0" y="0" width="579.5" height="300"><div class="apexcharts-legend" xmlns="http://www.w3.org/1999/xhtml" style="max-height: 150px;"></div></foreignObject><rect id="SvgjsRect1442" width="0" height="0" x="0" y="0" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fefefe"></rect><g id="SvgjsG1505" class="apexcharts-yaxis" rel="0" transform="translate(23.6953125, 0)"><g id="SvgjsG1506" class="apexcharts-yaxis-texts-g"><text id="SvgjsText1508" font-family="inherit" x="20" y="31.6" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-yaxis-label " style="font-family: inherit;"><tspan id="SvgjsTspan1509">$362</tspan><title>$362</title></text><text id="SvgjsText1511" font-family="inherit" x="20" y="68.74977777777778" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-yaxis-label " style="font-family: inherit;"><tspan id="SvgjsTspan1512">$357</tspan><title>$357</title></text><text id="SvgjsText1514" font-family="inherit" x="20" y="105.89955555555557" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-yaxis-label " style="font-family: inherit;"><tspan id="SvgjsTspan1515">$351</tspan><title>$351</title></text><text id="SvgjsText1517" font-family="inherit" x="20" y="143.04933333333335" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-yaxis-label " style="font-family: inherit;"><tspan id="SvgjsTspan1518">$346</tspan><title>$346</title></text><text id="SvgjsText1520" font-family="inherit" x="20" y="180.19911111111114" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-yaxis-label " style="font-family: inherit;"><tspan id="SvgjsTspan1521">$340</tspan><title>$340</title></text><text id="SvgjsText1523" font-family="inherit" x="20" y="217.34888888888892" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-yaxis-label " style="font-family: inherit;"><tspan id="SvgjsTspan1524">$335</tspan><title>$335</title></text><text id="SvgjsText1526" font-family="inherit" x="20" y="254.4986666666667" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-yaxis-label " style="font-family: inherit;"><tspan id="SvgjsTspan1527">$330</tspan><title>$330</title></text></g></g><g id="SvgjsG1413" class="apexcharts-inner apexcharts-graphical" transform="translate(53.6953125, 30)"><defs id="SvgjsDefs1412"><clipPath id="gridRectMaskuiiyq5e8"><rect id="SvgjsRect1417" width="522.8046875" height="238.89866666666666" x="-5" y="-8" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath><clipPath id="forecastMaskuiiyq5e8"></clipPath><clipPath id="nonForecastMaskuiiyq5e8"></clipPath><clipPath id="gridRectMarkerMaskuiiyq5e8"><rect id="SvgjsRect1418" width="519.8046875" height="226.89866666666666" x="-2" y="-2" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath><linearGradient id="SvgjsLinearGradient1423" x1="0" y1="0" x2="0" y2="1"><stop id="SvgjsStop1424" stop-opacity="0.4" stop-color="rgba(0,162,97,0.4)" offset="0"></stop><stop id="SvgjsStop1425" stop-opacity="0" stop-color="rgba(255,255,255,0)" offset="0.8"></stop><stop id="SvgjsStop1426" stop-opacity="0" stop-color="rgba(255,255,255,0)" offset="1"></stop></linearGradient></defs><g id="SvgjsG1429" class="apexcharts-grid"><g id="SvgjsG1430" class="apexcharts-gridlines-horizontal"><line id="SvgjsLine1434" x1="0" y1="37.14977777777778" x2="515.8046875" y2="37.14977777777778" stroke="#363843" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1435" x1="0" y1="74.29955555555556" x2="515.8046875" y2="74.29955555555556" stroke="#363843" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1436" x1="0" y1="111.44933333333333" x2="515.8046875" y2="111.44933333333333" stroke="#363843" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1437" x1="0" y1="148.5991111111111" x2="515.8046875" y2="148.5991111111111" stroke="#363843" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1438" x1="0" y1="185.7488888888889" x2="515.8046875" y2="185.7488888888889" stroke="#363843" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1439" x1="0" y1="222.89866666666668" x2="515.8046875" y2="222.89866666666668" stroke="#363843" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line></g><g id="SvgjsG1431" class="apexcharts-gridlines-vertical"></g><line id="SvgjsLine1441" x1="0" y1="222.89866666666666" x2="515.8046875" y2="222.89866666666666" stroke="transparent" stroke-dasharray="0" stroke-linecap="butt"></line><line id="SvgjsLine1440" x1="0" y1="1" x2="0" y2="222.89866666666666" stroke="transparent" stroke-dasharray="0" stroke-linecap="butt"></line></g><g id="SvgjsG1432" class="apexcharts-grid-borders"><line id="SvgjsLine1433" x1="0" y1="0" x2="515.8046875" y2="0" stroke="#363843" stroke-dasharray="4" stroke-linecap="butt" class="apexcharts-gridline"></line></g><g id="SvgjsG1419" class="apexcharts-area-series apexcharts-plot-series"><g id="SvgjsG1420" class="apexcharts-series" zIndex="0" seriesName="Sales" data:longestSeries="true" rel="1" data:realIndex="0"><path id="SvgjsPath1427" d="M 0 222.89866666666666 L 0 121.58109090909011C4.775969328703703, 121.58109090909011, 19.103877314814817, 121.58109090909011, 28.65581597222222, 121.58109090909011S47.75969328703704, 87.8085656565645, 57.31163194444444, 87.8085656565645S76.41550925925927, 87.8085656565645, 85.96744791666667, 87.8085656565645S105.07132523148148, 54.03604040403934, 114.62326388888889, 54.03604040403934S133.7271412037037, 54.03604040403934, 143.27907986111111, 54.03604040403934S162.38295717592592, 87.8085656565645, 171.93489583333334, 87.8085656565645S191.03877314814815, 87.8085656565645, 200.59071180555554, 87.8085656565645S219.69458912037035, 54.03604040403934, 229.24652777777777, 54.03604040403934S248.35040509259258, 54.03604040403934, 257.90234375, 54.03604040403934S277.00622106481484, 87.8085656565645, 286.55815972222223, 87.8085656565645S305.66203703703707, 87.8085656565645, 315.21397569444446, 87.8085656565645S334.3178530092593, 121.58109090909011, 343.8697916666667, 121.58109090909011S362.97366898148147, 121.58109090909011, 372.52560763888886, 121.58109090909011S391.6294849537037, 87.8085656565645, 401.1814236111111, 87.8085656565645S420.2853009259259, 87.8085656565645, 429.8372395833333, 87.8085656565645S448.94111689814815, 54.03604040403934, 458.49305555555554, 54.03604040403934S477.5969328703704, 54.03604040403934, 487.14887152777777, 54.03604040403934S513.8055355430917, 85.45245023434899, 515.8046875, 87.8085656565645 L 515.8046875 222.89866666666666 L 0 222.89866666666666M 0 121.58109090909011z" fill="url(#SvgjsLinearGradient1423)" fill-opacity="1" stroke-opacity="1" stroke-linecap="butt" stroke-width="0" stroke-dasharray="0" class="apexcharts-area" index="0" clip-path="url(#gridRectMaskuiiyq5e8)" pathTo="M 0 222.89866666666666 L 0 121.58109090909011C4.775969328703703, 121.58109090909011, 19.103877314814817, 121.58109090909011, 28.65581597222222, 121.58109090909011S47.75969328703704, 87.8085656565645, 57.31163194444444, 87.8085656565645S76.41550925925927, 87.8085656565645, 85.96744791666667, 87.8085656565645S105.07132523148148, 54.03604040403934, 114.62326388888889, 54.03604040403934S133.7271412037037, 54.03604040403934, 143.27907986111111, 54.03604040403934S162.38295717592592, 87.8085656565645, 171.93489583333334, 87.8085656565645S191.03877314814815, 87.8085656565645, 200.59071180555554, 87.8085656565645S219.69458912037035, 54.03604040403934, 229.24652777777777, 54.03604040403934S248.35040509259258, 54.03604040403934, 257.90234375, 54.03604040403934S277.00622106481484, 87.8085656565645, 286.55815972222223, 87.8085656565645S305.66203703703707, 87.8085656565645, 315.21397569444446, 87.8085656565645S334.3178530092593, 121.58109090909011, 343.8697916666667, 121.58109090909011S362.97366898148147, 121.58109090909011, 372.52560763888886, 121.58109090909011S391.6294849537037, 87.8085656565645, 401.1814236111111, 87.8085656565645S420.2853009259259, 87.8085656565645, 429.8372395833333, 87.8085656565645S448.94111689814815, 54.03604040403934, 458.49305555555554, 54.03604040403934S477.5969328703704, 54.03604040403934, 487.14887152777777, 54.03604040403934S513.8055355430917, 85.45245023434899, 515.8046875, 87.8085656565645 L 515.8046875 222.89866666666666 L 0 222.89866666666666M 0 121.58109090909011z" pathFrom="M -1 2451.8853333333445 L -1 2451.8853333333445 L 28.65581597222222 2451.8853333333445 L 57.31163194444444 2451.8853333333445 L 85.96744791666667 2451.8853333333445 L 114.62326388888889 2451.8853333333445 L 143.27907986111111 2451.8853333333445 L 171.93489583333334 2451.8853333333445 L 200.59071180555554 2451.8853333333445 L 229.24652777777777 2451.8853333333445 L 257.90234375 2451.8853333333445 L 286.55815972222223 2451.8853333333445 L 315.21397569444446 2451.8853333333445 L 343.8697916666667 2451.8853333333445 L 372.52560763888886 2451.8853333333445 L 401.1814236111111 2451.8853333333445 L 429.8372395833333 2451.8853333333445 L 458.49305555555554 2451.8853333333445 L 487.14887152777777 2451.8853333333445 L 515.8046875 2451.8853333333445"></path><path id="SvgjsPath1428" d="M 0 121.58109090909011C4.775969328703703, 121.58109090909011, 19.103877314814817, 121.58109090909011, 28.65581597222222, 121.58109090909011S47.75969328703704, 87.8085656565645, 57.31163194444444, 87.8085656565645S76.41550925925927, 87.8085656565645, 85.96744791666667, 87.8085656565645S105.07132523148148, 54.03604040403934, 114.62326388888889, 54.03604040403934S133.7271412037037, 54.03604040403934, 143.27907986111111, 54.03604040403934S162.38295717592592, 87.8085656565645, 171.93489583333334, 87.8085656565645S191.03877314814815, 87.8085656565645, 200.59071180555554, 87.8085656565645S219.69458912037035, 54.03604040403934, 229.24652777777777, 54.03604040403934S248.35040509259258, 54.03604040403934, 257.90234375, 54.03604040403934S277.00622106481484, 87.8085656565645, 286.55815972222223, 87.8085656565645S305.66203703703707, 87.8085656565645, 315.21397569444446, 87.8085656565645S334.3178530092593, 121.58109090909011, 343.8697916666667, 121.58109090909011S362.97366898148147, 121.58109090909011, 372.52560763888886, 121.58109090909011S391.6294849537037, 87.8085656565645, 401.1814236111111, 87.8085656565645S420.2853009259259, 87.8085656565645, 429.8372395833333, 87.8085656565645S448.94111689814815, 54.03604040403934, 458.49305555555554, 54.03604040403934S477.5969328703704, 54.03604040403934, 487.14887152777777, 54.03604040403934S513.8055355430917, 85.45245023434899, 515.8046875, 87.8085656565645" fill="none" fill-opacity="1" stroke="#00a261" stroke-opacity="1" stroke-linecap="butt" stroke-width="3" stroke-dasharray="0" class="apexcharts-area" index="0" clip-path="url(#gridRectMaskuiiyq5e8)" pathTo="M 0 121.58109090909011C4.775969328703703, 121.58109090909011, 19.103877314814817, 121.58109090909011, 28.65581597222222, 121.58109090909011S47.75969328703704, 87.8085656565645, 57.31163194444444, 87.8085656565645S76.41550925925927, 87.8085656565645, 85.96744791666667, 87.8085656565645S105.07132523148148, 54.03604040403934, 114.62326388888889, 54.03604040403934S133.7271412037037, 54.03604040403934, 143.27907986111111, 54.03604040403934S162.38295717592592, 87.8085656565645, 171.93489583333334, 87.8085656565645S191.03877314814815, 87.8085656565645, 200.59071180555554, 87.8085656565645S219.69458912037035, 54.03604040403934, 229.24652777777777, 54.03604040403934S248.35040509259258, 54.03604040403934, 257.90234375, 54.03604040403934S277.00622106481484, 87.8085656565645, 286.55815972222223, 87.8085656565645S305.66203703703707, 87.8085656565645, 315.21397569444446, 87.8085656565645S334.3178530092593, 121.58109090909011, 343.8697916666667, 121.58109090909011S362.97366898148147, 121.58109090909011, 372.52560763888886, 121.58109090909011S391.6294849537037, 87.8085656565645, 401.1814236111111, 87.8085656565645S420.2853009259259, 87.8085656565645, 429.8372395833333, 87.8085656565645S448.94111689814815, 54.03604040403934, 458.49305555555554, 54.03604040403934S477.5969328703704, 54.03604040403934, 487.14887152777777, 54.03604040403934S513.8055355430917, 85.45245023434899, 515.8046875, 87.8085656565645" pathFrom="M -1 2451.8853333333445 L -1 2451.8853333333445 L 28.65581597222222 2451.8853333333445 L 57.31163194444444 2451.8853333333445 L 85.96744791666667 2451.8853333333445 L 114.62326388888889 2451.8853333333445 L 143.27907986111111 2451.8853333333445 L 171.93489583333334 2451.8853333333445 L 200.59071180555554 2451.8853333333445 L 229.24652777777777 2451.8853333333445 L 257.90234375 2451.8853333333445 L 286.55815972222223 2451.8853333333445 L 315.21397569444446 2451.8853333333445 L 343.8697916666667 2451.8853333333445 L 372.52560763888886 2451.8853333333445 L 401.1814236111111 2451.8853333333445 L 429.8372395833333 2451.8853333333445 L 458.49305555555554 2451.8853333333445 L 487.14887152777777 2451.8853333333445 L 515.8046875 2451.8853333333445" fill-rule="evenodd"></path><g id="SvgjsG1421" class="apexcharts-series-markers-wrap apexcharts-hidden-element-shown" data:realIndex="0"><g class="apexcharts-series-markers"><circle id="SvgjsCircle1531" r="0" cx="0" cy="0" class="apexcharts-marker w42v2t3z6h no-pointer-events" stroke="#00a261" fill="#00a261" fill-opacity="1" stroke-width="3" stroke-opacity="0.9" default-marker-size="0"></circle></g></g></g><g id="SvgjsG1422" class="apexcharts-datalabels" data:realIndex="0"></g></g><line id="SvgjsLine1443" x1="0" y1="0" x2="0" y2="222.89866666666666" stroke="#00a261" stroke-dasharray="3" stroke-linecap="butt" class="apexcharts-xcrosshairs" x="0" y="0" width="1" height="222.89866666666666" fill="#b1b9c4" filter="none" fill-opacity="0.9" stroke-width="1"></line><line id="SvgjsLine1444" x1="0" y1="0" x2="515.8046875" y2="0" stroke="#b6b6b6" stroke-dasharray="0" stroke-width="1" stroke-linecap="butt" class="apexcharts-ycrosshairs"></line><line id="SvgjsLine1445" x1="0" y1="0" x2="515.8046875" y2="0" stroke-dasharray="0" stroke-width="0" stroke-linecap="butt" class="apexcharts-ycrosshairs-hidden"></line><g id="SvgjsG1446" class="apexcharts-xaxis" transform="translate(0, 0)"><g id="SvgjsG1447" class="apexcharts-xaxis-texts-g" transform="translate(0, -10)"><text id="SvgjsText1449" font-family="inherit" x="0" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 1 -1)"><tspan id="SvgjsTspan1450"></tspan><title></title></text><text id="SvgjsText1452" font-family="inherit" x="28.655815972222218" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 1 -1)"><tspan id="SvgjsTspan1453"></tspan><title></title></text><text id="SvgjsText1455" font-family="inherit" x="57.31163194444443" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 1 -1)"><tspan id="SvgjsTspan1456"></tspan><title></title></text><text id="SvgjsText1458" font-family="inherit" x="85.96744791666666" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 86.96744537353516 240.89866638183594)"><tspan id="SvgjsTspan1459">Apr 04</tspan><title>Apr 04</title></text><text id="SvgjsText1461" font-family="inherit" x="114.62326388888889" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 1 -1)"><tspan id="SvgjsTspan1462"></tspan><title></title></text><text id="SvgjsText1464" font-family="inherit" x="143.27907986111111" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 1 -1)"><tspan id="SvgjsTspan1465"></tspan><title></title></text><text id="SvgjsText1467" font-family="inherit" x="171.93489583333334" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 172.9348907470703 240.89866638183594)"><tspan id="SvgjsTspan1468">Apr 07</tspan><title>Apr 07</title></text><text id="SvgjsText1470" font-family="inherit" x="200.59071180555557" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 1 -1)"><tspan id="SvgjsTspan1471"></tspan><title></title></text><text id="SvgjsText1473" font-family="inherit" x="229.2465277777778" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 1 -1)"><tspan id="SvgjsTspan1474"></tspan><title></title></text><text id="SvgjsText1476" font-family="inherit" x="257.90234375000006" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 258.90234375 240.89866638183594)"><tspan id="SvgjsTspan1477">Apr 10</tspan><title>Apr 10</title></text><text id="SvgjsText1479" font-family="inherit" x="286.5581597222223" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 1 -1)"><tspan id="SvgjsTspan1480"></tspan><title></title></text><text id="SvgjsText1482" font-family="inherit" x="315.2139756944445" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 1 -1)"><tspan id="SvgjsTspan1483"></tspan><title></title></text><text id="SvgjsText1485" font-family="inherit" x="343.86979166666674" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 344.8697814941406 240.89866638183594)"><tspan id="SvgjsTspan1486">Apr 13</tspan><title>Apr 13</title></text><text id="SvgjsText1488" font-family="inherit" x="372.52560763888897" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 1 -1)"><tspan id="SvgjsTspan1489"></tspan><title></title></text><text id="SvgjsText1491" font-family="inherit" x="401.1814236111112" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 1 -1)"><tspan id="SvgjsTspan1492"></tspan><title></title></text><text id="SvgjsText1494" font-family="inherit" x="429.8372395833334" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 430.8372497558594 240.89866638183594)"><tspan id="SvgjsTspan1495">Apr 18</tspan><title>Apr 18</title></text><text id="SvgjsText1497" font-family="inherit" x="458.49305555555566" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 1 -1)"><tspan id="SvgjsTspan1498"></tspan><title></title></text><text id="SvgjsText1500" font-family="inherit" x="487.1488715277779" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 1 -1)"><tspan id="SvgjsTspan1501"></tspan><title></title></text><text id="SvgjsText1503" font-family="inherit" x="515.8046875000001" y="245.89866666666666" text-anchor="end" dominant-baseline="auto" font-size="12px" font-weight="400" fill="#636674" class="apexcharts-text apexcharts-xaxis-label " style="font-family: inherit;" transform="rotate(0 1 -1)"><tspan id="SvgjsTspan1504"></tspan><title></title></text></g></g><g id="SvgjsG1528" class="apexcharts-yaxis-annotations"></g><g id="SvgjsG1529" class="apexcharts-xaxis-annotations"></g><g id="SvgjsG1530" class="apexcharts-point-annotations"></g><rect id="SvgjsRect1532" width="0" height="0" x="0" y="0" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fefefe" class="apexcharts-zoom-rect"></rect><rect id="SvgjsRect1533" width="0" height="0" x="0" y="0" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fefefe" class="apexcharts-selection-rect"></rect></g></svg><div class="apexcharts-tooltip apexcharts-theme-light"><div class="apexcharts-tooltip-title" style="font-family: inherit; font-size: 12px;"></div><div class="apexcharts-tooltip-series-group" style="order: 1;"><span class="apexcharts-tooltip-marker" style="background-color: rgb(0, 162, 97);"></span><div class="apexcharts-tooltip-text" style="font-family: inherit; font-size: 12px;"><div class="apexcharts-tooltip-y-group"><span class="apexcharts-tooltip-text-y-label"></span><span class="apexcharts-tooltip-text-y-value"></span></div><div class="apexcharts-tooltip-goals-group"><span class="apexcharts-tooltip-text-goals-label"></span><span class="apexcharts-tooltip-text-goals-value"></span></div><div class="apexcharts-tooltip-z-group"><span class="apexcharts-tooltip-text-z-label"></span><span class="apexcharts-tooltip-text-z-value"></span></div></div></div></div><div class="apexcharts-xaxistooltip apexcharts-xaxistooltip-bottom apexcharts-theme-light"><div class="apexcharts-xaxistooltip-text" style="font-family: inherit; font-size: 12px;"></div></div><div class="apexcharts-yaxistooltip apexcharts-yaxistooltip-0 apexcharts-yaxistooltip-left apexcharts-theme-light"><div class="apexcharts-yaxistooltip-text"></div></div></div></div>
                             <!--end::Chart-->
                         </div>
                         <!--end::Card body-->
@@ -1395,9 +1382,9 @@
                             <!--begin::Heading-->
                             <div class="mb-2">
                                 <!--begin::Title-->
-                                <h1 class="fw-semibold text-gray-800 text-center lh-lg">
-                                    Have you tried <br> new
-                                    <span class="fw-bolder"> eCommerce App ?</span>
+                                <h1 class="fw-semibold text-gray-800 text-center lh-lg"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                    Você já experimentou </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">o novo
+                                     </font></font><span class="fw-bolder"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">aplicativo de comércio eletrônico?</font></font></span>
                                 </h1>
                                 <!--end::Title-->
 
@@ -1413,13 +1400,13 @@
                             <!--begin::Links-->
                             <div class="text-center mb-1">
                                 <!--begin::Link-->
-                                <a class="btn btn-sm btn-primary me-2" href="../apps/ecommerce/sales/listing.html">
-                                    View App </a>
+                                <a class="btn btn-sm btn-primary me-2" href="../apps/ecommerce/sales/listing.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                    Ver aplicativo</font></font></a>
                                 <!--end::Link-->
 
                                 <!--begin::Link-->
-                                <a class="btn btn-sm btn-light" href="../apps/ecommerce/catalog/add-product.html">
-                                    New Product </a>
+                                <a class="btn btn-sm btn-light" href="../apps/ecommerce/catalog/add-product.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                    Novo produto</font></font></a>
                                 <!--end::Link-->
                             </div>
                             <!--end::Links-->
@@ -1440,9 +1427,8 @@
                         <div class="card-header pt-7">
                             <!--begin::Title-->
                             <h3 class="card-title align-items-start flex-column">
-                                <span class="card-label fw-bold text-gray-800">Product Orders</span>
-                                <span class="text-gray-500 mt-1 fw-semibold fs-6">Avg. 57 orders per
-                                    day</span>
+                                <span class="card-label fw-bold text-gray-800"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pedidos de produtos</font></font></span>
+                                <span class="text-gray-500 mt-1 fw-semibold fs-6"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Média </font><font style="vertical-align: inherit;">57 pedidos por dia</font></font></span>
                             </h3>
                             <!--end::Title-->
 
@@ -1453,16 +1439,16 @@
                                     <!--begin::Destination-->
                                     <div class="d-flex align-items-center fw-bold">
                                         <!--begin::Label-->
-                                        <div class="text-gray-500 fs-7 me-2">Cateogry</div>
+                                        <div class="text-gray-500 fs-7 me-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Categoria</font></font></div>
                                         <!--end::Label-->
 
                                         <!--begin::Select-->
-                                        <select class="form-select form-select-transparent text-graY-800 fs-base lh-1 fw-bold py-0 ps-3 w-auto" data-control="select2" data-hide-search="true" data-dropdown-css-class="w-150px" data-placeholder="Select an option">
+                                        <select class="form-select form-select-transparent text-graY-800 fs-base lh-1 fw-bold py-0 ps-3 w-auto select2-hidden-accessible" data-control="select2" data-hide-search="true" data-dropdown-css-class="w-150px" data-placeholder="Select an option" data-select2-id="select2-data-9-h3kl" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
                                             <option></option>
-                                            <option value="Show All" selected="">Show All</option>
-                                            <option value="a">Category A</option>
-                                            <option value="b">Category A</option>
-                                        </select>
+                                            <option value="Show All" selected="" data-select2-id="select2-data-11-m9su"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mostre tudo</font></font></option>
+                                            <option value="a"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Categoria A</font></font></option>
+                                            <option value="b"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Categoria A</font></font></option>
+                                        </select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-10-1gzw" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single form-select form-select-transparent text-graY-800 fs-base lh-1 fw-bold py-0 ps-3 w-auto" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-d5gr-container" aria-controls="select2-d5gr-container"><span class="select2-selection__rendered" id="select2-d5gr-container" role="textbox" aria-readonly="true" title="Mostre tudo"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mostre tudo</font></font></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
                                         <!--end::Select-->
                                     </div>
                                     <!--end::Destination-->
@@ -1470,25 +1456,25 @@
                                     <!--begin::Status-->
                                     <div class="d-flex align-items-center fw-bold">
                                         <!--begin::Label-->
-                                        <div class="text-gray-500 fs-7 me-2">Status</div>
+                                        <div class="text-gray-500 fs-7 me-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Status</font></font></div>
                                         <!--end::Label-->
 
                                         <!--begin::Select-->
-                                        <select class="form-select form-select-transparent text-gray-900 fs-7 lh-1 fw-bold py-0 ps-3 w-auto" data-control="select2" data-hide-search="true" data-dropdown-css-class="w-150px" data-placeholder="Select an option" data-kt-table-widget-4="filter_status">
+                                        <select class="form-select form-select-transparent text-gray-900 fs-7 lh-1 fw-bold py-0 ps-3 w-auto select2-hidden-accessible" data-control="select2" data-hide-search="true" data-dropdown-css-class="w-150px" data-placeholder="Select an option" data-kt-table-widget-4="filter_status" data-select2-id="select2-data-12-qnz4" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
                                             <option></option>
-                                            <option value="Show All" selected="">Show All</option>
-                                            <option value="Shipped">Shipped</option>
-                                            <option value="Confirmed">Confirmed</option>
-                                            <option value="Rejected">Rejected</option>
-                                            <option value="Pending">Pending</option>
-                                        </select>
+                                            <option value="Show All" selected="" data-select2-id="select2-data-14-owin"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mostre tudo</font></font></option>
+                                            <option value="Shipped"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Enviado</font></font></option>
+                                            <option value="Confirmed"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Confirmado</font></font></option>
+                                            <option value="Rejected"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Rejeitado</font></font></option>
+                                            <option value="Pending"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pendente</font></font></option>
+                                        </select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-13-0g5e" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single form-select form-select-transparent text-gray-900 fs-7 lh-1 fw-bold py-0 ps-3 w-auto" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-eeaa-container" aria-controls="select2-eeaa-container"><span class="select2-selection__rendered" id="select2-eeaa-container" role="textbox" aria-readonly="true" title="Mostre tudo"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mostre tudo</font></font></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
                                         <!--end::Select-->
                                     </div>
                                     <!--end::Status-->
 
                                     <!--begin::Search-->
                                     <div class="position-relative my-1">
-                                        <i class="ki-duotone ki-magnifier fs-2 position-absolute top-50 translate-middle-y ms-4"><span class="path1"></span><span class="path2"></span></i> <input type="text" data-kt-table-widget-4="search" class="form-control w-150px fs-7 ps-12" placeholder="Search">
+                                        <i class="ki-duotone ki-magnifier fs-2 position-absolute top-50 translate-middle-y ms-4"><span class="path1"></span><span class="path2"></span></i> <input type="text" data-kt-table-widget-4="search" class="form-control w-150px fs-7 ps-12" placeholder="Procurar">
                                     </div>
                                     <!--end::Search-->
                                 </div>
@@ -1501,81 +1487,48 @@
                         <!--begin::Card body-->
                         <div class="card-body pt-2">
                             <!--begin::Table-->
-                            <table class="table align-middle table-row-dashed fs-6 gy-3" id="kt_table_widget_4_table">
+                            <div id="kt_table_widget_4_table_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer"><div class="table-responsive"><table class="table align-middle table-row-dashed fs-6 gy-3 dataTable no-footer" id="kt_table_widget_4_table">
                                 <!--begin::Table head-->
                                 <thead>
                                     <!--begin::Table row-->
-                                    <tr class="text-start text-gray-500 fw-bold fs-7 text-uppercase gs-0">
-                                        <th class="min-w-100px">Order ID</th>
-                                        <th class="text-end min-w-100px">Created</th>
-                                        <th class="text-end min-w-125px">Customer</th>
-                                        <th class="text-end min-w-100px">Total</th>
-                                        <th class="text-end min-w-100px">Profit</th>
-                                        <th class="text-end min-w-50px">Status</th>
-                                        <th class="text-end"></th>
-                                    </tr>
+                                    <tr class="text-start text-gray-500 fw-bold fs-7 text-uppercase gs-0"><th class="min-w-100px sorting_disabled" rowspan="1" colspan="1" style="width: 102.016px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ID do pedido</font></font></th><th class="text-end min-w-100px sorting_disabled" rowspan="1" colspan="1" style="width: 102.195px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Criada</font></font></th><th class="text-end min-w-125px sorting_disabled" rowspan="1" colspan="1" style="width: 127.656px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cliente</font></font></th><th class="text-end min-w-100px sorting_disabled" rowspan="1" colspan="1" style="width: 102.195px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Total</font></font></th><th class="text-end min-w-100px sorting_disabled" rowspan="1" colspan="1" style="width: 102.195px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lucro</font></font></th><th class="text-end min-w-50px sorting_disabled" rowspan="1" colspan="1" style="width: 89.7266px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Status</font></font></th><th class="text-end sorting_disabled" rowspan="1" colspan="1" style="width: 25.6797px;"></th></tr>
                                     <!--end::Table row-->
                                 </thead>
                                 <!--end::Table head-->
 
                                 <!--begin::Table body-->
                                 <tbody class="fw-bold text-gray-600">
-                                    <tr data-kt-table-widget-4="subtable_template" class="d-none">
-                                        <td colspan="2">
-                                            <div class="d-flex align-items-center gap-3">
-                                                <a href="#" class="symbol symbol-50px bg-secondary bg-opacity-25 rounded">
-                                                    <img src="" data-kt-src-path="/metronic8/demo7/assets/media/stock/ecommerce/" alt="" data-kt-table-widget-4="template_image">
-                                                </a>
-                                                <div class="d-flex flex-column text-muted">
-                                                    <a href="#" class="text-gray-800 text-hover-primary fw-bold" data-kt-table-widget-4="template_name">Product
-                                                        name</a>
-                                                    <div class="fs-7" data-kt-table-widget-4="template_description">
-                                                        Product description</div>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td class="text-end">
-                                            <div class="text-gray-800 fs-7">Cost</div>
-                                            <div class="text-muted fs-7 fw-bold" data-kt-table-widget-4="template_cost">1</div>
-                                        </td>
-                                        <td class="text-end">
-                                            <div class="text-gray-800 fs-7">Qty</div>
-                                            <div class="text-muted fs-7 fw-bold" data-kt-table-widget-4="template_qty">1</div>
-                                        </td>
-                                        <td class="text-end">
-                                            <div class="text-gray-800 fs-7">Total</div>
-                                            <div class="text-muted fs-7 fw-bold" data-kt-table-widget-4="template_total">name</div>
-                                        </td>
-                                        <td class="text-end">
-                                            <div class="text-gray-800 fs-7 me-3">On hand</div>
-                                            <div class="text-muted fs-7 fw-bold" data-kt-table-widget-4="template_stock">32</div>
-                                        </td>
-                                        <td></td>
-                                    </tr>
+                                    
 
-                                    <tr>
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                <tr class="odd">
                                         <td>
-                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 text-hover-primary">#XGY-346</a>
+                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 text-hover-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">#XGY-346</font></font></a>
+                                        </td>
+
+                                        <td class="text-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            7 minutos atrás
+                                        </font></font></td>
+
+                                        <td class="text-end">
+                                            <a href="#" class="text-gray-600 text-hover-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Alberto Flores</font></font></a>
+                                        </td>
+
+                                        <td class="text-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            US$ 630,00</font></font></td>
+
+                                        <td class="text-end">
+                                            <span class="text-gray-800 fw-bolder"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">US$ 86,70</font></font></span>
                                         </td>
 
                                         <td class="text-end">
-                                            7 min ago
-                                        </td>
-
-                                        <td class="text-end">
-                                            <a href="#" class="text-gray-600 text-hover-primary">Albert
-                                                Flores</a>
-                                        </td>
-
-                                        <td class="text-end">
-                                            $630.00 </td>
-
-                                        <td class="text-end">
-                                            <span class="text-gray-800 fw-bolder">$86.70</span>
-                                        </td>
-
-                                        <td class="text-end">
-                                            <span class="badge py-3 px-4 fs-7 badge-light-warning">Pending</span>
+                                            <span class="badge py-3 px-4 fs-7 badge-light-warning"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pendente</font></font></span>
                                         </td>
 
                                         <td class="text-end">
@@ -1583,30 +1536,28 @@
                                                 <i class="ki-duotone ki-plus fs-4 m-0 toggle-off"></i> <i class="ki-duotone ki-minus fs-4 m-0 toggle-on"></i>
                                             </button>
                                         </td>
-                                    </tr>
-                                    <tr>
+                                    </tr><tr class="even">
                                         <td>
-                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 text-hover-primary">#YHD-047</a>
+                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 text-hover-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">#YHD-047</font></font></a>
+                                        </td>
+
+                                        <td class="text-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            52 minutos atrás
+                                        </font></font></td>
+
+                                        <td class="text-end">
+                                            <a href="#" class="text-gray-600 text-hover-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Jenny Wilson</font></font></a>
+                                        </td>
+
+                                        <td class="text-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            US$ 25,00</font></font></td>
+
+                                        <td class="text-end">
+                                            <span class="text-gray-800 fw-bolder"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">US$ 4,20</font></font></span>
                                         </td>
 
                                         <td class="text-end">
-                                            52 min ago
-                                        </td>
-
-                                        <td class="text-end">
-                                            <a href="#" class="text-gray-600 text-hover-primary">Jenny
-                                                Wilson</a>
-                                        </td>
-
-                                        <td class="text-end">
-                                            $25.00 </td>
-
-                                        <td class="text-end">
-                                            <span class="text-gray-800 fw-bolder">$4.20</span>
-                                        </td>
-
-                                        <td class="text-end">
-                                            <span class="badge py-3 px-4 fs-7 badge-light-primary">Confirmed</span>
+                                            <span class="badge py-3 px-4 fs-7 badge-light-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Confirmado</font></font></span>
                                         </td>
 
                                         <td class="text-end">
@@ -1614,30 +1565,28 @@
                                                 <i class="ki-duotone ki-plus fs-4 m-0 toggle-off"></i> <i class="ki-duotone ki-minus fs-4 m-0 toggle-on"></i>
                                             </button>
                                         </td>
-                                    </tr>
-                                    <tr>
+                                    </tr><tr class="odd">
                                         <td>
-                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 text-hover-primary">#SRR-678</a>
+                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 text-hover-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">#SRR-678</font></font></a>
+                                        </td>
+
+                                        <td class="text-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            1 hora atrás
+                                        </font></font></td>
+
+                                        <td class="text-end">
+                                            <a href="#" class="text-gray-600 text-hover-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Robert Fox</font></font></a>
+                                        </td>
+
+                                        <td class="text-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            US$ 1.630,00</font></font></td>
+
+                                        <td class="text-end">
+                                            <span class="text-gray-800 fw-bolder"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">US$ 203,90</font></font></span>
                                         </td>
 
                                         <td class="text-end">
-                                            1 hour ago
-                                        </td>
-
-                                        <td class="text-end">
-                                            <a href="#" class="text-gray-600 text-hover-primary">Robert
-                                                Fox</a>
-                                        </td>
-
-                                        <td class="text-end">
-                                            $1,630.00 </td>
-
-                                        <td class="text-end">
-                                            <span class="text-gray-800 fw-bolder">$203.90</span>
-                                        </td>
-
-                                        <td class="text-end">
-                                            <span class="badge py-3 px-4 fs-7 badge-light-warning">Pending</span>
+                                            <span class="badge py-3 px-4 fs-7 badge-light-warning"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pendente</font></font></span>
                                         </td>
 
                                         <td class="text-end">
@@ -1645,30 +1594,28 @@
                                                 <i class="ki-duotone ki-plus fs-4 m-0 toggle-off"></i> <i class="ki-duotone ki-minus fs-4 m-0 toggle-on"></i>
                                             </button>
                                         </td>
-                                    </tr>
-                                    <tr>
+                                    </tr><tr class="even">
                                         <td>
-                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 text-hover-primary">#PXF-534</a>
+                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 text-hover-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">#PXF-534</font></font></a>
+                                        </td>
+
+                                        <td class="text-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            3 horas atrás
+                                        </font></font></td>
+
+                                        <td class="text-end">
+                                            <a href="#" class="text-gray-600 text-hover-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cody Fisher</font></font></a>
+                                        </td>
+
+                                        <td class="text-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            US$ 119,00</font></font></td>
+
+                                        <td class="text-end">
+                                            <span class="text-gray-800 fw-bolder"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">US$ 12,00</font></font></span>
                                         </td>
 
                                         <td class="text-end">
-                                            3 hour ago
-                                        </td>
-
-                                        <td class="text-end">
-                                            <a href="#" class="text-gray-600 text-hover-primary">Cody
-                                                Fisher</a>
-                                        </td>
-
-                                        <td class="text-end">
-                                            $119.00 </td>
-
-                                        <td class="text-end">
-                                            <span class="text-gray-800 fw-bolder">$12.00</span>
-                                        </td>
-
-                                        <td class="text-end">
-                                            <span class="badge py-3 px-4 fs-7 badge-light-success">Shipped</span>
+                                            <span class="badge py-3 px-4 fs-7 badge-light-success"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Enviado</font></font></span>
                                         </td>
 
                                         <td class="text-end">
@@ -1676,30 +1623,28 @@
                                                 <i class="ki-duotone ki-plus fs-4 m-0 toggle-off"></i> <i class="ki-duotone ki-minus fs-4 m-0 toggle-on"></i>
                                             </button>
                                         </td>
-                                    </tr>
-                                    <tr>
+                                    </tr><tr class="odd">
                                         <td>
-                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 text-hover-primary">#XGD-249</a>
+                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 text-hover-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">#XGD-249</font></font></a>
+                                        </td>
+
+                                        <td class="text-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            Há 2 dias
+                                        </font></font></td>
+
+                                        <td class="text-end">
+                                            <a href="#" class="text-gray-600 text-hover-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Arlene McCoy</font></font></a>
+                                        </td>
+
+                                        <td class="text-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            US$ 660,00</font></font></td>
+
+                                        <td class="text-end">
+                                            <span class="text-gray-800 fw-bolder"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">US$ 52,26</font></font></span>
                                         </td>
 
                                         <td class="text-end">
-                                            2 day ago
-                                        </td>
-
-                                        <td class="text-end">
-                                            <a href="#" class="text-gray-600 text-hover-primary">Arlene
-                                                McCoy</a>
-                                        </td>
-
-                                        <td class="text-end">
-                                            $660.00 </td>
-
-                                        <td class="text-end">
-                                            <span class="text-gray-800 fw-bolder">$52.26</span>
-                                        </td>
-
-                                        <td class="text-end">
-                                            <span class="badge py-3 px-4 fs-7 badge-light-success">Shipped</span>
+                                            <span class="badge py-3 px-4 fs-7 badge-light-success"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Enviado</font></font></span>
                                         </td>
 
                                         <td class="text-end">
@@ -1707,30 +1652,28 @@
                                                 <i class="ki-duotone ki-plus fs-4 m-0 toggle-off"></i> <i class="ki-duotone ki-minus fs-4 m-0 toggle-on"></i>
                                             </button>
                                         </td>
-                                    </tr>
-                                    <tr>
+                                    </tr><tr class="even">
                                         <td>
-                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 text-hover-primary">#SKP-035</a>
+                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 text-hover-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">#SKP-035</font></font></a>
+                                        </td>
+
+                                        <td class="text-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            Há 2 dias
+                                        </font></font></td>
+
+                                        <td class="text-end">
+                                            <a href="#" class="text-gray-600 text-hover-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Leonor Pena</font></font></a>
+                                        </td>
+
+                                        <td class="text-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            US$ 290,00</font></font></td>
+
+                                        <td class="text-end">
+                                            <span class="text-gray-800 fw-bolder"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">US$ 29,00</font></font></span>
                                         </td>
 
                                         <td class="text-end">
-                                            2 day ago
-                                        </td>
-
-                                        <td class="text-end">
-                                            <a href="#" class="text-gray-600 text-hover-primary">Eleanor
-                                                Pena</a>
-                                        </td>
-
-                                        <td class="text-end">
-                                            $290.00 </td>
-
-                                        <td class="text-end">
-                                            <span class="text-gray-800 fw-bolder">$29.00</span>
-                                        </td>
-
-                                        <td class="text-end">
-                                            <span class="badge py-3 px-4 fs-7 badge-light-danger">Rejected</span>
+                                            <span class="badge py-3 px-4 fs-7 badge-light-danger"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Rejeitado</font></font></span>
                                         </td>
 
                                         <td class="text-end">
@@ -1738,30 +1681,28 @@
                                                 <i class="ki-duotone ki-plus fs-4 m-0 toggle-off"></i> <i class="ki-duotone ki-minus fs-4 m-0 toggle-on"></i>
                                             </button>
                                         </td>
-                                    </tr>
-                                    <tr>
+                                    </tr><tr class="odd">
                                         <td>
-                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 text-hover-primary">#SKP-567</a>
+                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 text-hover-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">#SKP-567</font></font></a>
+                                        </td>
+
+                                        <td class="text-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            7 minutos atrás
+                                        </font></font></td>
+
+                                        <td class="text-end">
+                                            <a href="#" class="text-gray-600 text-hover-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Daniel Wilson</font></font></a>
+                                        </td>
+
+                                        <td class="text-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            US$ 590,00</font></font></td>
+
+                                        <td class="text-end">
+                                            <span class="text-gray-800 fw-bolder"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">US$ 50,00</font></font></span>
                                         </td>
 
                                         <td class="text-end">
-                                            7 min ago
-                                        </td>
-
-                                        <td class="text-end">
-                                            <a href="#" class="text-gray-600 text-hover-primary">Dan
-                                                Wilson</a>
-                                        </td>
-
-                                        <td class="text-end">
-                                            $590.00 </td>
-
-                                        <td class="text-end">
-                                            <span class="text-gray-800 fw-bolder">$50.00</span>
-                                        </td>
-
-                                        <td class="text-end">
-                                            <span class="badge py-3 px-4 fs-7 badge-light-success">Shipped</span>
+                                            <span class="badge py-3 px-4 fs-7 badge-light-success"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Enviado</font></font></span>
                                         </td>
 
                                         <td class="text-end">
@@ -1769,10 +1710,9 @@
                                                 <i class="ki-duotone ki-plus fs-4 m-0 toggle-off"></i> <i class="ki-duotone ki-minus fs-4 m-0 toggle-on"></i>
                                             </button>
                                         </td>
-                                    </tr>
-                                </tbody>
+                                    </tr></tbody>
                                 <!--end::Table body-->
-                            </table>
+                            </table></div><div class="row"><div class="col-sm-12 col-md-5 d-flex align-items-center justify-content-center justify-content-md-start"></div><div class="col-sm-12 col-md-7 d-flex align-items-center justify-content-center justify-content-md-end"></div></div></div>
                             <!--end::Table-->
                         </div>
                         <!--end::Card body-->
@@ -1794,15 +1734,14 @@
                         <div class="card-header pt-7">
                             <!--begin::Title-->
                             <h3 class="card-title align-items-start flex-column">
-                                <span class="card-label fw-bold text-gray-900">Product Delivery</span>
-                                <span class="text-gray-500 mt-1 fw-semibold fs-6">1M Products Shipped so
-                                    far</span>
+                                <span class="card-label fw-bold text-gray-900"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Entrega de produto</font></font></span>
+                                <span class="text-gray-500 mt-1 fw-semibold fs-6"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1 milhão de produtos enviados até agora</font></font></span>
                             </h3>
                             <!--end::Title-->
 
                             <!--begin::Toolbar-->
                             <div class="card-toolbar">
-                                <a href="../apps/ecommerce/sales/details.html" class="btn btn-sm btn-light">Order Details</a>
+                                <a href="../apps/ecommerce/sales/details.html" class="btn btn-sm btn-light"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">detalhes do pedido</font></font></a>
                             </div>
                             <!--end::Toolbar-->
                         </div>
@@ -1823,8 +1762,7 @@
                                             <!--end::Icon-->
 
                                             <!--begin::Title-->
-                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 text-hover-primary fw-bold">Elephant
-                                                1802</a>
+                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 text-hover-primary fw-bold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Elefante 1802</font></font></a>
                                             <!--end::Title-->
                                         </div>
                                         <!--end::Wrapper-->
@@ -1938,14 +1876,14 @@
                                     <!--begin::Customer-->
                                     <div class="d-flex flex-stack">
                                         <!--begin::Name-->
-                                        <span class="text-gray-500 fw-bold">To:
-                                            <a href="../apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bold">
-                                                Jason Bourne </a>
+                                        <span class="text-gray-500 fw-bold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Para:
+                                             </font></font><a href="../apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                                Jason Bourne</font></font></a>
                                         </span>
                                         <!--end::Name-->
 
                                         <!--begin::Label-->
-                                        <span class="badge badge-light-success">Delivered</span>
+                                        <span class="badge badge-light-success"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Entregue</font></font></span>
                                         <!--end::Label-->
                                     </div>
                                     <!--end::Customer-->
@@ -1962,7 +1900,7 @@
                                             <!--end::Icon-->
 
                                             <!--begin::Title-->
-                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 text-hover-primary fw-bold">RiseUP</a>
+                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 text-hover-primary fw-bold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Erguer</font></font></a>
                                             <!--end::Title-->
                                         </div>
                                         <!--end::Wrapper-->
@@ -2076,14 +2014,14 @@
                                     <!--begin::Customer-->
                                     <div class="d-flex flex-stack">
                                         <!--begin::Name-->
-                                        <span class="text-gray-500 fw-bold">To:
-                                            <a href="../apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bold">
-                                                Marie Durant </a>
+                                        <span class="text-gray-500 fw-bold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Para:
+                                             </font></font><a href="../apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                                Marie Durant</font></font></a>
                                         </span>
                                         <!--end::Name-->
 
                                         <!--begin::Label-->
-                                        <span class="badge badge-light-primary">Shipping</span>
+                                        <span class="badge badge-light-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Envio</font></font></span>
                                         <!--end::Label-->
                                     </div>
                                     <!--end::Customer-->
@@ -2100,8 +2038,7 @@
                                             <!--end::Icon-->
 
                                             <!--begin::Title-->
-                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 text-hover-primary fw-bold">Yellow
-                                                Stone</a>
+                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 text-hover-primary fw-bold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pedra Amarela</font></font></a>
                                             <!--end::Title-->
                                         </div>
                                         <!--end::Wrapper-->
@@ -2215,14 +2152,14 @@
                                     <!--begin::Customer-->
                                     <div class="d-flex flex-stack">
                                         <!--begin::Name-->
-                                        <span class="text-gray-500 fw-bold">To:
-                                            <a href="../apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bold">
-                                                Dan Wilson </a>
+                                        <span class="text-gray-500 fw-bold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Para:
+                                             </font></font><a href="../apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                                Dan Wilson</font></font></a>
                                         </span>
                                         <!--end::Name-->
 
                                         <!--begin::Label-->
-                                        <span class="badge badge-light-danger">Confirmed</span>
+                                        <span class="badge badge-light-danger"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Confirmado</font></font></span>
                                         <!--end::Label-->
                                     </div>
                                     <!--end::Customer-->
@@ -2239,8 +2176,7 @@
                                             <!--end::Icon-->
 
                                             <!--begin::Title-->
-                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 text-hover-primary fw-bold">Elephant
-                                                1802</a>
+                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 text-hover-primary fw-bold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Elefante 1802</font></font></a>
                                             <!--end::Title-->
                                         </div>
                                         <!--end::Wrapper-->
@@ -2354,14 +2290,14 @@
                                     <!--begin::Customer-->
                                     <div class="d-flex flex-stack">
                                         <!--begin::Name-->
-                                        <span class="text-gray-500 fw-bold">To:
-                                            <a href="../apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bold">
-                                                Lebron Wayde </a>
+                                        <span class="text-gray-500 fw-bold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Para:
+                                             </font></font><a href="../apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                                LeBron Wayde</font></font></a>
                                         </span>
                                         <!--end::Name-->
 
                                         <!--begin::Label-->
-                                        <span class="badge badge-light-success">Delivered</span>
+                                        <span class="badge badge-light-success"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Entregue</font></font></span>
                                         <!--end::Label-->
                                     </div>
                                     <!--end::Customer-->
@@ -2378,7 +2314,7 @@
                                             <!--end::Icon-->
 
                                             <!--begin::Title-->
-                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 text-hover-primary fw-bold">RiseUP</a>
+                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 text-hover-primary fw-bold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Erguer</font></font></a>
                                             <!--end::Title-->
                                         </div>
                                         <!--end::Wrapper-->
@@ -2492,14 +2428,14 @@
                                     <!--begin::Customer-->
                                     <div class="d-flex flex-stack">
                                         <!--begin::Name-->
-                                        <span class="text-gray-500 fw-bold">To:
-                                            <a href="../apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bold">
-                                                Ana Simmons </a>
+                                        <span class="text-gray-500 fw-bold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Para:
+                                             </font></font><a href="../apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                                Ana Simmons</font></font></a>
                                         </span>
                                         <!--end::Name-->
 
                                         <!--begin::Label-->
-                                        <span class="badge badge-light-primary">Shipping</span>
+                                        <span class="badge badge-light-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Envio</font></font></span>
                                         <!--end::Label-->
                                     </div>
                                     <!--end::Customer-->
@@ -2516,8 +2452,7 @@
                                             <!--end::Icon-->
 
                                             <!--begin::Title-->
-                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 text-hover-primary fw-bold">Yellow
-                                                Stone</a>
+                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-800 text-hover-primary fw-bold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pedra Amarela</font></font></a>
                                             <!--end::Title-->
                                         </div>
                                         <!--end::Wrapper-->
@@ -2631,14 +2566,14 @@
                                     <!--begin::Customer-->
                                     <div class="d-flex flex-stack">
                                         <!--begin::Name-->
-                                        <span class="text-gray-500 fw-bold">To:
-                                            <a href="../apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bold">
-                                                Kevin Leonard </a>
+                                        <span class="text-gray-500 fw-bold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Para:
+                                             </font></font><a href="../apps/ecommerce/sales/details.html" class="text-gray-800 text-hover-primary fw-bold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                                Kevin Leonard</font></font></a>
                                         </span>
                                         <!--end::Name-->
 
                                         <!--begin::Label-->
-                                        <span class="badge badge-light-danger">Confirmed</span>
+                                        <span class="badge badge-light-danger"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Confirmado</font></font></span>
                                         <!--end::Label-->
                                     </div>
                                     <!--end::Customer-->
@@ -2662,9 +2597,8 @@
                         <div class="card-header pt-7">
                             <!--begin::Title-->
                             <h3 class="card-title align-items-start flex-column">
-                                <span class="card-label fw-bold text-gray-900">Stock Report</span>
-                                <span class="text-gray-500 mt-1 fw-semibold fs-6">Total 2,356 Items in the
-                                    Stock</span>
+                                <span class="card-label fw-bold text-gray-900"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Relatório de estoque</font></font></span>
+                                <span class="text-gray-500 mt-1 fw-semibold fs-6"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Total de 2.356 itens em estoque</font></font></span>
                             </h3>
                             <!--end::Title-->
 
@@ -2675,16 +2609,16 @@
                                     <!--begin::Destination-->
                                     <div class="d-flex align-items-center fw-bold">
                                         <!--begin::Label-->
-                                        <div class="text-muted fs-7 me-2">Cateogry</div>
+                                        <div class="text-muted fs-7 me-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Categoria</font></font></div>
                                         <!--end::Label-->
 
                                         <!--begin::Select-->
-                                        <select class="form-select form-select-transparent text-gray-900 fs-7 lh-1 fw-bold py-0 ps-3 w-auto" data-control="select2" data-hide-search="true" data-dropdown-css-class="w-150px" data-placeholder="Select an option">
+                                        <select class="form-select form-select-transparent text-gray-900 fs-7 lh-1 fw-bold py-0 ps-3 w-auto select2-hidden-accessible" data-control="select2" data-hide-search="true" data-dropdown-css-class="w-150px" data-placeholder="Select an option" data-select2-id="select2-data-15-3rxw" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
                                             <option></option>
-                                            <option value="Show All" selected="">Show All</option>
-                                            <option value="a">Category A</option>
-                                            <option value="b">Category B</option>
-                                        </select>
+                                            <option value="Show All" selected="" data-select2-id="select2-data-17-ilgx"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mostre tudo</font></font></option>
+                                            <option value="a"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Categoria A</font></font></option>
+                                            <option value="b"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Categoria B</font></font></option>
+                                        </select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-16-8jfh" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single form-select form-select-transparent text-gray-900 fs-7 lh-1 fw-bold py-0 ps-3 w-auto" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-5z3n-container" aria-controls="select2-5z3n-container"><span class="select2-selection__rendered" id="select2-5z3n-container" role="textbox" aria-readonly="true" title="Mostre tudo"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mostre tudo</font></font></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
                                         <!--end::Select-->
                                     </div>
                                     <!--end::Destination-->
@@ -2692,23 +2626,23 @@
                                     <!--begin::Status-->
                                     <div class="d-flex align-items-center fw-bold">
                                         <!--begin::Label-->
-                                        <div class="text-muted fs-7 me-2">Status</div>
+                                        <div class="text-muted fs-7 me-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Status</font></font></div>
                                         <!--end::Label-->
 
                                         <!--begin::Select-->
-                                        <select class="form-select form-select-transparent text-gray-900 fs-7 lh-1 fw-bold py-0 ps-3 w-auto" data-control="select2" data-hide-search="true" data-dropdown-css-class="w-150px" data-placeholder="Select an option" data-kt-table-widget-5="filter_status">
+                                        <select class="form-select form-select-transparent text-gray-900 fs-7 lh-1 fw-bold py-0 ps-3 w-auto select2-hidden-accessible" data-control="select2" data-hide-search="true" data-dropdown-css-class="w-150px" data-placeholder="Select an option" data-kt-table-widget-5="filter_status" data-select2-id="select2-data-18-btts" tabindex="-1" aria-hidden="true" data-kt-initialized="1">
                                             <option></option>
-                                            <option value="Show All" selected="">Show All</option>
-                                            <option value="In Stock">In Stock</option>
-                                            <option value="Out of Stock">Out of Stock</option>
-                                            <option value="Low Stock">Low Stock</option>
-                                        </select>
+                                            <option value="Show All" selected="" data-select2-id="select2-data-20-5j44"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mostre tudo</font></font></option>
+                                            <option value="In Stock"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Em estoque</font></font></option>
+                                            <option value="Out of Stock"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Fora de estoque</font></font></option>
+                                            <option value="Low Stock"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Baixo estoque</font></font></option>
+                                        </select><span class="select2 select2-container select2-container--bootstrap5" dir="ltr" data-select2-id="select2-data-19-2d99" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single form-select form-select-transparent text-gray-900 fs-7 lh-1 fw-bold py-0 ps-3 w-auto" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-dpis-container" aria-controls="select2-dpis-container"><span class="select2-selection__rendered" id="select2-dpis-container" role="textbox" aria-readonly="true" title="Mostre tudo"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mostre tudo</font></font></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
                                         <!--end::Select-->
                                     </div>
                                     <!--end::Status-->
 
                                     <!--begin::Search-->
-                                    <a href="../apps/ecommerce/catalog/products.html" class="btn btn-light btn-sm">View Stock</a>
+                                    <a href="../apps/ecommerce/catalog/products.html" class="btn btn-light btn-sm"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ver estoque</font></font></a>
                                     <!--end::Search-->
                                 </div>
                                 <!--begin::Filters-->
@@ -2720,275 +2654,258 @@
                         <!--begin::Card body-->
                         <div class="card-body">
                             <!--begin::Table-->
-                            <table class="table align-middle table-row-dashed fs-6 gy-3" id="kt_table_widget_5_table">
+                            <div id="kt_table_widget_5_table_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer"><div class="table-responsive"><table class="table align-middle table-row-dashed fs-6 gy-3 dataTable no-footer" id="kt_table_widget_5_table">
                                 <!--begin::Table head-->
                                 <thead>
                                     <!--begin::Table row-->
-                                    <tr class="text-start text-gray-500 fw-bold fs-7 text-uppercase gs-0">
-                                        <th class="min-w-150px">Item</th>
-                                        <th class="text-end pe-3 min-w-100px">Product ID</th>
-                                        <th class="text-end pe-3 min-w-150px">Date Added</th>
-                                        <th class="text-end pe-3 min-w-100px">Price</th>
-                                        <th class="text-end pe-3 min-w-100px">Status</th>
-                                        <th class="text-end pe-0 min-w-75px">Qty</th>
-                                    </tr>
+                                    <tr class="text-start text-gray-500 fw-bold fs-7 text-uppercase gs-0"><th class="min-w-150px sorting" tabindex="0" aria-controls="kt_table_widget_5_table" rowspan="1" colspan="1" aria-label="Item: ativar para classificar a coluna em ordem crescente" style="width: 150px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Item</font></font></th><th class="text-end pe-3 min-w-100px sorting_disabled" rowspan="1" colspan="1" aria-label="ID do produto" style="width: 100px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ID do produto</font></font></th><th class="text-end pe-3 min-w-150px sorting" tabindex="0" aria-controls="kt_table_widget_5_table" rowspan="1" colspan="1" aria-label="Data de adição: ative para classificar a coluna em ordem crescente" style="width: 150px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">data adicionada</font></font></th><th class="text-end pe-3 min-w-100px sorting" tabindex="0" aria-controls="kt_table_widget_5_table" rowspan="1" colspan="1" aria-label="Preço: ative para classificar a coluna em ordem crescente" style="width: 100px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Preço</font></font></th><th class="text-end pe-3 min-w-100px sorting" tabindex="0" aria-controls="kt_table_widget_5_table" rowspan="1" colspan="1" aria-label="Status: ativar para classificar a coluna em ordem crescente" style="width: 100px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Status</font></font></th><th class="text-end pe-0 min-w-75px sorting" tabindex="0" aria-controls="kt_table_widget_5_table" rowspan="1" colspan="1" aria-label="Qty: ativar para classificar a coluna em ordem crescente" style="width: 75px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Quantidade</font></font></th></tr>
                                     <!--end::Table row-->
                                 </thead>
                                 <!--end::Table head-->
 
                                 <!--begin::Table body-->
                                 <tbody class="fw-bold text-gray-600">
-                                    <tr>
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                <tr class="odd">
                                         <!--begin::Item-->
                                         <td>
-                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-900 text-hover-primary">Macbook Air M1</a>
+                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-900 text-hover-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MacBook Air M1</font></font></a>
                                         </td>
                                         <!--end::Item-->
 
                                         <!--begin::Product ID-->
-                                        <td class="text-end">
-                                            #XGY-356 </td>
+                                        <td class="text-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            #XGY-356</font></font></td>
                                         <!--end::Product ID-->
 
                                         <!--begin::Date added-->
-                                        <td class="text-end">
-                                            02 Apr, 2024 </td>
+                                        <td class="text-end" data-order="Data inválida"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            02 de abril de 2024</font></font></td>
                                         <!--end::Date added-->
 
                                         <!--begin::Price-->
-                                        <td class="text-end">
-                                            $1,230 </td>
+                                        <td class="text-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            US$ 1.230</font></font></td>
                                         <!--end::Price-->
 
                                         <!--begin::Status-->
                                         <td class="text-end">
-                                            <span class="badge py-3 px-4 fs-7 badge-light-primary">In
-                                                Stock</span>
+                                            <span class="badge py-3 px-4 fs-7 badge-light-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Em estoque</font></font></span>
                                         </td>
                                         <!--end::Status-->
 
                                         <!--begin::Qty-->
                                         <td class="text-end" data-order="58">
-                                            <span class="text-gray-900 fw-bold">58 PCS</span>
+                                            <span class="text-gray-900 fw-bold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">58 peças</font></font></span>
                                         </td>
                                         <!--end::Qty-->
-                                    </tr>
-                                    <tr>
+                                    </tr><tr class="even">
                                         <!--begin::Item-->
                                         <td>
-                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-900 text-hover-primary">Surface Laptop
-                                                4</a>
+                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-900 text-hover-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Portátil de superfície 4</font></font></a>
                                         </td>
                                         <!--end::Item-->
 
                                         <!--begin::Product ID-->
-                                        <td class="text-end">
-                                            #YHD-047 </td>
+                                        <td class="text-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            #YHD-047</font></font></td>
                                         <!--end::Product ID-->
 
                                         <!--begin::Date added-->
-                                        <td class="text-end">
-                                            01 Apr, 2024 </td>
+                                        <td class="text-end" data-order="Data inválida"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            01 de abril de 2024</font></font></td>
                                         <!--end::Date added-->
 
                                         <!--begin::Price-->
-                                        <td class="text-end">
-                                            $1,060 </td>
+                                        <td class="text-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            US$ 1.060</font></font></td>
                                         <!--end::Price-->
 
                                         <!--begin::Status-->
                                         <td class="text-end">
-                                            <span class="badge py-3 px-4 fs-7 badge-light-danger">Out of
-                                                Stock</span>
+                                            <span class="badge py-3 px-4 fs-7 badge-light-danger"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Fora de estoque</font></font></span>
                                         </td>
                                         <!--end::Status-->
 
                                         <!--begin::Qty-->
                                         <td class="text-end" data-order="0">
-                                            <span class="text-gray-900 fw-bold">0 PCS</span>
+                                            <span class="text-gray-900 fw-bold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">0 unidades</font></font></span>
                                         </td>
                                         <!--end::Qty-->
-                                    </tr>
-                                    <tr>
+                                    </tr><tr class="odd">
                                         <!--begin::Item-->
                                         <td>
-                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-900 text-hover-primary">Logitech MX 250</a>
+                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-900 text-hover-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Logitech MX250</font></font></a>
                                         </td>
                                         <!--end::Item-->
 
                                         <!--begin::Product ID-->
-                                        <td class="text-end">
-                                            #SRR-678 </td>
+                                        <td class="text-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            #SRR-678</font></font></td>
                                         <!--end::Product ID-->
 
                                         <!--begin::Date added-->
-                                        <td class="text-end">
-                                            24 Mar, 2024 </td>
+                                        <td class="text-end" data-order="2024-03-20T00:00:00-03:00"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            24 de março de 2024</font></font></td>
                                         <!--end::Date added-->
 
                                         <!--begin::Price-->
-                                        <td class="text-end">
-                                            $64 </td>
+                                        <td class="text-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            US$ 64</font></font></td>
                                         <!--end::Price-->
 
                                         <!--begin::Status-->
                                         <td class="text-end">
-                                            <span class="badge py-3 px-4 fs-7 badge-light-primary">In
-                                                Stock</span>
+                                            <span class="badge py-3 px-4 fs-7 badge-light-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Em estoque</font></font></span>
                                         </td>
                                         <!--end::Status-->
 
                                         <!--begin::Qty-->
                                         <td class="text-end" data-order="290">
-                                            <span class="text-gray-900 fw-bold">290 PCS</span>
+                                            <span class="text-gray-900 fw-bold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">290 unidades</font></font></span>
                                         </td>
                                         <!--end::Qty-->
-                                    </tr>
-                                    <tr>
+                                    </tr><tr class="even">
                                         <!--begin::Item-->
                                         <td>
-                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-900 text-hover-primary">AudioEngine HD3</a>
+                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-900 text-hover-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AudioEngine HD3</font></font></a>
                                         </td>
                                         <!--end::Item-->
 
                                         <!--begin::Product ID-->
-                                        <td class="text-end">
-                                            #PXF-578 </td>
+                                        <td class="text-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            #PXF-578</font></font></td>
                                         <!--end::Product ID-->
 
                                         <!--begin::Date added-->
-                                        <td class="text-end">
-                                            24 Mar, 2024 </td>
+                                        <td class="text-end" data-order="2024-03-20T00:00:00-03:00"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            24 de março de 2024</font></font></td>
                                         <!--end::Date added-->
 
                                         <!--begin::Price-->
-                                        <td class="text-end">
-                                            $1,060 </td>
+                                        <td class="text-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            US$ 1.060</font></font></td>
                                         <!--end::Price-->
 
                                         <!--begin::Status-->
                                         <td class="text-end">
-                                            <span class="badge py-3 px-4 fs-7 badge-light-danger">Out of
-                                                Stock</span>
+                                            <span class="badge py-3 px-4 fs-7 badge-light-danger"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Fora de estoque</font></font></span>
                                         </td>
                                         <!--end::Status-->
 
                                         <!--begin::Qty-->
                                         <td class="text-end" data-order="46">
-                                            <span class="text-gray-900 fw-bold">46 PCS</span>
+                                            <span class="text-gray-900 fw-bold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">46 peças</font></font></span>
                                         </td>
                                         <!--end::Qty-->
-                                    </tr>
-                                    <tr>
+                                    </tr><tr class="odd">
                                         <!--begin::Item-->
                                         <td>
-                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-900 text-hover-primary">HP Hyper LTR</a>
+                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-900 text-hover-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HP Hiper LTR</font></font></a>
                                         </td>
                                         <!--end::Item-->
 
                                         <!--begin::Product ID-->
-                                        <td class="text-end">
-                                            #PXF-778 </td>
+                                        <td class="text-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            #PXF-778</font></font></td>
                                         <!--end::Product ID-->
 
                                         <!--begin::Date added-->
-                                        <td class="text-end">
-                                            16 Jan, 2024 </td>
+                                        <td class="text-end" data-order="2024-01-20T00:00:00-03:00"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            16 de janeiro de 2024</font></font></td>
                                         <!--end::Date added-->
 
                                         <!--begin::Price-->
-                                        <td class="text-end">
-                                            $4500 </td>
+                                        <td class="text-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            US$ 4.500</font></font></td>
                                         <!--end::Price-->
 
                                         <!--begin::Status-->
                                         <td class="text-end">
-                                            <span class="badge py-3 px-4 fs-7 badge-light-primary">In
-                                                Stock</span>
+                                            <span class="badge py-3 px-4 fs-7 badge-light-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Em estoque</font></font></span>
                                         </td>
                                         <!--end::Status-->
 
                                         <!--begin::Qty-->
                                         <td class="text-end" data-order="78">
-                                            <span class="text-gray-900 fw-bold">78 PCS</span>
+                                            <span class="text-gray-900 fw-bold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">78 peças</font></font></span>
                                         </td>
                                         <!--end::Qty-->
-                                    </tr>
-                                    <tr>
+                                    </tr><tr class="even">
                                         <!--begin::Item-->
                                         <td>
-                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-900 text-hover-primary">Dell 32
-                                                UltraSharp</a>
+                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-900 text-hover-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dell 32 UltraSharp</font></font></a>
                                         </td>
                                         <!--end::Item-->
 
                                         <!--begin::Product ID-->
-                                        <td class="text-end">
-                                            #XGY-356 </td>
+                                        <td class="text-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            #XGY-356</font></font></td>
                                         <!--end::Product ID-->
 
                                         <!--begin::Date added-->
-                                        <td class="text-end">
-                                            22 Dec, 2024 </td>
+                                        <td class="text-end" data-order="Data inválida"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            22 de dezembro de 2024</font></font></td>
                                         <!--end::Date added-->
 
                                         <!--begin::Price-->
-                                        <td class="text-end">
-                                            $1,060 </td>
+                                        <td class="text-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            US$ 1.060</font></font></td>
                                         <!--end::Price-->
 
                                         <!--begin::Status-->
                                         <td class="text-end">
-                                            <span class="badge py-3 px-4 fs-7 badge-light-warning">Low
-                                                Stock</span>
+                                            <span class="badge py-3 px-4 fs-7 badge-light-warning"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Baixo estoque</font></font></span>
                                         </td>
                                         <!--end::Status-->
 
                                         <!--begin::Qty-->
                                         <td class="text-end" data-order="8">
-                                            <span class="text-gray-900 fw-bold">8 PCS</span>
+                                            <span class="text-gray-900 fw-bold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">8 peças</font></font></span>
                                         </td>
                                         <!--end::Qty-->
-                                    </tr>
-                                    <tr>
+                                    </tr><tr class="odd">
                                         <!--begin::Item-->
                                         <td>
-                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-900 text-hover-primary">Google Pixel 6
-                                                Pro</a>
+                                            <a href="../apps/ecommerce/catalog/edit-product.html" class="text-gray-900 text-hover-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Google Pixel 6 Pro</font></font></a>
                                         </td>
                                         <!--end::Item-->
 
                                         <!--begin::Product ID-->
-                                        <td class="text-end">
-                                            #XVR-425 </td>
+                                        <td class="text-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            #XVR-425</font></font></td>
                                         <!--end::Product ID-->
 
                                         <!--begin::Date added-->
-                                        <td class="text-end">
-                                            27 Dec, 2024 </td>
+                                        <td class="text-end" data-order="Data inválida"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            27 de dezembro de 2024</font></font></td>
                                         <!--end::Date added-->
 
                                         <!--begin::Price-->
-                                        <td class="text-end">
-                                            $1,060 </td>
+                                        <td class="text-end"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                                            US$ 1.060</font></font></td>
                                         <!--end::Price-->
 
                                         <!--begin::Status-->
                                         <td class="text-end">
-                                            <span class="badge py-3 px-4 fs-7 badge-light-primary">In
-                                                Stock</span>
+                                            <span class="badge py-3 px-4 fs-7 badge-light-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Em estoque</font></font></span>
                                         </td>
                                         <!--end::Status-->
 
                                         <!--begin::Qty-->
                                         <td class="text-end" data-order="124">
-                                            <span class="text-gray-900 fw-bold">124 PCS</span>
+                                            <span class="text-gray-900 fw-bold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">124 peças</font></font></span>
                                         </td>
                                         <!--end::Qty-->
-                                    </tr>
-                                </tbody>
+                                    </tr></tbody>
                                 <!--end::Table body-->
-                            </table>
+                            </table></div><div class="row"><div class="col-sm-12 col-md-5 d-flex align-items-center justify-content-center justify-content-md-start"></div><div class="col-sm-12 col-md-7 d-flex align-items-center justify-content-center justify-content-md-end"></div></div></div>
                             <!--end::Table-->
                         </div>
                         <!--end::Card body-->
@@ -3001,5 +2918,4 @@
         </div>
         <!--end::Container-->
     </div>
-    <!--end::Content-->
  <?php include_once "footer.php" ?>
