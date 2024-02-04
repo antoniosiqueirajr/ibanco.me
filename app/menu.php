@@ -129,7 +129,18 @@
                                     <!--end::Nav link-->
                                 </li>
                                 <!--end::Nav item-->
-                              
+                                <!--begin::Nav item-->
+                                <li class="nav-item mb-2" data-bs-toggle="tooltip" data-bs-trigger="hover"
+                                    data-bs-placement="right" data-bs-dismiss="click" title="Menu">
+                                    <!--begin::Nav link-->
+                                    <a class="nav-link btn btn-icon btn-active-color-primary btn-color-gray-500 btn-active-light active"
+                                        data-bs-toggle="tab" href="#kt_aside_nav_tab_menu">
+                                        <i class="ki-duotone ki-briefcase fs-2x"><span class="path1"></span><span
+                                                class="path2"></span></i>
+                                    </a>
+                                    <!--end::Nav link-->
+                                </li>
+                                <!--end::Nav item-->
                                 <!--begin::Nav item-->
                                 <li class="nav-item mb-2" data-bs-toggle="tooltip" data-bs-trigger="hover"
                                     data-bs-placement="right" data-bs-dismiss="click" title="Subscription">
