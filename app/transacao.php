@@ -281,11 +281,10 @@
                                 </th>
                                 <th class="min-w-125px">Cliente</th>
                                 <th class="min-w-125px">CPF</th>
-
-                                <th class="min-w-125px">Meio Pagamento</th>
+                                <th class="min-w-125px">Meio</th>
                                 <th class="min-w-125px">Valor</th>
                                 <th class="min-w-125px">Taxa</th>
-                                <th class="min-w-125px">Data Operação</th>
+                                <th class="min-w-125px">Data</th>
                                 <th class="min-w-125px">Tipo</th>
                                 <th class="min-w-125px">Status</th>
                                 <th class="text-end min-w-70px">Ação</th>
