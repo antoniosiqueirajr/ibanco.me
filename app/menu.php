@@ -1512,68 +1512,786 @@
                                                     </div><!--end:Menu content-->
                                                 </div><!--end:Menu item--><!--begin:Menu item-->
 
-<!-- Módulo 1: Vendas -->
-<div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
-    <span class="menu-link">
-        <span class="menu-icon"><i class="ki-duotone ki-cart fs-2"></i></span>
-        <span class="menu-title">Vendas</span>
-        <span class="menu-arrow"></span>
-    </span>
-    <div class="menu-sub menu-sub-accordion">
-        <div class="menu-item">
-            <a class="menu-link" href="#">
-                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
-                <span class="menu-title">Gerenciamento de Pedidos</span>
-            </a>
-        </div>
-        <div class="menu-item">
-            <a class="menu-link" href="#">
-                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
-                <span class="menu-title">Catálogo de Produtos</span>
-            </a>
-        </div>
-        <!-- Adicione mais subitens conforme necessário -->
-    </div>
-</div>
+                                                <!-- Módulo 1: Vendas -->
+                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                    <span class="menu-link">
+                                                        <span class="menu-icon"><i class="ki-duotone ki-cart fs-2"></i></span>
+                                                        <span class="menu-title">Vendas</span>
+                                                        <span class="menu-arrow"></span>
+                                                    </span>
+                                                    <div class="menu-sub menu-sub-accordion">
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Gerenciamento de Pedidos</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Catálogo de Produtos</span>
+                                                            </a>
+                                                        </div>
+                                                        <!-- Adicione mais subitens conforme necessário -->
+                                                    </div>
+                                                </div>
 
-<!-- Módulo 2: Compras -->
-<div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
-    <span class="menu-link">
-        <span class="menu-icon"><i class="ki-duotone ki-basket fs-2"></i></span>
-        <span class="menu-title">Compras</span>
-        <span class="menu-arrow"></span>
-    </span>
-    <div class="menu-sub menu-sub-accordion">
-        <div class="menu-item">
-            <a class="menu-link" href="#">
-                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
-                <span class="menu-title">Fornecedores</span>
-            </a>
-        </div>
-        <div class="menu-item">
-            <a class="menu-link" href="#">
-                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
-                <span class="menu-title">Pedidos de Compra</span>
-            </a>
-        </div>
-        <!-- Adicione mais subitens conforme necessário -->
-    </div>
-</div>
+                                                <!-- Módulo 2: Compras -->
+                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                    <span class="menu-link">
+                                                        <span class="menu-icon"><i class="ki-duotone ki-basket fs-2"></i></span>
+                                                        <span class="menu-title">Compras</span>
+                                                        <span class="menu-arrow"></span>
+                                                    </span>
+                                                    <div class="menu-sub menu-sub-accordion">
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Fornecedores</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Pedidos de Compra</span>
+                                                            </a>
+                                                        </div>
+                                                        <!-- Adicione mais subitens conforme necessário -->
+                                                    </div>
+                                                </div>
 
-<!-- Adicione os demais módulos e subitens seguindo o mesmo padrão -->
-
-
+                                                <!-- Adicione os demais módulos e subitens seguindo o mesmo padrão -->
 
 
 
+                                                <!-- Módulo 3: Estoque -->
+                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                    <span class="menu-link">
+                                                        <span class="menu-icon"><i class="ki-duotone ki-box fs-2"></i></span>
+                                                        <span class="menu-title">Estoque</span>
+                                                        <span class="menu-arrow"></span>
+                                                    </span>
+                                                    <div class="menu-sub menu-sub-accordion">
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Controle de Inventário</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Movimentação de Estoque</span>
+                                                            </a>
+                                                        </div>
+                                                        <!-- Adicione mais subitens conforme necessário -->
+                                                    </div>
+                                                </div>
+
+
+
+                                                <!-- Módulo 4: Contabilidade -->
+                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                    <span class="menu-link">
+                                                        <span class="menu-icon"><i class="ki-duotone ki-calculator fs-2"></i></span>
+                                                        <span class="menu-title">Contabilidade</span>
+                                                        <span class="menu-arrow"></span>
+                                                    </span>
+                                                    <div class="menu-sub menu-sub-accordion">
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Lançamentos Contábeis</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Balanço Patrimonial</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Demonstrativo de Resultados</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Auditoria Financeira</span>
+                                                            </a>
+                                                        </div>
+                                                        <!-- Adicione mais subitens conforme necessário -->
+                                                    </div>
+                                                </div>
+
+
+                                                <!-- Módulo 5: Recursos Humanos -->
+                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                    <span class="menu-link">
+                                                        <span class="menu-icon"><i class="ki-duotone ki-users fs-2"></i></span>
+                                                        <span class="menu-title">Recursos Humanos</span>
+                                                        <span class="menu-arrow"></span>
+                                                    </span>
+                                                    <div class="menu-sub menu-sub-accordion">
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Cadastro de Funcionários</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Controle de Ponto</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Avaliação de Desempenho</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Benefícios e Folha de Pagamento</span>
+                                                            </a>
+                                                        </div>
+                                                        <!-- Adicione mais subitens conforme necessário -->
+                                                    </div>
+                                                </div>
+
+
+
+                                                <!-- Módulo 6: Navegador -->
+                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                    <span class="menu-link">
+                                                        <span class="menu-icon"><i class="ki-duotone ki-browser fs-2"></i></span>
+                                                        <span class="menu-title">Navegador</span>
+                                                        <span class="menu-arrow"></span>
+                                                    </span>
+                                                    <div class="menu-sub menu-sub-accordion">
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Histórico de Navegação</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Favoritos</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Configurações do Navegador</span>
+                                                            </a>
+                                                        </div>
+                                                        <!-- Adicione mais subitens conforme necessário -->
+                                                    </div>
+                                                </div>
+
+
+
+                                                <!-- Módulo 7: Configurações -->
+                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                    <span class="menu-link">
+                                                        <span class="menu-icon"><i class="ki-duotone ki-settings fs-2"></i></span>
+                                                        <span class="menu-title">Configurações</span>
+                                                        <span class="menu-arrow"></span>
+                                                    </span>
+                                                    <div class="menu-sub menu-sub-accordion">
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Configurações Gerais</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Preferências do Usuário</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Segurança</span>
+                                                            </a>
+                                                        </div>
+                                                        <!-- Adicione mais subitens conforme necessário -->
+                                                    </div>
+                                                </div>
+
+
+                                                <!-- Módulo 8: Email -->
+                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                    <span class="menu-link">
+                                                        <span class="menu-icon"><i class="ki-duotone ki-envelope fs-2"></i></span>
+                                                        <span class="menu-title">Email</span>
+                                                        <span class="menu-arrow"></span>
+                                                    </span>
+                                                    <div class="menu-sub menu-sub-accordion">
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Caixa de Entrada</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Compor Email</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Configurações de Email</span>
+                                                            </a>
+                                                        </div>
+                                                        <!-- Adicione mais subitens conforme necessário -->
+                                                    </div>
+                                                </div>
+
+                                                <!-- Módulo 9: Calendário -->
+                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                    <span class="menu-link">
+                                                        <span class="menu-icon"><i class="ki-duotone ki-calendar fs-2"></i></span>
+                                                        <span class="menu-title">Calendário</span>
+                                                        <span class="menu-arrow"></span>
+                                                    </span>
+                                                    <div class="menu-sub menu-sub-accordion">
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Visualizar Calendário</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Adicionar Evento</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Configurações do Calendário</span>
+                                                            </a>
+                                                        </div>
+                                                        <!-- Adicione mais subitens conforme necessário -->
+                                                    </div>
+                                                </div>
+
+
+                                                <!-- Módulo 10: Documentos -->
+                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                    <span class="menu-link">
+                                                        <span class="menu-icon"><i class="ki-duotone ki-file-text fs-2"></i></span>
+                                                        <span class="menu-title">Documentos</span>
+                                                        <span class="menu-arrow"></span>
+                                                    </span>
+                                                    <div class="menu-sub menu-sub-accordion">
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Biblioteca de Documentos</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Upload de Arquivos</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Compartilhamento de Documentos</span>
+                                                            </a>
+                                                        </div>
+                                                        <!-- Adicione mais subitens conforme necessário -->
+                                                    </div>
+                                                </div>
+
+
+                                                <!-- Módulo 10: Documentos -->
+                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                    <span class="menu-link">
+                                                        <span class="menu-icon"><i class="ki-duotone ki-file-text fs-2"></i></span>
+                                                        <span class="menu-title">Documentos</span>
+                                                        <span class="menu-arrow"></span>
+                                                    </span>
+                                                    <div class="menu-sub menu-sub-accordion">
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Biblioteca de Documentos</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Upload de Arquivos</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Compartilhamento de Documentos</span>
+                                                            </a>
+                                                        </div>
+                                                        <!-- Adicione mais subitens conforme necessário -->
+                                                    </div>
+                                                </div>
+                                                <!-- Módulo 11: Logística -->
+                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                    <span class="menu-link">
+                                                        <span class="menu-icon"><i class="ki-duotone ki-truck fs-2"></i></span>
+                                                        <span class="menu-title">Logística</span>
+                                                        <span class="menu-arrow"></span>
+                                                    </span>
+                                                    <div class="menu-sub menu-sub-accordion">
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Rastreamento de Entregas</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Gestão de Estoque</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Controle de Frota</span>
+                                                            </a>
+                                                        </div>
+                                                        <!-- Adicione mais subitens conforme necessário -->
+                                                    </div>
+                                                </div>
+                                                <!-- Módulo 12: Gestão de Equipe -->
+                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                    <span class="menu-link">
+                                                        <span class="menu-icon"><i class="ki-duotone ki-users fs-2"></i></span>
+                                                        <span class="menu-title">Gestão de Equipe</span>
+                                                        <span class="menu-arrow"></span>
+                                                    </span>
+                                                    <div class="menu-sub menu-sub-accordion">
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Organograma</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Gestão de Tarefas</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Comunicação Interna</span>
+                                                            </a>
+                                                        </div>
+                                                        <!-- Adicione mais subitens conforme necessário -->
+                                                    </div>
+                                                </div>
+                                                <!-- Módulo 13: Relatórios -->
+                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                    <span class="menu-link">
+                                                        <span class="menu-icon"><i class="ki-duotone ki-file-chart fs-2"></i></span>
+                                                        <span class="menu-title">Relatórios</span>
+                                                        <span class="menu-arrow"></span>
+                                                    </span>
+                                                    <div class="menu-sub menu-sub-accordion">
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Relatórios de Vendas</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Relatórios Financeiros</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Relatórios de Recursos Humanos</span>
+                                                            </a>
+                                                        </div>
+                                                        <!-- Adicione mais subitens conforme necessário -->
+                                                    </div>
+                                                </div>
+                                                <!-- Módulo 14: CRM -->
+                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                    <span class="menu-link">
+                                                        <span class="menu-icon"><i class="ki-duotone ki-handshake fs-2"></i></span>
+                                                        <span class="menu-title">CRM</span>
+                                                        <span class="menu-arrow"></span>
+                                                    </span>
+                                                    <div class="menu-sub menu-sub-accordion">
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Gestão de Clientes</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Registro de Atividades</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Campanhas de Marketing</span>
+                                                            </a>
+                                                        </div>
+                                                        <!-- Adicione mais subitens conforme necessário -->
+                                                    </div>
+                                                </div>
+                                                <!-- Módulo 15: Ponto de Venda -->
+                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                    <span class="menu-link">
+                                                        <span class="menu-icon"><i class="ki-duotone ki-cash-register fs-2"></i></span>
+                                                        <span class="menu-title">Ponto de Venda</span>
+                                                        <span class="menu-arrow"></span>
+                                                    </span>
+                                                    <div class="menu-sub menu-sub-accordion">
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Registro de Vendas</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Gestão de Estoque no Ponto de Venda</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Promoções e Descontos</span>
+                                                            </a>
+                                                        </div>
+                                                        <!-- Adicione mais subitens conforme necessário -->
+                                                    </div>
+                                                </div>
+                                                <!-- Módulo 16: E-commerce -->
+                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                    <span class="menu-link">
+                                                        <span class="menu-icon"><i class="ki-duotone ki-shopping-cart fs-2"></i></span>
+                                                        <span class="menu-title">E-commerce</span>
+                                                        <span class="menu-arrow"></span>
+                                                    </span>
+                                                    <div class="menu-sub menu-sub-accordion">
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Catálogo Online</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Gestão de Pedidos Online</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Integração de Pagamento</span>
+                                                            </a>
+                                                        </div>
+                                                        <!-- Adicione mais subitens conforme necessário -->
+                                                    </div>
+                                                </div>
+                                                <!-- Módulo 17: Produção -->
+                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                    <span class="menu-link">
+                                                        <span class="menu-icon"><i class="ki-duotone ki-settings fs-2"></i></span>
+                                                        <span class="menu-title">Produção</span>
+                                                        <span class="menu-arrow"></span>
+                                                    </span>
+                                                    <div class="menu-sub menu-sub-accordion">
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Ordens de Produção</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Controle de Qualidade</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Gestão de Materiais</span>
+                                                            </a>
+                                                        </div>
+                                                        <!-- Adicione mais subitens conforme necessário -->
+                                                    </div>
+                                                </div>
+                                                <!-- Módulo 18: Frotas -->
+                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                    <span class="menu-link">
+                                                        <span class="menu-icon"><i class="ki-duotone ki-car fs-2"></i></span>
+                                                        <span class="menu-title">Frotas</span>
+                                                        <span class="menu-arrow"></span>
+                                                    </span>
+                                                    <div class="menu-sub menu-sub-accordion">
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Gestão de Veículos</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Manutenção de Frota</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Rastreamento de Veículos</span>
+                                                            </a>
+                                                        </div>
+                                                        <!-- Adicione mais subitens conforme necessário -->
+                                                    </div>
+                                                </div>
+                                                <!-- Módulo 19: Faturamento -->
+                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                    <span class="menu-link">
+                                                        <span class="menu-icon"><i class="ki-duotone ki-file-dollar fs-2"></i></span>
+                                                        <span class="menu-title">Faturamento</span>
+                                                        <span class="menu-arrow"></span>
+                                                    </span>
+                                                    <div class="menu-sub menu-sub-accordion">
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Emissão de Notas Fiscais</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Controle de Cobranças</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Relatórios Financeiros</span>
+                                                            </a>
+                                                        </div>
+                                                        <!-- Adicione mais subitens conforme necessário -->
+                                                    </div>
+                                                </div>
+                                                <!-- Módulo 20: Projetos -->
+                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                    <span class="menu-link">
+                                                        <span class="menu-icon"><i class="ki-duotone ki-briefcase fs-2"></i></span>
+                                                        <span class="menu-title">Projetos</span>
+                                                        <span class="menu-arrow"></span>
+                                                    </span>
+                                                    <div class="menu-sub menu-sub-accordion">
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Gestão de Projetos</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Acompanhamento de Tarefas</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Orçamento de Projetos</span>
+                                                            </a>
+                                                        </div>
+                                                        <!-- Adicione mais subitens conforme necessário -->
+                                                    </div>
+                                                </div>
+                                                <!-- Módulo 21: Compras -->
+                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                    <span class="menu-link">
+                                                        <span class="menu-icon"><i class="ki-duotone ki-shopping-cart fs-2"></i></span>
+                                                        <span class="menu-title">Compras</span>
+                                                        <span class="menu-arrow"></span>
+                                                    </span>
+                                                    <div class="menu-sub menu-sub-accordion">
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Registro de Pedidos de Compra</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Aprovações de Compras</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Gestão de Fornecedores</span>
+                                                            </a>
+                                                        </div>
+                                                        <!-- Adicione mais subitens conforme necessário -->
+                                                    </div>
+                                                </div>
+                                                <!-- Módulo 21: Compras -->
+                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                    <span class="menu-link">
+                                                        <span class="menu-icon"><i class="ki-duotone ki-shopping-cart fs-2"></i></span>
+                                                        <span class="menu-title">Compras</span>
+                                                        <span class="menu-arrow"></span>
+                                                    </span>
+                                                    <div class="menu-sub menu-sub-accordion">
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Registro de Pedidos de Compra</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Aprovações de Compras</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Gestão de Fornecedores</span>
+                                                            </a>
+                                                        </div>
+                                                        <!-- Adicione mais subitens conforme necessário -->
+                                                    </div>
+                                                </div>
+                                                <!-- Módulo 23: Serviços -->
+                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                    <span class="menu-link">
+                                                        <span class="menu-icon"><i class="ki-duotone ki-settings fs-2"></i></span>
+                                                        <span class="menu-title">Serviços</span>
+                                                        <span class="menu-arrow"></span>
+                                                    </span>
+                                                    <div class="menu-sub menu-sub-accordion">
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Catálogo de Serviços</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Agendamento de Serviços</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Histórico de Serviços</span>
+                                                            </a>
+                                                        </div>
+                                                        <!-- Adicione mais subitens conforme necessário -->
+                                                    </div>
+                                                </div>
+                                                <!-- Módulo 24: Inventário -->
+                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                    <span class="menu-link">
+                                                        <span class="menu-icon"><i class="ki-duotone ki-archive fs-2"></i></span>
+                                                        <span class="menu-title">Inventário</span>
+                                                        <span class="menu-arrow"></span>
+                                                    </span>
+                                                    <div class="menu-sub menu-sub-accordion">
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Gestão de Estoques</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Controle de Entradas e Saídas</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Relatórios de Inventário</span>
+                                                            </a>
+                                                        </div>
+                                                        <!-- Adicione mais subitens conforme necessário -->
+                                                    </div>
+                                                </div>
+
+
+                                                <!-- Módulo 25: Dashboard -->
+                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+                                                    <span class="menu-link">
+                                                        <span class="menu-icon"><i class="ki-duotone ki-element-11 fs-2"></i></span>
+                                                        <span class="menu-title">Dashboard</span>
+                                                        <span class="menu-arrow"></span>
+                                                    </span>
+                                                    <div class="menu-sub menu-sub-accordion">
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Visão Geral</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Análise de Vendas</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu-item">
+                                                            <a class="menu-link" href="#">
+                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                                                                <span class="menu-title">Indicadores Financeiros</span>
+                                                            </a>
+                                                        </div>
+                                                        <!-- Adicione mais subitens conforme necessário -->
+                                                    </div>
+                                                </div>
 
 
 
 
 
 
-
-                                                
 
 
 
