@@ -313,12 +313,12 @@
                                     **** 7691
                                 </td>
                                 <td>R$ 10.000,00</td>
-                                <td>R$ 100,00<span class="ms-2 badge badge-light-warning fw-bold">Pendente</span></td>
+                                <td>R$ 100,00<span class="ms-2 badge badge-light-warning fw-bold">1,00%</span></td>
                                 <td>
-                                    03 Fev de 2024 17:12:01 </td>
+                                    03/02/2024 17:12:01 </td>
 
                                 <td>
-                                    <span class="badge badge-square badge-warning"> Pendente </span>
+                                    <span class="badge badge-square badge-warning"> Conciliação </span>
                                 </td>
                                 <td class="text-end">
                                     <a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
@@ -330,7 +330,7 @@
                                         <!--begin::Menu item-->
                                         <div class="menu-item px-3">
                                             <a href="view.html" class="menu-link px-3">
-                                                View
+                                                Visualizar
                                             </a>
                                         </div>
                                         <!--end::Menu item-->
@@ -338,7 +338,7 @@
                                         <!--begin::Menu item-->
                                         <div class="menu-item px-3">
                                             <a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">
-                                                Delete
+                                                Cancelar
                                             </a>
                                         </div>
                                         <!--end::Menu item-->
