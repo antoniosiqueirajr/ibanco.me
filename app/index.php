@@ -881,7 +881,7 @@
 
             <!--begin::Row-->
             <div class="row gy-5 g-xl-10">
-     
+
 
                 <!--begin::Col-->
                 <div class="col-xl-12 mb-12 mb-xl-12">
@@ -1225,75 +1225,6 @@
                     <!--end::Chart widget 4-->
                 </div>
                 <!--end::Col-->
-            </div>
-            <!--end::Row-->
-
-            <!--begin::Row-->
-            <div class="row gy-5 g-xl-10">
-                <!--begin::Col-->
-                <div class="col-xl-4 mb-xl-10">
-
-                    <!--begin::Engage widget 1-->
-                    <div class="card h-md-100" dir="ltr">
-                        <!--begin::Body-->
-                        <div class="card-body d-flex flex-column flex-center">
-                            <!--begin::Heading-->
-                            <div class="mb-2">
-                                <!--begin::Title-->
-                                <h1 class="fw-semibold text-gray-800 text-center lh-lg">
-                                    <font style="vertical-align: inherit;">
-                                        <font style="vertical-align: inherit;">
-                                            Você já experimentou </font>
-                                    </font><br>
-                                    <font style="vertical-align: inherit;">
-                                        <font style="vertical-align: inherit;">o novo
-                                        </font>
-                                    </font><span class="fw-bolder">
-                                        <font style="vertical-align: inherit;">
-                                            <font style="vertical-align: inherit;">aplicativo de comércio eletrônico?</font>
-                                        </font>
-                                    </span>
-                                </h1>
-                                <!--end::Title-->
-
-                                <!--begin::Illustration-->
-                                <div class="py-10 text-center">
-                                    <img src="assets/media/svg/illustrations/easy/2.svg" class="theme-light-show w-200px" alt="">
-                                    <img src="assets/media/svg/illustrations/easy/2-dark.svg" class="theme-dark-show w-200px" alt="">
-                                </div>
-                                <!--end::Illustration-->
-                            </div>
-                            <!--end::Heading-->
-
-                            <!--begin::Links-->
-                            <div class="text-center mb-1">
-                                <!--begin::Link-->
-                                <a class="btn btn-sm btn-primary me-2" href="../apps/ecommerce/sales/listing.html">
-                                    <font style="vertical-align: inherit;">
-                                        <font style="vertical-align: inherit;">
-                                            Ver aplicativo</font>
-                                    </font>
-                                </a>
-                                <!--end::Link-->
-
-                                <!--begin::Link-->
-                                <a class="btn btn-sm btn-light" href="../apps/ecommerce/catalog/add-product.html">
-                                    <font style="vertical-align: inherit;">
-                                        <font style="vertical-align: inherit;">
-                                            Novo produto</font>
-                                    </font>
-                                </a>
-                                <!--end::Link-->
-                            </div>
-                            <!--end::Links-->
-                        </div>
-                        <!--end::Body-->
-                    </div>
-                    <!--end::Engage widget 1-->
-
-                </div>
-                <!--end::Col-->
-
             </div>
             <!--end::Row-->
 
