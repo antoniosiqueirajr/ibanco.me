@@ -382,7 +382,7 @@
                                     </div>
                                 </td>
                                 <td>
-                                    <a href="view.html" class="text-gray-800 text-hover-primary mb-1">ANTONIO JUnior</a>
+                                    <a href="view.html" class="text-gray-800 text-hover-primary mb-1">ANTONIO JUNIOR</a>
                                 </td>
                                 <td>
                                     <a href="#" class="text-gray-600 text-hover-primary mb-1">063.190.208-81</a>
