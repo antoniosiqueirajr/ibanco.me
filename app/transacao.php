@@ -12,9 +12,9 @@
 
                 <!--begin::Heading-->
                 <h1 class="text-gray-900 fw-bold my-0 fs-2">
-                   Transações</h1>
+                    Transações</h1>
                 <!--end::Heading-->
-             
+
             </div>
             <!--end::Page title--->
 
@@ -39,7 +39,7 @@
                 <!--begin::Invite user-->
                 <div class="d-flex ms-3">
                     <a href="#" class="btn btn-flex flex-center btn-light btn-color-gray-600 btn-active-primary w-40px w-md-auto h-40px px-0 px-md-6" data-bs-toggle="modal" data-bs-target="#kt_modal_invite_friends">
-                        <i class="ki-duotone ki-plus fs-2 me-0 me-md-2"></i> <span class="d-none d-md-inline">New Member</span>
+                        <i class="ki-duotone ki-plus fs-2 me-0 me-md-2"></i> <span class="d-none d-md-inline">Nova Cobrança</span>
                     </a>
                 </div>
                 <!--end::Invite user-->
@@ -47,7 +47,7 @@
                 <!--begin::Create app-->
                 <div class="d-flex ms-3">
                     <a href="#" class="btn btn-flex btn-light flex-center btn-color-gray-600 btn-active-primary w-40px w-md-auto h-40px px-0 px-md-6" data-bs-toggle="modal" data-bs-target="#kt_modal_create_app" id="kt_toolbar_primary_button">
-                        <i class="ki-duotone ki-document fs-2 me-0 me-md-2"><span class="path1"></span><span class="path2"></span></i> <span class="d-none d-md-inline">New App</span>
+                        <i class="ki-duotone ki-document fs-2 me-0 me-md-2"><span class="path1"></span><span class="path2"></span></i> <span class="d-none d-md-inline">Novo link</span>
                     </a>
                 </div>
                 <!--end::Create app-->
@@ -68,7 +68,7 @@
                                 <span class="menu-icon" data-kt-element="icon">
                                     <i class="ki-duotone ki-night-day fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span></i> </span>
                                 <span class="menu-title">
-                                    Light
+                                    Claro
                                 </span>
                             </a>
                         </div>
@@ -80,7 +80,7 @@
                                 <span class="menu-icon" data-kt-element="icon">
                                     <i class="ki-duotone ki-moon fs-2"><span class="path1"></span><span class="path2"></span></i> </span>
                                 <span class="menu-title">
-                                    Dark
+                                    Escuro
                                 </span>
                             </a>
                         </div>
@@ -92,7 +92,7 @@
                                 <span class="menu-icon" data-kt-element="icon">
                                     <i class="ki-duotone ki-screen fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i> </span>
                                 <span class="menu-title">
-                                    System
+                                    Sistema
                                 </span>
                             </a>
                         </div>
@@ -148,7 +148,7 @@
                             <div class="menu menu-sub menu-sub-dropdown w-300px w-md-325px" data-kt-menu="true" id="kt-toolbar-filter">
                                 <!--begin::Header-->
                                 <div class="px-7 py-5">
-                                    <div class="fs-4 text-gray-900 fw-bold">Filter Options</div>
+                                    <div class="fs-4 text-gray-900 fw-bold">Filtro</div>
                                 </div>
                                 <!--end::Header-->
 
@@ -161,17 +161,17 @@
                                     <!--begin::Input group-->
                                     <div class="mb-10">
                                         <!--begin::Label-->
-                                        <label class="form-label fs-5 fw-semibold mb-3">Month:</label>
+                                        <label class="form-label fs-5 fw-semibold mb-3">Mês:</label>
                                         <!--end::Label-->
 
                                         <!--begin::Input-->
                                         <select class="form-select form-select-solid fw-bold" data-kt-select2="true" data-placeholder="Select option" data-allow-clear="true" data-kt-customer-table-filter="month" data-dropdown-parent="#kt-toolbar-filter">
                                             <option></option>
-                                            <option value="aug">August</option>
-                                            <option value="sep">September</option>
-                                            <option value="oct">October</option>
-                                            <option value="nov">November</option>
-                                            <option value="dec">December</option>
+                                            <option value="aug">Agosto</option>
+                                            <option value="sep">Setembro</option>
+                                            <option value="oct">Outubro</option>
+                                            <option value="nov">Novembro</option>
+                                            <option value="dec">Dezembro</option>
                                         </select>
                                         <!--end::Input-->
                                     </div>
@@ -180,7 +180,7 @@
                                     <!--begin::Input group-->
                                     <div class="mb-10">
                                         <!--begin::Label-->
-                                        <label class="form-label fs-5 fw-semibold mb-3">Payment Type:</label>
+                                        <label class="form-label fs-5 fw-semibold mb-3">Tipo Pagamento:</label>
                                         <!--end::Label-->
 
                                         <!--begin::Options-->
@@ -189,7 +189,7 @@
                                             <label class="form-check form-check-sm form-check-custom form-check-solid mb-3 me-5">
                                                 <input class="form-check-input" type="radio" name="payment_type" value="all" checked="checked">
                                                 <span class="form-check-label text-gray-600">
-                                                    All
+                                                    Todos
                                                 </span>
                                             </label>
                                             <!--end::Option-->
@@ -227,9 +227,9 @@
 
                                     <!--begin::Actions-->
                                     <div class="d-flex justify-content-end">
-                                        <button type="reset" class="btn btn-light btn-active-light-primary me-2" data-kt-menu-dismiss="true" data-kt-customer-table-filter="reset">Reset</button>
+                                        <button type="reset" class="btn btn-light btn-active-light-primary me-2" data-kt-menu-dismiss="true" data-kt-customer-table-filter="reset">Resetar</button>
 
-                                        <button type="submit" class="btn btn-primary" data-kt-menu-dismiss="true" data-kt-customer-table-filter="filter">Apply</button>
+                                        <button type="submit" class="btn btn-primary" data-kt-menu-dismiss="true" data-kt-customer-table-filter="filter">Aplicar</button>
                                     </div>
                                     <!--end::Actions-->
                                 </div>
@@ -239,13 +239,13 @@
 
                             <!--begin::Export-->
                             <button type="button" class="btn btn-light-primary me-3" data-bs-toggle="modal" data-bs-target="#kt_customers_export_modal">
-                                <i class="ki-duotone ki-exit-up fs-2"><span class="path1"></span><span class="path2"></span></i> Export
+                                <i class="ki-duotone ki-exit-up fs-2"><span class="path1"></span><span class="path2"></span></i> Exportar
                             </button>
                             <!--end::Export-->
 
                             <!--begin::Add customer-->
                             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_add_customer">
-                                Add Customer
+                                Novo Cliente
                             </button>
                             <!--end::Add customer-->
                         </div>
@@ -254,11 +254,11 @@
                         <!--begin::Group actions-->
                         <div class="d-flex justify-content-end align-items-center d-none" data-kt-customer-table-toolbar="selected">
                             <div class="fw-bold me-5">
-                                <span class="me-2" data-kt-customer-table-select="selected_count"></span> Selected
+                                <span class="me-2" data-kt-customer-table-select="selected_count"></span> Selecionar
                             </div>
 
                             <button type="button" class="btn btn-danger" data-kt-customer-table-select="delete_selected">
-                                Delete Selected
+                                Deletar seleção
                             </button>
                         </div>
                         <!--end::Group actions-->
@@ -281,7 +281,7 @@
                                 </th>
                                 <th class="min-w-125px">Cliente</th>
                                 <th class="min-w-125px">CPF</th>
-                                <th class="min-w-125px">Empresa</th>
+
                                 <th class="min-w-125px">Meio Pagamento</th>
                                 <th class="min-w-125px">Valor</th>
                                 <th class="min-w-125px">Taxa</th>
@@ -291,10 +291,10 @@
                             </tr>
                         </thead>
                         <tbody class="fw-semibold text-gray-600">
-                          
-                     
-                           
-                           
+
+
+
+
                             <tr>
                                 <td>
                                     <div class="form-check form-check-sm form-check-custom form-check-solid">
@@ -302,24 +302,24 @@
                                     </div>
                                 </td>
                                 <td>
-                                    <a href="view.html" class="text-gray-800 text-hover-primary mb-1">ANTONIO FRANCISCO SIQUEIRA</a>
+                                    <a href="view.html" class="text-gray-800 text-hover-primary mb-1">ANTONIO SIQUEIRA</a>
                                 </td>
                                 <td>
                                     <a href="#" class="text-gray-600 text-hover-primary mb-1">063.190.208-81</a>
                                 </td>
-                                <td>
-                                    EMPRESA A </td>
+
                                 <td data-filter="mastercard">
                                     <img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
                                     **** 7691
                                 </td>
                                 <td>R$ 10.000,00</td>
-                                <td>R$ 100,00    <span class="badge badge-square badge-warning"> 1% </span> </td>
+                                <td>R$ 100,00 <span class="badge badge-square badge-warning"> 1% </span> </td>
                                 <td>
                                     03 Fev de 2024 17:12:01 </td>
 
-                                    <td>
-                                    <span class="badge badge-square badge-warning"> Pendente </span> </td>
+                                <td>
+                                    <span class="badge badge-square badge-warning"> Pendente </span>
+                                </td>
                                 <td class="text-end">
                                     <a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
                                         Ações
@@ -346,7 +346,7 @@
                                     <!--end::Menu-->
                                 </td>
                             </tr>
-             
+
                         </tbody>
                     </table>
                     <!--end::Table-->
@@ -936,4 +936,4 @@
         <!--end::Container-->
     </div>
     <!--end::Content-->
- <?php include_once "footer.php" ?>
+    <?php include_once "footer.php" ?>
