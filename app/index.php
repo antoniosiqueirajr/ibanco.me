@@ -39,7 +39,7 @@
                 <!--begin::Invite user-->
                 <div class="d-flex ms-3">
                     <a href="#" class="btn btn-flex flex-center btn-light btn-color-gray-600 btn-active-primary w-40px w-md-auto h-40px px-0 px-md-6" data-bs-toggle="modal" data-bs-target="#kt_modal_invite_friends">
-                        <i class="ki-duotone ki-plus fs-2 me-0 me-md-2"></i> <span class="d-none d-md-inline">New Member</span>
+                        <i class="ki-duotone ki-plus fs-2 me-0 me-md-2"></i> <span class="d-none d-md-inline">Nova Cobrança</span>
                     </a>
                 </div>
                 <!--end::Invite user-->
@@ -47,7 +47,7 @@
                 <!--begin::Create app-->
                 <div class="d-flex ms-3">
                     <a href="#" class="btn btn-flex btn-light flex-center btn-color-gray-600 btn-active-primary w-40px w-md-auto h-40px px-0 px-md-6" data-bs-toggle="modal" data-bs-target="#kt_modal_create_app" id="kt_toolbar_primary_button">
-                        <i class="ki-duotone ki-document fs-2 me-0 me-md-2"><span class="path1"></span><span class="path2"></span></i> <span class="d-none d-md-inline">New App</span>
+                        <i class="ki-duotone ki-document fs-2 me-0 me-md-2"><span class="path1"></span><span class="path2"></span></i> <span class="d-none d-md-inline">Novo Cliente</span>
                     </a>
                 </div>
                 <!--end::Create app-->
