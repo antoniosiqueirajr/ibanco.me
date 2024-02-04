@@ -1494,6 +1494,49 @@
                                         <div class="menu menu-column menu-fit menu-rounded menu-title-gray-600 menu-icon-gray-500 menu-state-primary menu-state-icon-primary menu-state-bullet-primary menu-arrow-gray-500 fw-semibold fs-5 px-6 my-5 my-lg-0" id="kt_aside_menu" data-kt-menu="true">
 
                                             <div id="kt_aside_menu_wrapper" class="menu-fit">
+
+
+
+
+
+                                            <div class="menu-item">
+                                                    <!--begin:Menu link--><a class="menu-link" href="https://developer.ibanco.me" target="_blank"><span class="menu-icon"><i class="ki-duotone ki-code fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i></span><span class="menu-title">Contato
+                                                        </span></a>
+                                                    <!--end:Menu link-->
+                                                </div>
+                                                <!--end:Menu item-->
+
+                                                <div class="menu-item">
+                                                    <!--begin:Menu link--><a class="menu-link" href="https://developer.ibanco.me" target="_blank"><span class="menu-icon"><i class="ki-duotone ki-code fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i></span><span class="menu-title">CRM
+                                                        </span></a>
+                                                    <!--end:Menu link-->
+                                                </div>
+                                                <!--end:Menu item-->
+
+
+                                                <div class="menu-item">
+                                                    <!--begin:Menu link--><a class="menu-link" href="https://developer.ibanco.me" target="_blank"><span class="menu-icon"><i class="ki-duotone ki-code fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i></span><span class="menu-title">Cobranças
+                                                        </span></a>
+                                                    <!--end:Menu link-->
+                                                </div>
+                                                <!--end:Menu item-->
+
+
+                                                <div class="menu-item">
+                                                    <!--begin:Menu link--><a class="menu-link" href="https://developer.ibanco.me" target="_blank"><span class="menu-icon"><i class="ki-duotone ki-code fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i></span><span class="menu-title">Vendas
+                                                        </span></a>
+                                                    <!--end:Menu link-->
+                                                </div>
+                                                <!--end:Menu item-->
+
+
+                                                <div class="menu-item">
+                                                    <!--begin:Menu link--><a class="menu-link" href="https://developer.ibanco.me" target="_blank"><span class="menu-icon"><i class="ki-duotone ki-code fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i></span><span class="menu-title">Estoque
+                                                        </span></a>
+                                                    <!--end:Menu link-->
+                                                </div>
+                                                <!--end:Menu item-->
+
                                                 <!--begin:Menu item-->
                                                 <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <!--begin:Menu link--><span class="menu-link"><span class="menu-icon"><i class="ki-duotone ki-element-11 fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i></span><span class="menu-title">Dashboards</span><span class="menu-arrow"></span></span><!--end:Menu link--><!--begin:Menu sub-->
@@ -2265,46 +2308,6 @@
 
 
 
-
-
-
-                                                <div class="menu-item">
-                                                    <!--begin:Menu link--><a class="menu-link" href="https://developer.ibanco.me" target="_blank"><span class="menu-icon"><i class="ki-duotone ki-code fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i></span><span class="menu-title">Contato
-                                                        </span></a>
-                                                    <!--end:Menu link-->
-                                                </div>
-                                                <!--end:Menu item-->
-
-                                                <div class="menu-item">
-                                                    <!--begin:Menu link--><a class="menu-link" href="https://developer.ibanco.me" target="_blank"><span class="menu-icon"><i class="ki-duotone ki-code fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i></span><span class="menu-title">CRM
-                                                        </span></a>
-                                                    <!--end:Menu link-->
-                                                </div>
-                                                <!--end:Menu item-->
-
-
-                                                <div class="menu-item">
-                                                    <!--begin:Menu link--><a class="menu-link" href="https://developer.ibanco.me" target="_blank"><span class="menu-icon"><i class="ki-duotone ki-code fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i></span><span class="menu-title">Cobranças
-                                                        </span></a>
-                                                    <!--end:Menu link-->
-                                                </div>
-                                                <!--end:Menu item-->
-
-
-                                                <div class="menu-item">
-                                                    <!--begin:Menu link--><a class="menu-link" href="https://developer.ibanco.me" target="_blank"><span class="menu-icon"><i class="ki-duotone ki-code fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i></span><span class="menu-title">Vendas
-                                                        </span></a>
-                                                    <!--end:Menu link-->
-                                                </div>
-                                                <!--end:Menu item-->
-
-
-                                                <div class="menu-item">
-                                                    <!--begin:Menu link--><a class="menu-link" href="https://developer.ibanco.me" target="_blank"><span class="menu-icon"><i class="ki-duotone ki-code fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i></span><span class="menu-title">Estoque
-                                                        </span></a>
-                                                    <!--end:Menu link-->
-                                                </div>
-                                                <!--end:Menu item-->
 
 
 
