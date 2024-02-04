@@ -1489,59 +1489,7 @@
 
                                             <div id="kt_aside_menu_wrapper" class="menu-fit">
 
-                                                <!--begin:Menu item-->
-                                                <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
-                                                    <!--begin:Menu link--><span class="menu-link"><span class="menu-icon"><i class="ki-duotone ki-element-11 fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i></span><span class="menu-title">Dashboards</span><span class="menu-arrow"></span></span><!--end:Menu link--><!--begin:Menu sub-->
-                                                    <div class="menu-sub menu-sub-accordion"><!--begin:Menu item-->
-                                                        <div class="menu-item"><!--begin:Menu link--><a class="menu-link" href="../index.html"><span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Default</span></a><!--end:Menu link-->
-                                                        </div><!--end:Menu item--><!--begin:Menu item-->
-                                                        <div class="menu-item"><!--begin:Menu link--><a class="menu-link active" href="ecommerce.html"><span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">eCommerce</span></a><!--end:Menu link-->
-                                                        </div><!--end:Menu item--><!--begin:Menu item-->
-
-
-
-                                                    </div><!--end:Menu sub-->
-                                                </div><!--end:Menu item--><!--begin:Menu item-->
-
-
-
-                                            
-
-                                                <div class="menu-item">
-                                                    <!--begin:Menu link-->
-                                                    <a class="menu-link" href="https://developer.ibanco.me" target="_blank">
-                                                        <span class="menu-icon"><i class="ki-duotone ki-code fs-2">
-                                                                <span class="path1"></span>
-                                                                <span class="path2"></span>
-                                                                <span class="path3"></span>
-                                                                <span class="path4">
-                                                                </span>
-                                                            </i>
-                                                        </span>
-                                                        <span class="menu-title">Vendas
-                                                        </span></a>
-                                                    <!--end:Menu link-->
-                                                </div>
-                                                <!--end:Menu item-->
-
-
-                                                <div class="menu-item">
-                                                    <!--begin:Menu link--><a class="menu-link" href="https://developer.ibanco.me" target="_blank"><span class="menu-icon"><i class="ki-duotone ki-code fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i></span><span class="menu-title">Estoque
-                                                        </span></a>
-                                                    <!--end:Menu link-->
-                                                </div>
-                                                <!--end:Menu item-->
-
-
-                                                <div class="menu-item pt-5"><!--begin:Menu content-->
-                                                    <div class="menu-content"><span class="menu-heading fw-bold text-uppercase fs-7">Aplicações</span>
-                                                    </div><!--end:Menu content-->
-                                                </div><!--end:Menu item-->
-                                                
-                                                
-                                                <!--begin:Menu item-->
-
-                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+                                            <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <span class="menu-link">
                                                         <span class="menu-icon"><i class="ki-duotone ki-element-11 fs-2"></i></span>
                                                         <span class="menu-title">Dashboard</span>
@@ -1571,6 +1519,15 @@
                                                 </div>
 
 
+
+
+
+
+                                                <div class="menu-item pt-5"><!--begin:Menu content-->
+                                                    <div class="menu-content"><span class="menu-heading fw-bold text-uppercase fs-7">Aplicações</span>
+                                                    </div><!--end:Menu content-->
+                                                </div><!--end:Menu item-->
+                     
 
                                                 <!-- Módulo 1: Vendas -->
                                                 <div data-kt-menu-trigger="click" class="menu-item  menu-accordion">
