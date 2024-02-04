@@ -1512,6 +1512,74 @@
                                                     </div><!--end:Menu content-->
                                                 </div><!--end:Menu item--><!--begin:Menu item-->
 
+<!-- Módulo 1: Vendas -->
+<div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+    <span class="menu-link">
+        <span class="menu-icon"><i class="ki-duotone ki-cart fs-2"></i></span>
+        <span class="menu-title">Vendas</span>
+        <span class="menu-arrow"></span>
+    </span>
+    <div class="menu-sub menu-sub-accordion">
+        <div class="menu-item">
+            <a class="menu-link" href="#">
+                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                <span class="menu-title">Gerenciamento de Pedidos</span>
+            </a>
+        </div>
+        <div class="menu-item">
+            <a class="menu-link" href="#">
+                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                <span class="menu-title">Catálogo de Produtos</span>
+            </a>
+        </div>
+        <!-- Adicione mais subitens conforme necessário -->
+    </div>
+</div>
+
+<!-- Módulo 2: Compras -->
+<div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+    <span class="menu-link">
+        <span class="menu-icon"><i class="ki-duotone ki-basket fs-2"></i></span>
+        <span class="menu-title">Compras</span>
+        <span class="menu-arrow"></span>
+    </span>
+    <div class="menu-sub menu-sub-accordion">
+        <div class="menu-item">
+            <a class="menu-link" href="#">
+                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                <span class="menu-title">Fornecedores</span>
+            </a>
+        </div>
+        <div class="menu-item">
+            <a class="menu-link" href="#">
+                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
+                <span class="menu-title">Pedidos de Compra</span>
+            </a>
+        </div>
+        <!-- Adicione mais subitens conforme necessário -->
+    </div>
+</div>
+
+<!-- Adicione os demais módulos e subitens seguindo o mesmo padrão -->
+
+
+
+
+
+
+
+
+
+
+
+
+                                                
+
+
+
+
+
+
                                                 <div class="menu-item">
                                                     <!--begin:Menu link--><a class="menu-link" href="https://developer.ibanco.me" target="_blank"><span class="menu-icon"><i class="ki-duotone ki-code fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i></span><span class="menu-title">Contato
                                                         </span></a>
@@ -1520,7 +1588,7 @@
                                                 <!--end:Menu item-->
 
                                                 <div class="menu-item">
-                                                    <!--begin:Menu link--><a class="menu-link" href="https://developer.ibanco.me" target="_blank"><span class="menu-icon"><i class="ki-duotone ki-code fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i></span><span class="menu-title">Financeiro
+                                                    <!--begin:Menu link--><a class="menu-link" href="https://developer.ibanco.me" target="_blank"><span class="menu-icon"><i class="ki-duotone ki-code fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i></span><span class="menu-title">CRM
                                                         </span></a>
                                                     <!--end:Menu link-->
                                                 </div>
