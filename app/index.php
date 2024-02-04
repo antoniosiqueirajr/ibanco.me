@@ -196,7 +196,7 @@
                                     <!--begin::Label-->
                                     <div class="text-gray-500 flex-grow-1 me-4">
                                         <font style="vertical-align: inherit;">
-                                            <font style="vertical-align: inherit;">Sapato</font>
+                                            <font style="vertical-align: inherit;">Vencidos</font>
                                         </font>
                                     </div>
                                     <!--end::Label-->
@@ -204,7 +204,7 @@
                                     <!--begin::Stats-->
                                     <div class="fw-bolder text-gray-700 text-xxl-end">
                                         <font style="vertical-align: inherit;">
-                                            <font style="vertical-align: inherit;">US$ 7.660</font>
+                                            <font style="vertical-align: inherit;">R$ 0</font>
                                         </font>
                                     </div>
                                     <!--end::Stats-->
@@ -220,7 +220,7 @@
                                     <!--begin::Label-->
                                     <div class="text-gray-500 flex-grow-1 me-4">
                                         <font style="vertical-align: inherit;">
-                                            <font style="vertical-align: inherit;">Jogos</font>
+                                            <font style="vertical-align: inherit;">Recebidos</font>
                                         </font>
                                     </div>
                                     <!--end::Label-->
@@ -228,7 +228,7 @@
                                     <!--begin::Stats-->
                                     <div class="fw-bolder text-gray-700 text-xxl-end">
                                         <font style="vertical-align: inherit;">
-                                            <font style="vertical-align: inherit;">US$ 2.820</font>
+                                            <font style="vertical-align: inherit;">R$ 0</font>
                                         </font>
                                     </div>
                                     <!--end::Stats-->
@@ -252,7 +252,7 @@
                                     <!--begin::Stats-->
                                     <div class=" fw-bolder text-gray-700 text-xxl-end">
                                         <font style="vertical-align: inherit;">
-                                            <font style="vertical-align: inherit;">US$ 45.257</font>
+                                            <font style="vertical-align: inherit;">R$ 1.000.000,00</font>
                                         </font>
                                     </div>
                                     <!--end::Stats-->
@@ -1128,7 +1128,7 @@
                                         <span class="nav-text text-gray-600 fw-bold fs-6 lh-1">
                                             <font style="vertical-align: inherit;">
                                                 <font style="vertical-align: inherit;">
-                                                    Sapato
+                                                    Em atraso
                                                 </font>
                                             </font>
                                         </span>
