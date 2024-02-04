@@ -1789,36 +1789,6 @@
                                                 </div>
 
 
-                                                <!-- Módulo 10: Documentos -->
-                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-                                                    <span class="menu-link">
-                                                        <span class="menu-icon"><i class="ki-duotone ki-file-text fs-2"></i></span>
-                                                        <span class="menu-title">Documentos</span>
-                                                        <span class="menu-arrow"></span>
-                                                    </span>
-                                                    <div class="menu-sub menu-sub-accordion">
-                                                        <div class="menu-item">
-                                                            <a class="menu-link" href="#">
-                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
-                                                                <span class="menu-title">Biblioteca de Documentos</span>
-                                                            </a>
-                                                        </div>
-                                                        <div class="menu-item">
-                                                            <a class="menu-link" href="#">
-                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
-                                                                <span class="menu-title">Upload de Arquivos</span>
-                                                            </a>
-                                                        </div>
-                                                        <div class="menu-item">
-                                                            <a class="menu-link" href="#">
-                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
-                                                                <span class="menu-title">Compartilhamento de Documentos</span>
-                                                            </a>
-                                                        </div>
-                                                        <!-- Adicione mais subitens conforme necessário -->
-                                                    </div>
-                                                </div>
-
 
                                                 <!-- Módulo 10: Documentos -->
                                                 <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
@@ -1997,7 +1967,7 @@
                                                 <!-- Módulo 16: E-commerce -->
                                                 <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <span class="menu-link">
-                                                        <span class="menu-icon"><i class="ki-duotone ki-shopping-cart fs-2"></i></span>
+                                                        <span class="menu-icon"><i class="ki-duotone ki-code fs-2"></i></span>
                                                         <span class="menu-title">E-commerce</span>
                                                         <span class="menu-arrow"></span>
                                                     </span>
