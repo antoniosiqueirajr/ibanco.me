@@ -145,7 +145,7 @@
                                     <!--begin::Amount-->
                                     <span class="fs-2hx fw-bold text-gray-900 me-2 lh-1 ls-n2">
                                         <font style="vertical-align: inherit;">
-                                            <font style="vertical-align: inherit;">69.700</font>
+                                            <font style="vertical-align: inherit;">0</font>
                                         </font>
                                     </span>
                                     <!--end::Amount-->
@@ -276,7 +276,7 @@
                                     <!--begin::Amount-->
                                     <span class="fs-2hx fw-bold text-gray-900 me-2 lh-1 ls-n2">
                                         <font style="vertical-align: inherit;">
-                                            <font style="vertical-align: inherit;">1.836</font>
+                                            <font style="vertical-align: inherit;">0</font>
                                         </font>
                                     </span>
                                     <!--end::Amount-->
@@ -286,7 +286,7 @@
                                         <i class="ki-duotone ki-arrow-down fs-5 text-danger ms-n1"><span class="path1"></span><span class="path2"></span></i>
                                         <font style="vertical-align: inherit;">
                                             <font style="vertical-align: inherit;">
-                                                2,2%
+                                                0%
                                             </font>
                                         </font>
                                     </span>
