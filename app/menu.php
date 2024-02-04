@@ -1529,7 +1529,16 @@
 
 
                                                 <div class="menu-item">
-                                                    <!--begin:Menu link--><a class="menu-link" href="https://developer.ibanco.me" target="_blank"><span class="menu-icon"><i class="ki-duotone ki-code fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i></span><span class="menu-title">Vendas
+                                                    <!--begin:Menu link--><a class="menu-link" href="https://developer.ibanco.me" target="_blank">
+                                                        <span class="menu-icon"><i class="ki-duotone ki-code fs-2">
+                                                            <span class="path1"></span>
+                                                            <span class="path2"></span>
+                                                            <span class="path3"></span>
+                                                            <span class="path4">
+                                                            </span>
+                                                            </i>
+                                                        </span>
+                                                        <span class="menu-title">Vendas
                                                         </span></a>
                                                     <!--end:Menu link-->
                                                 </div>
@@ -1552,7 +1561,14 @@
                                                 <!-- Módulo 1: Vendas -->
                                                 <div data-kt-menu-trigger="click" class="menu-item  menu-accordion">
                                                     <span class="menu-link">
-                                                        <span class="menu-icon"><i class="ki-duotone ki-element-11 fs-2"></i></span>
+                                                    <span class="menu-icon"><i class="ki-duotone ki-code fs-2">
+                                                            <span class="path1"></span>
+                                                            <span class="path2"></span>
+                                                            <span class="path3"></span>
+                                                            <span class="path4">
+                                                            </span>
+                                                            </i>
+                                                        </span>
                                                         <span class="menu-title">Vendas</span>
                                                         <span class="menu-arrow"></span>
                                                     </span>
