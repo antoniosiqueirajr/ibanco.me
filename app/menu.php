@@ -1783,65 +1783,9 @@
 
 
                                                 <!-- Módulo 8: Email -->
-                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-                                                    <span class="menu-link">
-                                                        <span class="menu-icon"><i class="ki-duotone ki-envelope fs-2"></i></span>
-                                                        <span class="menu-title">Email</span>
-                                                        <span class="menu-arrow"></span>
-                                                    </span>
-                                                    <div class="menu-sub menu-sub-accordion">
-                                                        <div class="menu-item">
-                                                            <a class="menu-link" href="#">
-                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
-                                                                <span class="menu-title">Caixa de Entrada</span>
-                                                            </a>
-                                                        </div>
-                                                        <div class="menu-item">
-                                                            <a class="menu-link" href="#">
-                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
-                                                                <span class="menu-title">Compor Email</span>
-                                                            </a>
-                                                        </div>
-                                                        <div class="menu-item">
-                                                            <a class="menu-link" href="#">
-                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
-                                                                <span class="menu-title">Configurações de Email</span>
-                                                            </a>
-                                                        </div>
-                                                        <!-- Adicione mais subitens conforme necessário -->
-                                                    </div>
-                                                </div>
-
+                     
                                                 <!-- Módulo 9: Calendário -->
-                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-                                                    <span class="menu-link">
-                                                        <span class="menu-icon"><i class="ki-duotone ki-calendar fs-2"></i></span>
-                                                        <span class="menu-title">Calendário</span>
-                                                        <span class="menu-arrow"></span>
-                                                    </span>
-                                                    <div class="menu-sub menu-sub-accordion">
-                                                        <div class="menu-item">
-                                                            <a class="menu-link" href="#">
-                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
-                                                                <span class="menu-title">Visualizar Calendário</span>
-                                                            </a>
-                                                        </div>
-                                                        <div class="menu-item">
-                                                            <a class="menu-link" href="#">
-                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
-                                                                <span class="menu-title">Adicionar Evento</span>
-                                                            </a>
-                                                        </div>
-                                                        <div class="menu-item">
-                                                            <a class="menu-link" href="#">
-                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
-                                                                <span class="menu-title">Configurações do Calendário</span>
-                                                            </a>
-                                                        </div>
-                                                        <!-- Adicione mais subitens conforme necessário -->
-                                                    </div>
-                                                </div>
-
+                                      
 
 
                                                 <!-- Módulo 10: Documentos -->
@@ -1932,34 +1876,7 @@
                                                     </div>
                                                 </div>
                                                 <!-- Módulo 13: Relatórios -->
-                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-                                                    <span class="menu-link">
-                                                        <span class="menu-icon"><i class="ki-duotone ki-file-chart fs-2"></i></span>
-                                                        <span class="menu-title">Relatórios</span>
-                                                        <span class="menu-arrow"></span>
-                                                    </span>
-                                                    <div class="menu-sub menu-sub-accordion">
-                                                        <div class="menu-item">
-                                                            <a class="menu-link" href="#">
-                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
-                                                                <span class="menu-title">Relatórios de Vendas</span>
-                                                            </a>
-                                                        </div>
-                                                        <div class="menu-item">
-                                                            <a class="menu-link" href="#">
-                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
-                                                                <span class="menu-title">Relatórios Financeiros</span>
-                                                            </a>
-                                                        </div>
-                                                        <div class="menu-item">
-                                                            <a class="menu-link" href="#">
-                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
-                                                                <span class="menu-title">Relatórios de Recursos Humanos</span>
-                                                            </a>
-                                                        </div>
-                                                        <!-- Adicione mais subitens conforme necessário -->
-                                                    </div>
-                                                </div>
+                                            
                                                 <!-- Módulo 14: CRM -->
                                                 <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <span class="menu-link">
