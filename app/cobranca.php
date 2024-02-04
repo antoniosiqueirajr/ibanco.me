@@ -390,10 +390,10 @@
 
                                 <td data-filter="mastercard">
                                     <img src="assets/media/svg/card-logos/barcode_scan.svg" class="w-35px me-3" alt="">
-                                    **** 7691
+                                     0007691
                                 </td>
                                 <td>R$ 10.000,00</td>
-                                <td>R$ 100,00<span class="ms-2 badge badge-light-warning fw-bold">1,00%</span></td>
+                                <td>R$ 100,00<span class="ms-2 badge badge-light-warning fw-bold">R$ 1,50</span></td>
                                 <td>
                                     03/02/2024 17:12:01 </td>
 
