@@ -330,7 +330,7 @@
                                         <!--begin::Menu item-->
                                         <div class="menu-item px-3">
                                             <a href="view.html" class="menu-link px-3">
-                                                Visualizar
+                                                Visualizar fatura
                                             </a>
                                         </div>
                                         <!--end::Menu item-->
