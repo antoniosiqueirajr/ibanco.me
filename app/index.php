@@ -1014,7 +1014,7 @@
                         <!--begin::Card body-->
                         <div class="card-body d-flex justify-content-between flex-column pb-1 px-0">
                             <!--begin::Info-->
-                            <div class="px-9 mb-5">
+                            <div class="px-12 mb-5">
                                 <!--begin::Statistics-->
                                 <div class="d-flex align-items-center mb-2">
                                     <!--begin::Currency-->
@@ -1028,7 +1028,7 @@
                                     <!--begin::Value-->
                                     <span class="fs-2hx fw-bold text-gray-800 me-2 lh-1 ls-n2">
                                         <font style="vertical-align: inherit;">
-                                            <font style="vertical-align: inherit;">3.706</font>
+                                            <font style="vertical-align: inherit;">0</font>
                                         </font>
                                     </span>
                                     <!--end::Value-->
@@ -1037,7 +1037,7 @@
                                     <span class="badge badge-light-success fs-base">
                                         <i class="ki-duotone ki-arrow-down fs-5 text-success ms-n1"><span class="path1"></span><span class="path2"></span></i>
                                         <font style="vertical-align: inherit;">
-                                            <font style="vertical-align: inherit;">4,5%
+                                            <font style="vertical-align: inherit;">0%
                                             </font>
                                         </font>
                                     </span>
