@@ -389,7 +389,7 @@
                                 </td>
 
                                 <td data-filter="mastercard">
-                                    <img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
+                                    <img src="assets/media/svg/card-logos/barcode_scan.svg" class="w-35px me-3" alt="">
                                     **** 7691
                                 </td>
                                 <td>R$ 10.000,00</td>
