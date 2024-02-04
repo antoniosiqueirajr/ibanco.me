@@ -130,7 +130,7 @@
                     <div class="card-title">
                         <!--begin::Search-->
                         <div class="d-flex align-items-center position-relative my-1">
-                            <i class="ki-duotone ki-magnifier fs-3 position-absolute ms-5"><span class="path1"></span><span class="path2"></span></i> <input type="text" data-kt-customer-table-filter="search" class="form-control form-control-solid w-250px ps-12" placeholder="Search Customers">
+                            <i class="ki-duotone ki-magnifier fs-3 position-absolute ms-5"><span class="path1"></span><span class="path2"></span></i> <input type="text" data-kt-customer-table-filter="search" class="form-control form-control-solid w-250px ps-12" placeholder="Buscar cobrança">
                         </div>
                         <!--end::Search-->
                     </div>
@@ -373,6 +373,79 @@
                                     <!--end::Menu-->
                                 </td>
                             </tr>
+
+
+                            <tr>
+                                <td>
+                                    <div class="form-check form-check-sm form-check-custom form-check-solid">
+                                        <input class="form-check-input" type="checkbox" value="1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <a href="view.html" class="text-gray-800 text-hover-primary mb-1">ANTONIO JUnior</a>
+                                </td>
+                                <td>
+                                    <a href="#" class="text-gray-600 text-hover-primary mb-1">063.190.208-81</a>
+                                </td>
+
+                                <td data-filter="mastercard">
+                                    <img src="assets/media/svg/card-logos/mastercard.svg" class="w-35px me-3" alt="">
+                                    **** 7691
+                                </td>
+                                <td>R$ 10.000,00</td>
+                                <td>R$ 100,00<span class="ms-2 badge badge-light-warning fw-bold">1,00%</span></td>
+                                <td>
+                                    03/02/2024 17:12:01 </td>
+
+                                <td>Recorrente</td>
+
+                                <td>
+                                    <span class="ms-2 badge badge-light-warning fw-bold"> Conciliação </span>
+                                </td>
+                                <td class="text-end">
+                                    <a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                                        Ações
+                                        <i class="ki-duotone ki-down fs-5 ms-1"></i>
+                                    </a>
+                                    <!--begin::Menu-->
+                                    <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-semibold fs-7 w-125px py-4" data-kt-menu="true">
+                                        <!--begin::Menu item-->
+                                        <div class="menu-item px-2">
+                                            <a href="view.html" class="menu-link px-3">
+                                                Visualizar fatura
+                                            </a>
+                                        </div>
+                                        <!--end::Menu item-->
+
+                                        <!--begin::Menu item-->
+                                        <div class="menu-item px-2">
+                                            <a href="view.html" class="menu-link px-3">
+                                                Notificar cobrança
+                                            </a>
+                                        </div>
+                                        <!--end::Menu item-->
+
+                                        <!--begin::Menu item-->
+                                        <div class="menu-item px-2">
+                                            <a href="view.html" class="menu-link px-3">
+                                                2º - Via Cobrança
+                                            </a>
+                                        </div>
+                                        <!--end::Menu item-->
+
+                                        <!--begin::Menu item-->
+                                        <div class="menu-item px-2">
+                                            <a href="#" class="menu-link px-3" data-kt-customer-table-filter="delete_row">
+                                                Cancelar
+                                            </a>
+                                        </div>
+                                        <!--end::Menu item-->
+                                    </div>
+                                    <!--end::Menu-->
+                                </td>
+                            </tr>
+
+
 
                         </tbody>
                     </table>
