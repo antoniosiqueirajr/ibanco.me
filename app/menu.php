@@ -1747,40 +1747,6 @@
                                                     </div>
                                                 </div>
 
-
-
-                                                <!-- Módulo 6: Navegador -->
-                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-                                                    <span class="menu-link">
-                                                        <span class="menu-icon"><i class="ki-duotone ki-browser fs-2"></i></span>
-                                                        <span class="menu-title">Navegador</span>
-                                                        <span class="menu-arrow"></span>
-                                                    </span>
-                                                    <div class="menu-sub menu-sub-accordion">
-                                                        <div class="menu-item">
-                                                            <a class="menu-link" href="#">
-                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
-                                                                <span class="menu-title">Histórico de Navegação</span>
-                                                            </a>
-                                                        </div>
-                                                        <div class="menu-item">
-                                                            <a class="menu-link" href="#">
-                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
-                                                                <span class="menu-title">Favoritos</span>
-                                                            </a>
-                                                        </div>
-                                                        <div class="menu-item">
-                                                            <a class="menu-link" href="#">
-                                                                <span class="menu-bullet"><span class="bullet bullet-dot"></span></span>
-                                                                <span class="menu-title">Configurações do Navegador</span>
-                                                            </a>
-                                                        </div>
-                                                        <!-- Adicione mais subitens conforme necessário -->
-                                                    </div>
-                                                </div>
-
-
-
                                             </div>
                                         </div>
                                         <!--end::Menu-->
@@ -1789,15 +1755,10 @@
                                             <!--begin::Container-->
                                             <div class="text-center pt-10 mb-20">
                                                 <!--begin::Title-->
-                                                <h2 class="fs-2 fw-bold mb-7">My Subscription</h2>
+                                                <h2 class="fs-2 fw-bold mb-7">Versão teste</h2>
                                                 <!--end::Title-->
 
-                                                <!--begin::Description-->
-                                                <p class="text-gray-500 fs-4 fw-semibold mb-10">
-                                                    There are no customers added yet.<br>
-                                                    Kickstart your CRM by adding a your first customer
-                                                </p>
-                                                <!--end::Description-->
+                                           
 
                                                 <!--begin::Action-->
                                                 <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_upgrade_plan">Upgrade Plan</a>
