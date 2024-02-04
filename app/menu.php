@@ -2189,22 +2189,6 @@
                                                 </div>
                                                 <!--end:Menu item-->
 
-                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-                                                    <!--begin:Menu link-->
-                                                    <span class="menu-link"><span class="menu-icon"><i
-                                                                class="ki-duotone ki-element-plus fs-2"><span
-                                                                    class="path1"></span><span
-                                                                    class="path2"></span><span
-                                                                    class="path3"></span><span
-                                                                    class="path4"></span><span
-                                                                    class="path5"></span></i></span><span
-                                                            class="menu-title">Connector Bank</span><span
-                                                            class="menu-arrow"></span></span>
-                                                    <!--end:Menu link--><!--begin:Menu sub-->
-                                                </div><!--end:Menu item--><!--begin:Menu item-->
-
-
-
 
 
 
