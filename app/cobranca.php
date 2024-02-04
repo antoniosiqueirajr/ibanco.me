@@ -397,7 +397,7 @@
                                 <td>
                                     03/02/2024 17:12:01 </td>
 
-                                <td>Recorrente</td>
+                                <td>1 DE 24</td>
 
                                 <td>
                                     <span class="ms-2 badge badge-light-warning fw-bold"> Conciliação </span>
