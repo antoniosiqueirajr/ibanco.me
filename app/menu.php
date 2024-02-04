@@ -1489,7 +1489,7 @@
 
                                             <div id="kt_aside_menu_wrapper" class="menu-fit">
 
-                                            <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+                                                <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                                     <span class="menu-link">
                                                         <span class="menu-icon"><i class="ki-duotone ki-element-11 fs-2"></i></span>
                                                         <span class="menu-title">Dashboard</span>
@@ -1527,7 +1527,7 @@
                                                     <div class="menu-content"><span class="menu-heading fw-bold text-uppercase fs-7">Aplicações</span>
                                                     </div><!--end:Menu content-->
                                                 </div><!--end:Menu item-->
-                     
+
 
                                                 <!-- Módulo 1: Vendas -->
                                                 <div data-kt-menu-trigger="click" class="menu-item  menu-accordion">
@@ -1698,7 +1698,7 @@
                                                 <h2 class="fs-2 fw-bold mb-7">Versão teste</h2>
                                                 <!--end::Title-->
 
-                                           
+
 
                                                 <!--begin::Action-->
                                                 <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_upgrade_plan">Upgrade Plan</a>
@@ -1793,64 +1793,6 @@
                                         </div>
                                         <!--end::Notifications-->
 
-                                                     <!--begin::Menu-->
-                                                     <div class="menu menu-column menu-fit menu-rounded menu-title-gray-600 menu-icon-gray-500 menu-state-primary menu-state-icon-primary menu-state-bullet-primary menu-arrow-gray-500 fw-semibold fs-5 px-6 my-5 my-lg-0" id="kt_aside_menu" data-kt-menu="true">
-
-<div id="kt_aside_menu_wrapper" class="menu-fit">
-    <!--begin:Menu item-->
-    <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-        <!--begin:Menu link--><span class="menu-link"><span class="menu-icon"><i class="ki-duotone ki-element-11 fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i></span><span class="menu-title">Dashboards</span><span class="menu-arrow"></span></span><!--end:Menu link--><!--begin:Menu sub-->
-        <div class="menu-sub menu-sub-accordion"><!--begin:Menu item-->
-            <div class="menu-item"><!--begin:Menu link--><a class="menu-link" href="../index.html"><span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Default</span></a><!--end:Menu link-->
-            </div><!--end:Menu item--><!--begin:Menu item-->
-            <div class="menu-item"><!--begin:Menu link--><a class="menu-link active" href="ecommerce.html"><span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">eCommerce</span></a><!--end:Menu link-->
-            </div><!--end:Menu item--><!--begin:Menu item-->
-
-
-
-        </div><!--end:Menu sub-->
-    </div><!--end:Menu item--><!--begin:Menu item-->
-    <div class="menu-item pt-5"><!--begin:Menu content-->
-        <div class="menu-content"><span class="menu-heading fw-bold text-uppercase fs-7">Intranet
-                iBanco</span>
-        </div><!--end:Menu content-->
-    </div><!--end:Menu item--><!--begin:Menu item-->
-
-    <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-        <!--begin:Menu link--><span class="menu-link"><span class="menu-icon"><i class="ki-duotone ki-element-plus fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span></i></span><span class="menu-title">Contas</span><span class="menu-arrow"></span></span><!--end:Menu link--><!--begin:Menu sub-->
-        <div class="menu-sub menu-sub-accordion"><!--begin:Menu item-->
-            <div class="menu-item"><!--begin:Menu link-->
-                <a class="menu-link" href=""><span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Clientes</span>
-                </a><!--end:Menu link-->
-            </div><!--end:Menu item--><!--begin:Menu item-->
-        </div><!--end:Menu sub-->
-    </div><!--end:Menu item--><!--begin:Menu item-->
-
-
-    <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-        <!--begin:Menu link-->
-        <span class="menu-link"><span class="menu-icon"><i class="ki-duotone ki-element-plus fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span></i></span><span class="menu-title">Empréstimos</span>
-            <span class="menu-arrow"></span></span>
-        <!--end:Menu link-->
-        <!--begin:Menu sub-->
-
-    </div><!--end:Menu item-->
-    <!--begin:Menu item-->
-
-    <div class="menu-item">
-        <!--begin:Menu link--><a class="menu-link" href="/transacao.php" target=""><span class="menu-icon"><i class="ki-duotone ki-code fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i></span><span class="menu-title">Connector Bank
-            </span></a>
-        <!--end:Menu link-->
-    </div>
-    <!--end:Menu item-->
-
-
-
-
-</div>
-</div>
-<!--end::Menu-->
-
                                         <!--begin::Menu-->
                                         <div class="menu menu-column menu-fit menu-rounded menu-title-gray-600 menu-icon-gray-500 menu-state-primary menu-state-icon-primary menu-state-bullet-primary menu-arrow-gray-500 fw-semibold fs-5 px-6 my-5 my-lg-0" id="kt_aside_menu" data-kt-menu="true">
 
@@ -1875,10 +1817,16 @@
                                                 </div><!--end:Menu item--><!--begin:Menu item-->
 
                                                 <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-                                                    <!--begin:Menu link--><span class="menu-link"><span class="menu-icon"><i class="ki-duotone ki-element-plus fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span></i></span><span class="menu-title">Carteira</span><span class="menu-arrow"></span></span><!--end:Menu link--><!--begin:Menu sub-->
+                                                    <!--begin:Menu link--><span class="menu-link"><span class="menu-icon"><i class="ki-duotone ki-element-plus fs-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span></i></span><span class="menu-title">Contas</span><span class="menu-arrow"></span></span><!--end:Menu link--><!--begin:Menu sub-->
                                                     <div class="menu-sub menu-sub-accordion"><!--begin:Menu item-->
                                                         <div class="menu-item"><!--begin:Menu link-->
-                                                            <a class="menu-link" href=""><span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Listagem</span>
+                                                            <a class="menu-link" href=""><span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Clientes</span>
+                                                            </a><!--end:Menu link-->
+                                                        </div><!--end:Menu item--><!--begin:Menu item-->
+                                                    </div><!--end:Menu sub-->
+                                                    <div class="menu-sub menu-sub-accordion"><!--begin:Menu item-->
+                                                        <div class="menu-item"><!--begin:Menu link-->
+                                                            <a class="menu-link" href=""><span class="menu-bullet"><span class="bullet bullet-dot"></span></span><span class="menu-title">Aprovações</span>
                                                             </a><!--end:Menu link-->
                                                         </div><!--end:Menu item--><!--begin:Menu item-->
                                                     </div><!--end:Menu sub-->
@@ -1908,6 +1856,7 @@
                                             </div>
                                         </div>
                                         <!--end::Menu-->
+
 
 
                                     </div>
