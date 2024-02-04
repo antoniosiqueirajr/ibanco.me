@@ -318,7 +318,7 @@
                                     03/02/2024 17:12:01 </td>
 
                                 <td>
-                                    <span class="badge badge-square badge-warning"> Conciliação </span>
+                                    <span class="ms-2 badge badge-light-warning fw-bold"> Conciliação </span>
                                 </td>
                                 <td class="text-end">
                                     <a href="#" class="btn btn-sm btn-light btn-flex btn-center btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
@@ -331,6 +331,22 @@
                                         <div class="menu-item px-3">
                                             <a href="view.html" class="menu-link px-3">
                                                 Visualizar
+                                            </a>
+                                        </div>
+                                        <!--end::Menu item-->
+
+                                         <!--begin::Menu item-->
+                                         <div class="menu-item px-3">
+                                            <a href="view.html" class="menu-link px-3">
+                                                Notificar cobrança
+                                            </a>
+                                        </div>
+                                        <!--end::Menu item-->
+
+                                         <!--begin::Menu item-->
+                                         <div class="menu-item px-3">
+                                            <a href="view.html" class="menu-link px-3">
+                                                2º - Via Cobrança
                                             </a>
                                         </div>
                                         <!--end::Menu item-->
