@@ -841,7 +841,7 @@
                         <!--begin::Modal header-->
                         <div class="modal-header">
                             <!--begin::Modal title-->
-                            <h2 class="fw-bold">Export Customers</h2>
+                            <h2 class="fw-bold">Exportar cobrança</h2>
                             <!--end::Modal title-->
 
                             <!--begin::Close-->
