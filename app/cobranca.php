@@ -859,7 +859,7 @@
                                 <!--begin::Input group-->
                                 <div class="fv-row mb-10">
                                     <!--begin::Label-->
-                                    <label class="fs-5 fw-semibold form-label mb-5">Select Export Format:</label>
+                                    <label class="fs-5 fw-semibold form-label mb-5">Exportar formato:</label>
                                     <!--end::Label-->
 
                                     <!--begin::Input-->
@@ -876,11 +876,11 @@
                                 <!--begin::Input group-->
                                 <div class="fv-row mb-10">
                                     <!--begin::Label-->
-                                    <label class="fs-5 fw-semibold form-label mb-5">Select Date Range:</label>
+                                    <label class="fs-5 fw-semibold form-label mb-5">Período:</label>
                                     <!--end::Label-->
 
                                     <!--begin::Input-->
-                                    <input class="form-control form-control-solid" placeholder="Pick a date" name="date">
+                                    <input class="form-control form-control-solid" placeholder="Data inicial e final" name="date">
                                     <!--end::Input-->
                                 </div>
                                 <!--end::Input group-->
