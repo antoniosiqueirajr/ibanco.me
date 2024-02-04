@@ -313,7 +313,7 @@
                                     **** 7691
                                 </td>
                                 <td>R$ 10.000,00</td>
-                                <td>R$ 100,00 <span class="badge badge-square badge-warning"> 1% </span> </td>
+                                <td>R$ 100,00<span class="ms-2 badge badge-light-warning fw-bold">Pendente</span></td>
                                 <td>
                                     03 Fev de 2024 17:12:01 </td>
 
