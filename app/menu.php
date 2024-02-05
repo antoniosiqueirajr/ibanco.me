@@ -1599,7 +1599,7 @@
 
 
                                                 <!--begin::Action-->
-                                                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_upgrade_plan">Upgrade Plan</a>
+                                                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_upgrade_plan">Plano R$ 220,00</a>
                                                 <!--end::Action-->
                                             </div>
                                             <!--end::Container-->
