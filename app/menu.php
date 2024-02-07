@@ -15,7 +15,7 @@
     <meta property="og:url" content="https://keenthemes.com/metronic">
     <meta property="og:site_name" content="Metronic by Keenthemes">
     <link rel="canonical" href="https://preview.keenthemes.com/metronic8/demo1/index.html">
-    <link rel="shortcut icon" href="assets/media/logos/favicon-1.ico">
+    <link rel="shortcut icon" href="assets/favicon.png">
 
     <!--begin::Fonts(mandatory for all pages)-->
     <link rel="stylesheet" href="../../../css-1?family=Inter:300,400,500,600,700"> <!--end::Fonts-->
