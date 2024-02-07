@@ -97,7 +97,7 @@
                     <!--begin::Logo-->
                     <div class="aside-logo d-none d-lg-flex flex-column align-items-center flex-column-auto py-10" id="kt_aside_logo">
                         <a href="../index.html">
-                            <img alt="Logo" src="assets/favicon.png" class="h-20px">
+                            <img alt="Logo" src="assets/favicon.png" class="h-60px">
                         </a>
                     </div>
                     <!--end::Logo-->
